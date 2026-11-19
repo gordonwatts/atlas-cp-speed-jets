@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "campaign": "jets-skill-c8a2374-20261117",
+  "analysisbase_release": "25.2.117",
+  "method": "Read-only audit of the assembled selected overlay, pinned release source, sealed native source inputs, and existing traced qualification receipts. All source ranges are inclusive and one-based.",
+  "identity": {
+    "overlay": "full-scoped-001",
+    "provider": "final-prefix-truth-index-001",
+    "native_source_revision": "02c25d9dc4625912c56a9990899064b9d8cf13c8",
+    "visible_bundle": "bundle-006",
+    "traced_scope": "both",
+    "traced_mode": "full",
+    "original_events": 20000,
+    "original_file_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+    "small_source_jets": 196606,
+    "large_source_jets": 22177,
+    "trace_reported_provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/libjets.so",
+    "trace_reported_payload": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-packed-001/jets.json",
+    "nominal_evidence": "Nominal behavior below is established from the selected adapter and stock algorithm source. The counted qualification job ran full mode."
+  },
+  "trace": {
+    "evidence": "selected_job_trace",
+    "call_counts": {
+      "jet_event_inputs": 2380000,
+      "jet_event_sf": 2380000,
+      "jet_pileup_truth": 218783,
+      "large_eta_jes": 22177,
+      "large_jmr": 798372,
+      "large_jms": 22177,
+      "large_selection": 5760776,
+      "large_uncertainty": 4058391,
+      "small_eta_jes": 196606,
+      "small_gsc": 196606,
+      "small_nnjvt_select": 23002902,
+      "small_nnjvt_sf": 23396114,
+      "small_nnjvt_update": 23002902,
+      "small_pileup": 196606,
+      "small_uncertainty": 23002902
+    },
+    "meaning": "Counts record selected CorrectionLib adapter node calls across the traced combined full job. Acceptance counts include distinct kinematic and mass bridge calls. The trace does not partition time or prove a particular count in the nominal or split-scope jobs."
+  },
+  "outputs": {
+    "evidence": [
+      "selected_job_exact_comparison",
+      "original_event_and_object_coverage"
+    ],
+    "events": 20000,
+    "observer_branches": 7189,
+    "checked_values": 551543298,
+    "checked_value_bytes": 1930218368,
+    "different_branches": 0,
+    "exact_observer_parity": true,
+    "exact_histogram_parity": true,
+    "meaning": "The selected diagnostic observer and histograms matched the independent stock reference exactly. The observer branch count describes diagnostic output. See joint-framework-scope.json for separately audited production-style A and earlier B output branch counts."
+  },
+  "findings": {
+    "duplicated_initialization": [
+      {
+        "observation": "B runs stock calibration configuration and initialization, reads stock EtaJES, GSC and JMS assets, prepares MC and pseudo-data uncertainty tool assets in both radii, and initializes the stock small-R NN graph, cuts, scale-factor file and large-R FF tables. The overlay lazily initializes the provider and parses its CorrectionSet at the first binding. The same calibration data thus enter stock setup and the replacement payload. Retained stock setup also provides tool configuration and systematic metadata.",
+        "evidence": [
+          "selected_job_log",
+          "selected_job_runtime_inputs",
+          "framework_runtime",
+          "nominal_jet_setup",
+          "small_nominal_pileup",
+          "nominal_eta_jes",
+          "small_nominal_gsc",
+          "large_nominal_jms",
+          "uncertainty_adapter",
+          "small_jvt_update",
+          "small_jvt_selection",
+          "stock_jvt_efficiency_file_load",
+          "native_nnjvt_graph",
+          "b_large_ff"
+        ]
+      }
+    ],
+    "retained_framework_work": [
+      {
+        "observation": "Stock algorithms still determine the applicable state list, route MC and pseudo-data states, request per-state shallow copies, read preselection, decorate truth/validity, and write ROOT output. The stock uncertainty tool filters variations and sets up and caches UncertaintySet before the replaced scalar calculation. The FF algorithm requests its output copy before the FF-name guard. This includes a nominal copy with zero FF smearing calls and ordinary-state pass-through copies in full mode.",
+        "evidence": [
+          "stock_uncertainty_algorithm",
+          "uncertainty_adapter",
+          "stock_ff_algorithm",
+          "selected_job_log"
+        ]
+      }
+    ],
+    "replacement_and_repeat_work": [
+      {
+        "observation": "Nominal small-R pileup, EtaJES, GSC and NNJvt update, selection and scale-factor calculations delegate to native nodes. Nominal large-R EtaJES, JMS and acceptance delegate as well. Both radii still dispatch ordinary uncertainty with NOSYS. The selected full trace shows the nominal calibration stages ran once per corresponding source jet.",
+        "evidence": [
+          "small_nominal_pileup",
+          "nominal_eta_jes",
+          "small_nominal_gsc",
+          "small_jvt_update",
+          "small_jvt_selection",
+          "small_jvt_efficiency",
+          "large_nominal_jms",
+          "uncertainty_adapter",
+          "selected_job_trace"
+        ]
+      },
+      {
+        "observation": "Ordinary uncertainty uses an 18-value scalar input vector and rebuilds the state name per jet. It retrieves existing EventInfo and reads the jet data and availability flags. Small-R NNJvt updates repack event vertex columns across update passes. The observed event-input count is aggregate across call sites and cannot identify how many calls came from each site.",
+        "evidence": [
+          "framework_runtime",
+          "framework_event_columns",
+          "nominal_jet_setup",
+          "small_jvt_update",
+          "uncertainty_adapter",
+          "selected_job_trace"
+        ]
+      },
+      {
+        "observation": "The pT/rapidity bridge and the mass bridge each call the same large_selection node and each consumes one mask. On jets reaching both bridges, rapidity and both sets of cuts are evaluated twice. The trace gives the combined number of calls, so it does not establish the number of duplicated pairs.",
+        "evidence": [
+          "b_large_pt_accept",
+          "b_large_mass_accept",
+          "native_large_selection",
+          "selected_job_trace"
+        ]
+      },
+      {
+        "observation": "The selected portable provider consumes native values with no xAOD or ROOT link dependency. Its ordinary uncertainty path avoids the earlier release-backed adapter's private xAOD Jet and EventInfo. Its FF call bypasses the stock matched private xAOD Jet. The surrounding B bridge continues to read stock xAOD objects, translate statuses and write the stock output four-vector and decorations.",
+        "evidence": [
+          "selected_native_dependencies",
+          "portable_uncertainty_input",
+          "native_uncertainty",
+          "earlier_release_backed_private_objects",
+          "stock_ff_private_jet",
+          "b_large_ff",
+          "uncertainty_adapter"
+        ]
+      },
+      {
+        "observation": "The B FF adapter re-reads R10 truth, materializes four ordered coordinates and leases the generic truth context per call. Its borrowed context takes the uncached native matching path. C binds an owned R10 context for its physical chunks. Direct C starts the full-mode signed-pair reuse protocol for small and combined scopes; the B scalar adapter does not enter that protocol.",
+        "evidence": [
+          "b_large_ff",
+          "framework_borrowed_truth",
+          "native_large_matching",
+          "native_uncertainty",
+          "shipped_visible_script"
+        ]
+      }
+    ],
+    "timing_boundary": {
+      "observation": "The observed B qualification wall is an instrumented full observer job. Earlier round-zero timings used a different provider. Use retained matched production B/A receipts to judge the 1.20 budget. These mechanisms do not assign a share of elapsed time to a specific operation.",
+      "framework_budget_B_over_A": 1.2,
+      "traced_qualification_wall_s": 558.738,
+      "evidence": [
+        "selected_job_diagnostic_timing",
+        "earlier_faithful_round_zero"
+      ]
+    }
+  },
+  "conditional_b_only_trial": {
+    "status": "Design only",
+    "trigger": "If the retained large-R or combined B/A budget misses or straddles 1.20, measure one mechanism at a time before considering a production change.",
+    "first_candidate": "Retain both stock acceptance handles, sequencing, preselection and decorations. Evaluate the existing native three-output acceptance once and supply the matching per-jet, per-systematic cached mass mask to the existing mass bridge when the prerequisite pT/rapidity bridge ran on the same unchanged inputs. Use an explicitly event-scoped or per-copy ephemeral cache. Bind to exact pT/eta/phi/m bits and tool configuration, and preserve the current independent mass calculation if the cache is absent, stale or inapplicable. Do not change output keys or introduce a persistent aux branch. Preserve the exact cut encoding, including nonfinite and boundary behavior.",
+    "independently_testable_candidate": "For FF, lazily prepare a read-only R10 truth snapshot or lease once per event and configured collection key. Preserve EventContext isolation, availability and retrieval/error behavior, truth order, equal-distance tie breaking, p4 bits and labels. Ensure the view lives for precisely the event or systematic processing scope, and releases safely on early return and exceptions. Keep the numerical stock-equivalent matching implementation and its thresholds constant in the first trial so packing reuse is the only change.",
+    "checks": [
+      "Use the same original PHYSLITE UUID, release, scope, provider and payload as the baseline, with a new opt-in adapter variant and an independently recorded hash.",
+      "On a 128-event nominal and full large-R/combined smoke, require exact observer and histogram comparisons against stock and current B, including p4, validity and selection masks, weight/status decorations, missing or empty truth behavior, stable event/object order, branch names and state names. Exercise stale or missing acceptance reuse and truth lease cleanup in a bounded fixture.",
+      "If the smoke passes, time up to four rotated stock/current-B/candidate-B full-file pairs in an admitted single-thread, quiet window, retaining the same output and input contracts. Compare candidate/current B wall and candidate/stock A against 1.20 with the normal per-pair spread and resource checks. Trace only a separate diagnostic pair to confirm the intended call or packing reduction."
+    ]
+  },
+  "sources": {
+    "selection_specification": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/specification.json",
+      "sha256": "d0593712adc4d8692c159b68e8d1e5ced58d461d453914e2fe564b86caa1aa55"
+    },
+    "selected_overlay_provenance": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/source-provenance.json",
+      "sha256": "d14f16181eb6e56a49dba8f6b0c66fe845986a212cf0fc4aeeddc6f5a815285f"
+    },
+    "selected_overlay_hashes": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay.sha256",
+      "sha256": "445b7d055a0ef5752d7f672903dc590372604cb38766e0ac45d9f8ba61f41034"
+    },
+    "selected_native_source_manifest": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/source-inputs.sha256",
+      "sha256": "1240637009510e931eab52d51361f5b0428400925c6dd3aa409b79c02d28eac8"
+    },
+    "selected_native_source_revision": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/source-revision.txt",
+      "sha256": "9f1ca037d50a1c76a06c5b347765d102d34f694f7d7d97deddaf0bd3b4d26a00"
+    },
+    "selected_native_library": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/libjets.so",
+      "sha256": "d4c17d1bf9156a4684077c5327539e2aaa7caab321ea57cdd4f37197c3c3379a"
+    },
+    "selected_payload": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-packed-001/jets.json",
+      "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+    },
+    "selected_native_dependencies": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/libraries.txt",
+      "sha256": "2345e3ed051257ce7926e3477919460bb6f77ebe1f6bddb3ce26ef7ed14a5bcf",
+      "lines": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    "selected_job_runtime_inputs": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/runtime-inputs.sha256",
+      "sha256": "9daf460a185b0316434011de4948a17f37d27f2c769e566e3b79102239f02db5"
+    },
+    "selected_job_log": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/job.log",
+      "sha256": "6a164dcd1e8e93e9012e7e43312452eb336af8f9900e2657e4715ebae6cf3c94",
+      "lines": [
+        [
+          45,
+          62
+        ],
+        [
+          119,
+          129
+        ],
+        [
+          187,
+          208
+        ],
+        [
+          210,
+          221
+        ],
+        [
+          313,
+          330
+        ],
+        [
+          424,
+          439
+        ]
+      ]
+    },
+    "selected_job_trace": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/framework-trace.txt",
+      "sha256": "747082cf17b660af7646b26d3a5dbb368d7c3e4172c04eb8e05663a2e84d8d23",
+      "lines": [
+        [
+          1,
+          17
+        ]
+      ]
+    },
+    "selected_job_diagnostic_timing": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/framework.time",
+      "sha256": "3fcd95593544d679cb3ac1159cd2c93d48e5c5c9f479f3b4a6dcc665f63a0ab9",
+      "lines": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "selected_job_exact_comparison": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/observer-comparison.json",
+      "sha256": "650e73979a519609b441ad4473e63b3e072f5f56deca0f13545c221c1839d010",
+      "lines": [
+        [
+          1,
+          7
+        ],
+        [
+          449,
+          461
+        ]
+      ]
+    },
+    "original_event_and_object_coverage": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/reference-coverage.json",
+      "sha256": "fb1d941fecc1b09346779f7b0dcc35b22f1c1d81a4da6c5859d356eee410a320",
+      "lines": [
+        [
+          1,
+          14
+        ]
+      ]
+    },
+    "earlier_faithful_round_zero": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/faithful-001/round-zero-only.json",
+      "sha256": "9f28e638066ab62ce57f100eef8744a64a2a155cfa488f6a4b6649c15ff418e6"
+    },
+    "framework_runtime": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/JetsCorrectionRuntime/Root/Runtime.cxx",
+      "sha256": "00aae7fd178da4b86a7c8a6f1336eb564dd3dd7c40e109f2ce0b416b159e242c",
+      "lines": [
+        [
+          30,
+          50
+        ],
+        [
+          72,
+          95
+        ],
+        [
+          114,
+          122
+        ]
+      ]
+    },
+    "framework_event_columns": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/JetsCorrectionRuntime/JetsCorrectionRuntime/Events.icc",
+      "sha256": "f9ad8ee7c21b7f6eafadf3f04d01452a939d20534c1d57a4c0b759edee4a4d80",
+      "lines": [
+        [
+          6,
+          22
+        ]
+      ]
+    },
+    "framework_borrowed_truth": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/JetsCorrectionRuntime/Root/Events.cxx",
+      "sha256": "8e8b07c4e30df9a95c8856c9d6c99bdfa26d2f97179b70d213b654f921f14639",
+      "lines": [
+        [
+          23,
+          46
+        ]
+      ]
+    },
+    "nominal_jet_setup": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationTool.cxx",
+      "sha256": "647cbdf12113dff535d7be7ac7bba492d1a3b07633bff4116244965f6a684803",
+      "lines": [
+        [
+          68,
+          116
+        ],
+        [
+          315,
+          342
+        ],
+        [
+          398,
+          413
+        ],
+        [
+          575,
+          589
+        ]
+      ]
+    },
+    "small_nominal_pileup": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetCalibTools/Root/JetPileupCorrection.cxx",
+      "sha256": "2678dac22d7db7750fb003aa623141fdf76619ffdbda5576c002b69412e1a1ff",
+      "lines": [
+        [
+          138,
+          154
+        ],
+        [
+          162,
+          170
+        ]
+      ]
+    },
+    "nominal_eta_jes": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+      "sha256": "5d2e0505472741651e8edc7abb1513bbb9e008c1abe2ca7f7d7416ac510e2fdc",
+      "lines": [
+        [
+          202,
+          219
+        ],
+        [
+          228,
+          237
+        ]
+      ]
+    },
+    "small_nominal_gsc": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetCalibTools/Root/GlobalSequentialCorrection.cxx",
+      "sha256": "b6d792a2e19f26c5102fc8a2ff2867ef7dca71b3436d43cba0aee2638bdbf39b",
+      "lines": [
+        [
+          93,
+          122
+        ],
+        [
+          434,
+          448
+        ]
+      ]
+    },
+    "large_nominal_jms": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx",
+      "sha256": "8716d5a0fc140ca32d3b5e27182021ddf9f850363c060a8dc7b144fa116e901c",
+      "lines": [
+        [
+          71,
+          91
+        ],
+        [
+          502,
+          513
+        ]
+      ]
+    },
+    "uncertainty_adapter": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx",
+      "sha256": "5326e0f0f53b3da09fcd300b6b2f9bedc15f4f07b1f21be4f2809eadd6117f36",
+      "lines": [
+        [
+          242,
+          261
+        ],
+        [
+          351,
+          373
+        ],
+        [
+          1324,
+          1403
+        ],
+        [
+          2099,
+          2174
+        ],
+        [
+          2235,
+          2268
+        ]
+      ]
+    },
+    "small_jvt_update": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetMomentTools/Root/JetVertexNNTagger.cxx",
+      "sha256": "238174a1f4b30dc9fce3873eb687b1c6b44cc08792f1b2d8cc194ae746ca1afd",
+      "lines": [
+        [
+          78,
+          129
+        ],
+        [
+          374,
+          422
+        ]
+      ]
+    },
+    "small_jvt_selection": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetJvtEfficiency/Root/NNJvtSelectionTool.cxx",
+      "sha256": "52a1f7d4b0bb907ce529715367626aa9391cdc029d58b0a6e8696f8898c891cf",
+      "lines": [
+        [
+          21,
+          60
+        ],
+        [
+          63,
+          77
+        ]
+      ]
+    },
+    "small_jvt_efficiency": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetJvtEfficiency/Root/NNJvtEfficiencyTool.cxx",
+      "sha256": "dc4316912389a6452c4c76c752c19ef1948717ed89b75ac82265339edbc4fc8e",
+      "lines": [
+        [
+          12,
+          29
+        ],
+        [
+          32,
+          67
+        ]
+      ]
+    },
+    "stock_jvt_efficiency_file_load": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetJvtEfficiency/Root/JvtEfficiencyToolBase.cxx",
+      "sha256": "51770482da676ee2ed16abcb654965f8b0c56e7f6564e51cccf50b428203f40a",
+      "lines": [
+        [
+          87,
+          108
+        ]
+      ]
+    },
+    "b_large_ff": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+      "sha256": "f4a61b0db5e3df631cb0c318b89251e65d6511a7881df1c420c250a8636658a2",
+      "lines": [
+        [
+          313,
+          329
+        ],
+        [
+          668,
+          707
+        ]
+      ]
+    },
+    "b_large_pt_accept": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgPtEtaSelectionTool.cxx",
+      "sha256": "209c7fda53c3e71dc5bdec0445fc16f3c9c40c32bc8ac6b1c7128f206bcf0ae6",
+      "lines": [
+        [
+          167,
+          182
+        ]
+      ]
+    },
+    "b_large_mass_accept": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgMassSelectionTool.cxx",
+      "sha256": "8d11baed64769ccb0dc2747fd333592118c5e5630789e046bec7c5c176affb96",
+      "lines": [
+        [
+          51,
+          63
+        ]
+      ]
+    },
+    "stock_ff_algorithm": {
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx",
+      "sha256": "de6427cd1c27a735923f0aef955d4b28b970fd118e23abed448131f3375f180c",
+      "lines": [
+        [
+          19,
+          32
+        ],
+        [
+          37,
+          54
+        ]
+      ]
+    },
+    "stock_uncertainty_algorithm": {
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetUncertaintiesAlg.cxx",
+      "sha256": "d16ec782110f5db0d0daac503dd8ede2b8235b79b5259953e07e44e01de57668",
+      "lines": [
+        [
+          18,
+          33
+        ],
+        [
+          39,
+          59
+        ],
+        [
+          67,
+          85
+        ]
+      ]
+    },
+    "stock_ff_private_jet": {
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+      "sha256": "53e084fd1134f7a3a3f267bc213bad4c2f468fc28ffc534bc809022ca0dab573",
+      "lines": [
+        [
+          659,
+          695
+        ]
+      ]
+    },
+    "portable_uncertainty_input": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/provider/uncertainty_node.cxx",
+      "sha256": "d6d486c3322f6655544fbac85b025b8c3b4720b036685882e8eb770069ae79ad",
+      "lines": [
+        [
+          20,
+          67
+        ],
+        [
+          88,
+          114
+        ]
+      ]
+    },
+    "earlier_release_backed_private_objects": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/provider/jet_uncertainty.cxx",
+      "sha256": "c0b3e55662c4b2adc4adde2dd2568541fc69cc9ab3cce93d625eed6366f3d726",
+      "lines": [
+        [
+          226,
+          251
+        ]
+      ]
+    },
+    "native_uncertainty": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/portable/uncertainty.cxx",
+      "sha256": "b692a00fdeb15c8ff7f2edf676b09dd6993bb97c0a687d0d40ddfae91ce22d2b",
+      "lines": [
+        [
+          213,
+          238
+        ],
+        [
+          325,
+          352
+        ]
+      ]
+    },
+    "native_large_selection": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/provider/event_inputs.cxx",
+      "sha256": "20a2777741d384265fdff7e25dfbc035e5320142a18d143d2e403fa9f6396e89",
+      "lines": [
+        [
+          131,
+          158
+        ]
+      ]
+    },
+    "native_large_matching": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/provider/large_jmr.cxx",
+      "sha256": "f038e085b7e127911f7a137b8a014bcb2ab7b322b8e64e23e358304f0453fbaf",
+      "lines": [
+        [
+          71,
+          92
+        ],
+        [
+          111,
+          133
+        ],
+        [
+          348,
+          368
+        ]
+      ]
+    },
+    "native_nnjvt_graph": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/provider/small_jvt.cxx",
+      "sha256": "966f5a876c934c37cdaed2896bd2961b15fa539b3f0ce625549fdf662db61ef4",
+      "lines": [
+        [
+          115,
+          140
+        ],
+        [
+          259,
+          274
+        ]
+      ]
+    },
+    "shipped_visible_script": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+      "lines": [
+        [
+          190,
+          209
+        ],
+        [
+          398,
+          411
+        ],
+        [
+          450,
+          459
+        ],
+        [
+          523,
+          525
+        ]
+      ]
+    }
+  }
+}

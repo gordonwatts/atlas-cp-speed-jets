@@ -1,0 +1,121 @@
+{
+  "argv": [
+    "taskset",
+    "-c",
+    "3",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/bin/python",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/profile_final_demo.py",
+    "--phase-worker",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/phase-worker.json",
+    "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/histograms.npz",
+    "--events",
+    "20000",
+    "--scope",
+    "small"
+  ],
+  "wall_s": 11.859786065,
+  "start_unix_ns": 1795005501838535009,
+  "end_unix_ns": 1795005513698322826,
+  "controller_cpu_s": 0.061687438,
+  "cpu_user_s": 11.514985,
+  "cpu_sys_s": 0.27635899999999997,
+  "peak_rss_kb": 457108,
+  "voluntary_context_switches": 3,
+  "involuntary_context_switches": 2338,
+  "exit": 0,
+  "threads_seen": [
+    1
+  ],
+  "cpus_seen": [
+    "3"
+  ],
+  "descendant_observations": [],
+  "libraries": [
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+    "/usr/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib64/libc.so.6",
+    "/usr/lib64/libdl.so.2",
+    "/usr/lib64/libm.so.6",
+    "/usr/lib64/libpthread.so.0",
+    "/usr/lib64/librt.so.1",
+    "/usr/lib64/libutil.so.1",
+    "/usr/lib64/libz.so.1.2.11"
+  ],
+  "source_mapping_observed": true,
+  "guest_before": {
+    "monotonic": 86708.71981947,
+    "cpu_stat": {
+      "cpu": [
+        4333262,
+        555270,
+        674910,
+        167562964,
+        89430,
+        0,
+        1594490,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1636344,
+        0,
+        59216,
+        6950334,
+        18292,
+        0,
+        1732,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243506   6      191 cvmfs2\n 243228  13       29 cvmfs2\n 244902   6        6 cvmfs2\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  15        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 243502  17        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   4        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394687   5        0 python3\n1394688   5        0 bash\n1394766   3        0 python\n1395116   3        0 ps\n"
+  },
+  "guest_after": {
+    "monotonic": 86720.581354445,
+    "cpu_stat": {
+      "cpu": [
+        4334429,
+        555270,
+        674968,
+        167585456,
+        89431,
+        0,
+        1594518,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1637501,
+        0,
+        59245,
+        6950334,
+        18292,
+        0,
+        1732,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243506   6      191 cvmfs2\n 243228  13       29 cvmfs2\n 244902   6        6 cvmfs2\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  15        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 243502  17        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   4        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394687   5        0 python3\n1394688   5        0 bash\n1394766   3        0 python\n1395466   3        0 ps\n"
+  }
+}

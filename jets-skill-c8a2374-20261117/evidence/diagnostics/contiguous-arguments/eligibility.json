@@ -1,0 +1,17 @@
+{
+  "scope": "both",
+  "arrays": {
+    "batches": 20540,
+    "batches_with_borrow": 16160,
+    "borrowed_arrays": 48838,
+    "fallback_arrays": 80382,
+    "borrowed_bytes": 2285023832,
+    "fallback_bytes": 2838424176,
+    "borrowed_dtype_arrays": {
+      "int64": 27400,
+      "float64": 21438
+    }
+  },
+  "fallback_fraction": 0.622055409379353,
+  "timing_classification": "instrumented eligibility only"
+}

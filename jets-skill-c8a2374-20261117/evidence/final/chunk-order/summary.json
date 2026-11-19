@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+    "script_sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+    "demo_defaults": {
+      "mode": "full",
+      "scope": "both",
+      "compact_payload_default_scopes": [
+        "small",
+        "large"
+      ],
+      "reuse_uncertainty_sign_pair_scopes": [
+        "small",
+        "both"
+      ],
+      "chunk_events_by_scope": {
+        "small": 1000,
+        "large": 4000,
+        "both": 1000
+      },
+      "reuse_nominal_nnjvt_update": true,
+      "reuse_nominal_nnjvt_update_modes": [
+        "full"
+      ],
+      "reuse_nominal_nnjvt_update_scopes": [
+        "small",
+        "both"
+      ]
+    },
+    "columnar_source": {
+      "bytes": 29798,
+      "sha256": "29f658d5d0e888cbcb0c97994ef8dbd988b2a312ab70be00afb7f78c1c884eef"
+    },
+    "visible_source": {
+      "bytes": 31776,
+      "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+    }
+  },
+  "file_order_cli": {
+    "scope": "both",
+    "events": 32,
+    "chunk_sizes": [
+      7,
+      16,
+      32
+    ],
+    "physical_branch_digests": {
+      "7": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+      "16": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+      "32": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7"
+    },
+    "stock_histogram": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/benchmark-pilot-combined-002/01-full/histograms.npz",
+      "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+    },
+    "histograms_exact": true
+  },
+  "evaluator_only": {
+    "events": 64,
+    "proof": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-order.json",
+    "row_and_state_values_bitwise_invariant": true,
+    "values_and_flags_exact_to_stock_observer": true
+  }
+}

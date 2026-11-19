@@ -1,0 +1,19 @@
+{
+  "specification": "results/diagnostics/qualify-selected-001/steps/specification.json",
+  "wsl_exit": 0,
+  "options": [
+    "--recheck-of",
+    "results/validation/shipment-final-001/production-002",
+    "--recheck-scope",
+    "large",
+    "--recheck-mode",
+    "full",
+    "--recheck-pair",
+    "AC",
+    "--recheck-output",
+    "results/validation/shipment-final-001/recheck-AC-large-full-001"
+  ],
+  "ended_utc": "2026-11-18T15:51:51.3994197+00:00",
+  "guest_trace": "results/diagnostics/recheck-AC-large-full-001-monitor-001",
+  "started_utc": "2026-11-18T15:41:08.6606039+00:00"
+}

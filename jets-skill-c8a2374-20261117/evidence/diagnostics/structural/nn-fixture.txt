@@ -1,0 +1,2 @@
+public update rows 24000, real network rows 11520, skipped score rows 12480
+PASS exact output, gate/exception order, nested storage and same-thread reuse, four rounding modes and sticky flags

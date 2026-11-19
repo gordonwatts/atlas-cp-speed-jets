@@ -1,0 +1,1372 @@
+{
+  "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+  "athena_sources": {
+    "Event/xAOD/xAODJet/Root/Jet_v1.cxx": {
+      "installed": {
+        "bytes": 8200,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/Root/Jet_v1.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/Root/Jet_v1.cxx",
+        "sha256": "26a69d22f66fa4c48a8fc9aaa6b89b64c82e93756db1394785fbded2733f653e"
+      },
+      "line_anchors": [
+        [
+          44,
+          78
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Event/xAOD/xAODJet/Root/Jet_v1.cxx",
+      "role": "stored vector and derived energy access"
+    },
+    "Event/xAOD/xAODJet/xAODJet/JetAccessorMap.h": {
+      "installed": {
+        "bytes": 1094,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/xAODJet/JetAccessorMap.h",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/xAODJet/JetAccessorMap.h",
+        "sha256": "5079e4808d02656fae82af1a1edc7a5cb652477e631d4dfbf0e89aad7cc7c130"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Event/xAOD/xAODJet/xAODJet/JetAccessorMap.h",
+      "role": "xAOD jet float coordinate store"
+    },
+    "Event/xAOD/xAODJet/xAODJet/JetContainerInfo.h": {
+      "installed": {
+        "bytes": 3189,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/xAODJet/JetContainerInfo.h",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Event/xAOD/xAODJet/xAODJet/JetContainerInfo.h",
+        "sha256": "11046c118fd238dffff986613419f3961f16f6ca03b73e1323a1a09c7f557eb8"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Event/xAOD/xAODJet/xAODJet/JetContainerInfo.h",
+      "role": "constituent and other scale naming"
+    },
+    "PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgMassSelectionTool.cxx": {
+      "installed": {
+        "bytes": 1777,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgMassSelectionTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgMassSelectionTool.cxx",
+        "sha256": "3cfd1ebaf1aea35d07e52bd485a2696f68c0b4ab0299b806342de1b3a3fb22b1"
+      },
+      "line_anchors": [
+        [
+          47,
+          72
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgMassSelectionTool.cxx",
+      "role": "calibrated mass selection and its float coordinate"
+    },
+    "PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgPtEtaSelectionTool.cxx": {
+      "installed": {
+        "bytes": 9990,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgPtEtaSelectionTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgPtEtaSelectionTool.cxx",
+        "sha256": "8370635b5eca7cf359fb2c7b34b707c2ad0af4b2d9efd5f1f10b075c1efd05f8"
+      },
+      "line_anchors": [
+        [
+          177,
+          270
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/AsgAnalysisAlgorithms/Root/AsgPtEtaSelectionTool.cxx",
+      "role": "calibrated pt and rapidity selection"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetCalibrationAlg.cxx": {
+      "installed": {
+        "bytes": 1449,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetCalibrationAlg.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetCalibrationAlg.cxx",
+        "sha256": "3d8543ea25578722477a23f76dd1cf9d1de4a3d4ec98f8398cc466033e4a5f59"
+      },
+      "line_anchors": [
+        [
+          27,
+          62
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetCalibrationAlg.cxx",
+      "role": "nominal adapter"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetDecoratorAlg.cxx": {
+      "installed": {
+        "bytes": 809,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetDecoratorAlg.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetDecoratorAlg.cxx",
+        "sha256": "4e131b01556f15e20242d8178470127826d044455be2d1e4eb2b7227d8057238"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetDecoratorAlg.cxx",
+      "role": "common pre-jet decorator adapter"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx": {
+      "installed": {
+        "bytes": 1760,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx",
+        "sha256": "de6427cd1c27a735923f0aef955d4b28b970fd118e23abed448131f3375f180c"
+      },
+      "line_anchors": [
+        [
+          19,
+          61
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx",
+      "role": "JMR own states only"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetUncertaintiesAlg.cxx": {
+      "installed": {
+        "bytes": 2631,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetUncertaintiesAlg.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetUncertaintiesAlg.cxx",
+        "sha256": "d16ec782110f5db0d0daac503dd8ede2b8235b79b5259953e07e44e01de57668"
+      },
+      "line_anchors": [
+        [
+          21,
+          88
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetUncertaintiesAlg.cxx",
+      "role": "main / pseudo-data dispatch"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py": {
+      "installed": {
+        "bytes": 57543,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py",
+        "sha256": "1030ff7e74a1fb6b13048be32e7a348f4e004a261a6ba8a5c20eaf8f566bbe2d"
+      },
+      "line_anchors": [
+        [
+          15,
+          61
+        ],
+        [
+          102,
+          185
+        ],
+        [
+          631,
+          931
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py",
+      "role": "large-R config, preselection, alternates, alias"
+    },
+    "PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SysListHandle.cxx": {
+      "installed": {
+        "bytes": 2979,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SysListHandle.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SysListHandle.cxx",
+        "sha256": "571b223669ab478cbadef7dc97abf5cfc88de95eea0b264446d45a8fefd40c86"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SysListHandle.cxx",
+      "role": "affecting-state projection and deduplication"
+    },
+    "PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SystematicsSvc.cxx": {
+      "installed": {
+        "bytes": 8674,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SystematicsSvc.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SystematicsSvc.cxx",
+        "sha256": "dea6fe5279fce6bc124a398eeb1fd94d3fed4ad1c1a557ff78052eb6487ea36a"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/SystematicsHandles/Root/SystematicsSvc.cxx",
+      "role": "recommended state enumeration"
+    },
+    "PhysicsAnalysis/AnalysisCommon/ParticleJetTools/Root/JetPileupLabelingTool.cxx": {
+      "installed": {
+        "bytes": 2312,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/AnalysisCommon/ParticleJetTools/Root/JetPileupLabelingTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/PhysicsAnalysis/AnalysisCommon/ParticleJetTools/Root/JetPileupLabelingTool.cxx",
+        "sha256": "23ea6807f838c8860d1c8702ccf52540552becc610b4c66ed3ebfd2b6748323d"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/AnalysisCommon/ParticleJetTools/Root/JetPileupLabelingTool.cxx",
+      "role": "isHS/isPU pre-jet decoration"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx": {
+      "installed": {
+        "bytes": 16449,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+        "sha256": "56e1c15bf75854534fd711b7fab9988dd49d992c27a09af1f90b019b7736a1e2"
+      },
+      "line_anchors": [
+        [
+          35,
+          196
+        ],
+        [
+          203,
+          382
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+      "role": "EtaJES initialization, TH1 and log polynomial, vector correction"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx": {
+      "installed": {
+        "bytes": 50474,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx",
+        "sha256": "ebe2ec89405fcfd6a1c1c1c079bc993bf4817b15904cafe030873f146bfbd3b2"
+      },
+      "line_anchors": [
+        [
+          34,
+          105
+        ],
+        [
+          299,
+          318
+        ],
+        [
+          503,
+          635
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx",
+      "role": "UFO mass lookup and energy-preserving recalculation"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/JetCalibrationStep.cxx": {
+      "installed": {
+        "bytes": 1335,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationStep.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationStep.cxx",
+        "sha256": "c18f5ab67498fc86b5b09d648b7f43a61db1340b6be9d0be7642354b177aabd3"
+      },
+      "line_anchors": [
+        [
+          17,
+          29
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationStep.cxx",
+      "role": "starting four-vector loading and float writeback"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/JetCalibrationTool.cxx": {
+      "installed": {
+        "bytes": 34093,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationTool.cxx",
+        "sha256": "c13ab15882120dd07f8fdbe15fbedfac9ffbbb8b7637c0609c1989b09f3e3739"
+      },
+      "line_anchors": [
+        [
+          77,
+          97
+        ],
+        [
+          151,
+          177
+        ],
+        [
+          238,
+          251
+        ],
+        [
+          307,
+          325
+        ],
+        [
+          436,
+          451
+        ],
+        [
+          527,
+          541
+        ],
+        [
+          669,
+          686
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/JetCalibrationTool.cxx",
+      "role": "nominal loading, sequence, event and jet inputs"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/RootHelpers.cxx": {
+      "installed": {
+        "bytes": 13953,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/RootHelpers.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetCalibTools/Root/RootHelpers.cxx",
+        "sha256": "cd6078d6c055eac0d47845d7ddfb72039d5ae5ebcc4ddc2896bb72a9df9a2a1a"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/RootHelpers.cxx",
+      "role": "calibration TH3 interpolation and singleton-axis behavior"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/ConfigHelper.cxx": {
+      "installed": {
+        "bytes": 14609,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ConfigHelper.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ConfigHelper.cxx",
+        "sha256": "bfd9bd3fa8fc36ee0efff272aab43571f65be5b31adf43d4851ab915d67c51e6"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/ConfigHelper.cxx",
+      "role": "TEnv group/component interpretation"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/ELogMassEtaUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 2459,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ELogMassEtaUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ELogMassEtaUncertaintyComponent.cxx",
+        "sha256": "6ca04bfebbf2a4d67917d94c9fb80e2505f2c79a0820de89319229af8c6859db"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/ELogMassEtaUncertaintyComponent.cxx",
+      "role": "energy, log mass/energy, eta uncertainty"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx": {
+      "installed": {
+        "bytes": 49602,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+        "sha256": "53e084fd1134f7a3a3f267bc213bad4c2f468fc28ffc534bc809022ca0dab573"
+      },
+      "line_anchors": [
+        [
+          39,
+          46
+        ],
+        [
+          82,
+          175
+        ],
+        [
+          197,
+          246
+        ],
+        [
+          308,
+          358
+        ],
+        [
+          392,
+          419
+        ],
+        [
+          493,
+          552
+        ],
+        [
+          560,
+          642
+        ],
+        [
+          659,
+          701
+        ],
+        [
+          737,
+          765
+        ],
+        [
+          818,
+          844
+        ],
+        [
+          896,
+          922
+        ],
+        [
+          957,
+          1007
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+      "role": "JMR setup, truth match, forward folding, and lookup"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/FlavourUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 29529,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/FlavourUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/FlavourUncertaintyComponent.cxx",
+        "sha256": "d8403bb6d3393193480d7ed883f849a24d148902c9b0b5e8dd0c3693344afea3"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/FlavourUncertaintyComponent.cxx",
+      "role": "flavour-specific component and analysis ROOT input"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/Helpers.cxx": {
+      "installed": {
+        "bytes": 7368,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/Helpers.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/Helpers.cxx",
+        "sha256": "20af7f8899384ac4b377c11d48e48a31b901d6aabd10c4cf8951ea24a1c8a5c1"
+      },
+      "line_anchors": [
+        [
+          99,
+          138
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/Helpers.cxx",
+      "role": "uncertainty and FF file resolver"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/JetHelpers.cxx": {
+      "installed": {
+        "bytes": 13317,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/JetHelpers.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/JetHelpers.cxx",
+        "sha256": "3c1aa05a345fbff25844fc287648c8d5f59cc62304b9b7782d08a68d1c09ea42"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/JetHelpers.cxx",
+      "role": "uncertainty TH1/TH2/TH3 interpolation"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx": {
+      "installed": {
+        "bytes": 130627,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx",
+        "sha256": "5c08757f6ed3a754d4e67e67db7ffa7bf61cb1f7162e5f1a3aa2d19c1a1739a8"
+      },
+      "line_anchors": [
+        [
+          254,
+          271
+        ],
+        [
+          329,
+          421
+        ],
+        [
+          692,
+          723
+        ],
+        [
+          1244,
+          1343
+        ],
+        [
+          2084,
+          2262
+        ],
+        [
+          2481,
+          2528
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx",
+      "role": "combined uncertainty initialization and execution"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/LargeRTopologyUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 3303,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/LargeRTopologyUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/LargeRTopologyUncertaintyComponent.cxx",
+        "sha256": "d54463f6078f5daef578d3ca8102a52763cfa1a70f99a31cb238015299375427"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/LargeRTopologyUncertaintyComponent.cxx",
+      "role": "truth label gated component"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/PtAbsMassUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 3806,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtAbsMassUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtAbsMassUncertaintyComponent.cxx",
+        "sha256": "1bbf97bc4db9a5f2de74a083d87e884eaf8119597470ebae3c08b0ccce76eaa7"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/PtAbsMassUncertaintyComponent.cxx",
+      "role": "pt and absolute mass uncertainty"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/PtEtaUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 2048,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtEtaUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtEtaUncertaintyComponent.cxx",
+        "sha256": "ed9e2879004e817c34c368c997f93faf9d0d306867923d429760ca2330181876"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/PtEtaUncertaintyComponent.cxx",
+      "role": "signed/absolute eta uncertainty"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/PtUncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 1798,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtUncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/PtUncertaintyComponent.cxx",
+        "sha256": "011b58a8009b2a07fde853392d0c10207f15872b12c50c0efb0ff3498496df94"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/PtUncertaintyComponent.cxx",
+      "role": "pt-only uncertainty"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/ResolutionHelper.cxx": {
+      "installed": {
+        "bytes": 23096,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ResolutionHelper.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ResolutionHelper.cxx",
+        "sha256": "4b84fd8a0983a3e20f094dc4a5d74e57bf4feca2f70db8b1d77a62ded4a1e368"
+      },
+      "line_anchors": [
+        [
+          121,
+          197
+        ],
+        [
+          297,
+          312
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/ResolutionHelper.cxx",
+      "role": "nominal resolution source and lookup choice"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/UncertaintyComponent.cxx": {
+      "installed": {
+        "bytes": 14525,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyComponent.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyComponent.cxx",
+        "sha256": "b8154efefbeb58fa1004449b3039497bc8e95e756a3ed874c696d29226fea6e1"
+      },
+      "line_anchors": [
+        [
+          301,
+          382
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/UncertaintyComponent.cxx",
+      "role": "histogram name, mass and validity semantics"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/UncertaintyEnum.cxx": {
+      "installed": {
+        "bytes": 21506,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyEnum.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyEnum.cxx",
+        "sha256": "2ceb04638b7e02e96b4b7168745ab6f9ef7a6b98c850ecd7e3735a2ce3a3d9fa"
+      },
+      "line_anchors": [],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/UncertaintyEnum.cxx",
+      "role": "scale and mass types and decorations"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/UncertaintyGroup.cxx": {
+      "installed": {
+        "bytes": 16349,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyGroup.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyGroup.cxx",
+        "sha256": "c37891913b901b740e1268b17abbe97692f55cecea49164477dc8893ca352b83"
+      },
+      "line_anchors": [
+        [
+          359,
+          439
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/UncertaintyGroup.cxx",
+      "role": "correlation and group construction"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/UncertaintyHistogram.cxx": {
+      "installed": {
+        "bytes": 17084,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyHistogram.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintyHistogram.cxx",
+        "sha256": "0a0c5ac8b3b3da4a61d510d71d5819b5a9afa0dbf1b06cea4444efd00c0142fb"
+      },
+      "line_anchors": [
+        [
+          198,
+          314
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/UncertaintyHistogram.cxx",
+      "role": "uncertainty interpolation and range masking"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/UncertaintySet.cxx": {
+      "installed": {
+        "bytes": 11136,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintySet.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/UncertaintySet.cxx",
+        "sha256": "18edbf530168be2425c304817743496cae1ea0b6187bcec62c280a0200b1ba04"
+      },
+      "line_anchors": [
+        [
+          172,
+          275
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/UncertaintySet.cxx",
+      "role": "per-scale validity and group combination"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/ValidityHistogram.cxx": {
+      "installed": {
+        "bytes": 17378,
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ValidityHistogram.cxx",
+        "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/src/Reconstruction/Jet/JetUncertainties/Root/ValidityHistogram.cxx",
+        "sha256": "dc3eef7a321155c8f5ea999b5f34e37dce669c9e7cf7576efffe771ad3253a0f"
+      },
+      "line_anchors": [
+        [
+          130,
+          153
+        ],
+        [
+          197,
+          219
+        ],
+        [
+          280,
+          288
+        ]
+      ],
+      "official_url": "https://gitlab.cern.ch/atlas/athena/-/blob/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/ValidityHistogram.cxx",
+      "role": "validity map lookup and mass choice"
+    }
+  },
+  "athena_tag": "release/25.2.117",
+  "athena_tag_object": "e396bbf453f996803fa4954d3ed3d86bc00dbd0a",
+  "calibration_files": [
+    {
+      "bytes": 3624,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+      "role": "nominal configuration",
+      "sha256": "ef72112d0f35948437be8994ba03c38d494a2a1ebfc3f54c98cf1156fe1c60ba"
+    },
+    {
+      "bytes": 5400489,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+      "role": "EtaJES response TList etaJes",
+      "sha256": "df98b2124c8868785e1b7deb0052a943abd7196bc219efc60a07022ece1a8043"
+    },
+    {
+      "bytes": 14026,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+      "role": "EtaJES local TEnv overrides and directional coefficients",
+      "sha256": "219251cbfc1fa06df0c481ccdeae4df5297943b1ef1085866debf47664c8e8f0"
+    },
+    {
+      "bytes": 206565,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+      "role": "nominal JMS response",
+      "sha256": "2bf55b85f3d7223cbacf0c11889113c359b7fca08eb92630e449706888f5c2f6"
+    },
+    {
+      "bytes": 12464,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+      "role": "combined-tool analysis dependency resolved at initialization",
+      "sha256": "9ab5d4aacdb1a7e8e6d0e9ff9509dbe38f70facf7ee8c131c3f73f0fa594ad8e"
+    },
+    {
+      "bytes": 3219221,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+      "role": "uncertainty ROOT dependency",
+      "sha256": "eb28216e471b488fe3eef45f66345b3c433d6e3974a41df05e67f8c2adeead3e"
+    },
+    {
+      "bytes": 37343,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+      "role": "configured uncertainty recommendation",
+      "sha256": "f41a67c82c8abb2c80d499b14091ba3d5a2270471b88f3f7967a783749865835"
+    },
+    {
+      "bytes": 30273,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_SimpleJMS.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_SimpleJMS.config",
+      "role": "alternate uncertainty recommendation",
+      "sha256": "a62bc636dfc0e498594468a35af54dac722ffbc620351b968fb7a22fc8d74d07"
+    },
+    {
+      "bytes": 37282,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_SimpleJER_FullJMS.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_SimpleJER_FullJMS.config",
+      "role": "alternate uncertainty recommendation",
+      "sha256": "4a00a43b4db2fafc9f2d5f9b8c36178145e9c21c5520886f15ca79c2f804f33b"
+    },
+    {
+      "bytes": 30201,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_SimpleJER_SimpleJMS.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_SimpleJER_SimpleJMS.config",
+      "role": "alternate uncertainty recommendation",
+      "sha256": "d5aef6a8b6aa018bb232c163dad6fe2b3318928c6acd1f5f1edd08119ec8ef76"
+    },
+    {
+      "bytes": 9453,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+      "role": "configured uncertainty recommendation",
+      "sha256": "450e87b58de96d9f1badf66611f37440c3d01e3daff06c843ca1725c149fe1ef"
+    },
+    {
+      "bytes": 3129772,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+      "role": "uncertainty ROOT dependency",
+      "sha256": "1c69e73fc1b1fff99440f468d2e8a69cf71836e02da7a4f2b4a8370f0fad3304"
+    },
+    {
+      "bytes": 4843,
+      "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_SimpleJMR.config",
+      "realpath": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_SimpleJMR.config",
+      "role": "alternate uncertainty recommendation",
+      "sha256": "5dbed28ff0b4e6e31243b569b4aa69581305ecb5781a9cab47a1a685cd55c03e"
+    }
+  ],
+  "install": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+  "nominal_eta_jes_local_settings": {
+    "entries": {},
+    "file": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+    "inline_comments": {},
+    "settings": {
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin0": {
+        "line": 70,
+        "value": "2756"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin1": {
+        "line": 71,
+        "value": "2879"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin10": {
+        "line": 80,
+        "value": "3278"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin11": {
+        "line": 81,
+        "value": "3263"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin12": {
+        "line": 82,
+        "value": "3240"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin13": {
+        "line": 83,
+        "value": "3177"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin14": {
+        "line": 84,
+        "value": "3131"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin15": {
+        "line": 85,
+        "value": "2952"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin16": {
+        "line": 86,
+        "value": "3127"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin17": {
+        "line": 87,
+        "value": "3259"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin18": {
+        "line": 88,
+        "value": "3318"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin19": {
+        "line": 89,
+        "value": "3274"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin2": {
+        "line": 72,
+        "value": "2914"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin20": {
+        "line": 90,
+        "value": "3091"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin21": {
+        "line": 91,
+        "value": "3096"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin22": {
+        "line": 92,
+        "value": "3157"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin23": {
+        "line": 93,
+        "value": "3212"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin24": {
+        "line": 94,
+        "value": "3216"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin25": {
+        "line": 95,
+        "value": "3221"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin26": {
+        "line": 96,
+        "value": "3214"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin27": {
+        "line": 97,
+        "value": "3216"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin28": {
+        "line": 98,
+        "value": "3207"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin29": {
+        "line": 99,
+        "value": "3187"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin3": {
+        "line": 73,
+        "value": "2944"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin30": {
+        "line": 100,
+        "value": "3186"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin31": {
+        "line": 101,
+        "value": "3207"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin32": {
+        "line": 102,
+        "value": "3216"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin33": {
+        "line": 103,
+        "value": "3213"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin34": {
+        "line": 104,
+        "value": "3221"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin35": {
+        "line": 105,
+        "value": "3215"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin36": {
+        "line": 106,
+        "value": "3212"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin37": {
+        "line": 107,
+        "value": "3156"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin38": {
+        "line": 108,
+        "value": "3092"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin39": {
+        "line": 109,
+        "value": "3088"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin4": {
+        "line": 74,
+        "value": "2891"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin40": {
+        "line": 110,
+        "value": "3266"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin41": {
+        "line": 111,
+        "value": "3317"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin42": {
+        "line": 112,
+        "value": "3261"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin43": {
+        "line": 113,
+        "value": "3126"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin44": {
+        "line": 114,
+        "value": "2954"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin45": {
+        "line": 115,
+        "value": "3133"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin46": {
+        "line": 116,
+        "value": "3181"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin47": {
+        "line": 117,
+        "value": "3244"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin48": {
+        "line": 118,
+        "value": "3269"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin49": {
+        "line": 119,
+        "value": "3284"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin5": {
+        "line": 75,
+        "value": "3076"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin50": {
+        "line": 120,
+        "value": "3285"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin51": {
+        "line": 121,
+        "value": "3285"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin52": {
+        "line": 122,
+        "value": "3284"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin53": {
+        "line": 123,
+        "value": "3240"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin54": {
+        "line": 124,
+        "value": "3078"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin55": {
+        "line": 125,
+        "value": "2893"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin56": {
+        "line": 126,
+        "value": "2947"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin57": {
+        "line": 127,
+        "value": "2912"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin58": {
+        "line": 128,
+        "value": "2876"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin59": {
+        "line": 129,
+        "value": "2755"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin6": {
+        "line": 76,
+        "value": "3235"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin60": {
+        "line": 130,
+        "value": "2755"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin7": {
+        "line": 77,
+        "value": "3276"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin8": {
+        "line": 78,
+        "value": "3277"
+      },
+      "EmaxJES.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin9": {
+        "line": 79,
+        "value": "3279"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin0": {
+        "line": 2,
+        "value": "-2.9776e+00  1.1838e+00 -1.5488e-01  6.7065e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin1": {
+        "line": 3,
+        "value": "-2.9353e+00  1.1550e+00 -1.5016e-01  6.4878e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin10": {
+        "line": 12,
+        "value": "1.8544e-01 -6.9045e-02  8.6058e-03 -3.5811e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin11": {
+        "line": 13,
+        "value": "1.5778e-01 -6.0266e-02  7.6877e-03 -3.2700e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin12": {
+        "line": 14,
+        "value": "2.2252e-01 -8.7913e-02  1.1577e-02 -5.0771e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin13": {
+        "line": 15,
+        "value": "1.4400e-01 -5.4093e-02  6.9110e-03 -2.9742e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin14": {
+        "line": 16,
+        "value": "2.3079e-01 -8.8013e-02  1.1347e-02 -4.9129e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin15": {
+        "line": 17,
+        "value": "3.3431e-01 -1.2779e-01  1.6513e-02 -7.1841e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin16": {
+        "line": 18,
+        "value": "2.3853e-01 -9.0047e-02  1.1700e-02 -5.1645e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin17": {
+        "line": 19,
+        "value": "2.0971e-01 -8.0844e-02  1.0641e-02 -4.7267e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin18": {
+        "line": 20,
+        "value": "1.2624e-01 -4.8298e-02  6.2911e-03 -2.7643e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin19": {
+        "line": 21,
+        "value": "1.1679e-01 -4.6456e-02  6.1861e-03 -2.7580e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin2": {
+        "line": 4,
+        "value": "6.0763e-02 -1.3708e-02  8.3021e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin20": {
+        "line": 22,
+        "value": "1.0619e-01 -4.3094e-02  5.8852e-03 -2.7009e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin21": {
+        "line": 23,
+        "value": "8.9273e-02 -3.5045e-02  4.7055e-03 -2.1378e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin22": {
+        "line": 24,
+        "value": "8.4462e-02 -3.3290e-02  4.5116e-03 -2.0624e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin23": {
+        "line": 25,
+        "value": "7.1464e-02 -2.8241e-02  3.8364e-03 -1.7536e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin24": {
+        "line": 26,
+        "value": "5.4238e-02 -2.1637e-02  2.9745e-03 -1.3787e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin25": {
+        "line": 27,
+        "value": "3.7846e-02 -1.5208e-02  2.1193e-03 -9.9631e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin26": {
+        "line": 28,
+        "value": "2.3023e-02 -8.8858e-03  1.2103e-03 -5.6398e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin27": {
+        "line": 29,
+        "value": "1.2874e-02 -4.8424e-03  6.6199e-04 -3.1219e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin28": {
+        "line": 30,
+        "value": "1.1923e-02 -4.8286e-03  6.7569e-04 -3.1958e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin29": {
+        "line": 31,
+        "value": "7.6588e-04 -2.0560e-04  1.7193e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin3": {
+        "line": 5,
+        "value": "8.1755e-02 -2.0556e-02  1.4400e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin30": {
+        "line": 32,
+        "value": "4.7282e-04 -1.5770e-04  8.9674e-06  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin31": {
+        "line": 33,
+        "value": "-8.7819e-03  3.5502e-03 -5.0414e-04  2.4428e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin32": {
+        "line": 34,
+        "value": "-1.2883e-02  4.9133e-03 -6.7381e-04  3.1736e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin33": {
+        "line": 35,
+        "value": "-1.9489e-02  7.3347e-03 -9.7564e-04  4.4493e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin34": {
+        "line": 36,
+        "value": "-3.0937e-02  1.2088e-02 -1.6463e-03  7.5816e-05  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin35": {
+        "line": 37,
+        "value": "-5.4595e-02  2.1799e-02 -2.9947e-03  1.3871e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin36": {
+        "line": 38,
+        "value": "-6.8614e-02  2.6995e-02 -3.6593e-03  1.6716e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin37": {
+        "line": 39,
+        "value": "-8.3748e-02  3.2955e-02 -4.4606e-03  2.0353e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin38": {
+        "line": 40,
+        "value": "-8.7448e-02  3.4303e-02 -4.6053e-03  2.0923e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin39": {
+        "line": 41,
+        "value": "-1.0100e-01  4.0638e-02 -5.5048e-03  2.5075e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin4": {
+        "line": 6,
+        "value": "-7.0340e+00  2.8422e+00 -3.7943e-01  1.6782e-02  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin40": {
+        "line": 42,
+        "value": "-1.0877e-01  4.3206e-02 -5.7448e-03  2.5578e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin41": {
+        "line": 43,
+        "value": "-1.1691e-01  4.4131e-02 -5.6707e-03  2.4577e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin42": {
+        "line": 44,
+        "value": "-2.0687e-01  8.0225e-02 -1.0626e-02  4.7507e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin43": {
+        "line": 45,
+        "value": "-2.3334e-01  8.7927e-02 -1.1407e-02  5.0283e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin44": {
+        "line": 46,
+        "value": "-2.9084e-01  1.0967e-01 -1.4003e-02  6.0284e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin45": {
+        "line": 47,
+        "value": "-2.2744e-01  8.6907e-02 -1.1213e-02  4.8545e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin46": {
+        "line": 48,
+        "value": "-1.8587e-01  7.1375e-02 -9.2851e-03  4.0594e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin47": {
+        "line": 49,
+        "value": "-2.2352e-01  8.8479e-02 -1.1672e-02  5.1262e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin48": {
+        "line": 50,
+        "value": "-1.5602e-01  5.9427e-02 -7.5589e-03  3.2060e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin49": {
+        "line": 51,
+        "value": "-2.0752e-01  7.7956e-02 -9.7994e-03  4.1122e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin5": {
+        "line": 7,
+        "value": "-5.1403e+00  2.1083e+00 -2.8517e-01  1.2740e-02  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin50": {
+        "line": 52,
+        "value": "-1.7304e-01  6.3773e-02 -7.8816e-03  3.2561e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin51": {
+        "line": 53,
+        "value": "8.7261e-02 -4.5145e-02  7.1304e-03 -3.5767e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin52": {
+        "line": 54,
+        "value": "-8.3785e-02  2.0319e-02 -1.2457e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin53": {
+        "line": 55,
+        "value": "9.5122e-01 -4.0730e-01  5.7102e-02 -2.6310e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin54": {
+        "line": 56,
+        "value": "5.7234e+00 -2.3487e+00  3.1791e-01 -1.4213e-02  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin55": {
+        "line": 57,
+        "value": "3.8905e+00 -1.5823e+00  2.1196e-01 -9.3945e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin56": {
+        "line": 58,
+        "value": "-8.9789e-02  2.2687e-02 -1.5811e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin57": {
+        "line": 59,
+        "value": "-6.1850e-02  1.3566e-02 -7.9524e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin58": {
+        "line": 60,
+        "value": "3.1346e+00 -1.2334e+00  1.6042e-01 -6.9335e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin59": {
+        "line": 61,
+        "value": "2.9845e+00 -1.1891e+00  1.5591e-01 -6.7670e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin6": {
+        "line": 8,
+        "value": "-1.3366e+00  5.6499e-01 -7.8479e-02  3.5916e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin60": {
+        "line": 62,
+        "value": "2.9845e+00 -1.1891e+00  1.5591e-01 -6.7670e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin7": {
+        "line": 9,
+        "value": "7.6698e-02 -1.8389e-02  1.1159e-03  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin8": {
+        "line": 10,
+        "value": "5.5613e-02 -1.3498e-02  8.3009e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      },
+      "EtaCorr.AntiKt10UFOCSSKSoftDropBeta100Zcut10_Bin9": {
+        "line": 11,
+        "value": "1.7068e-01 -6.2888e-02  7.7756e-03 -3.2152e-04  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00  0.0000e+00"
+      }
+    }
+  },
+  "nominal_jms_key_found_in_file_bytes": "AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMS_e_LOGmOe_eta",
+  "nominal_settings": {
+    "entries": {},
+    "file": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+    "inline_comments": {},
+    "settings": {
+      "+JES.EtaBins": {
+        "line": 34,
+        "value": "0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2.0 2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3.0"
+      },
+      "AbsoluteJES.CalibFile": {
+        "line": 29,
+        "value": "JetCalibTools/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config"
+      },
+      "AbsoluteJES.CalibHists": {
+        "line": 30,
+        "value": "JetCalibTools/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root"
+      },
+      "AbsoluteJES.Description": {
+        "line": 31,
+        "value": "JES for R=1.0 UFO CSSK SoftDrop jets, MC20 Pre-Recs (R22, Run 2 conditions)"
+      },
+      "AntiKt10UFOCSSKSoftDropBeta100Zcut10.MinPtForETAJES": {
+        "line": 37,
+        "value": "50"
+      },
+      "AntiKt10UFOCSSKSoftDropBeta100Zcut10.isSpline": {
+        "line": 40,
+        "value": "true"
+      },
+      "EtaJESStartingScale": {
+        "line": 23,
+        "value": "JetConstitScaleMomentum"
+      },
+      "InsituRunBins": {
+        "line": 71,
+        "value": "251102 314199 341649 999999"
+      },
+      "InsituTimeDependentConfigs": {
+        "line": 70,
+        "value": "InsituCalibration_AntiKt10UFOCSSKSoftDropBeta100Zcut10_Precision_Sep2024_1516.config InsituCalibration_AntiKt10UFOCSSKSoftDropBeta100Zcut10_Precision_Sep2024_17.config InsituCalibration_AntiKt10UFOCSSKSoftDropBeta100Zcut10_Precision_Sep2024_18.config"
+      },
+      "JES.EtaBins": {
+        "line": 33,
+        "value": "-3.0 -2.9 -2.8 -2.7 -2.6 -2.5 -2.4 -2.3 -2.2 -2.1 -2.0 -1.9 -1.8 -1.7 -1.6 -1.5 -1.4 -1.3 -1.2 -1.1 -1.0 -0.9 -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1"
+      },
+      "JMSBinningParam": {
+        "line": 63,
+        "value": "e_LOGmOe_eta"
+      },
+      "JMSStartingScale": {
+        "line": 59,
+        "value": "JetEtaJESScaleMomentum"
+      },
+      "LowPtJESExtrapolationMethod": {
+        "line": 46,
+        "value": "1"
+      },
+      "LowPtJESExtrapolationMinimumResponse": {
+        "line": 47,
+        "value": "0.25"
+      },
+      "MassCalibrationFile": {
+        "line": 61,
+        "value": "JetCalibTools/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root"
+      },
+      "MassCalibrationIs3D": {
+        "line": 62,
+        "value": "true"
+      },
+      "MinpT": {
+        "line": 60,
+        "value": "180"
+      },
+      "OffsetCorrection.Name": {
+        "line": 53,
+        "value": "None"
+      },
+      "ResidualOffsetCorrection.Name": {
+        "line": 54,
+        "value": "None"
+      },
+      "SetDetectorEta": {
+        "line": 18,
+        "value": "false"
+      },
+      "TimeDependentInsituCalibration": {
+        "line": 69,
+        "value": "true"
+      }
+    }
+  },
+  "official_byte_comparisons": {
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx": {
+      "bytes": 1760,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/Root/JetFFSmearingAlg.cxx",
+      "sha256": "de6427cd1c27a735923f0aef955d4b28b970fd118e23abed448131f3375f180c"
+    },
+    "PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py": {
+      "bytes": 57543,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/Algorithms/JetAnalysisAlgorithms/python/JetAnalysisConfig.py",
+      "sha256": "1030ff7e74a1fb6b13048be32e7a348f4e004a261a6ba8a5c20eaf8f566bbe2d"
+    },
+    "PhysicsAnalysis/DerivationFramework/DerivationFrameworkPhys/python/PHYSLITE.py": {
+      "bytes": 33948,
+      "matches_installed": null,
+      "matching_lines": {
+        "collection": {
+          "233": "largeRjetContainer='AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets'",
+          "235": "subConfig.setOptionValue ('.containerName', 'AnalysisLargeRJets')",
+          "236": "subConfig.setOptionValue ('.jetCollection', largeRjetContainer)",
+          "248": "subConfig.setOptionValue ('.containerName', 'AnalysisLargeRJets')",
+          "468": "'AnalysisLargeRJets':'xAOD::JetContainer','AnalysisLargeRJetsAux':'xAOD::AuxContainerBase'",
+          "515": "'AnalysisLargeRJets.pt.eta.phi.m.numConstit.JetConstitScaleMomentum_pt.JetConstitScaleMomentum_eta.JetConstitScaleMomentum_phi.JetConstitScaleMomentum_m.DetectorEta.DetectorY.ECF1.ECF2.ECF3.Tau1_wta.Tau2_wta.Tau3_wta.Split12.Split23.Qw.D2.C2.R10TruthLabel_R22v1.R10TruthLabel_R21Precision_2022v1.GhostBHadronsFinalCount.GhostCHadronsFinalCount.GN2Xv01_phbb.GN2Xv01_phcc.GN2Xv01_ptop.GN2Xv01_pqcd',"
+        },
+        "truth_inputs": {
+          "506": "'AnalysisJets.pt.eta.phi.m.numConstit.JetConstitScaleMomentum_pt.JetConstitScaleMomentum_eta.JetConstitScaleMomentum_phi.JetConstitScaleMomentum_m.NumTrkPt500.SumPtTrkPt500.DetectorEta.DetectorY.JVFCorr.NNJvtPass.NumTrkPt1000.TrackWidthPt1000.GhostMuonSegmentCount.GhostUnAssocMuonSegmentCount.PartonTruthLabelID.HadronConeExclExtendedTruthLabelID.HadronConeExclTruthLabelID.TrueFlavor.DFCommonJets_jetClean_LooseBad.DFCommonJets_jetClean_TightBad.Timing.btagging.btaggingLink.GhostTrack.DFCommonJets_fJvt.PSFrac.JetAccessorMap.EMFrac.Width.ActiveArea4vec_pt.ActiveArea4vec_eta.ActiveArea4vec_m.ActiveArea4vec_phi.EnergyPerSampling.SumPtChargedPFOPt500.isJvtHS.QGTransformer_ConstScore.{btag_var_string}'.format(btag_var_string = \".\".join(btag_variables)),",
+          "515": "'AnalysisLargeRJets.pt.eta.phi.m.numConstit.JetConstitScaleMomentum_pt.JetConstitScaleMomentum_eta.JetConstitScaleMomentum_phi.JetConstitScaleMomentum_m.DetectorEta.DetectorY.ECF1.ECF2.ECF3.Tau1_wta.Tau2_wta.Tau3_wta.Split12.Split23.Qw.D2.C2.R10TruthLabel_R22v1.R10TruthLabel_R21Precision_2022v1.GhostBHadronsFinalCount.GhostCHadronsFinalCount.GN2Xv01_phbb.GN2Xv01_phcc.GN2Xv01_ptop.GN2Xv01_pqcd',"
+        }
+      },
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/PhysicsAnalysis/DerivationFramework/DerivationFrameworkPhys/python/PHYSLITE.py",
+      "sha256": "c224663a7d6c512c9dba24a9b957b481a0f5e6f35bd9b8a8b82b5789ea32df77"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx": {
+      "bytes": 16449,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+      "sha256": "56e1c15bf75854534fd711b7fab9988dd49d992c27a09af1f90b019b7736a1e2"
+    },
+    "Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx": {
+      "bytes": 50474,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetCalibTools/Root/JMSCorrection.cxx",
+      "sha256": "ebe2ec89405fcfd6a1c1c1c079bc993bf4817b15904cafe030873f146bfbd3b2"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx": {
+      "bytes": 49602,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/FFJetSmearingTool.cxx",
+      "sha256": "53e084fd1134f7a3a3f267bc213bad4c2f468fc28ffc534bc809022ca0dab573"
+    },
+    "Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx": {
+      "bytes": 130627,
+      "matches_installed": true,
+      "raw_url": "https://gitlab.cern.ch/atlas/athena/-/raw/6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c/Reconstruction/Jet/JetUncertainties/Root/JetUncertaintiesTool.cxx",
+      "sha256": "5c08757f6ed3a754d4e67e67db7ffa7bf61cb1f7162e5f1a3aa2d19c1a1739a8"
+    }
+  },
+  "release": "25.2.117",
+  "release_data": "[release_metadata]\nrelease:25.2.117\nnightly name:nightly/main/2026-10-28T2100\nproject name:AnalysisBase\nnightly release:6ce3f7ae7c4\ndate:2026-10-28T2100\ncompiler:GNU-15.2.0\ncuda:-\ncxxpath:/cvmfs/sft.cern.ch/lcg/releases/gcc/15.2.0-35657/x86_64-el9/bin/g++\ncudapath:\ncmake:4.4.0\n",
+  "release_data_file": {
+    "bytes": 278,
+    "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/ReleaseData",
+    "realpath": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/ReleaseData",
+    "sha256": "9e4752c5e425f4194232201f092492065f9ce8205fabcb30a8ccb078b4df7d0d"
+  },
+  "scope": "static source and calibration file inventory",
+  "tag_pinned_by": "CERN GitLab release tag API and CVMFS ReleaseData"
+}

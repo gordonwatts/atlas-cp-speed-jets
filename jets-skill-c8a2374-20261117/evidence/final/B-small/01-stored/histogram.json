@@ -1,0 +1,99 @@
+{
+  "argv": [
+    "taskset",
+    "-c",
+    "3",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/bin/python",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/reference/workflow.py",
+    "histogram",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-stored/reference.root",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-stored/histograms.npz",
+    "stored",
+    "--scope",
+    "small"
+  ],
+  "wall_s": 0.258025045,
+  "start_unix_ns": 1795007036102248735,
+  "end_unix_ns": 1795007036360275580,
+  "controller_cpu_s": 0.00141112,
+  "cpu_user_s": 0.214892,
+  "cpu_sys_s": 0.039793999999999996,
+  "peak_rss_kb": 82052,
+  "voluntary_context_switches": 2,
+  "involuntary_context_switches": 51,
+  "exit": 0,
+  "threads_seen": [
+    1
+  ],
+  "cpus_seen": [
+    "3"
+  ],
+  "descendant_observations": [],
+  "libraries": [
+    "/usr/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib64/libc.so.6"
+  ],
+  "source_mapping_observed": null,
+  "guest_before": {
+    "monotonic": 88242.983554617,
+    "cpu_stat": {
+      "cpu": [
+        4484576,
+        555270,
+        678746,
+        170475032,
+        90252,
+        0,
+        1596234,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1786411,
+        0,
+        60867,
+        6951526,
+        18770,
+        0,
+        1756,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243228  17       29 cvmfs2\n 244902   6        6 cvmfs2\n1394687   5        2 python3\n1402598  11        1 cvmfs2\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  16        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   6        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394688   5        0 bash\n1402595   1        0 cvmfs2\n1402801  13        0 cvmfs2\n1402804   6        0 cvmfs2\n1409187   2        0 SessionLeader\n1409188   4        0 Relay(1409189)\n1409189   6        0 bash\n1415867  15        0 cvmfs2\n1415870   6        0 cvmfs2\n1415949  11        0 cvmfs2\n1415952   8        0 cvmfs2\n1417239  15        0 cvmfs2\n1417242  10        0 cvmfs2\n1417918   3        0 python\n1417919   3        0 python\n1419866   7        0 sleep\n1419874   3        0 ps\n"
+  },
+  "guest_after": {
+    "monotonic": 88243.243699341,
+    "cpu_stat": {
+      "cpu": [
+        4484597,
+        555270,
+        678750,
+        170475526,
+        90252,
+        0,
+        1596234,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1786432,
+        0,
+        60871,
+        6951526,
+        18770,
+        0,
+        1756,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243228  17       29 cvmfs2\n 244902   6        6 cvmfs2\n1394687   5        2 python3\n1402598  11        1 cvmfs2\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  16        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   6        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394688   5        0 bash\n1402595   1        0 cvmfs2\n1402801  13        0 cvmfs2\n1402804   6        0 cvmfs2\n1409187   2        0 SessionLeader\n1409188   4        0 Relay(1409189)\n1409189   6        0 bash\n1415867  15        0 cvmfs2\n1415870   6        0 cvmfs2\n1415949  11        0 cvmfs2\n1415952   8        0 cvmfs2\n1417239  15        0 cvmfs2\n1417242  10        0 cvmfs2\n1417918   3        0 python\n1417919   3        0 python\n1419866   7        0 sleep\n1419876   3        0 ps\n"
+  }
+}

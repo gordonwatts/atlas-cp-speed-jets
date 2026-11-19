@@ -1,0 +1,381 @@
+{
+  "external_wall_ns": 2989686247,
+  "worker_cpu_ns": 2851250192,
+  "diagnostic_report_and_uninstrumented_process_remainder_ns": 116352238,
+  "startup_through_visible_cli_entry_ns": 143737021,
+  "teardown_after_visible_cli_ns": 14405,
+  "startup_detail": {
+    "worker_bootstrap_before_visible_ns": 5514109,
+    "visible_import_to_cli_ns": 138222912,
+    "compiler_runtime_inside_visible_import_ns": 1239089
+  },
+  "exclusive_groups_inside_visible_cli_ns": {
+    "setup": 640460108,
+    "io": 739980541,
+    "histogram": 34713393,
+    "transport": 1959624,
+    "tool": 1043021070,
+    "workflow": 266862906,
+    "output": 2559794
+  },
+  "remaining_phase_overhead_ns": 116377385,
+  "tools": {
+    "jet_event_inputs": {
+      "calls": 5,
+      "rows": 20000,
+      "wall_ns": 2251791,
+      "cpu_ns": 2252641,
+      "self_wall_ns": 2251791,
+      "self_cpu_ns": 2252641,
+      "by_batch_rows": {
+        "4000": {
+          "calls": 5,
+          "rows": 20000,
+          "wall_ns": 2251791,
+          "cpu_ns": 2252641,
+          "self_wall_ns": 2251791,
+          "self_cpu_ns": 2252641
+        }
+      }
+    },
+    "jet_pileup_truth": {
+      "calls": 5,
+      "rows": 22177,
+      "wall_ns": 6496882,
+      "cpu_ns": 6460229,
+      "self_wall_ns": 6496882,
+      "self_cpu_ns": 6460229,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 1,
+          "rows": 4356,
+          "wall_ns": 1207511,
+          "cpu_ns": 1207570,
+          "self_wall_ns": 1207511,
+          "self_cpu_ns": 1207570
+        },
+        "4446": {
+          "calls": 1,
+          "rows": 4446,
+          "wall_ns": 1341087,
+          "cpu_ns": 1341427,
+          "self_wall_ns": 1341087,
+          "self_cpu_ns": 1341427
+        },
+        "4597": {
+          "calls": 1,
+          "rows": 4597,
+          "wall_ns": 1488635,
+          "cpu_ns": 1465385,
+          "self_wall_ns": 1488635,
+          "self_cpu_ns": 1465385
+        },
+        "4290": {
+          "calls": 1,
+          "rows": 4290,
+          "wall_ns": 1182822,
+          "cpu_ns": 1183087,
+          "self_wall_ns": 1182822,
+          "self_cpu_ns": 1183087
+        },
+        "4488": {
+          "calls": 1,
+          "rows": 4488,
+          "wall_ns": 1276827,
+          "cpu_ns": 1262760,
+          "self_wall_ns": 1276827,
+          "self_cpu_ns": 1262760
+        }
+      }
+    },
+    "large_eta_jes": {
+      "calls": 5,
+      "rows": 22177,
+      "wall_ns": 7400835,
+      "cpu_ns": 7372977,
+      "self_wall_ns": 7400835,
+      "self_cpu_ns": 7372977,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 1,
+          "rows": 4356,
+          "wall_ns": 1485718,
+          "cpu_ns": 1471157,
+          "self_wall_ns": 1485718,
+          "self_cpu_ns": 1471157
+        },
+        "4446": {
+          "calls": 1,
+          "rows": 4446,
+          "wall_ns": 1457143,
+          "cpu_ns": 1443453,
+          "self_wall_ns": 1457143,
+          "self_cpu_ns": 1443453
+        },
+        "4597": {
+          "calls": 1,
+          "rows": 4597,
+          "wall_ns": 1619734,
+          "cpu_ns": 1619600,
+          "self_wall_ns": 1619734,
+          "self_cpu_ns": 1619600
+        },
+        "4290": {
+          "calls": 1,
+          "rows": 4290,
+          "wall_ns": 1388667,
+          "cpu_ns": 1388957,
+          "self_wall_ns": 1388667,
+          "self_cpu_ns": 1388957
+        },
+        "4488": {
+          "calls": 1,
+          "rows": 4488,
+          "wall_ns": 1449573,
+          "cpu_ns": 1449810,
+          "self_wall_ns": 1449573,
+          "self_cpu_ns": 1449810
+        }
+      }
+    },
+    "large_jms": {
+      "calls": 5,
+      "rows": 22177,
+      "wall_ns": 4398579,
+      "cpu_ns": 4399657,
+      "self_wall_ns": 4398579,
+      "self_cpu_ns": 4399657,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 1,
+          "rows": 4356,
+          "wall_ns": 824593,
+          "cpu_ns": 824905,
+          "self_wall_ns": 824593,
+          "self_cpu_ns": 824905
+        },
+        "4446": {
+          "calls": 1,
+          "rows": 4446,
+          "wall_ns": 869479,
+          "cpu_ns": 869745,
+          "self_wall_ns": 869479,
+          "self_cpu_ns": 869745
+        },
+        "4597": {
+          "calls": 1,
+          "rows": 4597,
+          "wall_ns": 1026753,
+          "cpu_ns": 1027013,
+          "self_wall_ns": 1026753,
+          "self_cpu_ns": 1027013
+        },
+        "4290": {
+          "calls": 1,
+          "rows": 4290,
+          "wall_ns": 803580,
+          "cpu_ns": 803648,
+          "self_wall_ns": 803580,
+          "self_cpu_ns": 803648
+        },
+        "4488": {
+          "calls": 1,
+          "rows": 4488,
+          "wall_ns": 874174,
+          "cpu_ns": 874346,
+          "self_wall_ns": 874174,
+          "self_cpu_ns": 874346
+        }
+      }
+    },
+    "large_uncertainty": {
+      "calls": 915,
+      "rows": 4058391,
+      "wall_ns": 581207225,
+      "cpu_ns": 579240275,
+      "self_wall_ns": 581207225,
+      "self_cpu_ns": 579240275,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 183,
+          "rows": 797148,
+          "wall_ns": 108532250,
+          "cpu_ns": 108265034,
+          "self_wall_ns": 108532250,
+          "self_cpu_ns": 108265034
+        },
+        "4446": {
+          "calls": 183,
+          "rows": 813618,
+          "wall_ns": 123308400,
+          "cpu_ns": 122932425,
+          "self_wall_ns": 123308400,
+          "self_cpu_ns": 122932425
+        },
+        "4597": {
+          "calls": 183,
+          "rows": 841251,
+          "wall_ns": 127359435,
+          "cpu_ns": 127015555,
+          "self_wall_ns": 127359435,
+          "self_cpu_ns": 127015555
+        },
+        "4290": {
+          "calls": 183,
+          "rows": 785070,
+          "wall_ns": 108183809,
+          "cpu_ns": 107851684,
+          "self_wall_ns": 108183809,
+          "self_cpu_ns": 107851684
+        },
+        "4488": {
+          "calls": 183,
+          "rows": 821304,
+          "wall_ns": 113823331,
+          "cpu_ns": 113175577,
+          "self_wall_ns": 113823331,
+          "self_cpu_ns": 113175577
+        }
+      }
+    },
+    "large_selection": {
+      "calls": 1095,
+      "rows": 4856763,
+      "wall_ns": 220748304,
+      "cpu_ns": 214658047,
+      "self_wall_ns": 220748304,
+      "self_cpu_ns": 214658047,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 219,
+          "rows": 953964,
+          "wall_ns": 39813704,
+          "cpu_ns": 39584034,
+          "self_wall_ns": 39813704,
+          "self_cpu_ns": 39584034
+        },
+        "4446": {
+          "calls": 219,
+          "rows": 973674,
+          "wall_ns": 51782390,
+          "cpu_ns": 46486603,
+          "self_wall_ns": 51782390,
+          "self_cpu_ns": 46486603
+        },
+        "4597": {
+          "calls": 219,
+          "rows": 1006743,
+          "wall_ns": 47743860,
+          "cpu_ns": 47443730,
+          "self_wall_ns": 47743860,
+          "self_cpu_ns": 47443730
+        },
+        "4290": {
+          "calls": 219,
+          "rows": 939510,
+          "wall_ns": 39794505,
+          "cpu_ns": 39592352,
+          "self_wall_ns": 39794505,
+          "self_cpu_ns": 39592352
+        },
+        "4488": {
+          "calls": 219,
+          "rows": 982872,
+          "wall_ns": 41613845,
+          "cpu_ns": 41551328,
+          "self_wall_ns": 41613845,
+          "self_cpu_ns": 41551328
+        }
+      }
+    },
+    "large_jmr": {
+      "calls": 180,
+      "rows": 798372,
+      "wall_ns": 220517454,
+      "cpu_ns": 219429343,
+      "self_wall_ns": 220517454,
+      "self_cpu_ns": 219429343,
+      "by_batch_rows": {
+        "4356": {
+          "calls": 36,
+          "rows": 156816,
+          "wall_ns": 40705009,
+          "cpu_ns": 40625141,
+          "self_wall_ns": 40705009,
+          "self_cpu_ns": 40625141
+        },
+        "4446": {
+          "calls": 36,
+          "rows": 160056,
+          "wall_ns": 48049824,
+          "cpu_ns": 47752380,
+          "self_wall_ns": 48049824,
+          "self_cpu_ns": 47752380
+        },
+        "4597": {
+          "calls": 36,
+          "rows": 165492,
+          "wall_ns": 49776773,
+          "cpu_ns": 49237425,
+          "self_wall_ns": 49776773,
+          "self_cpu_ns": 49237425
+        },
+        "4290": {
+          "calls": 36,
+          "rows": 154440,
+          "wall_ns": 39858089,
+          "cpu_ns": 39765912,
+          "self_wall_ns": 39858089,
+          "self_cpu_ns": 39765912
+        },
+        "4488": {
+          "calls": 36,
+          "rows": 161568,
+          "wall_ns": 42127759,
+          "cpu_ns": 42048485,
+          "self_wall_ns": 42127759,
+          "self_cpu_ns": 42048485
+        }
+      }
+    }
+  },
+  "objects": {
+    "lr": 22177
+  },
+  "branch_sha256": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc",
+  "compact_payload": {
+    "sha256": "5fc018bd35b4d068451cb41f3ee4011ddb5626052d74c12823ce3cb0ae7a3c0f",
+    "bytes": 40518516
+  },
+  "nnjvt_reuse": false,
+  "unsigned_pair_reuse": false,
+  "runtime_maps": {
+    "libraries": [
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+      "/usr/lib64/ld-linux-x86-64.so.2",
+      "/usr/lib64/libc.so.6",
+      "/usr/lib64/libdl.so.2",
+      "/usr/lib64/libm.so.6",
+      "/usr/lib64/libpthread.so.0",
+      "/usr/lib64/librt.so.1",
+      "/usr/lib64/libutil.so.1",
+      "/usr/lib64/libz.so.1.2.11"
+    ],
+    "python": "3.14.10 (main, Nov 11 2026, 00:18:44) [Clang 23.1.3 ]"
+  },
+  "exact_stock_histogram": true
+}

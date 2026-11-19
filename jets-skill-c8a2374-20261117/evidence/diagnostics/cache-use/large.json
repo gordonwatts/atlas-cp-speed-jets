@@ -1,0 +1,21 @@
+{
+  "scope": "large",
+  "events": 20000,
+  "provider_sha256": "0e63353ac077e2eaaadd0ac789dd6ef13aed5434544bc2915ceef61b628f3434",
+  "cache_bytes_per_thread": 1048576,
+  "process": {
+    "threads": 1,
+    "cpu": 3
+  },
+  "counts": {
+    "hits": 173296,
+    "misses": 14084,
+    "standard_draws": 14084,
+    "guarded_restarts": 0,
+    "negative_restarts": 0,
+    "nonfinite_restarts": 0,
+    "scalar_seeds": 0,
+    "scalar_draws": 0,
+    "scalar_rejections": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "events": 20000,
+  "source_file_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+  "observer_branches": 7189,
+  "collections": {
+    "sr": {
+      "objects": 196606,
+      "empty_events": 0
+    },
+    "lr": {
+      "objects": 22177,
+      "empty_events": 6533
+    }
+  },
+  "changed_from_stored": {
+    "sr": {
+      "changed_pt_from_stored": 1,
+      "changed_eta_from_stored": 0,
+      "changed_phi_from_stored": 0,
+      "changed_m_from_stored": 6367
+    },
+    "lr": {
+      "changed_pt_from_stored": 0,
+      "changed_eta_from_stored": 0,
+      "changed_phi_from_stored": 0,
+      "changed_m_from_stored": 115
+    }
+  },
+  "status_values": {
+    "sr_jesJerValidity": {
+      "4294967295": 23002902
+    },
+    "sr_jvtValidity": {
+      "4294967294": 16123529,
+      "4294967295": 6879373
+    },
+    "lr_jesJERJMSValidity": {
+      "4294967294": 3488953,
+      "4294967295": 1367810
+    },
+    "lr_jmrValidity": {
+      "0": 4058391,
+      "4294967294": 131436,
+      "4294967295": 666936
+    }
+  },
+  "jmr_states_decorated": [
+    "JET_JMRUnc_Detector__1down",
+    "JET_JMRUnc_Detector__1up",
+    "JET_JMRUnc_MCData__1down",
+    "JET_JMRUnc_MCData__1up",
+    "JET_JMRUnc_MCcr__1down",
+    "JET_JMRUnc_MCcr__1up",
+    "JET_JMRUnc_MCfsr__1down",
+    "JET_JMRUnc_MCfsr__1up",
+    "JET_JMRUnc_MCisr__1down",
+    "JET_JMRUnc_MCisr__1up",
+    "JET_JMRUnc_MCps__1down",
+    "JET_JMRUnc_MCps__1up",
+    "JET_JMRUnc_MCpthard__1down",
+    "JET_JMRUnc_MCpthard__1up",
+    "JET_JMRUnc_MCrecoil__1down",
+    "JET_JMRUnc_MCrecoil__1up",
+    "JET_JMRUnc_Noise_PreRec__1down",
+    "JET_JMRUnc_Noise_PreRec__1up",
+    "JET_JMRUnc_OutsideCalib__1down",
+    "JET_JMRUnc_OutsideCalib__1up",
+    "JET_JMRUnc_Smoothing__1down",
+    "JET_JMRUnc_Smoothing__1up",
+    "JET_JMRUnc_Stat__1down",
+    "JET_JMRUnc_Stat__1up",
+    "JET_JMRUnc_TopologyQCD__1down",
+    "JET_JMRUnc_TopologyQCD__1up",
+    "JET_JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec__1down",
+    "JET_JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec__1up",
+    "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec__1down",
+    "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec__1up",
+    "JET_JMRUnc_mc20vsmc21_MC23_PreRec__1down",
+    "JET_JMRUnc_mc20vsmc21_MC23_PreRec__1up",
+    "JET_JMRUnc_mc20vsmc23_MC23_PreRec__1down",
+    "JET_JMRUnc_mc20vsmc23_MC23_PreRec__1up",
+    "JET_JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec__1down",
+    "JET_JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec__1up"
+  ],
+  "status_encoding": {
+    "0": "absent",
+    "4294967295": "valid",
+    "4294967294": "out_of_validity"
+  }
+}

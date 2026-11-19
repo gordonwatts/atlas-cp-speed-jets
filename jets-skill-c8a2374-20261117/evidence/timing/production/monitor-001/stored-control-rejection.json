@@ -1,0 +1,19 @@
+{
+  "classification": "diagnostic",
+  "completed_unix_ns": 1795008142485499517,
+  "failure": "Production wheel runtime differs for libgcc_s.so.1 in /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production/00-small-stored-C/attempt-001: []",
+  "job": {
+    "anchor": false,
+    "arm": "C",
+    "key": "00-small-stored-C",
+    "mode": "stored",
+    "round": 0,
+    "scope": "small",
+    "warmup": true
+  },
+  "launch": {
+    "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+    "monotonic_ns": 89348868952039,
+    "unix_ns": 1795008141987606352
+  }
+}

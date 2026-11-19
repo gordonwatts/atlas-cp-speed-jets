@@ -1,0 +1,113 @@
+{
+  "argv": [
+    "taskset",
+    "-c",
+    "3",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/bin/python",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/reference/workflow.py",
+    "histogram",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/reference.root",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+    "full",
+    "--scope",
+    "small"
+  ],
+  "wall_s": 4.348766249,
+  "controller_cpu_s": 0.02818637,
+  "cpu_user_s": 4.251292,
+  "cpu_sys_s": 0.06798799999999999,
+  "peak_rss_kb": 311648,
+  "voluntary_context_switches": 2,
+  "involuntary_context_switches": 851,
+  "exit": 0,
+  "threads_seen": [
+    1
+  ],
+  "cpus_seen": [
+    "3"
+  ],
+  "descendant_observations": [],
+  "libraries": [
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+    "/usr/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib64/libc.so.6",
+    "/usr/lib64/libdl.so.2",
+    "/usr/lib64/libgcc_s-11-20221121.so.1",
+    "/usr/lib64/libm.so.6",
+    "/usr/lib64/libpthread.so.0",
+    "/usr/lib64/librt.so.1",
+    "/usr/lib64/libstdc++.so.6.0.29",
+    "/usr/lib64/libutil.so.1"
+  ],
+  "guest_before": {
+    "monotonic": 68946.558417818,
+    "cpu_stat": {
+      "cpu": [
+        2783664,
+        63441,
+        499494,
+        134340297,
+        27401,
+        0,
+        1505113,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        406061,
+        0,
+        24755,
+        6455546,
+        2297,
+        0,
+        1306,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243297  11      274 cvmfs2\n 243506   6      174 cvmfs2\n 243228  19       12 cvmfs2\n 244902   6        2 cvmfs2\n 772173   3        1 python\n 784728   4        1 cc1plus\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10   5        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 243293  14        0 cvmfs2\n 243424  17        0 cvmfs2\n 243429  10        0 cvmfs2\n 243502  17        0 cvmfs2\n 243584   8        0 cvmfs2\n 243588   6        0 cvmfs2\n 244898   3        0 cvmfs2\n 244984  19        0 cvmfs2\n 244988   9        0 cvmfs2\n 751508   2        0 SessionLeader\n 751509   4        0 Relay(751510)\n 751510   5        0 bash\n 751848  16        0 bash\n 751861   4        0 bash\n 769536   4        0 cmake\n 769537   4        0 gmake\n 772168   2        0 SessionLeader\n 772169   5        0 Relay(772170)\n 772170   6        0 bash\n 778081   4        0 gmake\n 778085   4        0 gmake\n 778110   4        0 gmake\n 784727   4        0 g++\n 784743   3        0 ps\n"
+  },
+  "guest_after": {
+    "monotonic": 68950.909605064,
+    "cpu_stat": {
+      "cpu": [
+        2784520,
+        63441,
+        499545,
+        134348087,
+        27401,
+        0,
+        1505140,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        406488,
+        0,
+        24763,
+        6455546,
+        2297,
+        0,
+        1306,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243297  11      274 cvmfs2\n 243506   6      174 cvmfs2\n 243228  19       12 cvmfs2\n 244902   6        2 cvmfs2\n 772173   3        1 python\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10   5        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 243293  14        0 cvmfs2\n 243424  17        0 cvmfs2\n 243429  10        0 cvmfs2\n 243502  17        0 cvmfs2\n 243584   8        0 cvmfs2\n 243588   6        0 cvmfs2\n 244898   3        0 cvmfs2\n 244984  19        0 cvmfs2\n 244988   9        0 cvmfs2\n 751508   2        0 SessionLeader\n 751509   4        0 Relay(751510)\n 751510   5        0 bash\n 751848  16        0 bash\n 751861   4        0 bash\n 769536   4        0 cmake\n 769537   4        0 gmake\n 772168   2        0 SessionLeader\n 772169   5        0 Relay(772170)\n 772170   6        0 bash\n 778081   4        0 gmake\n 778085   4        0 gmake\n 778110   4        0 gmake\n 784727   4        0 g++\n 785100   4        0 as\n 785101   3        0 ps\n"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "all_histograms_exact": true,
+  "matched_physical_branches": {
+    "small": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+    "large": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc",
+    "both": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7"
+  },
+  "results": {
+    "small": {
+      "arms": {
+        "control": {
+          "wall": {
+            "warmup_s": 11.065032617,
+            "retained": [
+              11.004845426,
+              11.057809003,
+              11.133712326
+            ],
+            "mean_s": 11.065455584999999,
+            "sample_sd_s": 0.06477285033958718,
+            "sample_cv": 0.005853608994408809,
+            "max_median_deviation": 0.006864228074423032,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            10.946042,
+            10.989560999999998,
+            11.077366
+          ],
+          "mean_cpu_s": 11.004323,
+          "sample_sd_cpu_s": 0.06689496040061597
+        },
+        "borrow": {
+          "wall": {
+            "warmup_s": 11.954766233,
+            "retained": [
+              11.14902762,
+              10.971175511,
+              10.959546548
+            ],
+            "mean_s": 11.026583226333333,
+            "sample_sd_s": 0.10619924835144565,
+            "sample_cv": 0.009631201812164624,
+            "max_median_deviation": 0.016210852594754358,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            11.078375000000001,
+            10.913937,
+            10.899956999999999
+          ],
+          "mean_cpu_s": 10.964089666666666,
+          "sample_sd_cpu_s": 0.09922052792307404
+        }
+      },
+      "same_round_wall_ratios": [
+        0.9870677337150591,
+        1.0078964639580452,
+        1.0158916956314934
+      ],
+      "control_over_borrow": 1.0035253312715975,
+      "qualified_for_spread": true
+    },
+    "large": {
+      "arms": {
+        "control": {
+          "wall": {
+            "warmup_s": 2.794604607,
+            "retained": [
+              2.812682637,
+              2.799268152,
+              2.831873813
+            ],
+            "mean_s": 2.8146082006666666,
+            "sample_sd_s": 0.016387895804145354,
+            "sample_cv": 0.005822442995889704,
+            "max_median_deviation": 0.006823086169604029,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            2.788958,
+            2.7768759999999997,
+            2.809643
+          ],
+          "mean_cpu_s": 2.7918256666666665,
+          "sample_sd_cpu_s": 0.016570657993372987
+        },
+        "borrow": {
+          "wall": {
+            "warmup_s": 2.787164361,
+            "retained": [
+              3.241503576,
+              2.917389272,
+              2.803949462
+            ],
+            "mean_s": 2.987614103333333,
+            "sample_sd_s": 0.2270727765969043,
+            "sample_cv": 0.07600472107276346,
+            "max_median_deviation": 0.111097379808285,
+            "pass": false
+          },
+          "retained_cpu_s": [
+            3.2081649999999997,
+            2.893504,
+            2.781983
+          ],
+          "mean_cpu_s": 2.9612173333333334,
+          "sample_sd_cpu_s": 0.22101266007704917
+        }
+      },
+      "same_round_wall_ratios": [
+        0.8677092500606886,
+        0.9595113613621322,
+        1.0099589352013794
+      ],
+      "control_over_borrow": 0.9420922861243556,
+      "qualified_for_spread": false
+    },
+    "both": {
+      "arms": {
+        "control": {
+          "wall": {
+            "warmup_s": 12.909915593,
+            "retained": [
+              12.810627811,
+              12.872024441,
+              12.799721139
+            ],
+            "mean_s": 12.827457797000001,
+            "sample_sd_s": 0.03897920203898432,
+            "sample_cv": 0.003038731653289907,
+            "max_median_deviation": 0.004792632406920907,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            12.747195999999999,
+            12.809636,
+            12.726671999999999
+          ],
+          "mean_cpu_s": 12.761168,
+          "sample_sd_cpu_s": 0.04321074995877789
+        },
+        "borrow": {
+          "wall": {
+            "warmup_s": 12.808031331,
+            "retained": [
+              13.353677258,
+              12.878901059,
+              12.924565015
+            ],
+            "mean_s": 13.052381110666667,
+            "sample_sd_s": 0.26192713780329147,
+            "sample_cv": 0.0200673835358086,
+            "max_median_deviation": 0.033201290914005956,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            13.279459000000001,
+            12.81237,
+            12.853204
+          ],
+          "mean_cpu_s": 12.981677666666666,
+          "sample_sd_cpu_s": 0.2586931497939861
+        }
+      },
+      "same_round_wall_ratios": [
+        0.9593333404343986,
+        0.9994660555300101,
+        0.9903405742587771
+      ],
+      "control_over_borrow": 0.9827676412633359,
+      "qualified_for_spread": true
+    }
+  },
+  "all_series_within_spread": false
+}

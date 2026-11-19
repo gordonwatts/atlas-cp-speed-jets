@@ -1,0 +1,2183 @@
+{
+  "plan": {
+    "plan": {
+      "input": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+      "provenance": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+      "scopes": [
+        "small",
+        "large",
+        "both"
+      ],
+      "rounds": 4,
+      "events": 20000,
+      "authority": {
+        "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+        "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+        "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz"
+      },
+      "variants": {
+        "faithful": {
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+          "scopes": [
+            "small",
+            "large",
+            "both"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json"
+          },
+          "options": []
+        },
+        "portable": {
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+          "scopes": [
+            "small",
+            "large",
+            "both"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json"
+          },
+          "options": []
+        },
+        "rng": {
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+          "scopes": [
+            "small",
+            "large",
+            "both"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json"
+          },
+          "options": []
+        },
+        "rng-nnjvt": {
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+          "scopes": [
+            "small",
+            "both"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json"
+          },
+          "options": [
+            "--reuse-nominal-nnjvt-update"
+          ]
+        }
+      }
+    },
+    "digests": {
+      "faithful": {
+        "provider": "6f47b30ab82521308c4a64848a8fa9fe61f43a75ae32f77bede969d35ee7d5ca",
+        "payloads": {
+          "small": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8",
+          "large": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8",
+          "both": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8"
+        }
+      },
+      "portable": {
+        "provider": "b158283d0310a8b53c1d1a96e79fba853399c3f7a2ebeb661226b05984fc929d",
+        "payloads": {
+          "small": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "large": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "both": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+        }
+      },
+      "rng": {
+        "provider": "c0b585c76ef952303b70c23c5438f1464e7f6842532037aaa4418ef5a254f53c",
+        "payloads": {
+          "small": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "large": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "both": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+        }
+      },
+      "rng-nnjvt": {
+        "provider": "c0b585c76ef952303b70c23c5438f1464e7f6842532037aaa4418ef5a254f53c",
+        "payloads": {
+          "small": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "both": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+        }
+      }
+    },
+    "source_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+    "source_snapshot": "7b296d18d48f2c4a4105ba387141c6edccd86bcf",
+    "starts": {
+      "cpu3": "cpu3 895486 0 37068 6800073 17630 0 1644 0 0 0",
+      "all_guest_cpus": [
+        "cpu  3503429 288622 614408 150447879 85577 0 1566898 0 0 0",
+        "cpu0 191327 0 154918 7317389 7125 0 1533818 0 0 0",
+        "cpu1 56175 0 24636 7660703 7714 0 21947 0 0 0",
+        "cpu2 34862 0 29895 7679509 3661 0 5688 0 0 0",
+        "cpu3 895486 0 37068 6800073 17630 0 1644 0 0 0",
+        "cpu4 1106929 0 52675 6576730 11957 0 1244 0 0 0",
+        "cpu5 118978 0 22590 7608824 2161 0 548 0 0 0",
+        "cpu6 48479 0 24250 7675153 2097 0 504 0 0 0",
+        "cpu7 39655 0 22519 7686526 1993 0 328 0 0 0",
+        "cpu8 76328 0 14132 7660727 1954 0 183 0 0 0",
+        "cpu9 59055 0 15032 7676396 1667 0 142 0 0 0",
+        "cpu10 102464 0 16470 7631201 2101 0 98 0 0 0",
+        "cpu11 36430 0 29024 7680659 1951 0 105 0 0 0",
+        "cpu12 54399 0 14186 7682344 1561 0 61 0 0 0",
+        "cpu13 26973 0 16126 7705537 2929 0 130 0 0 0",
+        "cpu14 38317 0 21136 7689485 1210 0 74 0 0 0",
+        "cpu15 169025 0 17370 7564360 1100 0 42 0 0 0",
+        "cpu16 55439 0 13180 7683099 1312 0 163 0 0 0",
+        "cpu17 110608 0 20446 7612677 7102 0 37 0 0 0",
+        "cpu18 249062 288621 56947 7150655 5880 0 96 0 0 0",
+        "cpu19 33430 0 11800 7705824 2464 0 38 0 0 0"
+      ],
+      "io_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=244137780\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=242025128\n",
+      "top": [
+        "    PID PSR %CPU COMMAND",
+        " 243297  11  4.7 cvmfs2",
+        " 243506   6  0.9 cvmfs2",
+        "1141169   3  0.3 bash",
+        " 243228  14  0.1 cvmfs2",
+        "      1   1  0.0 init(atlas_al9)",
+        "      6   6  0.0 init",
+        "     10   8  0.0 Relay(11)",
+        "     34  19  0.0 automount",
+        " 243224   1  0.0 cvmfs2",
+        " 243232   2  0.0 cvmfs2",
+        " 243236   8  0.0 cvmfs2"
+      ]
+    },
+    "policy": "Four rounds, first excluded. A one-round diagnostic gives no retained mean."
+  },
+  "summary": {
+    "observations": 44,
+    "metrics": {
+      "small": {
+        "faithful": {
+          "wall_s": [
+            54.062376842004596,
+            54.773529453988886,
+            54.558258270990336
+          ],
+          "mean": 54.46472152232794,
+          "sample_sd": 0.36468664891351393,
+          "within_frozen_spread": true
+        },
+        "portable": {
+          "wall_s": [
+            20.67294691200368,
+            21.046203271995182,
+            20.55159980300232
+          ],
+          "mean": 20.756916662333726,
+          "sample_sd": 0.25777187029001325,
+          "within_frozen_spread": true
+        },
+        "rng": {
+          "wall_s": [
+            17.20122112199897,
+            17.941721171999234,
+            16.58116933099518
+          ],
+          "mean": 17.241370541664462,
+          "sample_sd": 0.6811639376387203,
+          "within_frozen_spread": true
+        },
+        "rng-nnjvt": {
+          "wall_s": [
+            15.27992542499851,
+            15.679434895006125,
+            16.172917475996655
+          ],
+          "mean": 15.710759265333763,
+          "sample_sd": 0.44731936345164625,
+          "within_frozen_spread": true
+        }
+      },
+      "large": {
+        "faithful": {
+          "wall_s": [
+            12.790017767008976,
+            13.659997894996195,
+            11.8892049480055
+          ],
+          "mean": 12.77974020333689,
+          "sample_sd": 0.8854412100835796,
+          "within_frozen_spread": false
+        },
+        "portable": {
+          "wall_s": [
+            6.362220043010893,
+            6.005525656990358,
+            5.8369029329915065
+          ],
+          "mean": 6.068216210997586,
+          "sample_sd": 0.268210916427874,
+          "within_frozen_spread": true
+        },
+        "rng": {
+          "wall_s": [
+            6.501056709996192,
+            6.447835357001168,
+            5.444362455004011
+          ],
+          "mean": 6.131084840667124,
+          "sample_sd": 0.5953140804077983,
+          "within_frozen_spread": false
+        }
+      },
+      "both": {
+        "faithful": {
+          "wall_s": [
+            64.2630236089899,
+            62.70283886700054,
+            62.33600313900388
+          ],
+          "mean": 63.10062187166477,
+          "sample_sd": 1.0232426212956844,
+          "within_frozen_spread": true
+        },
+        "portable": {
+          "wall_s": [
+            22.847870872996282,
+            23.268231765003293,
+            23.15530968400708
+          ],
+          "mean": 23.090470774002217,
+          "sample_sd": 0.21755202382463917,
+          "within_frozen_spread": true
+        },
+        "rng": {
+          "wall_s": [
+            18.76083461099188,
+            18.76604184799362,
+            18.671156299998984
+          ],
+          "mean": 18.732677586328162,
+          "sample_sd": 0.05334257523775453,
+          "within_frozen_spread": true
+        },
+        "rng-nnjvt": {
+          "wall_s": [
+            17.948751913994784,
+            17.21330287399178,
+            17.895883728007902
+          ],
+          "mean": 17.68597950533149,
+          "sample_sd": 0.4102025836502952,
+          "within_frozen_spread": true
+        }
+      }
+    },
+    "all_histograms_equal": true,
+    "resource_review_required": true
+  },
+  "rows": [
+    {
+      "name": "faithful",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 70.57834979401377,
+      "cpu_s": 70.458565,
+      "peak_rss_kB": 1432916,
+      "process": {
+        "samples": 141,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-faithful/receipt.json",
+      "receipt_sha256": "136c2fb6a2b6d95e853a0daed80b88b6bb1129276fc2fd552f9be47267f8a6ff",
+      "worker_cpu_over_wall": 0.9983028110693523,
+      "other_guest_core_equivalents": 0.8652795110431976,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 21.67064428998856,
+      "cpu_s": 21.641016,
+      "peak_rss_kB": 872820,
+      "process": {
+        "samples": 44,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-portable/receipt.json",
+      "receipt_sha256": "fab0d93026991bec9c62a4556dcc59d0d8561cda1439c50ad7f6f8ba20d4b585",
+      "worker_cpu_over_wall": 0.9986327914577858,
+      "other_guest_core_equivalents": 0.0,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 17.08645566200721,
+      "cpu_s": 17.064989,
+      "peak_rss_kB": 873252,
+      "process": {
+        "samples": 35,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-rng/receipt.json",
+      "receipt_sha256": "e2053f2a98292909cd358e6570ba1fad3d493856428f1fa5b2668236f4e87a66",
+      "worker_cpu_over_wall": 0.9987436445315606,
+      "other_guest_core_equivalents": 0.0017557766568702046,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 17.092889795996598,
+      "cpu_s": 17.072705000000003,
+      "peak_rss_kB": 873080,
+      "process": {
+        "samples": 35,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-rng-nnjvt/receipt.json",
+      "receipt_sha256": "340ac65e1f294cc0c9e164ad164d50de12577fc94e857f7f9c3fb340c28e9656",
+      "worker_cpu_over_wall": 0.9988191115582268,
+      "other_guest_core_equivalents": 0.020476350352529333,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "large",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 12.385736487005488,
+      "cpu_s": 12.180408,
+      "peak_rss_kB": 1432468,
+      "process": {
+        "samples": 25,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-faithful/receipt.json",
+      "receipt_sha256": "7637f660040ad62c1b97892a117a61324f1f68256df109307133768c63fc45a6",
+      "worker_cpu_over_wall": 0.9834221818604886,
+      "other_guest_core_equivalents": 0.010495944277224828,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "large",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 5.53874724599882,
+      "cpu_s": 5.522468,
+      "peak_rss_kB": 872820,
+      "process": {
+        "samples": 12,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-portable/receipt.json",
+      "receipt_sha256": "150110ecbf0bd8a64de9fc4fd773c8d78f403ba034c965bcf69cfbe1eca07260",
+      "worker_cpu_over_wall": 0.9970608433142385,
+      "other_guest_core_equivalents": 0.00722184967528459,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "large",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 5.408141827996587,
+      "cpu_s": 5.391735,
+      "peak_rss_kB": 873380,
+      "process": {
+        "samples": 11,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-rng/receipt.json",
+      "receipt_sha256": "d1cc435e804377e5174a91115546c2bbee68f18dcbc64f67550e907f0c5b7998",
+      "worker_cpu_over_wall": 0.9969662726092623,
+      "other_guest_core_equivalents": 0.0,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 56.907384468999226,
+      "cpu_s": 56.653758,
+      "peak_rss_kB": 1435060,
+      "process": {
+        "samples": 114,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-faithful/receipt.json",
+      "receipt_sha256": "d6b9d1d12f3752bbc2f86c71abf1c68fedfa90e4f42bb09e5831ba5ef5feefea",
+      "worker_cpu_over_wall": 0.9955431712181855,
+      "other_guest_core_equivalents": 0.6661701351017422,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 20.769033028002013,
+      "cpu_s": 20.750208,
+      "peak_rss_kB": 872936,
+      "process": {
+        "samples": 42,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-portable/receipt.json",
+      "receipt_sha256": "43dc09586a8597df7a97f12ddb2265ed71fee1db85ae258fc24df8c19a3a6967",
+      "worker_cpu_over_wall": 0.9990936011331567,
+      "other_guest_core_equivalents": 0.08907492214518234,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 16.205414490992553,
+      "cpu_s": 16.177108,
+      "peak_rss_kB": 872188,
+      "process": {
+        "samples": 33,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-rng/receipt.json",
+      "receipt_sha256": "c6165aef468a57b4553e8893371d3e4cc2cf544e33c78aff1ab9f12ce8cff71b",
+      "worker_cpu_over_wall": 0.9982532695471451,
+      "other_guest_core_equivalents": 0.2653434136096961,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 15.51378582000325,
+      "cpu_s": 15.495678,
+      "peak_rss_kB": 872752,
+      "process": {
+        "samples": 31,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-rng-nnjvt/receipt.json",
+      "receipt_sha256": "7259ac85d3a58328e59ec4202b6f10ca023b6ca7979a68ed5706409fb94f9b60",
+      "worker_cpu_over_wall": 0.9988327916723008,
+      "other_guest_core_equivalents": 0.0006445879887748705,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "both",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 64.2630236089899,
+      "cpu_s": 64.157894,
+      "peak_rss_kB": 1433048,
+      "process": {
+        "samples": 129,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-faithful/receipt.json",
+      "receipt_sha256": "f9347adfb7a612ae13de1e53f4c1570c8e2cbdf6448b5aa17f0c76d559b88add",
+      "worker_cpu_over_wall": 0.9983640731001149,
+      "other_guest_core_equivalents": 0.49032862492937535,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "both",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 22.847870872996282,
+      "cpu_s": 22.818953999999998,
+      "peak_rss_kB": 873264,
+      "process": {
+        "samples": 46,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-portable/receipt.json",
+      "receipt_sha256": "2aeda625d140599770a030aaf15521e87c7cb170550a9d04b3b555c3b1866c6c",
+      "worker_cpu_over_wall": 0.9987343734058625,
+      "other_guest_core_equivalents": 0.2490385223038426,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "both",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 18.76083461099188,
+      "cpu_s": 18.734651,
+      "peak_rss_kB": 873092,
+      "process": {
+        "samples": 38,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-rng/receipt.json",
+      "receipt_sha256": "8f3ca3014a818c977f20d8ecf378f1e394e99988deac0129b737cbe4c604acbd",
+      "worker_cpu_over_wall": 0.9986043472193642,
+      "other_guest_core_equivalents": 0.7473015082061303,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "both",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 17.948751913994784,
+      "cpu_s": 17.920511,
+      "peak_rss_kB": 874260,
+      "process": {
+        "samples": 36,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-both-rng-nnjvt/receipt.json",
+      "receipt_sha256": "9b1751c650fbf4aa4e69a724638fad1f323bb1146424768e8e14738400331c90",
+      "worker_cpu_over_wall": 0.9984265806263241,
+      "other_guest_core_equivalents": 0.08245698681957002,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "large",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 12.790017767008976,
+      "cpu_s": 12.587088,
+      "peak_rss_kB": 1433144,
+      "process": {
+        "samples": 26,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-faithful/receipt.json",
+      "receipt_sha256": "7ae8ac5e702efab530c8c0643c5cadd3a1e3c1a350ab408bd910888b50484ef4",
+      "worker_cpu_over_wall": 0.9841337384587204,
+      "other_guest_core_equivalents": 0.9280675145438733,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "large",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 6.362220043010893,
+      "cpu_s": 6.345291,
+      "peak_rss_kB": 872836,
+      "process": {
+        "samples": 13,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-portable/receipt.json",
+      "receipt_sha256": "81d3c1d9967c56e801d6e43c46b31eb6048ea7c2ec09b6b4d708021400d164e8",
+      "worker_cpu_over_wall": 0.9973391295968314,
+      "other_guest_core_equivalents": 0.6758647093200888,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "large",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 6.501056709996192,
+      "cpu_s": 6.483118,
+      "peak_rss_kB": 873112,
+      "process": {
+        "samples": 13,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-large-rng/receipt.json",
+      "receipt_sha256": "b47153e95dd5dbb6e1677fa70f61c8cd62517446c3ec561789ccdd70c855406a",
+      "worker_cpu_over_wall": 0.997240647052254,
+      "other_guest_core_equivalents": 0.9290797280252517,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "small",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 54.062376842004596,
+      "cpu_s": 53.842505,
+      "peak_rss_kB": 1432480,
+      "process": {
+        "samples": 108,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-faithful/receipt.json",
+      "receipt_sha256": "b5d65dbd262c7629c00770ceb27e577a198f67b102eb2cb0fda740229e9f493a",
+      "worker_cpu_over_wall": 0.9959329971257616,
+      "other_guest_core_equivalents": 0.024786183632216227,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "small",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 20.67294691200368,
+      "cpu_s": 20.645501000000003,
+      "peak_rss_kB": 872828,
+      "process": {
+        "samples": 42,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-portable/receipt.json",
+      "receipt_sha256": "b3bb625f20420c21b6b6b058e9a9c90593e2afe6e08b7f847a1f6de2f63d4f7d",
+      "worker_cpu_over_wall": 0.9986723754421416,
+      "other_guest_core_equivalents": 0.6873717646780686,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "small",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 17.20122112199897,
+      "cpu_s": 17.187317,
+      "peak_rss_kB": 873192,
+      "process": {
+        "samples": 35,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-rng/receipt.json",
+      "receipt_sha256": "32b02f99573ee295208f13460ab87ec1b78a195f8e7c34ff72f90f1fa0fcddf4",
+      "worker_cpu_over_wall": 0.9991916782011955,
+      "other_guest_core_equivalents": 0.9999290095749419,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "small",
+      "round": 2,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 15.27992542499851,
+      "cpu_s": 15.263622,
+      "peak_rss_kB": 872828,
+      "process": {
+        "samples": 31,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/02-small-rng-nnjvt/receipt.json",
+      "receipt_sha256": "5ca6b22ffa1aedeefa54aa429e40da3bfb2c1292e4bdd87929a61813af22d52a",
+      "worker_cpu_over_wall": 0.9989330167167022,
+      "other_guest_core_equivalents": 0.0006544534558813775,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "both",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 62.70283886700054,
+      "cpu_s": 62.461309,
+      "peak_rss_kB": 1432304,
+      "process": {
+        "samples": 126,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-faithful/receipt.json",
+      "receipt_sha256": "d8b72b6e33ed6547b9709ebe7344ec839f8b77b58c538302052774504fef6087",
+      "worker_cpu_over_wall": 0.9961480234170442,
+      "other_guest_core_equivalents": 0.2589994375605032,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "both",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 23.268231765003293,
+      "cpu_s": 23.248381,
+      "peak_rss_kB": 872760,
+      "process": {
+        "samples": 47,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-portable/receipt.json",
+      "receipt_sha256": "2e6f67103df4ab95959e53fabeabf400ce4ef46e259173a4dabbe537c6a28cc7",
+      "worker_cpu_over_wall": 0.9991468726457697,
+      "other_guest_core_equivalents": 0.8904845116406321,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "both",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 18.76604184799362,
+      "cpu_s": 18.755232,
+      "peak_rss_kB": 873312,
+      "process": {
+        "samples": 38,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-rng/receipt.json",
+      "receipt_sha256": "43465e44eb2f17051aade7da5c291e36eb91b90a1c9dfbf17f24a72bb0f0ecb9",
+      "worker_cpu_over_wall": 0.9994239676069583,
+      "other_guest_core_equivalents": 1.0050068177811522,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "both",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 17.21330287399178,
+      "cpu_s": 17.199776999999997,
+      "peak_rss_kB": 871932,
+      "process": {
+        "samples": 35,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-both-rng-nnjvt/receipt.json",
+      "receipt_sha256": "8ac04f0f9990847952c2424ab1b6ba76e09cb9a75483aed7ae421d21ccdc5a9f",
+      "worker_cpu_over_wall": 0.9992142197176919,
+      "other_guest_core_equivalents": 0.12374150478803789,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "large",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 13.659997894996195,
+      "cpu_s": 13.355505,
+      "peak_rss_kB": 1436288,
+      "process": {
+        "samples": 28,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-faithful/receipt.json",
+      "receipt_sha256": "4eedcfd2254b12de1f95790a9fc236c4af2dd52c88ed8ba2a582ee6b455e039e",
+      "worker_cpu_over_wall": 0.9777091550572102,
+      "other_guest_core_equivalents": 0.5871157566530675,
+      "cpu3_iowait_s": 0.08
+    },
+    {
+      "name": "portable",
+      "scope": "large",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 6.005525656990358,
+      "cpu_s": 5.9878290000000005,
+      "peak_rss_kB": 872264,
+      "process": {
+        "samples": 12,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-portable/receipt.json",
+      "receipt_sha256": "8ad72ff2dbe516ba8e1531614ec0d1c26012b7ba7412d0cdf257d3b160b28339",
+      "worker_cpu_over_wall": 0.9970532709372811,
+      "other_guest_core_equivalents": 0.9158232458133067,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "large",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 6.447835357001168,
+      "cpu_s": 6.434771,
+      "peak_rss_kB": 873276,
+      "process": {
+        "samples": 13,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-large-rng/receipt.json",
+      "receipt_sha256": "5acb9fe16edd3c553df72b99af2c4f65b3d9a002ce6888cbd3a7ddcbb3ae12bf",
+      "worker_cpu_over_wall": 0.9979738383073038,
+      "other_guest_core_equivalents": 0.7475376980223857,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "small",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 54.773529453988886,
+      "cpu_s": 54.553872000000005,
+      "peak_rss_kB": 1436176,
+      "process": {
+        "samples": 110,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-faithful/receipt.json",
+      "receipt_sha256": "710266220eecaa94a3d5318b38eb41f573b1eb739ae042dbbb0c63cca9d693d5",
+      "worker_cpu_over_wall": 0.9959897151748566,
+      "other_guest_core_equivalents": 0.04436449548209706,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "small",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 21.046203271995182,
+      "cpu_s": 21.022721999999998,
+      "peak_rss_kB": 873388,
+      "process": {
+        "samples": 43,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-portable/receipt.json",
+      "receipt_sha256": "99a26325a79364ceafc1b872af5ac6cac465395b12abe1f152039c33b167ff9b",
+      "worker_cpu_over_wall": 0.9988842989069469,
+      "other_guest_core_equivalents": 0.5620966331605004,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "small",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 17.941721171999234,
+      "cpu_s": 17.930995999999997,
+      "peak_rss_kB": 872236,
+      "process": {
+        "samples": 36,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-rng/receipt.json",
+      "receipt_sha256": "7a07d964758ef7a4bcd2261170bcfc35534422f0c861543f3cd9f146d48b80c4",
+      "worker_cpu_over_wall": 0.9994022216767043,
+      "other_guest_core_equivalents": 0.9614462199379863,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "small",
+      "round": 3,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 15.679434895006125,
+      "cpu_s": 15.657694000000001,
+      "peak_rss_kB": 872808,
+      "process": {
+        "samples": 32,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/03-small-rng-nnjvt/receipt.json",
+      "receipt_sha256": "8b0a9b693c6f5a7a1c344d56a763686fefd90bb3f93fcba8bdaf09614814c324",
+      "worker_cpu_over_wall": 0.9986134133563035,
+      "other_guest_core_equivalents": 0.019133342624200668,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "both",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 62.33600313900388,
+      "cpu_s": 62.083309,
+      "peak_rss_kB": 1433124,
+      "process": {
+        "samples": 125,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-faithful/receipt.json",
+      "receipt_sha256": "851bdeb326ffb41c5daa513172ece83dc4cec3f5670c976933a568ccf6b29208",
+      "worker_cpu_over_wall": 0.9959462569577906,
+      "other_guest_core_equivalents": 0.042671969103768664,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "both",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 23.15530968400708,
+      "cpu_s": 23.135823,
+      "peak_rss_kB": 872708,
+      "process": {
+        "samples": 47,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-portable/receipt.json",
+      "receipt_sha256": "979e6c1573808f319d1e39a5d2eea44e08fa81725e9f7b001b45f75c27577a1e",
+      "worker_cpu_over_wall": 0.9991584356126949,
+      "other_guest_core_equivalents": 0.8455943914031745,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "both",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 18.671156299998984,
+      "cpu_s": 18.656056,
+      "peak_rss_kB": 873144,
+      "process": {
+        "samples": 38,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-rng/receipt.json",
+      "receipt_sha256": "1d7dee6e40fcf51391b54c8f9913c4579d46832a2ebbfed4e0dd99e14ade9460",
+      "worker_cpu_over_wall": 0.9991912498746002,
+      "other_guest_core_equivalents": 1.0015448266587013,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "both",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 17.895883728007902,
+      "cpu_s": 17.873558000000003,
+      "peak_rss_kB": 873140,
+      "process": {
+        "samples": 36,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-both-rng-nnjvt/receipt.json",
+      "receipt_sha256": "a670a893662330881eb35f22ed0a9d57e805300e6c520f4f3864dac492a8dd44",
+      "worker_cpu_over_wall": 0.9987524657431162,
+      "other_guest_core_equivalents": 0.6364592088947311,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "large",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 11.8892049480055,
+      "cpu_s": 11.717949,
+      "peak_rss_kB": 1432592,
+      "process": {
+        "samples": 24,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-faithful/receipt.json",
+      "receipt_sha256": "af141971fcbb385c8ddf0632e881cfb8c96c1505a5829a8b3509ba0ee4d92bcc",
+      "worker_cpu_over_wall": 0.9855956770234474,
+      "other_guest_core_equivalents": 0.007569892216812879,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "large",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 5.8369029329915065,
+      "cpu_s": 5.8250530000000005,
+      "peak_rss_kB": 873280,
+      "process": {
+        "samples": 12,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-portable/receipt.json",
+      "receipt_sha256": "07915165846dfb2bba03ddf7a791a6a35f6e7bd97bf185b7009fc226d00e1cf5",
+      "worker_cpu_over_wall": 0.997969825243362,
+      "other_guest_core_equivalents": 0.27240473556840517,
+      "cpu3_iowait_s": 0.01
+    },
+    {
+      "name": "rng",
+      "scope": "large",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 5.444362455004011,
+      "cpu_s": 5.433885,
+      "peak_rss_kB": 873104,
+      "process": {
+        "samples": 11,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-large-rng/receipt.json",
+      "receipt_sha256": "ab518db0f387e939b067ec2cebe3a6307208b6fd300c97f838dec9e91fc0f38b",
+      "worker_cpu_over_wall": 0.9980755405080752,
+      "other_guest_core_equivalents": 0.0,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "faithful",
+      "scope": "small",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-faithful/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 54.558258270990336,
+      "cpu_s": 54.464726000000006,
+      "peak_rss_kB": 1433340,
+      "process": {
+        "samples": 109,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-faithful/receipt.json",
+      "receipt_sha256": "cc1083bac4a3c63fcc362cf7f6ae05994200e0881941ef2e3dcde68b1ee0a77e",
+      "worker_cpu_over_wall": 0.998285644117784,
+      "other_guest_core_equivalents": 0.00311593524770552,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "portable",
+      "scope": "small",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-portable/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 20.55159980300232,
+      "cpu_s": 20.527089,
+      "peak_rss_kB": 872780,
+      "process": {
+        "samples": 42,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-portable/receipt.json",
+      "receipt_sha256": "d0e39e81134ea32abaeaa0436736714ee948db31afbdd37b29b632c05deb9f3c",
+      "worker_cpu_over_wall": 0.9988073530412588,
+      "other_guest_core_equivalents": 0.033087448496377445,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng",
+      "scope": "small",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-rng/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000"
+      ],
+      "exit": 0,
+      "wall_s": 16.58116933099518,
+      "cpu_s": 16.571017,
+      "peak_rss_kB": 873100,
+      "process": {
+        "samples": 34,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-rng/receipt.json",
+      "receipt_sha256": "6bc740d623bc436e549dc4850583e0e9a72c19d64befa5a55a1999852b7a32b5",
+      "worker_cpu_over_wall": 0.9993877192378585,
+      "other_guest_core_equivalents": 0.138108474395669,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "rng-nnjvt",
+      "scope": "small",
+      "round": 4,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-rng-nnjvt/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/rng-cache-trial-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 16.172917475996655,
+      "cpu_s": 15.837064999999999,
+      "peak_rss_kB": 872924,
+      "process": {
+        "samples": 33,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "passed": true
+      },
+      "exact_histogram": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/04-small-rng-nnjvt/receipt.json",
+      "receipt_sha256": "7925d9774d96269f3e8629ff09742208dabbf384b53e20702568539e55338cb8",
+      "worker_cpu_over_wall": 0.9792336493094015,
+      "other_guest_core_equivalents": 0.009893082076098333,
+      "cpu3_iowait_s": 0.07
+    }
+  ]
+}

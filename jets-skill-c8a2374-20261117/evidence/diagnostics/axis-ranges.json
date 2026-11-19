@@ -1,0 +1,26 @@
+[
+  {
+    "collection": "SmallR",
+    "object": "Pileup_PtTerm_mu_AntiKt4EMPFlow",
+    "axis": 0,
+    "bins": 100,
+    "first": 1,
+    "last": 100
+  },
+  {
+    "collection": "SmallR",
+    "object": "Pileup_PtTerm_npv_AntiKt4EMPFlow",
+    "axis": 0,
+    "bins": 100,
+    "first": 1,
+    "last": 100
+  },
+  {
+    "collection": "SmallR",
+    "object": "Pileup_RhoTopology_AntiKt4EMPFlow",
+    "axis": 0,
+    "bins": 2500,
+    "first": 15,
+    "last": 300
+  }
+]

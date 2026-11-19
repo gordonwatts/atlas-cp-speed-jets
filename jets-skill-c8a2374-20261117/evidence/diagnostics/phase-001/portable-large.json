@@ -1,0 +1,93 @@
+{
+  "argv": [
+    "tools/profile_columnar.py",
+    "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/phase-001/portable-large.npz",
+    "--provider",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+    "--payload",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+    "--mode",
+    "full",
+    "--scope",
+    "large",
+    "-e",
+    "2000",
+    "--chunk",
+    "1000"
+  ],
+  "process": {
+    "threads": 1,
+    "cpu": 3
+  },
+  "main_wall_ns": 3673871678,
+  "main_cpu_ns": 3655213878,
+  "observations": {
+    "load_provider_and_payload": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 3222966299,
+      "cpu_ns": 3205349036
+    },
+    "input_tree_arrays": {
+      "calls": 2,
+      "rows": 0,
+      "wall_ns": 95934218,
+      "cpu_ns": 95938937
+    },
+    "jet_event_inputs": {
+      "calls": 2,
+      "rows": 2000,
+      "wall_ns": 363434,
+      "cpu_ns": 362734
+    },
+    "jet_pileup_truth": {
+      "calls": 2,
+      "rows": 2160,
+      "wall_ns": 693329,
+      "cpu_ns": 693269
+    },
+    "large_eta_jes": {
+      "calls": 2,
+      "rows": 2160,
+      "wall_ns": 1035528,
+      "cpu_ns": 1035990
+    },
+    "large_jms": {
+      "calls": 2,
+      "rows": 2160,
+      "wall_ns": 575418,
+      "cpu_ns": 575823
+    },
+    "large_uncertainty": {
+      "calls": 366,
+      "rows": 395280,
+      "wall_ns": 84992499,
+      "cpu_ns": 85050837
+    },
+    "large_selection": {
+      "calls": 438,
+      "rows": 473040,
+      "wall_ns": 22914385,
+      "cpu_ns": 22946957
+    },
+    "histogram_fill": {
+      "calls": 438,
+      "rows": 0,
+      "wall_ns": 8819170,
+      "cpu_ns": 8865478
+    },
+    "large_jmr": {
+      "calls": 72,
+      "rows": 77760,
+      "wall_ns": 28110459,
+      "cpu_ns": 28121868
+    },
+    "write_npz": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 435461,
+      "cpu_ns": 435432
+    }
+  }
+}

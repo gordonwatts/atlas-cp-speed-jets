@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "affinity": {
+    "threads": 1,
+    "cpu": 3
+  },
+  "runtime": {
+    "core": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+    "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+    "mapped": [
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+    ]
+  },
+  "cases": {
+    "shared/canonical": 2,
+    "shared/reverse": 2,
+    "shared-pd/canonical": 2,
+    "shared-pd/reverse": 2,
+    "bflavour/canonical": 2,
+    "bflavour/reverse": 2,
+    "bflavour-pd/canonical": 2,
+    "bflavour-pd/reverse": 2,
+    "resolution/canonical": 2,
+    "resolution/reverse": 2,
+    "resolution-pd/canonical": 2,
+    "resolution-pd/reverse": 2,
+    "component-validity": 1,
+    "file-validity": 0,
+    "multi-scale ordered fallback": 0,
+    "same sign fallback": 0,
+    "non-unit sign fallback": 0,
+    "two model isolation": 0,
+    "pseudo boundary": 0,
+    "nonadjacent subset": 0,
+    "oversized scope": 0,
+    "row count mismatch": 0,
+    "borrowed physics mutation": 1,
+    "signed zero and NaN payload guards": 0,
+    "row order mismatch": 0,
+    "empty chunk": 0,
+    "partial exception clears pending state": true,
+    "explicit bypass breaks pair": true,
+    "unscoped native interleaving breaks pair": true,
+    "mixed model rows invalidate a state window": true,
+    "ordinary and pseudo status availability": true
+  }
+}

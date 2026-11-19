@@ -1,0 +1,77 @@
+{
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets4-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "b663120eb337dc4b7d01abf5e8f60d76df385f40f2855711fbf3b895dd11681d",
+    "script_sha256": "58ad2849adfe60983d5fb1041f374f3a73c1bce97c6ab340c5b135b6592b6d87"
+  },
+  "scope": "small",
+  "events": 0,
+  "rounds": 4,
+  "branch_digest": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+  "all_histograms_exact": true,
+  "prebuilt_payload": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/partition-001/scopes/small/jets.json",
+    "bytes": 83848561,
+    "sha256": "465bdcc2d578d52e10037bb8d032294252b55cb01b7dcb5e74094ffdf55fd9e7",
+    "corrections": [
+      "small_pileup",
+      "jet_event_inputs",
+      "jet_pileup_truth",
+      "jet_event_sf",
+      "small_uncertainty",
+      "small_gsc",
+      "small_eta_jes",
+      "small_nnjvt_update",
+      "small_nnjvt_select",
+      "small_nnjvt_sf"
+    ]
+  },
+  "includes_private_temporary_file_construction": [
+    "indexed"
+  ],
+  "quality": {
+    "canonical": {
+      "warmup_s": 3.868500105,
+      "retained": [
+        3.620615218,
+        3.634763313,
+        3.58280482
+      ],
+      "mean_s": 3.6127277836666667,
+      "sample_sd_s": 0.026862240486969006,
+      "sample_cv": 0.007435445484825791,
+      "max_median_deviation": 0.010443086526296651,
+      "pass": true
+    },
+    "prebuilt": {
+      "warmup_s": 2.1680237,
+      "retained": [
+        2.156313823,
+        2.148641654,
+        2.084319665
+      ],
+      "mean_s": 2.129758380666667,
+      "sample_sd_s": 0.039537617598538556,
+      "sample_cv": 0.01856436765665517,
+      "max_median_deviation": 0.029936117490906536,
+      "pass": true
+    },
+    "indexed": {
+      "warmup_s": 2.182180664,
+      "retained": [
+        2.148273371,
+        2.373332546,
+        2.028817801
+      ],
+      "mean_s": 2.183474572666667,
+      "sample_sd_s": 0.17493411854091442,
+      "sample_cv": 0.08011731427092747,
+      "max_median_deviation": 0.10476281931253326,
+      "pass": false
+    }
+  },
+  "resource_review_required": true
+}

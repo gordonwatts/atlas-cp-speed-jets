@@ -1,0 +1,276 @@
+{
+  "passed": true,
+  "scope": "both",
+  "repeat": 10,
+  "events_per_pass": 20000,
+  "pid": 1302005,
+  "pass_ends": [
+    {
+      "pass": 1,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82128797257038,
+      "wall_from_launch_s": 15.939824388000002
+    },
+    {
+      "pass": 2,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82143103697428,
+      "wall_from_launch_s": 30.246264778
+    },
+    {
+      "pass": 3,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82157081642348,
+      "wall_from_launch_s": 44.224209698
+    },
+    {
+      "pass": 4,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82171135151066,
+      "wall_from_launch_s": 58.277718416000006
+    },
+    {
+      "pass": 5,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82185340045154,
+      "wall_from_launch_s": 72.482612504
+    },
+    {
+      "pass": 6,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82199778928372,
+      "wall_from_launch_s": 86.921495722
+    },
+    {
+      "pass": 7,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82213774422426,
+      "wall_from_launch_s": 100.91698977600001
+    },
+    {
+      "pass": 8,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82230465709701,
+      "wall_from_launch_s": 117.608277051
+    },
+    {
+      "pass": 9,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82246721548564,
+      "wall_from_launch_s": 133.864115914
+    },
+    {
+      "pass": 10,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 82262380366660,
+      "wall_from_launch_s": 149.52293401
+    }
+  ],
+  "measurement": {
+    "clock": "CLOCK_MONOTONIC",
+    "start_ns": 82128797257038,
+    "end_ns": 82262380366660,
+    "wall_s": 133.583109622,
+    "first_cpu_snapshot": {
+      "time_ns": 82129047740107,
+      "pid": 1302005,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1583,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    "last_cpu_snapshot": {
+      "time_ns": 82261000825493,
+      "pid": 1302005,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 14721,
+      "system_ticks": 53,
+      "ticks_per_second": 100
+    },
+    "worker_user_cpu_floor_s": 131.37,
+    "worker_system_cpu_floor_s": 0.25,
+    "worker_cpu_floor_s": 131.62,
+    "required_floor_s": 60.0,
+    "method": "observed stdout pass 1/final completion; tick-adjusted CPU floor from interior snapshots"
+  },
+  "machine": {
+    "kernel": {
+      "system": "Linux",
+      "node": "PHYS-PROFWSN04",
+      "release": "6.18.33.2-microsoft-standard-WSL2",
+      "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026",
+      "machine": "x86_64",
+      "processor": "x86_64"
+    },
+    "perf": "perf version 5.14.0-687.61.1.el9_8.x86_64",
+    "perf_event_paranoid": "2",
+    "event_sources": [
+      "breakpoint",
+      "kprobe",
+      "msr",
+      "power",
+      "software",
+      "tracepoint",
+      "uprobe"
+    ],
+    "event": "cpu-clock:u",
+    "period_ns": 10000000,
+    "clock": "CLOCK_MONOTONIC"
+  },
+  "shipped_defaults": {
+    "mode": "full",
+    "scope": "both",
+    "compact_payload_default_scopes": [],
+    "reuse_nominal_nnjvt_update": true,
+    "reuse_nominal_nnjvt_update_modes": [
+      "full"
+    ],
+    "reuse_nominal_nnjvt_update_scopes": [
+      "small",
+      "both"
+    ]
+  },
+  "calibration_cpu": 3,
+  "perf_collector_cpu": 3,
+  "calibration_threads": 1,
+  "unique_objects": {
+    "sr": 196606,
+    "lr": 22177
+  },
+  "event_visits": 200000,
+  "object_visits": {
+    "sr": 1966060,
+    "lr": 221770
+  },
+  "original": {
+    "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+    "bytes": 245815772
+  },
+  "demo": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-005/jets_demo.py",
+    "sha256": "3cd4e552065548e3e419418e2489dfab6bd0d9fd68dc783690addd2b06ab3a2e"
+  },
+  "stock_histogram": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz",
+    "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+  },
+  "histogram": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/packed-loading-001/native-profile/histogram.npz",
+    "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+    "exact_stock_fields": {
+      "edges": true,
+      "events": true,
+      "lr_entries": true,
+      "lr_states": true,
+      "lr_sumw": true,
+      "lr_sumw2": true,
+      "sr_entries": true,
+      "sr_states": true,
+      "sr_sumw": true,
+      "sr_sumw2": true
+    }
+  },
+  "wheel": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-005/correctionlib-0.1.dev230+g0c498f4cb.atlasjets5-cp314-cp314-linux_x86_64.whl",
+    "sha256": "bbcbd311b86046e63f93b5ba7360ca1a6db38e66d2195d91ceca3d1c7b781dc8",
+    "native": {
+      "_core.cpython-314-x86_64-linux-gnu.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+        "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2"
+      },
+      "libcorrectionlib.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+        "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5"
+      },
+      "libgcc_s.so.1": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+        "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da"
+      },
+      "libjets.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+        "sha256": "1160a6646a736b651dd59991cfea6d2688f39917db6476cff1982baf03a44e53"
+      },
+      "libstdc++.so.6": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+        "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+      }
+    },
+    "data": {
+      "build.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/build.json",
+        "sha256": "85dbd68f8c867cc03f9eb1f8507bf852b307ebbf7909b75bd741260df6ab0cba"
+      },
+      "jet-histogram.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-histogram.json",
+        "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727"
+      },
+      "jet-states.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-states.json",
+        "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+      },
+      "jets.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+        "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+      },
+      "provenance.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+        "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+      }
+    }
+  },
+  "audit": {
+    "libraries": [
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+      "/usr/lib64/ld-linux-x86-64.so.2",
+      "/usr/lib64/libc.so.6",
+      "/usr/lib64/libdl.so.2",
+      "/usr/lib64/libm.so.6",
+      "/usr/lib64/libpthread.so.0",
+      "/usr/lib64/librt.so.1",
+      "/usr/lib64/libutil.so.1",
+      "/usr/lib64/libz.so.1.2.11"
+    ],
+    "python": "3.14.10 (main, Nov 11 2026, 00:18:44) [Clang 23.1.3 ]"
+  },
+  "profile": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/packed-loading-001/native-profile/record.data",
+    "bytes": 247601364,
+    "sha256": "27e4e42e1dc513f759bca5743c24cad61c73f25cee546bd664b0b0f0133bd8f7"
+  }
+}

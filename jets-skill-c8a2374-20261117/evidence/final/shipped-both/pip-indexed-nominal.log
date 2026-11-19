@@ -1,0 +1,10 @@
+Pass 1/1, 20000 events, sr 196606 original jets, lr 22177 original jets
+76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art (79ee6652-311f-11f1-aa37-0445010abeef), 40 input branches
+Input branch SHA-256: eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7
+Calibrated input plan: matched full-state reads and truth preparation
+20000 unique events, 20000 event visits across 1 passes
+sr 196606 unique jets, 196606 jet visits, 196606 nominal entries, 1 states
+NOSYS
+lr 22177 unique jets, 22177 jet visits, 3302 nominal entries, 1 states
+NOSYS
+Saved the final single-pass histogram to /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal.npz

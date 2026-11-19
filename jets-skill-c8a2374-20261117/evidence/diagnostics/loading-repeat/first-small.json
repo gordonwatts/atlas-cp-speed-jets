@@ -1,0 +1,124 @@
+{
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets5-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "bbcbd311b86046e63f93b5ba7360ca1a6db38e66d2195d91ceca3d1c7b781dc8",
+    "script_sha256": "3cd4e552065548e3e419418e2489dfab6bd0d9fd68dc783690addd2b06ab3a2e",
+    "demo_defaults": {
+      "mode": "full",
+      "scope": "both",
+      "compact_payload_default_scopes": [],
+      "reuse_nominal_nnjvt_update": true,
+      "reuse_nominal_nnjvt_update_modes": [
+        "full"
+      ],
+      "reuse_nominal_nnjvt_update_scopes": [
+        "small",
+        "both"
+      ]
+    },
+    "columnar_source": {
+      "bytes": 28824,
+      "sha256": "b18ca2782d1898917f57e00fac24fe2b91a412689409002e42148d783885321c"
+    },
+    "visible_source": {
+      "bytes": 30783,
+      "sha256": "3cd4e552065548e3e419418e2489dfab6bd0d9fd68dc783690addd2b06ab3a2e"
+    }
+  },
+  "scope": "small",
+  "events": 20000,
+  "rounds": 4,
+  "branch_digest": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+  "projection_identities": {
+    "00-canonical": {},
+    "00-prebuilt": {},
+    "00-indexed": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "01-prebuilt": {},
+    "01-indexed": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "01-canonical": {},
+    "02-indexed": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "02-canonical": {},
+    "02-prebuilt": {},
+    "03-canonical": {},
+    "03-prebuilt": {},
+    "03-indexed": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    }
+  },
+  "all_histograms_exact": true,
+  "prebuilt_payload": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/scopes/small/jets.json",
+    "bytes": 35330047,
+    "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+    "corrections": [
+      "small_pileup",
+      "jet_event_inputs",
+      "jet_pileup_truth",
+      "jet_event_sf",
+      "small_uncertainty",
+      "small_gsc",
+      "small_eta_jes",
+      "small_nnjvt_update",
+      "small_nnjvt_select",
+      "small_nnjvt_sf"
+    ]
+  },
+  "includes_private_temporary_file_construction": [
+    "indexed"
+  ],
+  "quality": {
+    "canonical": {
+      "warmup_s": 15.459425239,
+      "retained": [
+        15.785042803,
+        14.814298726,
+        15.273158076
+      ],
+      "mean_s": 15.290833201666667,
+      "sample_sd_s": 0.48561334753911406,
+      "sample_cv": 0.03175846215405602,
+      "max_median_deviation": 0.033515316508402254,
+      "pass": true
+    },
+    "prebuilt": {
+      "warmup_s": 14.793388114,
+      "retained": [
+        14.075178042,
+        14.318229778,
+        14.06861363
+      ],
+      "mean_s": 14.15400715,
+      "sample_sd_s": 0.14225883640971543,
+      "sample_cv": 0.010050781725775476,
+      "max_median_deviation": 0.01726811094500825,
+      "pass": true
+    },
+    "indexed": {
+      "warmup_s": 15.125844377,
+      "retained": [
+        14.987236879,
+        15.658465959,
+        13.589708398
+      ],
+      "mean_s": 14.745137078666668,
+      "sample_sd_s": 1.0554139929618835,
+      "sample_cv": 0.07157708926889947,
+      "max_median_deviation": 0.09324790768858832,
+      "pass": false
+    }
+  },
+  "resource_review_required": true
+}

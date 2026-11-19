@@ -1,0 +1,222 @@
+{
+  "retained_cases": 0,
+  "completed_warmup": 27,
+  "histogram_guards": 45,
+  "live_source_write_utc": "2026-11-18T09:20:43.157290+00:00",
+  "frozen_entrypoint": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/faithful-001/frozen-columnar/columnar/jets.py",
+  "frozen_source_revision": "cf7f61981adb533d69733ab1ae9573536696196a",
+  "live_trial_entrypoint_revision": "8c4b46abee10ab1a689fcbab1329f48b8b7b2d61",
+  "cases": [
+    {
+      "job": "00-combined-full-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:42:50.347217+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/faithful-001/frozen-columnar/columnar/jets.py",
+      "entrypoint_sha256": "2168aaebf9fb7e42d76c787298535a0fd8ff3c115a696924cab8312d8ee81809",
+      "identity_evidence": "executed frozen path after checking all three local source digests",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-combined-nominal-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:27:14.589338+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-combined-stored-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:27:01.146521+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--mode",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-large-full-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:24:24.854164+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-large-nominal-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:22:23.624900+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-large-stored-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:21:55.269362+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--mode",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-small-full-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:20:50.676852+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-small-nominal-C",
+      "attempt": "attempt-001",
+      "classification": "diagnostic",
+      "started_utc": "2026-11-18T09:05:26.300369+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "2168aaebf9fb7e42d76c787298535a0fd8ff3c115a696924cab8312d8ee81809",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": false
+    },
+    {
+      "job": "00-small-nominal-C",
+      "attempt": "attempt-002",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:14:12.721583+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "2168aaebf9fb7e42d76c787298535a0fd8ff3c115a696924cab8312d8ee81809",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--matched-read",
+        "--mode",
+        "--payload",
+        "--provider",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    },
+    {
+      "job": "00-small-stored-C",
+      "attempt": "attempt-001",
+      "classification": "warmup",
+      "started_utc": "2026-11-18T09:05:13.131063+00:00",
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "entrypoint_sha256": "2168aaebf9fb7e42d76c787298535a0fd8ff3c115a696924cab8312d8ee81809",
+      "identity_evidence": "inferred from command path, stored launch time and observed source-write time",
+      "actual_script_flags": [
+        "--events",
+        "--histogram-spec",
+        "--mode",
+        "--repeat",
+        "--scope",
+        "--states"
+      ],
+      "dormant_trial_option_enabled": false,
+      "histogram_guard_completed": true
+    }
+  ]
+}

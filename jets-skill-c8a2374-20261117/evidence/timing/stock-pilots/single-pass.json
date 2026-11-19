@@ -1,0 +1,323 @@
+{
+  "small": {
+    "directory": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002",
+    "runs": {
+      "stored": {
+        "framework": {
+          "wall_s": 5.80068136,
+          "cpu_user_s": 4.666378,
+          "cpu_sys_s": 0.45742299999999997,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.309517521,
+          "cpu_user_s": 0.268105,
+          "cpu_sys_s": 0.035484,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 6.110198881,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "nominal": {
+        "framework": {
+          "wall_s": 13.791771325,
+          "cpu_user_s": 11.862277,
+          "cpu_sys_s": 1.29746,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.336296567,
+          "cpu_user_s": 0.292748,
+          "cpu_sys_s": 0.03956,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 14.128067891999999,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "full": {
+        "framework": {
+          "wall_s": 152.657659639,
+          "cpu_user_s": 149.268058,
+          "cpu_sys_s": 0.7928229999999999,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 4.348766249,
+          "cpu_user_s": 4.251292,
+          "cpu_sys_s": 0.06798799999999999,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 157.006425888,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      }
+    }
+  },
+  "large": {
+    "directory": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002",
+    "runs": {
+      "stored": {
+        "framework": {
+          "wall_s": 6.277954694,
+          "cpu_user_s": 4.893405,
+          "cpu_sys_s": 0.640026,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.36598673,
+          "cpu_user_s": 0.32278399999999996,
+          "cpu_sys_s": 0.035864,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 6.643941424,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "nominal": {
+        "framework": {
+          "wall_s": 10.403669459,
+          "cpu_user_s": 9.155583,
+          "cpu_sys_s": 0.616925,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.328987688,
+          "cpu_user_s": 0.30267099999999997,
+          "cpu_sys_s": 0.023895,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 10.732657147,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "full": {
+        "framework": {
+          "wall_s": 126.07960846,
+          "cpu_user_s": 122.555184,
+          "cpu_sys_s": 1.004481,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 6.938093345,
+          "cpu_user_s": 6.843054,
+          "cpu_sys_s": 0.051992,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 133.017701805,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      }
+    }
+  },
+  "combined": {
+    "directory": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002",
+    "runs": {
+      "stored": {
+        "framework": {
+          "wall_s": 6.257811124,
+          "cpu_user_s": 4.986953,
+          "cpu_sys_s": 0.421097,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.29515613,
+          "cpu_user_s": 0.271381,
+          "cpu_sys_s": 0.020252,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 6.5529672539999995,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "nominal": {
+        "framework": {
+          "wall_s": 14.296071751,
+          "cpu_user_s": 12.894153,
+          "cpu_sys_s": 0.654987,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 0.349833428,
+          "cpu_user_s": 0.313638,
+          "cpu_sys_s": 0.032167999999999995,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 14.645905179,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      },
+      "full": {
+        "framework": {
+          "wall_s": 521.436582841,
+          "cpu_user_s": 339.672427,
+          "cpu_sys_s": 1.200488,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "histogram": {
+          "wall_s": 10.630015746,
+          "cpu_user_s": 10.067351,
+          "cpu_sys_s": 0.19622099999999998,
+          "exit": 0,
+          "threads_seen": [
+            1
+          ],
+          "cpus_seen": [
+            "3"
+          ]
+        },
+        "total": {
+          "wall_s": 532.066598587,
+          "cpu_user_s": null,
+          "cpu_sys_s": null,
+          "exit": null,
+          "threads_seen": null,
+          "cpus_seen": null
+        }
+      }
+    }
+  }
+}

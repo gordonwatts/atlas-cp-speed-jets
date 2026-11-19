@@ -1,0 +1,324 @@
+{
+  "prepared": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/lookup-input-001",
+    "bytes": 6276,
+    "sha256": "4d028448c8e0ac065ed11599eb1f1e5647eaf08c2a18326e198476d647088187"
+  },
+  "replay": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-lookup-replay-001/lookup_replay",
+    "bytes": 146256,
+    "sha256": "d572cba6e31915de84fb144d87f45d373aa65f979913e6623ea12c58ff7bf787"
+  },
+  "release_binary_and_source_receipt": {
+    "bytes": 822,
+    "sha256": "eaf932bf4dbbc286345ed76642ad703ad8e0a1f4bda6f0278cc852d967a23ff1"
+  },
+  "measurement": "Alternating paired rounds in a single loaded process per radius. First round discarded. The loop includes only coordinate iteration, getValue and checksum accumulation. Input reads, ROOT and JSON loads, table construction, coordinate conversions, and harness allocations precede timing. Any work or allocations inside either getValue are in the timed region.",
+  "classification": "Kernel replay. Interpret ratios after resource and spread review.",
+  "cases": {
+    "small": {
+      "pointwise_exact_count": 196606,
+      "pointwise_nonzero_count": 196606,
+      "result_min": 0.0011525487175033187,
+      "result_max": 0.0656003601338091,
+      "per_arm_lookups_per_round": 3145696,
+      "retained_wall_ns_per_lookup": {
+        "release": [
+          210.25829323621863,
+          211.50574181357638,
+          222.2729818774605,
+          229.16604783170402,
+          210.05856223869057,
+          211.76643133983703
+        ],
+        "portable": [
+          192.29757643459507,
+          194.17121934223778,
+          218.2727533111909,
+          195.28224787137728,
+          191.6010425037893,
+          193.847951295993
+        ]
+      },
+      "quality": {
+        "release": {
+          "wall_cv": 0.03700264097217986,
+          "worst_relative_median_deviation": 0.08283068137646578,
+          "pass": true
+        },
+        "portable": {
+          "wall_cv": 0.051747369556107786,
+          "worst_relative_median_deviation": 0.12506169709175147,
+          "pass": false
+        }
+      },
+      "observed_release_over_portable_median_wall": 1.0908537649240293,
+      "measurements": [
+        {
+          "backend": "release",
+          "round": 0,
+          "calls": 3145696,
+          "wall_s": 0.67299255,
+          "thread_cpu_s": 0.6729964610000001,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 0,
+          "calls": 3145696,
+          "wall_s": 0.608198192,
+          "thread_cpu_s": 0.6081787049999998,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 1,
+          "calls": 3145696,
+          "wall_s": 0.604909717,
+          "thread_cpu_s": 0.6048914320000001,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 1,
+          "calls": 3145696,
+          "wall_s": 0.661408672,
+          "thread_cpu_s": 0.6614103149999999,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 2,
+          "calls": 3145696,
+          "wall_s": 0.665332766,
+          "thread_cpu_s": 0.66533329,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 2,
+          "calls": 3145696,
+          "wall_s": 0.610803628,
+          "thread_cpu_s": 0.6107930319999997,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 3,
+          "calls": 3145696,
+          "wall_s": 0.686619727,
+          "thread_cpu_s": 0.6866109750000007,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 3,
+          "calls": 3145696,
+          "wall_s": 0.69920323,
+          "thread_cpu_s": 0.6992049699999994,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 4,
+          "calls": 3145696,
+          "wall_s": 0.72088672,
+          "thread_cpu_s": 0.7208446620000002,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 4,
+          "calls": 3145696,
+          "wall_s": 0.614298586,
+          "thread_cpu_s": 0.6142995859999996,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 5,
+          "calls": 3145696,
+          "wall_s": 0.602718633,
+          "thread_cpu_s": 0.6027196630000002,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 5,
+          "calls": 3145696,
+          "wall_s": 0.660780379,
+          "thread_cpu_s": 0.6607693169999997,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "release",
+          "round": 6,
+          "calls": 3145696,
+          "wall_s": 0.666152816,
+          "thread_cpu_s": 0.6661564779999996,
+          "checksum": 76619.78098492445
+        },
+        {
+          "backend": "portable",
+          "round": 6,
+          "calls": 3145696,
+          "wall_s": 0.609786725,
+          "thread_cpu_s": 0.6097879939999995,
+          "checksum": 76619.78098492445
+        }
+      ]
+    },
+    "large": {
+      "pointwise_exact_count": 22177,
+      "pointwise_nonzero_count": 22177,
+      "result_min": 0.0004886369797336121,
+      "result_max": 0.005432343842515595,
+      "per_arm_lookups_per_round": 2838656,
+      "retained_wall_ns_per_lookup": {
+        "release": [
+          151.9458201345989,
+          153.07941997903234,
+          152.54628880709745,
+          162.17678859291158,
+          157.57369297301258,
+          164.69847843486494
+        ],
+        "portable": [
+          123.96423201684178,
+          141.80142750653832,
+          127.59204179724489,
+          127.7346332207918,
+          131.82246985897552,
+          140.89907618253145
+        ]
+      },
+      "quality": {
+        "release": {
+          "wall_cv": 0.03455255077951148,
+          "worst_relative_median_deviation": 0.06033689390577076,
+          "pass": true
+        },
+        "portable": {
+          "wall_cv": 0.05625248920382368,
+          "worst_relative_median_deviation": 0.09264147136793842,
+          "pass": false
+        }
+      },
+      "observed_release_over_portable_median_wall": 1.196858453365365,
+      "measurements": [
+        {
+          "backend": "release",
+          "round": 0,
+          "calls": 2838656,
+          "wall_s": 0.431122575,
+          "thread_cpu_s": 0.43059187800000004,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 0,
+          "calls": 2838656,
+          "wall_s": 0.353803727,
+          "thread_cpu_s": 0.353795129,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 1,
+          "calls": 2838656,
+          "wall_s": 0.351891811,
+          "thread_cpu_s": 0.35188985799999983,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 1,
+          "calls": 2838656,
+          "wall_s": 0.431321914,
+          "thread_cpu_s": 0.4313223959999999,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 2,
+          "calls": 2838656,
+          "wall_s": 0.434539814,
+          "thread_cpu_s": 0.43453997300000013,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 2,
+          "calls": 2838656,
+          "wall_s": 0.402525473,
+          "thread_cpu_s": 0.40252962699999983,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 3,
+          "calls": 2838656,
+          "wall_s": 0.362189915,
+          "thread_cpu_s": 0.36217994700000045,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 3,
+          "calls": 2838656,
+          "wall_s": 0.433026438,
+          "thread_cpu_s": 0.4330271080000001,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 4,
+          "calls": 2838656,
+          "wall_s": 0.460364114,
+          "thread_cpu_s": 0.46036415500000016,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 4,
+          "calls": 2838656,
+          "wall_s": 0.362594683,
+          "thread_cpu_s": 0.3625977200000001,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 5,
+          "calls": 2838656,
+          "wall_s": 0.374198645,
+          "thread_cpu_s": 0.3741709240000004,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 5,
+          "calls": 2838656,
+          "wall_s": 0.447297509,
+          "thread_cpu_s": 0.4472878969999998,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "release",
+          "round": 6,
+          "calls": 2838656,
+          "wall_s": 0.467522324,
+          "thread_cpu_s": 0.4675223510000004,
+          "checksum": 7766.715869414079
+        },
+        {
+          "backend": "portable",
+          "round": 6,
+          "calls": 2838656,
+          "wall_s": 0.399964008,
+          "thread_cpu_s": 0.3999650799999994,
+          "checksum": 7766.715869414079
+        }
+      ]
+    }
+  }
+}

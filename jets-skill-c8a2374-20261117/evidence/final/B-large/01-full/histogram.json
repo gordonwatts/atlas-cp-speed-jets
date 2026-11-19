@@ -1,0 +1,116 @@
+{
+  "argv": [
+    "taskset",
+    "-c",
+    "3",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/bin/python",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/reference/workflow.py",
+    "histogram",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-full/reference.root",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-full/histograms.npz",
+    "full",
+    "--scope",
+    "large"
+  ],
+  "wall_s": 6.01180517,
+  "start_unix_ns": 1795007312883524934,
+  "end_unix_ns": 1795007318895331221,
+  "controller_cpu_s": 0.024109927,
+  "cpu_user_s": 5.89961,
+  "cpu_sys_s": 0.067857,
+  "peak_rss_kb": 215412,
+  "voluntary_context_switches": 2,
+  "involuntary_context_switches": 1186,
+  "exit": 0,
+  "threads_seen": [
+    1
+  ],
+  "cpus_seen": [
+    "3"
+  ],
+  "descendant_observations": [],
+  "libraries": [
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+    "/usr/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib64/libc.so.6",
+    "/usr/lib64/libdl.so.2",
+    "/usr/lib64/libgcc_s-11-20221121.so.1",
+    "/usr/lib64/libm.so.6",
+    "/usr/lib64/libpthread.so.0",
+    "/usr/lib64/librt.so.1",
+    "/usr/lib64/libstdc++.so.6.0.29",
+    "/usr/lib64/libutil.so.1"
+  ],
+  "source_mapping_observed": null,
+  "guest_before": {
+    "monotonic": 88519.764815005,
+    "cpu_stat": {
+      "cpu": [
+        4511305,
+        555270,
+        679352,
+        171001091,
+        90358,
+        0,
+        1596377,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1813055,
+        0,
+        61379,
+        6952014,
+        18810,
+        0,
+        1766,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243228  17       29 cvmfs2\n 244902   6        6 cvmfs2\n1394687   5        3 python3\n1402598  11        1 cvmfs2\n1419963   3        1 python\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  16        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   6        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394688   5        0 bash\n1402595   1        0 cvmfs2\n1402801  13        0 cvmfs2\n1402804   6        0 cvmfs2\n1409187   2        0 SessionLeader\n1409188   4        0 Relay(1409189)\n1409189   6        0 bash\n1415867  15        0 cvmfs2\n1415870   6        0 cvmfs2\n1415949  11        0 cvmfs2\n1415952   8        0 cvmfs2\n1417239  15        0 cvmfs2\n1417242  10        0 cvmfs2\n1419962   3        0 python\n1421980   7        0 sleep\n1421989   3        0 ps\n"
+  },
+  "guest_after": {
+    "monotonic": 88525.778582783,
+    "cpu_stat": {
+      "cpu": [
+        4511899,
+        555270,
+        679361,
+        171012515,
+        90359,
+        0,
+        1596377,
+        0,
+        0,
+        0
+      ],
+      "cpu3": [
+        1813648,
+        0,
+        61388,
+        6952014,
+        18810,
+        0,
+        1766,
+        0,
+        0,
+        0
+      ]
+    },
+    "processes": "    PID PSR     TIME COMMAND\n 243228  17       29 cvmfs2\n 244902   6        6 cvmfs2\n1394687   5        3 python3\n1402598  11        1 cvmfs2\n1419963   3        1 python\n      1   1        0 init(atlas_al9)\n      6   6        0 init\n     10  16        0 Relay(11)\n     34  19        0 automount\n 243224   1        0 cvmfs2\n 243232   2        0 cvmfs2\n 243236   8        0 cvmfs2\n 244898   3        0 cvmfs2\n1190886   6        0 Relay\n1394582   2        0 SessionLeader\n1394583   3        0 Relay(1394584)\n1394584   4        0 bash\n1394688   5        0 bash\n1402595   1        0 cvmfs2\n1402801  13        0 cvmfs2\n1402804   6        0 cvmfs2\n1409187   2        0 SessionLeader\n1409188   4        0 Relay(1409189)\n1409189   6        0 bash\n1415867  15        0 cvmfs2\n1415870   6        0 cvmfs2\n1415949  11        0 cvmfs2\n1415952   8        0 cvmfs2\n1417239  15        0 cvmfs2\n1417242  10        0 cvmfs2\n1419962   3        0 python\n1421980   7        0 sleep\n1421992   3        0 ps\n"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "tag": "cp314-cp314-linux_x86_64",
+  "original_wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb-cp314-cp314-linux_x86_64.whl",
+    "bytes": 644997,
+    "sha256": "9c05da84db0cd449f1dd5c90556456ba7def9c4b36d44bec6823166025df98d8"
+  },
+  "provider": {
+    "name": "libjets.so",
+    "bytes": 16544944,
+    "sha256": "b158283d0310a8b53c1d1a96e79fba853399c3f7a2ebeb661226b05984fc929d"
+  },
+  "payload": {
+    "bytes": 160837477,
+    "sha256": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+  },
+  "payload_provenance": {
+    "bytes": 174748,
+    "sha256": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6"
+  },
+  "compiler_inputs": {
+    "libstdc++.so.6": {
+      "bytes": 2575440,
+      "sha256": "a1247c7333c8cfbd9aecc0bef0b71dd6cc573047d004afc3722972d878b770ec"
+    },
+    "libgcc_s.so.1": {
+      "bytes": 908488,
+      "sha256": "bcb03f2ffabd8890cb54200e2dbb3d271e8877d8ce51cf95fa73e0cc53c4ac7c"
+    }
+  },
+  "columnar_source": {
+    "bytes": 26783,
+    "sha256": "2168aaebf9fb7e42d76c787298535a0fd8ff3c115a696924cab8312d8ee81809"
+  },
+  "input_transport": {
+    "bytes": 2057,
+    "sha256": "7e4e6b2df2329811bdf40d61e29f898690284e9c3084bf5a46936870ff5b1623"
+  },
+  "native_members": {
+    "correctionlib/_core.cpython-314-x86_64-linux-gnu.so": {
+      "bytes": 356800,
+      "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.32",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libcorrectionlib.so": {
+      "bytes": 1363113,
+      "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.29",
+        "2.32",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libgcc_s.so.1": {
+      "bytes": 917417,
+      "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.14",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libjets.so": {
+      "bytes": 16544944,
+      "sha256": "55d9aa799a63e3d8d2f1f1322fb7555d7f84f7c1ca3549dc521d3f23fb93c693",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.29",
+        "2.32"
+      ]
+    },
+    "correctionlib/lib/libstdc++.so.6": {
+      "bytes": 2924465,
+      "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17",
+        "2.18",
+        "2.25",
+        "2.26",
+        "2.32",
+        "2.33",
+        "2.34"
+      ]
+    }
+  },
+  "git_commit": "cb3db0259968fa32865bbc361b40a3f86e7b2b78",
+  "wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3-cp314-cp314-linux_x86_64.whl",
+    "bytes": 64595829,
+    "sha256": "31c8f6e5f7fbc1d77642aeeae96352b5fd55daaa0799f760db8065435098b43f"
+  },
+  "visible_script": {
+    "name": "jets_demo.py",
+    "bytes": 27295,
+    "sha256": "793a45138013244a6b3f8c406a27feedfe3a8e949b89fa19e7e85e88cd007678"
+  }
+}

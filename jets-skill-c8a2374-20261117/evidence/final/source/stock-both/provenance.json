@@ -1,0 +1,48 @@
+{
+  "input": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+  "input_sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+  "events": 20000,
+  "cpu": 3,
+  "thread_caps": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "ROOT_MAX_THREADS": "1"
+  },
+  "analysisbase": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+  "framework_python": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/../../../../AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+  "histogram_python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+  "git_commit": "c94cc8dec3ab82ce9407e71f1e9fd5c79cd016a3",
+  "clock": "monotonic wall including process startup, initialization, I/O, serialization and exit",
+  "scope": "framework writes unmerged stock ntuple; separate histogram process opens that ntuple",
+  "cache_policy": "warm filesystem/CVMFS",
+  "exclude_first_run_per_mode": false,
+  "pid_sampling_s": 0.1,
+  "exit_polling_s": 0.005,
+  "stock_startup_utilities": [
+    "bash",
+    "cc1plus",
+    "coreutils",
+    "g++",
+    "ldd",
+    "ls",
+    "sed",
+    "sh"
+  ],
+  "startup_utility_evidence": "results/reference/nominal-fork-audit-004/job.log",
+  "pilot": true,
+  "initial_full_file_cohort": false,
+  "scope_collections": "combined",
+  "guest": {
+    "system": "Linux",
+    "node": "PHYS-PROFWSN04",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026",
+    "machine": "x86_64"
+  },
+  "meminfo": "MemTotal:       16091816 kB\nMemFree:         1452052 kB\nMemAvailable:   14387472 kB\nBuffers:          193856 kB\nCached:         12535100 kB\nSwapCached:          360 kB\nActive:         10982424 kB\nInactive:        2612560 kB\nActive(anon):      52332 kB\nInactive(anon):   816376 kB\nActive(file):   10930092 kB\nInactive(file):  1796184 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       4194304 kB\nSwapFree:        4043980 kB\nDirty:             21208 kB\nWriteback:             0 kB\nAnonPages:        866040 kB\nMapped:            81560 kB\nShmem:              2676 kB\nKReclaimable:     456108 kB\nSlab:             589612 kB\nSReclaimable:     456108 kB\nSUnreclaim:       133504 kB\nKernelStack:        7560 kB\nPageTables:        15304 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    12240212 kB\nCommitted_AS:    2474972 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       37444 kB\nVmallocChunk:          0 kB\nPercpu:            10464 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:   1560576 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:      128000 kB\nDirectMap2M:    11118592 kB\nDirectMap1G:    13631488 kB\n",
+  "cpuinfo": "processor\t: 0\nvendor_id\t: GenuineIntel\ncpu family\t: 6\nmodel\t\t: 198\nmodel name\t: Intel(R) Core(TM) Ultra 7 265T\nstepping\t: 2\nmicrocode\t: 0xffffffff\ncpu MHz\t\t: 1497.600\ncache size\t: 30720 KB\nphysical id\t: 0\nsiblings\t: 20\ncore id\t\t: 0\ncpu cores\t: 20\napicid\t\t: 0\ninitial apicid\t: 0\nfpu\t\t: yes\nfpu_exception\t: yes\ncpuid level\t: 28\nwp\t\t: yes\nflags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves avx_vnni vnmi umip waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize ibt flush_l1d arch_capabilities\nvmx flags\t: vnmi invvpid ept_x_only ept_ad ept_1gb tsc_offset vtpr ept vpid unrestricted_guest ept_mode_based_exec tsc_scaling usr_wait_pause\nbugs\t\t: spectre_v1 spectre_v2 spec_store_bypass swapgs retbleed eibrs_pbrsb bhi spectre_v2_user\nbogomips\t: 2995.20\nclflush size\t: 64\ncache_alignment\t: 64\naddress sizes\t: 46 bits physical, 48 bits virtual\npower management:"
+}

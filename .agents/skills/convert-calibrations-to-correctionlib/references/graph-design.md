@@ -1,0 +1,110 @@
+# Graph design and human interfaces
+
+## Use the library accurately
+
+Inspect the selected CorrectionLib source/schema and authoritative documentation before selecting operations. Check support for Formula/FormulaRef, Binning, Transform, CompoundCorrection and Category as needed. Bin selection is not histogram interpolation: encode the source's interpolation arithmetic and boundary behavior explicitly.
+
+Check CompoundCorrection's ordered scalar application, input updates, output accumulation and permitted stack references in the selected version. Do not assume general shared intermediates, nested compounds, multiple outputs or arbitrary correction calls are available as standard nodes.
+
+CorrectionLib's C++ evaluator executes loaded definitions. Batch bindings do not establish SIMD, GPU execution or specialized code generation. Verify performance properties separately.
+
+When asked what the library contributes, identify actual executed nodes and give a concrete composition example from the current implementation. Distinguish table searches, formula evaluation, transforms and sequential compositions from physics implemented inside custom CorrectionLib nodes. Exported interpolation formulas are numerical calculations, not merely packaging machinery; explain who executes them.
+
+Record numerical libraries called by nodes explicitly. Trace NNJVT inference separately from JVT scale-factor/efficiency/error lookups, showing the CorrectionLib node that invokes each calculation. Inspect available operations in the selected version and preserve source inference semantics. If a historical implementation ran inference outside CorrectionLib, identify it as a historical boundary rather than the required architecture for paths B and C.
+
+Inspect how the selected Formula implementation handles `parser: "TFormula"`: expression syntax does not imply ROOT's TFormula runtime. Distinguish load-time parsing, interpreted expression-tree evaluation and specialized compiled code. Trace Python bindings to the native core before describing execution behavior.
+
+When explaining or authoring a formula, distinguish declared runtime `inputs` from stored `parameters`. The ordered `variables` list maps named inputs to formula symbols `x`, `y`, `z`, `t`; `[0]`, `[1]`, etc. index stored coefficients. Evaluation arguments follow the correction's declared input order and strict types. State whether the returned scalar is a corrected value, additive offset or multiplicative factor; callers must not apply a corrected value as a factor. Keep manifests/settings distinct from executable corrections when describing a bundle.
+
+## Choose calculation placement and reusable operations
+
+Keep the original tool-shaped checkpoint for the initial conversion. Before porting a numerical body, trace the source implementation, its active callers and any constraints on reuse. Prefer supported schema operations when they reproduce the source. When native code is needed, reuse or extract one independently callable numerical routine where practical. Have the CorrectionLib node and other existing tool callers exercise that same routine and test both routes.
+
+Express interpolation choices, response inverses, flavour/pile-up expressions, group combinations, systematic signs, validity and stage order using existing CorrectionLib nodes or custom nodes configured by the payload. C++ implementations of these rules must execute behind those nodes; measured performance can guide node implementation and granularity, but does not justify a separate physics backend. Maintain a responsibility map for exported constants, standard and custom nodes, numerical libraries and adapter plumbing. Trace executed calls and returned-data dependencies separately, including initialization and payload loading. Record the formulas, branch and ordering choices, precision, and which artifacts must be rebuilt or regenerated when they change. Cache only where declared dependencies permit reuse. For example, original-direction truth matching can remain unchanged while momentum-dependent tagging features change under a jet variation.
+
+Use authoring helpers that expand into supported nodes where they suffice. For missing operations, implement and register custom nodes through the extension mechanism in the pinned CorrectionLib source. Define the node's inputs, outputs, configuration, numerical/status semantics and runtime dependencies; validate payload loading and invocation through CorrectionLib. Distinguish these versioned extensions from upstream schema capabilities. Proposed nodes that are not implemented cannot satisfy an active recipe dependency.
+
+## Compile and verify the payload
+
+Build a repeatable offline exporter using the original resolver and configuration semantics. Export every active constant, axis, value, error, function parameter and inference dependency. Preserve interpolation and extrapolation. Map each generated correction to its source object or setting and checksum, recording units, types, flow, validity and evaluator requirements.
+
+Reject unsupported active settings or object types. Verify that every active dependency resolves and that B and C load the intended payload and execute through CorrectionLib. Keep source calibration files as offline conversion inputs and package everything needed for runtime, including retained inference models. Verify runtime closure in isolation and report file-open audit results when that audit was performed.
+
+## Distinguish definitions from execution reuse
+
+Describe three separate forms of reuse:
+
+- An authoring helper expands a recipe into generated instructions. Multiple callers may contain duplicated instructions.
+- A named runtime subgraph lets programs call one definition. Each call may still execute it again.
+- Reuse of computed values requires an execution plan or cache with correct dependencies. Neither of the first two forms establishes this optimization.
+
+Check the actual call graph across requested outputs and variations. A complete per-state pipeline may recompute nominal calibration for every state even when it calls a shared nominal graph. A staged runner can compute nominal once yet still repeat systematic calculations in a later diagnostic phase. Preserve numerical ordering while identifying work that can safely be shared; recompute descendants affected by changed inputs.
+
+When comparing architectures, explain the practical change: historical table lookup plus external handwritten physics requires changing that external C++; a payload-defined recipe can change through regeneration when existing generic operations suffice. Custom-node semantics may still require a C++ rebuild, but those nodes execute through CorrectionLib. Count named reusable stages separately from component helpers expanded during authoring. A dense register-building script does not by itself provide a readable physicist-facing authoring interface.
+
+Reusable authoring and interpreted execution are independent choices. Distinguish definitions lowered to existing nodes from compiled custom-node implementations; do not imply a compiler or graph engine exists without inspecting it. Retain source mapping, explicit precision/branch semantics and reference validation when changing node implementations. Measure dispatch/traversal cost rather than inferring an end-to-end effect. Fusion or compiled composition must remain behind CorrectionLib nodes.
+
+## Authoring experience
+
+An illustrative target interface (not an existing API):
+
+```python
+response = interpolate(response_histogram, pt, abs(eta))
+uncertainty = response * (mu - mu_reference)
+pileup_component = correction(
+    name="pileup_mu",
+    inputs=[pt, eta, mu],
+    value=uncertainty,
+    validity=valid_jet_region,
+)
+```
+
+These expressions construct a definition, not event-time Python calculations. A small typed authoring library should lower readable expressions, track units/types and make rounding explicit. Shared expressions need stable names and dependency information. Preserve arithmetic order where precision matters; algebraic equivalence does not guarantee the same rounded result.
+
+Do not introduce a large framework before demonstrating a real component from source constants through authoring, lowering and reference comparison.
+
+## Application experience
+
+An illustrative facade:
+
+```python
+jets = JetCorrections.load("ATLAS/Run3/EMPFlow/<version>")
+result = jets.evaluate(jet_columns, event_columns, systematics="recommended")
+```
+
+Implement and document real bundle resolution before promising such an API. Resolve "recommended" to a recorded list. Expose required columns, units, shapes, output names and invalid-input behavior. Preserve jagged event boundaries and original identities. Support systematic subsets or streamed outputs when full materialization is costly.
+
+Load payloads/models once, resolve graph names once, prepare input features once per chunk, and reuse only unchanged dependencies. Avoid repeated Python inner-loop calls, array-to-list copies and payload parsing. Measure bottlenecks before optimizing.
+
+If the requested interface is columnar, show original-file reading and a real array reduction or histogram fill. Loops over input chunks and fixed field names are compatible with that contract; Python loops over events or objects are not. A shared scalar C++ loop behind a dense-array boundary can satisfy the task without a SIMD rewrite. Keep example chunk-size settings separate from benchmark settings and distinguish a nominal-only facade from the wider runner that supplies variations and weights.
+
+Separate load-time recipe processing from event-time numerical evaluation. Parse manifest fields and constant strings into typed immutable execution records, and resolve correction handles once, where the API and ownership permit. Resolve a systematic's execution state when it changes rather than reconstructing its meaning for every object. Such records are a lowering of the authoritative prescription, not a second handwritten physics definition or a cache of results whose inputs may change.
+
+Check lazy branches for avoidable numerical work before their guards. Skipping lookups for an inactive variation can help, but must preserve domain/status/error semantics and random draws. Likewise, inspect numerical-library object lifetime: repeated random-engine construction followed by explicit reseeding can be avoidable for a per-object-reseeded contract, but a persistent stochastic stream has different requirements. Use the experiments in [validation and timing](validation-and-timing.md#isolate-components-and-mechanisms) to establish costs and validate any change.
+
+Inspect object ownership as well as constructors: a Python table handle may be unused while several C++ engines independently load the same payload. Inspect bindings and batch bodies before describing vectorization or concurrency. Array acceptance, GIL release, scalar row loops, internal threading and SIMD are distinct properties. Nested-vector bindings and per-instruction temporary allocations are profiling candidates, not measured causes of slowdown.
+
+## Exact caches and reusable numerical buffers
+
+Use these only when profiling and the numerical contract support them; do not prescribe a cache for every calibration.
+
+- Key inference reuse by all effective inputs after the source's casts/rounding. Associate it with the immutable model/payload identity and verify the entire key on a hit; a hash alone is insufficient. Define capacity, collision behavior, ownership and concurrency. Handle nonfinite inputs deliberately. Feature-keyed reuse need not depend on stable object position, but any position-keyed cache must track identity across chunks and reorderings.
+- Cache only the quantity determined by those inputs. Reusing an NN score does not authorize reusing variation-dependent selection, validity, scale factors or event weights. Whole-batch caches must protect against caller mutation of returned arrays and invalidate on changed values, model/tool, variation and relevant configuration.
+- Test repeats, collisions, reordered inputs, model replacement, chunk changes, empty inputs and thread isolation as applicable. Preserve a reference evaluator and check values as well as statuses. Cache overhead can outweigh saved work; retain a cache-only measurement instead of crediting it with a later combined gain.
+- Reusable intermediates address allocations on cache misses; a cache hit skips inference altogether. Preserve arithmetic precision, matrix layout, input ordering, bias/activation ordering and clipping. Fall back explicitly for unsupported graphs/activations. Fusion or fixed-size kernels are separate experiments because algebraic equivalence does not establish identical rounding.
+- Verify that the optimized branch is actually exercised and that the tested headers/library are the intended build; stale include paths can select a staging implementation. A no-allocation claim must name the scope (for example, Eigen heap allocation during supported inference after warm-up), not the entire workflow.
+- Random-number reuse has a different contract. For a per-object-reseeded implementation, first-draw caching by seed requires proof of equivalent correlations and replay of any width-dependent rejection stream. Caching the accepted smear value or substituting another RNG need not be equivalent. Inspect source stream, seed and rejection semantics before choosing reuse.
+
+Define empty collection/chunk behavior and result shapes, absent-primary-object behavior, and per-associated-object indexing contracts. A numerical graph's missing-input branch cannot help if Python extraction indexes an absent vertex or another associated collection first. Preserve validity masks and document how invalid object weights enter event reductions; returning numeric arrays alone is insufficient.
+
+Describe, explain, compare and provenance views should derive from the executed definitions: show stages and requirements, trace one object, locate first divergence and identify source constants. Do not maintain a second handwritten physics prescription for documentation.
+
+Inference, random sampling, coordinate arithmetic and physics-dependent collection operations must execute through CorrectionLib nodes. Keep input extraction and array layout preparation in adapters. A node may call a mature numerical library; document that dependency and the model or collection-processing requirements explicitly.
+
+## Sources
+
+- Official overview: https://cms-nanoaod.github.io/correctionlib/
+- Schema: https://cms-nanoaod.github.io/correctionlib/schemav2.html
+- Source: https://github.com/cms-nanoAOD/correctionlib
+
+Check against the version actually used; do not infer capabilities from another release or implementation.

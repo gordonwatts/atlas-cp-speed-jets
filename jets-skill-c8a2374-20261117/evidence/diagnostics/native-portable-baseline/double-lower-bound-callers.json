@@ -1,0 +1,32 @@
+{
+  "source": "results/diagnostics/native-baseline-decode-003/stacks.folded",
+  "sha256": "10faf0baa4b9f4e73a31b22af14ba4ddeab36e7d4738ed03a6b14aefc22f5f52",
+  "denominator_period_ns": 110400000000,
+  "basis": "exclusive double lower_bound leaves by native caller",
+  "callers": {
+    "uncertainty_flow_clamp": {
+      "period_ns": 2850000000,
+      "percent_of_window": 2.5815217391304346
+    },
+    "bilinear_neighbor_centers": {
+      "period_ns": 1060000000,
+      "percent_of_window": 0.9601449275362319
+    },
+    "one_dimensional_interpolation": {
+      "period_ns": 1400000000,
+      "percent_of_window": 1.2681159420289856
+    },
+    "bilinear_primary_coordinate": {
+      "period_ns": 690000000,
+      "percent_of_window": 0.625
+    },
+    "other_uncertainty_access": {
+      "period_ns": 360000000,
+      "percent_of_window": 0.32608695652173914
+    },
+    "other_axis_access": {
+      "period_ns": 120000000,
+      "percent_of_window": 0.10869565217391304
+    }
+  }
+}

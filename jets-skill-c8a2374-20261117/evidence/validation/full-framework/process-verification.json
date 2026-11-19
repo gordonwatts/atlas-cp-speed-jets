@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "processes": [
+    904602
+  ],
+  "samples": 4633,
+  "states": [
+    [
+      1,
+      "3"
+    ]
+  ]
+}

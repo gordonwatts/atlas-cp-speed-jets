@@ -1,0 +1,61 @@
+{
+  "core": "0.1.dev229+g3dcfa20ec",
+  "evaluated": 1502,
+  "errors": 9,
+  "examples": [
+    {
+      "name": "small_eta_jes_edge_28",
+      "json": "-1.6999999999999997",
+      "expected": "-0x1.b333333333332p+0",
+      "observed": "-0x1.b333333333331p+0"
+    },
+    {
+      "name": "small_eta_jes_edge_33",
+      "json": "-1.1999999999999997",
+      "expected": "-0x1.3333333333332p+0",
+      "observed": "-0x1.3333333333331p+0"
+    },
+    {
+      "name": "small_eta_jes_edge_43",
+      "json": "-0.20000000000000018",
+      "expected": "-0x1.99999999999a0p-3",
+      "observed": "-0x1.999999999999fp-3"
+    },
+    {
+      "name": "small_eta_jes_edge_46",
+      "json": "0.10000000000000053",
+      "expected": "0x1.99999999999c0p-4",
+      "observed": "0x1.99999999999bfp-4"
+    },
+    {
+      "name": "small_eta_jes_edge_47",
+      "json": "0.20000000000000018",
+      "expected": "0x1.99999999999a0p-3",
+      "observed": "0x1.999999999999fp-3"
+    },
+    {
+      "name": "small_eta_jes_edge_49",
+      "json": "0.40000000000000036",
+      "expected": "0x1.99999999999a0p-2",
+      "observed": "0x1.999999999999fp-2"
+    },
+    {
+      "name": "small_eta_jes_edge_56",
+      "json": "1.1000000000000005",
+      "expected": "0x1.199999999999cp+0",
+      "observed": "0x1.199999999999bp+0"
+    },
+    {
+      "name": "small_eta_jes_edge_61",
+      "json": "1.6000000000000005",
+      "expected": "0x1.999999999999cp+0",
+      "observed": "0x1.999999999999bp+0"
+    },
+    {
+      "name": "small_eta_jes_edge_84",
+      "json": "3.9000000000000004",
+      "expected": "0x1.f333333333334p+1",
+      "observed": "0x1.f333333333333p+1"
+    }
+  ]
+}

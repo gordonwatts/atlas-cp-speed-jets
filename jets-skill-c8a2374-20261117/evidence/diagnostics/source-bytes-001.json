@@ -1,0 +1,559 @@
+{
+  "source": {
+    "method": "Distinct resolved files consumed by the included original configurations; ROOT byte counts include all keys in each required container.",
+    "files": [
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+        "sha256": "30d6965c9a8d717334f9edca3bef95ef011d6775aa479cff437a56a40afcedb2",
+        "bytes": 3898,
+        "stages": [
+          "small_pileup",
+          "small_gsc",
+          "small_eta_jes"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+        "sha256": "ef72112d0f35948437be8994ba03c38d494a2a1ebfc3f54c98cf1156fe1c60ba",
+        "bytes": 3624,
+        "stages": [
+          "large_eta_jes",
+          "large_jms"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+        "sha256": "df98b2124c8868785e1b7deb0052a943abd7196bc219efc60a07022ece1a8043",
+        "bytes": 5400489,
+        "stages": [
+          "large_eta_jes"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+        "sha256": "219251cbfc1fa06df0c481ccdeae4df5297943b1ef1085866debf47664c8e8f0",
+        "bytes": 14026,
+        "stages": [
+          "large_eta_jes",
+          "large_jms"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+        "sha256": "2bf55b85f3d7223cbacf0c11889113c359b7fca08eb92630e449706888f5c2f6",
+        "bytes": 206565,
+        "stages": [
+          "large_jms"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+        "sha256": "a70cc4be01f8614fea901749879efe4b4276aeff74a9290f9340c9b89bdc72b0",
+        "bytes": 462946,
+        "stages": [
+          "small_gsc"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+        "sha256": "479df7a2112758361826da783a3f02ac05f198e9f71495e2a266fcbaffd68544",
+        "bytes": 8032646,
+        "stages": [
+          "small_eta_jes"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+        "sha256": "c6ad90d31ab8e014906c0ce3df8864fd58b8c7a3a19d9ed79063f5203e4fd67b",
+        "bytes": 16892,
+        "stages": [
+          "small_gsc",
+          "small_eta_jes"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+        "logical_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+        "sha256": "ac2321fd5563fd2eb1d72e19c8cd1f838f3d9f8b6067cb3635b3008f91d1d27f",
+        "bytes": 1356,
+        "stages": [
+          "small_pileup",
+          "small_gsc",
+          "small_eta_jes"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+        "logical_name": "JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+        "sha256": "732a52c13ae0dd9a51de3e3f53b10150e1426a4dddb52e99e3884770377cf10b",
+        "bytes": 14080,
+        "stages": [
+          "small_nnjvt"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+        "logical_name": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+        "sha256": "a29154427f1da0c33095a587fcb2d110e63203713d0f39a4bc54a71f680f2e56",
+        "bytes": 666,
+        "stages": [
+          "small_nnjvt"
+        ],
+        "category": "JSON model or cuts"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+        "logical_name": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+        "sha256": "60abc79f5e724483f61967cd5bb2083c2c71255a62e6813f387c1d523dabecdb",
+        "bytes": 5916,
+        "stages": [
+          "small_nnjvt"
+        ],
+        "category": "JSON model or cuts"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+        "logical_name": "JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+        "sha256": "f6165066e99a26c9f1db09ed711090dd7561aa00f3a6e1eef0ffe2e71ca74007",
+        "bytes": 8681,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+        "logical_name": "JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+        "sha256": "9ab5d4aacdb1a7e8e6d0e9ff9509dbe38f70facf7ee8c131c3f73f0fa594ad8e",
+        "bytes": 12464,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+        "sha256": "eb28216e471b488fe3eef45f66345b3c433d6e3974a41df05e67f8c2adeead3e",
+        "bytes": 3219221,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+        "sha256": "f41a67c82c8abb2c80d499b14091ba3d5a2270471b88f3f7967a783749865835",
+        "bytes": 37343,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+        "sha256": "450e87b58de96d9f1badf66611f37440c3d01e3daff06c843ca1725c149fe1ef",
+        "bytes": 9453,
+        "stages": [
+          "large_jmr"
+        ],
+        "category": "tool settings"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "sha256": "1c69e73fc1b1fff99440f468d2e8a69cf71836e02da7a4f2b4a8370f0fad3304",
+        "bytes": 3129772,
+        "stages": [
+          "large_jmr"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+        "sha256": "03b7335de536509eeb6afcceec6c90ea32f51fdd03578219b3bd63af1af19db7",
+        "bytes": 3563929,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "ROOT containers"
+      },
+      {
+        "path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+        "logical_name": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+        "sha256": "4fae9959dbdc8fa1ded14930feba762be1fa48d7f4a011ced25c85c67a47dff6",
+        "bytes": 22265,
+        "stages": [
+          "uncertainties"
+        ],
+        "category": "tool settings"
+      }
+    ],
+    "file_count": 20,
+    "total_bytes": 24166232,
+    "by_category_bytes": {
+      "tool settings": 108857,
+      "ROOT containers": 24050793,
+      "JSON model or cuts": 6582
+    }
+  },
+  "exporter_evidence_only": [
+    {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+      "logical_name": "configured state contract",
+      "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+      "bytes": 46226,
+      "stages": [
+        "uncertainties"
+      ]
+    },
+    {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/observer-smoke-003/initialized-tools.tsv",
+      "logical_name": "Path A initialized tools",
+      "sha256": "1aca5d60991103f20a57c8a5254eccc94941bf38c1c33c41cf29dffd44d7a547",
+      "bytes": 63777,
+      "stages": [
+        "uncertainties"
+      ]
+    }
+  ],
+  "wheel": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-003/correctionlib-0.1.dev230+g0c498f4cb.atlasjets3-cp314-cp314-linux_x86_64.whl",
+    "bytes": 64595829,
+    "sha256": "31c8f6e5f7fbc1d77642aeeae96352b5fd55daaa0799f760db8065435098b43f",
+    "members": {
+      "atlas_jet_demo/__init__.py": {
+        "uncompressed_bytes": 56,
+        "compressed_bytes": 58,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/data/build.json": {
+        "uncompressed_bytes": 2859,
+        "compressed_bytes": 1043,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/data/jet-histogram.json": {
+        "uncompressed_bytes": 759,
+        "compressed_bytes": 399,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/data/jet-states.json": {
+        "uncompressed_bytes": 46226,
+        "compressed_bytes": 2043,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/data/jets.json": {
+        "uncompressed_bytes": 160837477,
+        "compressed_bytes": 57764983,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/data/provenance.json": {
+        "uncompressed_bytes": 174748,
+        "compressed_bytes": 14261,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/inputs.py": {
+        "uncompressed_bytes": 7167,
+        "compressed_bytes": 2525,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/runtime.py": {
+        "uncompressed_bytes": 2885,
+        "compressed_bytes": 1229,
+        "zip_method": 8
+      },
+      "atlas_jet_demo/transport.py": {
+        "uncompressed_bytes": 2057,
+        "compressed_bytes": 738,
+        "zip_method": 8
+      },
+      "correctionlib/JSONEncoder.py": {
+        "uncompressed_bytes": 8119,
+        "compressed_bytes": 2141,
+        "zip_method": 8
+      },
+      "correctionlib/__init__.py": {
+        "uncompressed_bytes": 404,
+        "compressed_bytes": 210,
+        "zip_method": 8
+      },
+      "correctionlib/_core/__init__.pyi": {
+        "uncompressed_bytes": 2712,
+        "compressed_bytes": 643,
+        "zip_method": 8
+      },
+      "correctionlib/_core.cpython-314-x86_64-linux-gnu.so": {
+        "uncompressed_bytes": 356800,
+        "compressed_bytes": 156351,
+        "zip_method": 8
+      },
+      "correctionlib/binding.py": {
+        "uncompressed_bytes": 600,
+        "compressed_bytes": 293,
+        "zip_method": 8
+      },
+      "correctionlib/cli.py": {
+        "uncompressed_bytes": 7698,
+        "compressed_bytes": 2040,
+        "zip_method": 8
+      },
+      "correctionlib/cmake/correctionlib-targets-release.cmake": {
+        "uncompressed_bytes": 868,
+        "compressed_bytes": 344,
+        "zip_method": 8
+      },
+      "correctionlib/cmake/correctionlib-targets.cmake": {
+        "uncompressed_bytes": 3254,
+        "compressed_bytes": 1222,
+        "zip_method": 8
+      },
+      "correctionlib/cmake/correctionlibConfig.cmake": {
+        "uncompressed_bytes": 480,
+        "compressed_bytes": 253,
+        "zip_method": 8
+      },
+      "correctionlib/cmake/correctionlibConfigVersion.cmake": {
+        "uncompressed_bytes": 1975,
+        "compressed_bytes": 714,
+        "zip_method": 8
+      },
+      "correctionlib/convert.py": {
+        "uncompressed_bytes": 8528,
+        "compressed_bytes": 2738,
+        "zip_method": 8
+      },
+      "correctionlib/highlevel.py": {
+        "uncompressed_bytes": 13051,
+        "compressed_bytes": 3291,
+        "zip_method": 8
+      },
+      "correctionlib/include/correction.h": {
+        "uncompressed_bytes": 13607,
+        "compressed_bytes": 2911,
+        "zip_method": 8
+      },
+      "correctionlib/include/correction_plugin.h": {
+        "uncompressed_bytes": 5174,
+        "compressed_bytes": 1869,
+        "zip_method": 8
+      },
+      "correctionlib/include/correctionlib_version.h": {
+        "uncompressed_bytes": 494,
+        "compressed_bytes": 271,
+        "zip_method": 8
+      },
+      "correctionlib/lib/libcorrectionlib.so": {
+        "uncompressed_bytes": 1363113,
+        "compressed_bytes": 448786,
+        "zip_method": 8
+      },
+      "correctionlib/lib/libgcc_s.so.1": {
+        "uncompressed_bytes": 917417,
+        "compressed_bytes": 347364,
+        "zip_method": 8
+      },
+      "correctionlib/lib/libjets.so": {
+        "uncompressed_bytes": 16544944,
+        "compressed_bytes": 4835595,
+        "zip_method": 8
+      },
+      "correctionlib/lib/libstdc++.so.6": {
+        "uncompressed_bytes": 2924465,
+        "compressed_bytes": 902701,
+        "zip_method": 8
+      },
+      "correctionlib/plugins.py": {
+        "uncompressed_bytes": 4299,
+        "compressed_bytes": 1490,
+        "zip_method": 8
+      },
+      "correctionlib/py.typed": {
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 2,
+        "zip_method": 8
+      },
+      "correctionlib/schemav1.py": {
+        "uncompressed_bytes": 2153,
+        "compressed_bytes": 935,
+        "zip_method": 8
+      },
+      "correctionlib/schemav2.py": {
+        "uncompressed_bytes": 26147,
+        "compressed_bytes": 6877,
+        "zip_method": 8
+      },
+      "correctionlib/schemav3.py": {
+        "uncompressed_bytes": 5112,
+        "compressed_bytes": 1606,
+        "zip_method": 8
+      },
+      "correctionlib/util.py": {
+        "uncompressed_bytes": 1092,
+        "compressed_bytes": 514,
+        "zip_method": 8
+      },
+      "correctionlib/version.py": {
+        "uncompressed_bytes": 598,
+        "compressed_bytes": 262,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/METADATA": {
+        "uncompressed_bytes": 11823,
+        "compressed_bytes": 4394,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/WHEEL": {
+        "uncompressed_bytes": 108,
+        "compressed_bytes": 104,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/entry_points.txt": {
+        "uncompressed_bytes": 55,
+        "compressed_bytes": 48,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/LICENSE": {
+        "uncompressed_bytes": 1520,
+        "compressed_bytes": 802,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/AnalysisBase-LICENSE.txt": {
+        "uncompressed_bytes": 109,
+        "compressed_bytes": 90,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/GCC-COPYING.RUNTIME": {
+        "uncompressed_bytes": 3324,
+        "compressed_bytes": 1486,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/GCC-COPYING3": {
+        "uncompressed_bytes": 35147,
+        "compressed_bytes": 12119,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/ROOT-LGPL2_1.txt": {
+        "uncompressed_bytes": 24448,
+        "compressed_bytes": 8614,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/ROOT-LICENSE": {
+        "uncompressed_bytes": 989,
+        "compressed_bytes": 570,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/ROOT-adaptation-NOTICE.md": {
+        "uncompressed_bytes": 2367,
+        "compressed_bytes": 864,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-cpp-peglib/LICENSE": {
+        "uncompressed_bytes": 1075,
+        "compressed_bytes": 631,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.APACHE": {
+        "uncompressed_bytes": 11362,
+        "compressed_bytes": 3953,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.BSD": {
+        "uncompressed_bytes": 1517,
+        "compressed_bytes": 789,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.GPL": {
+        "uncompressed_bytes": 35147,
+        "compressed_bytes": 12119,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.LGPL": {
+        "uncompressed_bytes": 26530,
+        "compressed_bytes": 9350,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.MINPACK": {
+        "uncompressed_bytes": 2193,
+        "compressed_bytes": 1071,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.MPL2": {
+        "uncompressed_bytes": 16726,
+        "compressed_bytes": 5309,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-eigen/COPYING.README": {
+        "uncompressed_bytes": 779,
+        "compressed_bytes": 445,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-lwtnn/LICENSE": {
+        "uncompressed_bytes": 1096,
+        "compressed_bytes": 646,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-pcg-cpp/LICENSE-APACHE.txt": {
+        "uncompressed_bytes": 11357,
+        "compressed_bytes": 3948,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-pcg-cpp/LICENSE-MIT.txt": {
+        "uncompressed_bytes": 1093,
+        "compressed_bytes": 648,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-pcg-cpp/LICENSE.spdx": {
+        "uncompressed_bytes": 210,
+        "compressed_bytes": 158,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-pybind11/LICENSE": {
+        "uncompressed_bytes": 1684,
+        "compressed_bytes": 911,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-rapidjson/license.txt": {
+        "uncompressed_bytes": 5152,
+        "compressed_bytes": 1690,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/core-xxhash/LICENSE": {
+        "uncompressed_bytes": 1389,
+        "compressed_bytes": 738,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/licenses/atlas-jets/lwtnn-2.14.1-LICENCE": {
+        "uncompressed_bytes": 1096,
+        "compressed_bytes": 646,
+        "zip_method": 8
+      },
+      "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3.dist-info/RECORD": {
+        "uncompressed_bytes": 7121,
+        "compressed_bytes": 2996,
+        "zip_method": 8
+      }
+    },
+    "method": "ZIP member sizes exclude archive directory/header overhead."
+  }
+}

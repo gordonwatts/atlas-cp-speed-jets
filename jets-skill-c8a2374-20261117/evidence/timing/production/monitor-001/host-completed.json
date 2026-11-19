@@ -1,0 +1,8 @@
+{
+  "guest_trace": "results/diagnostics/production-monitor-001",
+  "options": [],
+  "started_utc": "2026-11-18T13:21:59.7060236+00:00",
+  "ended_utc": "2026-11-18T13:22:22.8280404+00:00",
+  "wsl_exit": 1,
+  "specification": "results/diagnostics/qualify-selected-001/steps/specification.json"
+}

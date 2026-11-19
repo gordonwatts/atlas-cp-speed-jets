@@ -1,0 +1,75 @@
+{
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets4-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "b663120eb337dc4b7d01abf5e8f60d76df385f40f2855711fbf3b895dd11681d",
+    "script_sha256": "58ad2849adfe60983d5fb1041f374f3a73c1bce97c6ab340c5b135b6592b6d87"
+  },
+  "scope": "large",
+  "events": 0,
+  "rounds": 4,
+  "branch_digest": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc",
+  "all_histograms_exact": true,
+  "prebuilt_payload": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/partition-001/scopes/large/jets.json",
+    "bytes": 76990001,
+    "sha256": "05805800566eccd9484bc7d3992999384e0c5a1e465aff8d5bbb988dd8fb6c2e",
+    "corrections": [
+      "jet_event_inputs",
+      "jet_pileup_truth",
+      "large_selection",
+      "jet_event_sf",
+      "large_uncertainty",
+      "large_eta_jes",
+      "large_jms",
+      "large_jmr"
+    ]
+  },
+  "includes_private_temporary_file_construction": [
+    "indexed"
+  ],
+  "quality": {
+    "canonical": {
+      "warmup_s": 3.427718985,
+      "retained": [
+        3.512851994,
+        3.978950923,
+        3.65267763
+      ],
+      "mean_s": 3.714826849,
+      "sample_sd_s": 0.239183918712085,
+      "sample_cv": 0.06438628997646856,
+      "max_median_deviation": 0.08932441514144798,
+      "pass": false
+    },
+    "prebuilt": {
+      "warmup_s": 1.974209694,
+      "retained": [
+        1.872605453,
+        2.024218648,
+        2.174688393
+      ],
+      "mean_s": 2.023837498,
+      "sample_sd_s": 0.1510418306835982,
+      "sample_cv": 0.07463140238920418,
+      "max_median_deviation": 0.07489961380891307,
+      "pass": false
+    },
+    "indexed": {
+      "warmup_s": 1.978774853,
+      "retained": [
+        1.901483062,
+        2.200984699,
+        2.140150937
+      ],
+      "mean_s": 2.0808728993333334,
+      "sample_sd_s": 0.15830578622914582,
+      "sample_cv": 0.07607662451650149,
+      "max_median_deviation": 0.11151917879892972,
+      "pass": false
+    }
+  },
+  "resource_review_required": true
+}

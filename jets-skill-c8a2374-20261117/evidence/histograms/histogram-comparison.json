@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "entries": 20000,
+  "coverage": {
+    "sr": {
+      "states": 119,
+      "nominal_entries": 196606
+    },
+    "lr": {
+      "states": 219,
+      "nominal_entries": 3302
+    }
+  },
+  "stock": {
+    "sr": {
+      "path": "results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    "lr": {
+      "path": "results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    }
+  },
+  "candidate": {
+    "path": "results/validation/direct-histogram-full-001/histogram.npz",
+    "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+  },
+  "checks": {
+    "sr:edges": {
+      "values": 16,
+      "exact_mismatches": 0
+    },
+    "sr:events": {
+      "values": 1,
+      "exact_mismatches": 0
+    },
+    "sr:sr_states": {
+      "values": 119,
+      "exact_mismatches": 0
+    },
+    "sr:sr_entries": {
+      "values": 119,
+      "exact_mismatches": 0
+    },
+    "sr:sr_sumw": {
+      "values": 2023,
+      "exact_mismatches": 0
+    },
+    "sr:sr_sumw2": {
+      "values": 2023,
+      "exact_mismatches": 0
+    },
+    "lr:edges": {
+      "values": 16,
+      "exact_mismatches": 0
+    },
+    "lr:events": {
+      "values": 1,
+      "exact_mismatches": 0
+    },
+    "lr:lr_states": {
+      "values": 219,
+      "exact_mismatches": 0
+    },
+    "lr:lr_entries": {
+      "values": 219,
+      "exact_mismatches": 0
+    },
+    "lr:lr_sumw": {
+      "values": 3723,
+      "exact_mismatches": 0
+    },
+    "lr:lr_sumw2": {
+      "values": 3723,
+      "exact_mismatches": 0
+    }
+  }
+}

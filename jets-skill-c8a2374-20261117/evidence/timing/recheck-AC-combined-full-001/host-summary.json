@@ -1,0 +1,1321 @@
+{
+  "method": "Windows counter timestamps inside each half-open worker interval. Interval counters describe the whole host, including WSL. Each sample receives equal weight. A short leg can contain zero counter samples. Zero samples give no estimate for that leg. Guest process attribution comes from the independent interval sampler.",
+  "inputs": [
+    {
+      "file": "compact.json",
+      "sha256": "d9e5ea1cb9dfef349f3bc7ae0f11cec72a7dbcdcf2153369b87eb928fd1fa119"
+    },
+    {
+      "file": "host.jsonl",
+      "sha256": "53e631b1ccdc2f93435b382d9ea331c6e9be528d8007249d167052d81fef42c6"
+    }
+  ],
+  "total_host_samples": 104,
+  "all_samples": {
+    "cpu_percent": {
+      "n": 104,
+      "minimum": 0.0,
+      "median": 5.494,
+      "mean": 6.3389999999999995,
+      "maximum": 18.384
+    },
+    "disk_read_bytes_s": {
+      "n": 104,
+      "minimum": 0.0,
+      "median": 0.0,
+      "mean": 7532.1875,
+      "maximum": 357862.031
+    },
+    "disk_write_bytes_s": {
+      "n": 104,
+      "minimum": 0.0,
+      "median": 293969.72699999996,
+      "mean": 1448467.4498173078,
+      "maximum": 6886298.476
+    },
+    "available_memory_MiB": {
+      "n": 104,
+      "minimum": 3351.0,
+      "median": 3767.5,
+      "mean": 3811.471153846154,
+      "maximum": 4535.0
+    },
+    "pages_input_s": {
+      "n": 104,
+      "minimum": 0.0,
+      "median": 0.0,
+      "mean": 1.3935192307692308,
+      "maximum": 23.782
+    },
+    "wsl_working_bytes": {
+      "n": 104,
+      "minimum": 11469746176,
+      "median": 12424501248.0,
+      "mean": 12423664640,
+      "maximum": 13094187008
+    }
+  },
+  "sample_gap_s": {
+    "n": 103,
+    "minimum": 16.007758848,
+    "median": 16.023173632,
+    "mean": 16.023866084660195,
+    "maximum": 16.078291712
+  },
+  "pooled_host_samples_by_group": {
+    "warmup/combined/full/A/framework": {
+      "cpu_percent": {
+        "n": 16,
+        "minimum": 0.0,
+        "median": 5.5805,
+        "mean": 7.6265,
+        "maximum": 18.384
+      },
+      "disk_read_bytes_s": {
+        "n": 16,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 22939.704625000002,
+        "maximum": 357862.031
+      },
+      "disk_write_bytes_s": {
+        "n": 16,
+        "minimum": 0.0,
+        "median": 320173.85250000004,
+        "mean": 1691450.45025,
+        "maximum": 4931500.991
+      },
+      "available_memory_MiB": {
+        "n": 16,
+        "minimum": 3877.0,
+        "median": 3971.5,
+        "mean": 3975.1875,
+        "maximum": 4163.0
+      },
+      "pages_input_s": {
+        "n": 16,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 1.30075,
+        "maximum": 17.82
+      },
+      "wsl_working_bytes": {
+        "n": 16,
+        "minimum": 12012097536,
+        "median": 12108529664.0,
+        "mean": 12122360320,
+        "maximum": 12219420672
+      }
+    },
+    "warmup/combined/full/A/histogram": {
+      "cpu_percent": null,
+      "disk_read_bytes_s": null,
+      "disk_write_bytes_s": null,
+      "available_memory_MiB": null,
+      "pages_input_s": null,
+      "wsl_working_bytes": null
+    },
+    "warmup/combined/full/C/columnar": {
+      "cpu_percent": {
+        "n": 1,
+        "minimum": 4.141,
+        "median": 4.141,
+        "mean": 4.141,
+        "maximum": 4.141
+      },
+      "disk_read_bytes_s": {
+        "n": 1,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "maximum": 0.0
+      },
+      "disk_write_bytes_s": {
+        "n": 1,
+        "minimum": 979335.342,
+        "median": 979335.342,
+        "mean": 979335.342,
+        "maximum": 979335.342
+      },
+      "available_memory_MiB": {
+        "n": 1,
+        "minimum": 4148.0,
+        "median": 4148.0,
+        "mean": 4148.0,
+        "maximum": 4148.0
+      },
+      "pages_input_s": {
+        "n": 1,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "maximum": 0.0
+      },
+      "wsl_working_bytes": {
+        "n": 1,
+        "minimum": 11883810816,
+        "median": 11883810816,
+        "mean": 11883810816,
+        "maximum": 11883810816
+      }
+    },
+    "retained/combined/full/A/framework": {
+      "cpu_percent": {
+        "n": 46,
+        "minimum": 0.0,
+        "median": 5.7455,
+        "mean": 6.642978260869565,
+        "maximum": 17.143
+      },
+      "disk_read_bytes_s": {
+        "n": 46,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 5608.086282608696,
+        "maximum": 94368.883
+      },
+      "disk_write_bytes_s": {
+        "n": 46,
+        "minimum": 0.0,
+        "median": 256538.947,
+        "mean": 1436556.021326087,
+        "maximum": 5161506.949
+      },
+      "available_memory_MiB": {
+        "n": 46,
+        "minimum": 3351.0,
+        "median": 3647.5,
+        "mean": 3641.2391304347825,
+        "maximum": 3883.0
+      },
+      "pages_input_s": {
+        "n": 46,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 1.6638043478260869,
+        "maximum": 23.782
+      },
+      "wsl_working_bytes": {
+        "n": 46,
+        "minimum": 12218392576,
+        "median": 12536598528.0,
+        "mean": 12525912687.304348,
+        "maximum": 12833845248
+      }
+    },
+    "retained/combined/full/A/histogram": {
+      "cpu_percent": {
+        "n": 2,
+        "minimum": 3.493,
+        "median": 4.3735,
+        "mean": 4.3735,
+        "maximum": 5.254
+      },
+      "disk_read_bytes_s": {
+        "n": 2,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "maximum": 0.0
+      },
+      "disk_write_bytes_s": {
+        "n": 2,
+        "minimum": 196149.227,
+        "median": 2508939.065,
+        "mean": 2508939.065,
+        "maximum": 4821728.903
+      },
+      "available_memory_MiB": {
+        "n": 2,
+        "minimum": 3762.0,
+        "median": 3875.0,
+        "mean": 3875.0,
+        "maximum": 3988.0
+      },
+      "pages_input_s": {
+        "n": 2,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.0,
+        "maximum": 0.0
+      },
+      "wsl_working_bytes": {
+        "n": 2,
+        "minimum": 12326457344,
+        "median": 12588738560.0,
+        "mean": 12588738560,
+        "maximum": 12851019776
+      }
+    },
+    "retained/combined/full/C/columnar": {
+      "cpu_percent": {
+        "n": 3,
+        "minimum": 0.0,
+        "median": 2.556,
+        "mean": 4.115,
+        "maximum": 9.789
+      },
+      "disk_read_bytes_s": {
+        "n": 3,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 1535.177,
+        "maximum": 4605.531
+      },
+      "disk_write_bytes_s": {
+        "n": 3,
+        "minimum": 0.0,
+        "median": 336203.795,
+        "mean": 433991.0906666666,
+        "maximum": 965769.477
+      },
+      "available_memory_MiB": {
+        "n": 3,
+        "minimum": 3667.0,
+        "median": 3682.0,
+        "mean": 3836.6666666666665,
+        "maximum": 4161.0
+      },
+      "pages_input_s": {
+        "n": 3,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.333,
+        "maximum": 0.999
+      },
+      "wsl_working_bytes": {
+        "n": 3,
+        "minimum": 11849670656,
+        "median": 12416086016,
+        "mean": 12238378325.333334,
+        "maximum": 12449378304
+      }
+    },
+    "anchor/combined/full/A/framework": {
+      "cpu_percent": {
+        "n": 32,
+        "minimum": 0.0,
+        "median": 5.0685,
+        "mean": 5.59521875,
+        "maximum": 17.622
+      },
+      "disk_read_bytes_s": {
+        "n": 32,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 2493.63084375,
+        "maximum": 52400.057
+      },
+      "disk_write_bytes_s": {
+        "n": 32,
+        "minimum": 0.0,
+        "median": 257109.261,
+        "mean": 1319401.20140625,
+        "maximum": 4572046.655
+      },
+      "available_memory_MiB": {
+        "n": 32,
+        "minimum": 3486.0,
+        "median": 3962.5,
+        "mean": 3941.1875,
+        "maximum": 4371.0
+      },
+      "pages_input_s": {
+        "n": 32,
+        "minimum": 0.0,
+        "median": 0.0,
+        "mean": 0.61671875,
+        "maximum": 12.793
+      },
+      "wsl_working_bytes": {
+        "n": 32,
+        "minimum": 11744931840,
+        "median": 12772409344.0,
+        "mean": 12460186240,
+        "maximum": 13094187008
+      }
+    },
+    "anchor/combined/full/A/histogram": {
+      "cpu_percent": {
+        "n": 2,
+        "minimum": 6.055,
+        "median": 6.0975,
+        "mean": 6.0975,
+        "maximum": 6.14
+      },
+      "disk_read_bytes_s": {
+        "n": 2,
+        "minimum": 4540.749,
+        "median": 28778.0135,
+        "mean": 28778.0135,
+        "maximum": 53015.278
+      },
+      "disk_write_bytes_s": {
+        "n": 2,
+        "minimum": 259017.503,
+        "median": 3572657.9894999997,
+        "mean": 3572657.9894999997,
+        "maximum": 6886298.476
+      },
+      "available_memory_MiB": {
+        "n": 2,
+        "minimum": 3509.0,
+        "median": 3814.5,
+        "mean": 3814.5,
+        "maximum": 4120.0
+      },
+      "pages_input_s": {
+        "n": 2,
+        "minimum": 0.985,
+        "median": 5.423,
+        "mean": 5.423,
+        "maximum": 9.861
+      },
+      "wsl_working_bytes": {
+        "n": 2,
+        "minimum": 12029923328,
+        "median": 12533022720.0,
+        "mean": 12533022720,
+        "maximum": 13036122112
+      }
+    }
+  },
+  "job_legs": [
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      "classification": "warmup",
+      "leg": "framework",
+      "start_unix_ns": 1795017379030505356,
+      "end_unix_ns": 1795017628392819483,
+      "host_samples": 16,
+      "host": {
+        "cpu_percent": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 5.5805,
+          "mean": 7.6265,
+          "maximum": 18.384
+        },
+        "disk_read_bytes_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 22939.704625000002,
+          "maximum": 357862.031
+        },
+        "disk_write_bytes_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 320173.85250000004,
+          "mean": 1691450.45025,
+          "maximum": 4931500.991
+        },
+        "available_memory_MiB": {
+          "n": 16,
+          "minimum": 3877.0,
+          "median": 3971.5,
+          "mean": 3975.1875,
+          "maximum": 4163.0
+        },
+        "pages_input_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 1.30075,
+          "maximum": 17.82
+        },
+        "wsl_working_bytes": {
+          "n": 16,
+          "minimum": 12012097536,
+          "median": 12108529664.0,
+          "mean": 12122360320,
+          "maximum": 12219420672
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0004784531800810795,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      "classification": "warmup",
+      "leg": "histogram",
+      "start_unix_ns": 1795017628529648624,
+      "end_unix_ns": 1795017637746766613,
+      "host_samples": 0,
+      "host": {
+        "cpu_percent": null,
+        "disk_read_bytes_s": null,
+        "disk_write_bytes_s": null,
+        "available_memory_MiB": null,
+        "pages_input_s": null,
+        "wsl_working_bytes": null
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "C",
+        "key": "00-combined-full-C",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      "classification": "warmup",
+      "leg": "columnar",
+      "start_unix_ns": 1795017637757501035,
+      "end_unix_ns": 1795017650686677950,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 4.141,
+          "median": 4.141,
+          "mean": 4.141,
+          "maximum": 4.141
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 979335.342,
+          "median": 979335.342,
+          "mean": 979335.342,
+          "maximum": 979335.342
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 4148.0,
+          "median": 4148.0,
+          "mean": 4148.0,
+          "maximum": 4148.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 11883810816,
+          "median": 11883810816,
+          "mean": 11883810816,
+          "maximum": 11883810816
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "01-combined-full-A",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "framework",
+      "start_unix_ns": 1795017663645760160,
+      "end_unix_ns": 1795017913004773171,
+      "host_samples": 15,
+      "host": {
+        "cpu_percent": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 5.588,
+          "mean": 5.6024666666666665,
+          "maximum": 16.118
+        },
+        "disk_read_bytes_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 916.3078,
+          "maximum": 4594.983
+        },
+        "disk_write_bytes_s": {
+          "n": 15,
+          "minimum": 4061.973,
+          "median": 167262.984,
+          "mean": 1203046.5846,
+          "maximum": 3271322.444
+        },
+        "available_memory_MiB": {
+          "n": 15,
+          "minimum": 3517.0,
+          "median": 3768.0,
+          "mean": 3740.4666666666667,
+          "maximum": 3883.0
+        },
+        "pages_input_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 1.3239333333333332,
+          "maximum": 16.871
+        },
+        "wsl_working_bytes": {
+          "n": 15,
+          "minimum": 12236922880,
+          "median": 12354793472,
+          "mean": 12354899968,
+          "maximum": 12463419392
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0004217394605341335,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "01-combined-full-A",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "histogram",
+      "start_unix_ns": 1795017913144768519,
+      "end_unix_ns": 1795017922391637879,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 5.254,
+          "median": 5.254,
+          "mean": 5.254,
+          "maximum": 5.254
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 196149.227,
+          "median": 196149.227,
+          "mean": 196149.227,
+          "maximum": 196149.227
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 3762.0,
+          "median": 3762.0,
+          "mean": 3762.0,
+          "maximum": 3762.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 12326457344,
+          "median": 12326457344,
+          "mean": 12326457344,
+          "maximum": 12326457344
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "C",
+        "key": "01-combined-full-C",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "columnar",
+      "start_unix_ns": 1795017650726187559,
+      "end_unix_ns": 1795017663607521537,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 965769.477,
+          "median": 965769.477,
+          "mean": 965769.477,
+          "maximum": 965769.477
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 4161.0,
+          "median": 4161.0,
+          "mean": 4161.0,
+          "maximum": 4161.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 11849670656,
+          "median": 11849670656,
+          "mean": 11849670656,
+          "maximum": 11849670656
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0026153149046100528,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "02-combined-full-A",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "framework",
+      "start_unix_ns": 1795017922403865916,
+      "end_unix_ns": 1795018173129229949,
+      "host_samples": 16,
+      "host": {
+        "cpu_percent": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 7.466,
+          "mean": 7.6679375,
+          "maximum": 16.535
+        },
+        "disk_read_bytes_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 5199.1275625,
+          "maximum": 53235.5
+        },
+        "disk_write_bytes_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 312479.35199999996,
+          "mean": 1776304.779375,
+          "maximum": 5161506.949
+        },
+        "available_memory_MiB": {
+          "n": 16,
+          "minimum": 3567.0,
+          "median": 3679.5,
+          "mean": 3701.5625,
+          "maximum": 3876.0
+        },
+        "pages_input_s": {
+          "n": 16,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 1.0600625,
+          "maximum": 12.997
+        },
+        "wsl_working_bytes": {
+          "n": 16,
+          "minimum": 12218392576,
+          "median": 12536598528.0,
+          "mean": 12503921920,
+          "maximum": 12625223680
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0008375698331115772,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "02-combined-full-A",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "histogram",
+      "start_unix_ns": 1795018173325347074,
+      "end_unix_ns": 1795018182710133008,
+      "host_samples": 0,
+      "host": {
+        "cpu_percent": null,
+        "disk_read_bytes_s": null,
+        "disk_write_bytes_s": null,
+        "available_memory_MiB": null,
+        "pages_input_s": null,
+        "wsl_working_bytes": null
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "C",
+        "key": "02-combined-full-C",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "columnar",
+      "start_unix_ns": 1795018182729124692,
+      "end_unix_ns": 1795018195586239396,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 9.789,
+          "median": 9.789,
+          "mean": 9.789,
+          "maximum": 9.789
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 4605.531,
+          "median": 4605.531,
+          "mean": 4605.531,
+          "maximum": 4605.531
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 336203.795,
+          "median": 336203.795,
+          "mean": 336203.795,
+          "maximum": 336203.795
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 3667.0,
+          "median": 3667.0,
+          "mean": 3667.0,
+          "maximum": 3667.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.999,
+          "median": 0.999,
+          "mean": 0.999,
+          "maximum": 0.999
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 12449378304,
+          "median": 12449378304,
+          "mean": 12449378304,
+          "maximum": 12449378304
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "03-combined-full-A",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "framework",
+      "start_unix_ns": 1795018208704659647,
+      "end_unix_ns": 1795018459351143100,
+      "host_samples": 15,
+      "host": {
+        "cpu_percent": {
+          "n": 15,
+          "minimum": 2.422,
+          "median": 5.446,
+          "mean": 6.5902,
+          "maximum": 17.143
+        },
+        "disk_read_bytes_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 10736.0874,
+          "maximum": 94368.883
+        },
+        "disk_write_bytes_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 223238.219,
+          "mean": 1307666.7828,
+          "maximum": 3287671.889
+        },
+        "available_memory_MiB": {
+          "n": 15,
+          "minimum": 3351.0,
+          "median": 3471.0,
+          "mean": 3477.6666666666665,
+          "maximum": 3589.0
+        },
+        "pages_input_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 2.647666666666667,
+          "maximum": 23.782
+        },
+        "wsl_working_bytes": {
+          "n": 15,
+          "minimum": 12617543680,
+          "median": 12717322240,
+          "mean": 12720382225.066668,
+          "maximum": 12833845248
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0005984524445857215,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "03-combined-full-A",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "histogram",
+      "start_unix_ns": 1795018459488105706,
+      "end_unix_ns": 1795018469032878743,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 3.493,
+          "median": 3.493,
+          "mean": 3.493,
+          "maximum": 3.493
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 4821728.903,
+          "median": 4821728.903,
+          "mean": 4821728.903,
+          "maximum": 4821728.903
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 3988.0,
+          "median": 3988.0,
+          "mean": 3988.0,
+          "maximum": 3988.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 12851019776,
+          "median": 12851019776,
+          "mean": 12851019776,
+          "maximum": 12851019776
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.000986191086793745,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "C",
+        "key": "03-combined-full-C",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "retained",
+      "leg": "columnar",
+      "start_unix_ns": 1795018195630321054,
+      "end_unix_ns": 1795018208663700862,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 2.556,
+          "median": 2.556,
+          "mean": 2.556,
+          "maximum": 2.556
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 3682.0,
+          "median": 3682.0,
+          "mean": 3682.0,
+          "maximum": 3682.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.0,
+          "maximum": 0.0
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 12416086016,
+          "median": 12416086016,
+          "mean": 12416086016,
+          "maximum": 12416086016
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "anchor",
+      "leg": "framework",
+      "start_unix_ns": 1795017121046006345,
+      "end_unix_ns": 1795017369561283926,
+      "host_samples": 15,
+      "host": {
+        "cpu_percent": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 5.135,
+          "mean": 5.3042,
+          "maximum": 12.065
+        },
+        "disk_read_bytes_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 914.0690666666667,
+          "maximum": 4605.135
+        },
+        "disk_write_bytes_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 232675.366,
+          "mean": 1517042.3868,
+          "maximum": 4572046.655
+        },
+        "available_memory_MiB": {
+          "n": 15,
+          "minimum": 4122.0,
+          "median": 4213.0,
+          "mean": 4228.466666666666,
+          "maximum": 4371.0
+        },
+        "pages_input_s": {
+          "n": 15,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.2647333333333333,
+          "maximum": 0.999
+        },
+        "wsl_working_bytes": {
+          "n": 15,
+          "minimum": 11744931840,
+          "median": 11900223488,
+          "mean": 11891499281.066668,
+          "maximum": 12013010944
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0004935941397594497,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "anchor",
+      "leg": "histogram",
+      "start_unix_ns": 1795017369728558038,
+      "end_unix_ns": 1795017379018511469,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 6.055,
+          "median": 6.055,
+          "mean": 6.055,
+          "maximum": 6.055
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 4540.749,
+          "median": 4540.749,
+          "mean": 4540.749,
+          "maximum": 4540.749
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 6886298.476,
+          "median": 6886298.476,
+          "mean": 6886298.476,
+          "maximum": 6886298.476
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 4120.0,
+          "median": 4120.0,
+          "mean": 4120.0,
+          "maximum": 4120.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 0.985,
+          "median": 0.985,
+          "mean": 0.985,
+          "maximum": 0.985
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 12029923328,
+          "median": 12029923328,
+          "mean": 12029923328,
+          "maximum": 12029923328
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0032456908996263602,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-04-combined-full-A",
+        "mode": "full",
+        "round": 4,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "anchor",
+      "leg": "framework",
+      "start_unix_ns": 1795018469046954429,
+      "end_unix_ns": 1795018742624433305,
+      "host_samples": 17,
+      "host": {
+        "cpu_percent": {
+          "n": 17,
+          "minimum": 0.0,
+          "median": 5.002,
+          "mean": 5.852,
+          "maximum": 17.622
+        },
+        "disk_read_bytes_s": {
+          "n": 17,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 3887.3618235294116,
+          "maximum": 52400.057
+        },
+        "disk_write_bytes_s": {
+          "n": 17,
+          "minimum": 0.0,
+          "median": 326754.696,
+          "mean": 1145011.9201764707,
+          "maximum": 4324735.55
+        },
+        "available_memory_MiB": {
+          "n": 17,
+          "minimum": 3486.0,
+          "median": 3686.0,
+          "mean": 3687.705882352941,
+          "maximum": 3985.0
+        },
+        "pages_input_s": {
+          "n": 17,
+          "minimum": 0.0,
+          "median": 0.0,
+          "mean": 0.9272941176470588,
+          "maximum": 12.793
+        },
+        "wsl_working_bytes": {
+          "n": 17,
+          "minimum": 12683771904,
+          "median": 12973576192,
+          "mean": 12961968850.82353,
+          "maximum": 13094187008
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0005841609443375682,
+      "active_muon_cpu_s": 0.0
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-04-combined-full-A",
+        "mode": "full",
+        "round": 4,
+        "scope": "combined",
+        "warmup": false
+      },
+      "classification": "anchor",
+      "leg": "histogram",
+      "start_unix_ns": 1795018742763449652,
+      "end_unix_ns": 1795018752412340974,
+      "host_samples": 1,
+      "host": {
+        "cpu_percent": {
+          "n": 1,
+          "minimum": 6.14,
+          "median": 6.14,
+          "mean": 6.14,
+          "maximum": 6.14
+        },
+        "disk_read_bytes_s": {
+          "n": 1,
+          "minimum": 53015.278,
+          "median": 53015.278,
+          "mean": 53015.278,
+          "maximum": 53015.278
+        },
+        "disk_write_bytes_s": {
+          "n": 1,
+          "minimum": 259017.503,
+          "median": 259017.503,
+          "mean": 259017.503,
+          "maximum": 259017.503
+        },
+        "available_memory_MiB": {
+          "n": 1,
+          "minimum": 3509.0,
+          "median": 3509.0,
+          "mean": 3509.0,
+          "maximum": 3509.0
+        },
+        "pages_input_s": {
+          "n": 1,
+          "minimum": 9.861,
+          "median": 9.861,
+          "mean": 9.861,
+          "maximum": 9.861
+        },
+        "wsl_working_bytes": {
+          "n": 1,
+          "minimum": 13036122112,
+          "median": 13036122112,
+          "mean": 13036122112,
+          "maximum": 13036122112
+        }
+      },
+      "guest_coverage_fraction": 1.0,
+      "other_guest_cores": 0.0,
+      "active_muon_cpu_s": 0.0
+    }
+  ]
+}

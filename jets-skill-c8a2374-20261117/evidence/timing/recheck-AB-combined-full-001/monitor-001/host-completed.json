@@ -1,0 +1,19 @@
+{
+  "options": [
+    "--recheck-of",
+    "results/validation/shipment-final-001/production-002",
+    "--recheck-scope",
+    "combined",
+    "--recheck-mode",
+    "full",
+    "--recheck-pair",
+    "AB",
+    "--recheck-output",
+    "results/validation/shipment-final-001/recheck-AB-combined-full-001"
+  ],
+  "started_utc": "2026-11-18T16:19:24.8878424+00:00",
+  "specification": "results/diagnostics/qualify-selected-001/steps/specification.json",
+  "ended_utc": "2026-11-18T17:04:15.6317318+00:00",
+  "wsl_exit": 1,
+  "guest_trace": "results/diagnostics/recheck-AB-combined-full-001-monitor-001"
+}

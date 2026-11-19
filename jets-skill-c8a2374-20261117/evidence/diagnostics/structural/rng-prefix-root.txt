@@ -1,0 +1,11 @@
+cache_hits 68900
+cache_misses 11820
+standard_draws 11820
+guarded_restarts 246
+negative_restarts 446
+nonfinite_restarts 6
+scalar_seeds 698
+scalar_draws 1293
+scalar_rejections 595
+cache_slots 262144
+bitwise ROOT checks 83270

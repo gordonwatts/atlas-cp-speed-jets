@@ -1,0 +1,19 @@
+{
+  "wsl_exit": 1,
+  "specification": "results/diagnostics/qualify-selected-001/steps/specification.json",
+  "ended_utc": "2026-11-18T15:41:05.7339456+00:00",
+  "guest_trace": "results/diagnostics/recheck-AB-small-nominal-001-monitor-001",
+  "started_utc": "2026-11-18T15:38:57.9748566+00:00",
+  "options": [
+    "--recheck-of",
+    "results/validation/shipment-final-001/production-002",
+    "--recheck-scope",
+    "small",
+    "--recheck-mode",
+    "nominal",
+    "--recheck-pair",
+    "AB",
+    "--recheck-output",
+    "results/validation/shipment-final-001/recheck-AB-small-nominal-001"
+  ]
+}

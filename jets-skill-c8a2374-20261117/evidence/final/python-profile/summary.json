@@ -1,0 +1,1326 @@
+{
+  "classification": "one deterministic cProfile diagnostic outside formal timing",
+  "basis": "cProfile elapsed seconds while each function is active, including any called native work",
+  "interpretation": "Cumulative times overlap. Caller edges are direct. The profile measures calls and time.",
+  "total_self_s": 16.986049884999957,
+  "total_calls": 14761380,
+  "primitive_calls": 13754770,
+  "functions": 5288,
+  "top_by_self": [
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+      "line": 194,
+      "name": "_evaluate",
+      "primitive_calls": 20540,
+      "calls": 20540,
+      "self_s": 9.005660058,
+      "cumulative_s": 10.049964676,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 286,
+          "name": "evaluate",
+          "primitive_calls": 20540,
+          "calls": 20540,
+          "self_s": 9.005660058,
+          "cumulative_s": 10.049964676
+        }
+      ]
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method correctionlib._core.from_string>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 0.87041617,
+      "cumulative_s": 0.87041617,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 365,
+          "name": "__init__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 0.87041617,
+          "cumulative_s": 0.87041617
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/lib/python3.14/json/decoder.py",
+      "line": 351,
+      "name": "raw_decode",
+      "primitive_calls": 366,
+      "calls": 366,
+      "self_s": 0.350056252,
+      "cumulative_s": 0.350056252,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/lib/python3.14/json/decoder.py",
+          "line": 340,
+          "name": "decode",
+          "primitive_calls": 366,
+          "calls": 366,
+          "self_s": 0.350056252,
+          "cumulative_s": 0.350056252
+        }
+      ]
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method awkward_cpp.lib._ext.resume>",
+      "primitive_calls": 4329,
+      "calls": 4329,
+      "self_s": 0.322371124,
+      "cumulative_s": 0.322371124,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/uproot/interpretation/objects.py",
+          "line": 206,
+          "name": "basket_array_forth",
+          "primitive_calls": 4329,
+          "calls": 4329,
+          "self_s": 0.322371124,
+          "cumulative_s": 0.322371124
+        }
+      ]
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<method 'flatten' of 'numpy.ndarray' objects>",
+      "primitive_calls": 129220,
+      "calls": 129220,
+      "self_s": 0.295075236,
+      "cumulative_s": 0.295075236,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 231,
+          "name": "<genexpr>",
+          "primitive_calls": 129220,
+          "calls": 129220,
+          "self_s": 0.295075236,
+          "cumulative_s": 0.295075236
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+      "line": 186,
+      "name": "_isinstance",
+      "primitive_calls": 852540,
+      "calls": 852540,
+      "self_s": 0.28206388200000004,
+      "cumulative_s": 0.33687357300000004,
+      "distinct_direct_callers": 4,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 202,
+          "name": "<genexpr>",
+          "primitive_calls": 338160,
+          "calls": 338160,
+          "self_s": 0.126022764,
+          "cumulative_s": 0.14919057400000002
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 210,
+          "name": "<genexpr>",
+          "primitive_calls": 171460,
+          "calls": 171460,
+          "self_s": 0.053723347000000005,
+          "cumulative_s": 0.064462088
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 219,
+          "name": "<genexpr>",
+          "primitive_calls": 171460,
+          "calls": 171460,
+          "self_s": 0.051335393,
+          "cumulative_s": 0.061777530000000004
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 217,
+          "name": "<genexpr>",
+          "primitive_calls": 171460,
+          "calls": 171460,
+          "self_s": 0.050982378,
+          "cumulative_s": 0.061443381000000005
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+      "line": 922,
+      "name": "fill",
+      "primitive_calls": 6760,
+      "calls": 6760,
+      "self_s": 0.25157929700000004,
+      "cumulative_s": 0.289655196,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/hist/basehist.py",
+          "line": 328,
+          "name": "fill",
+          "primitive_calls": 6760,
+          "calls": 6760,
+          "self_s": 0.25157929700000004,
+          "cumulative_s": 0.289655196
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 255,
+      "name": "evaluate",
+      "primitive_calls": 2340,
+      "calls": 2340,
+      "self_s": 0.224405864,
+      "cumulative_s": 2.5540142510000003,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 275,
+          "name": "small_jvt_selection",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.224405864,
+          "cumulative_s": 2.5540142510000003
+        }
+      ]
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.isinstance>",
+      "primitive_calls": 1664134,
+      "calls": 1679512,
+      "self_s": 0.16520309300000002,
+      "cumulative_s": 0.20708346300000002,
+      "distinct_direct_callers": 352,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 194,
+          "name": "_evaluate",
+          "primitive_calls": 192000,
+          "calls": 192000,
+          "self_s": 0.019100305,
+          "cumulative_s": 0.019100305
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/highlevel.py",
+          "line": 233,
+          "name": "<genexpr>",
+          "primitive_calls": 171460,
+          "calls": 171460,
+          "self_s": 0.016394593000000002,
+          "cumulative_s": 0.016394593000000002
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/uproot/source/chunk.py",
+          "line": 377,
+          "name": "wait",
+          "primitive_calls": 13818,
+          "calls": 13818,
+          "self_s": 0.0032557360000000004,
+          "cumulative_s": 0.014354311000000002
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward/forms/form.py",
+          "line": 54,
+          "name": "from_dict",
+          "primitive_calls": 37541,
+          "calls": 37541,
+          "self_s": 0.005980244,
+          "cumulative_s": 0.012864456000000002
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 183,
+      "name": "status_bits",
+      "primitive_calls": 7480,
+      "calls": 7480,
+      "self_s": 0.161861805,
+      "cumulative_s": 0.24043297800000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 313,
+          "name": "evaluate_chunk",
+          "primitive_calls": 7480,
+          "calls": 7480,
+          "self_s": 0.161861805,
+          "cumulative_s": 0.24043297800000002
+        }
+      ]
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method zstd.decompress>",
+      "primitive_calls": 6803,
+      "calls": 6803,
+      "self_s": 0.151691226,
+      "cumulative_s": 0.151691226,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/uproot/compression.py",
+          "line": 303,
+          "name": "decompress",
+          "primitive_calls": 6803,
+          "calls": 6803,
+          "self_s": 0.151691226,
+          "cumulative_s": 0.151691226
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 275,
+      "name": "small_jvt_selection",
+      "primitive_calls": 2340,
+      "calls": 2340,
+      "self_s": 0.11874720600000001,
+      "cumulative_s": 3.2581076700000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 313,
+          "name": "evaluate_chunk",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.11874720600000001,
+          "cumulative_s": 3.2581076700000002
+        }
+      ]
+    }
+  ],
+  "top_by_cumulative": [
+    {
+      "file": "~",
+      "line": 0,
+      "name": "<built-in method builtins.exec>",
+      "primitive_calls": 1,
+      "calls": 892,
+      "self_s": 0.015973503,
+      "cumulative_s": 16.992291605000002,
+      "distinct_direct_callers": 6,
+      "callers": [
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 483,
+          "name": "_call_with_frames_removed",
+          "primitive_calls": 783,
+          "calls": 22,
+          "self_s": 0.001787088,
+          "cumulative_s": 0.306581
+        },
+        {
+          "file": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/lib/python3.14/dataclasses.py",
+          "line": 478,
+          "name": "add_fns_to_class",
+          "primitive_calls": 76,
+          "calls": 76,
+          "self_s": 0.013576421000000002,
+          "cumulative_s": 0.013599477
+        },
+        {
+          "file": "<frozen importlib._bootstrap>",
+          "line": 1174,
+          "name": "exec_module",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 2.9250000000000004e-06,
+          "cumulative_s": 0.000493915
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typing_inspection/typing_objects.py",
+          "line": 61,
+          "name": "_compile_identity_check_function",
+          "primitive_calls": 21,
+          "calls": 21,
+          "self_s": 0.000402778,
+          "cumulative_s": 0.000411691
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 1,
+      "name": "<module>",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 7.5561e-05,
+      "cumulative_s": 16.992273187000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "~",
+          "line": 0,
+          "name": "<built-in method builtins.exec>",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 7.5561e-05,
+          "cumulative_s": 16.992273187000002
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+      "line": 1669,
+      "name": "run",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 1.5952000000000002e-05,
+      "cumulative_s": 16.748385058,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 1,
+          "name": "<module>",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 1.5952000000000002e-05,
+          "cumulative_s": 16.748385058
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+      "line": 1122,
+      "name": "__call__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 9.555e-06,
+      "cumulative_s": 16.748341535,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+          "line": 1669,
+          "name": "run",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 9.555e-06,
+          "cumulative_s": 16.748341535
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+      "line": 807,
+      "name": "__call__",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 3.524e-06,
+      "cumulative_s": 16.746780182000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+          "line": 1122,
+          "name": "__call__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 3.524e-06,
+          "cumulative_s": 16.746780182000002
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/core.py",
+      "line": 1063,
+      "name": "main",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 7.111e-06,
+      "cumulative_s": 16.746776658,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+          "line": 807,
+          "name": "__call__",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 7.111e-06,
+          "cumulative_s": 16.746776658
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/core.py",
+      "line": 303,
+      "name": "_main",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 2.2441e-05,
+      "cumulative_s": 16.746769547,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/core.py",
+          "line": 1063,
+          "name": "main",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 2.2441e-05,
+          "cumulative_s": 16.746769547
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+      "line": 736,
+      "name": "invoke",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 6.757000000000001e-06,
+      "cumulative_s": 16.682576113,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/core.py",
+          "line": 303,
+          "name": "_main",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 6.757000000000001e-06,
+          "cumulative_s": 16.682576113
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+      "line": 475,
+      "name": "invoke",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 1.1281000000000001e-05,
+      "cumulative_s": 16.682569356000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+          "line": 736,
+          "name": "invoke",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 1.1281000000000001e-05,
+          "cumulative_s": 16.682569356000002
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+      "line": 1437,
+      "name": "wrapper",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 0.0027548720000000002,
+      "cumulative_s": 16.682542738000002,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/_click/core.py",
+          "line": 475,
+          "name": "invoke",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 0.0027548720000000002,
+          "cumulative_s": 16.682542738000002
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 482,
+      "name": "main",
+      "primitive_calls": 1,
+      "calls": 1,
+      "self_s": 0.07121165800000001,
+      "cumulative_s": 16.679780381,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+          "line": 1437,
+          "name": "wrapper",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 0.07121165800000001,
+          "cumulative_s": 16.679780381
+        }
+      ]
+    },
+    {
+      "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "line": 313,
+      "name": "evaluate_chunk",
+      "primitive_calls": 6780,
+      "calls": 6780,
+      "self_s": 0.06443691900000001,
+      "cumulative_s": 11.644229883000001,
+      "distinct_direct_callers": 1,
+      "callers": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 482,
+          "name": "main",
+          "primitive_calls": 6780,
+          "calls": 6780,
+          "self_s": 0.06443691900000001,
+          "cumulative_s": 11.644229883000001
+        }
+      ]
+    }
+  ],
+  "focus": {
+    "numpy_astype": {
+      "matched_functions": 1,
+      "by_self": [
+        {
+          "file": "~",
+          "line": 0,
+          "name": "<method 'astype' of 'numpy.ndarray' objects>",
+          "primitive_calls": 22780,
+          "calls": 22780,
+          "self_s": 0.055319635000000006,
+          "cumulative_s": 0.055319635000000006,
+          "distinct_direct_callers": 5,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 6800,
+              "calls": 6800,
+              "self_s": 0.022799389,
+              "cumulative_s": 0.022799389
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 275,
+              "name": "small_jvt_selection",
+              "primitive_calls": 7020,
+              "calls": 7020,
+              "self_s": 0.021424371,
+              "cumulative_s": 0.021424371
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 183,
+              "name": "status_bits",
+              "primitive_calls": 7480,
+              "calls": 7480,
+              "self_s": 0.0073389020000000004,
+              "cumulative_s": 0.0073389020000000004
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward/_nplikes/array_module.py",
+              "line": 852,
+              "name": "astype",
+              "primitive_calls": 1420,
+              "calls": 1420,
+              "self_s": 0.0035406780000000002,
+              "cumulative_s": 0.0035406780000000002
+            }
+          ]
+        }
+      ]
+    },
+    "numpy_where": {
+      "matched_functions": 1,
+      "by_self": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/_core/multiarray.py",
+          "line": 406,
+          "name": "where",
+          "primitive_calls": 22180,
+          "calls": 22180,
+          "self_s": 0.002332537,
+          "cumulative_s": 0.002332537,
+          "distinct_direct_callers": 4,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 183,
+              "name": "status_bits",
+              "primitive_calls": 14960,
+              "calls": 14960,
+              "self_s": 0.001620377,
+              "cumulative_s": 0.001620377
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 275,
+              "name": "small_jvt_selection",
+              "primitive_calls": 7020,
+              "calls": 7020,
+              "self_s": 0.0006871480000000001,
+              "cumulative_s": 0.0006871480000000001
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward/_nplikes/array_module.py",
+              "line": 493,
+              "name": "where",
+              "primitive_calls": 160,
+              "calls": 160,
+              "self_s": 2.0028000000000002e-05,
+              "cumulative_s": 2.0028000000000002e-05
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 234,
+              "name": "small_jvt_inputs",
+              "primitive_calls": 40,
+              "calls": 40,
+              "self_s": 4.984e-06,
+              "cumulative_s": 4.984e-06
+            }
+          ]
+        }
+      ]
+    },
+    "array_preparation": {
+      "matched_functions": 38,
+      "by_self": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 183,
+          "name": "status_bits",
+          "primitive_calls": 7480,
+          "calls": 7480,
+          "self_s": 0.161861805,
+          "cumulative_s": 0.24043297800000002,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 7480,
+              "calls": 7480,
+              "self_s": 0.161861805,
+              "cumulative_s": 0.24043297800000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+          "line": 25,
+          "name": "_borrow",
+          "primitive_calls": 4880,
+          "calls": 4880,
+          "self_s": 0.022640864,
+          "cumulative_s": 0.073248351,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "~",
+              "line": 0,
+              "name": "<built-in method builtins.next>",
+              "primitive_calls": 4880,
+              "calls": 4880,
+              "self_s": 0.022640864,
+              "cumulative_s": 0.073248351
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+          "line": 80,
+          "name": "call",
+          "primitive_calls": 12840,
+          "calls": 12840,
+          "self_s": 0.018166689,
+          "cumulative_s": 0.022365378,
+          "distinct_direct_callers": 3,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+              "line": 84,
+              "name": "evaluate",
+              "primitive_calls": 12000,
+              "calls": 12000,
+              "self_s": 0.01731694,
+              "cumulative_s": 0.021351842000000003
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+              "line": 94,
+              "name": "discard",
+              "primitive_calls": 760,
+              "calls": 760,
+              "self_s": 0.0006828250000000001,
+              "cumulative_s": 0.000820919
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+              "line": 41,
+              "name": "unsigned_sign_pairs",
+              "primitive_calls": 80,
+              "calls": 80,
+              "self_s": 0.00016692400000000002,
+              "cumulative_s": 0.00019261700000000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+          "line": 84,
+          "name": "evaluate",
+          "primitive_calls": 6000,
+          "calls": 6000,
+          "self_s": 0.009476063,
+          "cumulative_s": 5.60359853,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 6000,
+              "calls": 6000,
+              "self_s": 0.009476063,
+              "cumulative_s": 5.60359853
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/inputs.py",
+          "line": 48,
+          "name": "offsets",
+          "primitive_calls": 2440,
+          "calls": 2440,
+          "self_s": 0.007064946000000001,
+          "cumulative_s": 0.031949702,
+          "distinct_direct_callers": 3,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 296,
+              "name": "small_sf",
+              "primitive_calls": 2380,
+              "calls": 2380,
+              "self_s": 0.006904391,
+              "cumulative_s": 0.031176976000000002
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 202,
+              "name": "truth_context",
+              "primitive_calls": 40,
+              "calls": 40,
+              "self_s": 0.00010246100000000001,
+              "cumulative_s": 0.000535206
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 190,
+              "name": "event_inputs",
+              "primitive_calls": 20,
+              "calls": 20,
+              "self_s": 5.8094e-05,
+              "cumulative_s": 0.00023752000000000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+          "line": 59,
+          "name": "weights",
+          "primitive_calls": 2380,
+          "calls": 2380,
+          "self_s": 0.002629358,
+          "cumulative_s": 0.009680392000000001,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 296,
+              "name": "small_sf",
+              "primitive_calls": 2380,
+              "calls": 2380,
+              "self_s": 0.002629358,
+              "cumulative_s": 0.009680392000000001
+            }
+          ]
+        }
+      ]
+    },
+    "histogram": {
+      "matched_functions": 178,
+      "by_self": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+          "line": 922,
+          "name": "fill",
+          "primitive_calls": 6760,
+          "calls": 6760,
+          "self_s": 0.25157929700000004,
+          "cumulative_s": 0.289655196,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/hist/basehist.py",
+              "line": 328,
+              "name": "fill",
+              "primitive_calls": 6760,
+              "calls": 6760,
+              "self_s": 0.25157929700000004,
+              "cumulative_s": 0.289655196
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+          "line": 154,
+          "name": "_walk_bases",
+          "primitive_calls": 310960,
+          "calls": 777400,
+          "self_s": 0.10586310800000001,
+          "cumulative_s": 0.10586310800000001,
+          "distinct_direct_callers": 2,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+              "line": 88,
+              "name": "cast",
+              "primitive_calls": 310960,
+              "calls": 310960,
+              "self_s": 0.046857714,
+              "cumulative_s": 0.10586310800000001
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+              "line": 154,
+              "name": "_walk_bases",
+              "primitive_calls": 466440,
+              "calls": 256880,
+              "self_s": 0.059005394,
+              "cumulative_s": 0.059005394
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+          "line": 88,
+          "name": "cast",
+          "primitive_calls": 6764,
+          "calls": 6764,
+          "self_s": 0.06339262700000001,
+          "cumulative_s": 0.226844131,
+          "distinct_direct_callers": 2,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+              "line": 1120,
+              "name": "storage_type",
+              "primitive_calls": 6760,
+              "calls": 6760,
+              "self_s": 0.06336504500000001,
+              "cumulative_s": 0.22676029600000003
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+              "line": 1114,
+              "name": "_axis",
+              "primitive_calls": 4,
+              "calls": 4,
+              "self_s": 2.7582e-05,
+              "cumulative_s": 8.3835e-05
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/hist/basehist.py",
+          "line": 328,
+          "name": "fill",
+          "primitive_calls": 6760,
+          "calls": 6760,
+          "self_s": 0.048255306000000005,
+          "cumulative_s": 0.629989035,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 482,
+              "name": "main",
+              "primitive_calls": 6760,
+              "calls": 6760,
+              "self_s": 0.048255306000000005,
+              "cumulative_s": 0.629989035
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+          "line": 160,
+          "name": "_walk_subclasses",
+          "primitive_calls": 60870,
+          "calls": 114984,
+          "self_s": 0.029732594,
+          "cumulative_s": 0.03652946,
+          "distinct_direct_callers": 2,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+              "line": 88,
+              "name": "cast",
+              "primitive_calls": 60870,
+              "calls": 60870,
+              "self_s": 0.016167018000000002,
+              "cumulative_s": 0.03652946
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_utils.py",
+              "line": 160,
+              "name": "_walk_subclasses",
+              "primitive_calls": 54114,
+              "calls": 54100,
+              "self_s": 0.013565576000000001,
+              "cumulative_s": 0.017646735
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+          "line": 137,
+          "name": "_fill_cast",
+          "primitive_calls": 20280,
+          "calls": 33800,
+          "self_s": 0.01709287,
+          "cumulative_s": 0.028179915000000003,
+          "distinct_direct_callers": 2,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+              "line": 922,
+              "name": "fill",
+              "primitive_calls": 20280,
+              "calls": 20280,
+              "self_s": 0.011160379000000002,
+              "cumulative_s": 0.028179915000000003
+            },
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/histogram.py",
+              "line": 148,
+              "name": "<genexpr>",
+              "primitive_calls": 13520,
+              "calls": 13520,
+              "self_s": 0.005932491000000001,
+              "cumulative_s": 0.009687422000000001
+            }
+          ]
+        }
+      ]
+    },
+    "nnjvt_orchestration": {
+      "matched_functions": 5,
+      "by_self": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 255,
+          "name": "evaluate",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.224405864,
+          "cumulative_s": 2.5540142510000003,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 275,
+              "name": "small_jvt_selection",
+              "primitive_calls": 2340,
+              "calls": 2340,
+              "self_s": 0.224405864,
+              "cumulative_s": 2.5540142510000003
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 275,
+          "name": "small_jvt_selection",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.11874720600000001,
+          "cumulative_s": 3.2581076700000002,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 2340,
+              "calls": 2340,
+              "self_s": 0.11874720600000001,
+              "cumulative_s": 3.2581076700000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 296,
+          "name": "small_sf",
+          "primitive_calls": 2380,
+          "calls": 2380,
+          "self_s": 0.052631128000000006,
+          "cumulative_s": 1.183612971,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 2380,
+              "calls": 2380,
+              "self_s": 0.052631128000000006,
+              "cumulative_s": 1.183612971
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 234,
+          "name": "small_jvt_inputs",
+          "primitive_calls": 20,
+          "calls": 20,
+          "self_s": 0.001113587,
+          "cumulative_s": 0.08132578,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 20,
+              "calls": 20,
+              "self_s": 0.001113587,
+              "cumulative_s": 0.08132578
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 247,
+          "name": "NominalNnjvtUpdate",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 1.4000000000000001e-06,
+          "cumulative_s": 1.4000000000000001e-06,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "~",
+              "line": 0,
+              "name": "<built-in method builtins.__build_class__>",
+              "primitive_calls": 1,
+              "calls": 1,
+              "self_s": 1.4000000000000001e-06,
+              "cumulative_s": 1.4000000000000001e-06
+            }
+          ]
+        }
+      ]
+    },
+    "visible_script": {
+      "matched_functions": 34,
+      "by_self": [
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 255,
+          "name": "evaluate",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.224405864,
+          "cumulative_s": 2.5540142510000003,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 275,
+              "name": "small_jvt_selection",
+              "primitive_calls": 2340,
+              "calls": 2340,
+              "self_s": 0.224405864,
+              "cumulative_s": 2.5540142510000003
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 183,
+          "name": "status_bits",
+          "primitive_calls": 7480,
+          "calls": 7480,
+          "self_s": 0.161861805,
+          "cumulative_s": 0.24043297800000002,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 7480,
+              "calls": 7480,
+              "self_s": 0.161861805,
+              "cumulative_s": 0.24043297800000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 275,
+          "name": "small_jvt_selection",
+          "primitive_calls": 2340,
+          "calls": 2340,
+          "self_s": 0.11874720600000001,
+          "cumulative_s": 3.2581076700000002,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 313,
+              "name": "evaluate_chunk",
+              "primitive_calls": 2340,
+              "calls": 2340,
+              "self_s": 0.11874720600000001,
+              "cumulative_s": 3.2581076700000002
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 271,
+          "name": "<genexpr>",
+          "primitive_calls": 6145,
+          "calls": 6145,
+          "self_s": 0.11307850000000001,
+          "cumulative_s": 0.11307850000000001,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 255,
+              "name": "evaluate",
+              "primitive_calls": 6145,
+              "calls": 6145,
+              "self_s": 0.11307850000000001,
+              "cumulative_s": 0.11307850000000001
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 482,
+          "name": "main",
+          "primitive_calls": 1,
+          "calls": 1,
+          "self_s": 0.07121165800000001,
+          "cumulative_s": 16.679780381,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/typer/main.py",
+              "line": 1437,
+              "name": "wrapper",
+              "primitive_calls": 1,
+              "calls": 1,
+              "self_s": 0.07121165800000001,
+              "cumulative_s": 16.679780381
+            }
+          ]
+        },
+        {
+          "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+          "line": 313,
+          "name": "evaluate_chunk",
+          "primitive_calls": 6780,
+          "calls": 6780,
+          "self_s": 0.06443691900000001,
+          "cumulative_s": 11.644229883000001,
+          "distinct_direct_callers": 1,
+          "callers": [
+            {
+              "file": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+              "line": 482,
+              "name": "main",
+              "primitive_calls": 6780,
+              "calls": 6780,
+              "self_s": 0.06443691900000001,
+              "cumulative_s": 11.644229883000001
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "passed": true,
+  "source_and_runtime_audit": {
+    "objects": {
+      "sr": 196606,
+      "lr": 22177
+    },
+    "branch_sha256": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+    "compact_payload": null,
+    "nnjvt_reuse": true,
+    "unsigned_pair_reuse": true,
+    "runtime_maps": {
+      "libraries": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/_ext.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward-cpu-kernels.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/awkward_cpp/lib/libawkward.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/boost_histogram/_core.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/cramjam/cramjam.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy.libs/libscipy_openblas64_-4b78795a.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/xxhash/_xxhash.cpython-314-x86_64-linux-gnu.so",
+        "/usr/lib64/ld-linux-x86-64.so.2",
+        "/usr/lib64/libc.so.6",
+        "/usr/lib64/libdl.so.2",
+        "/usr/lib64/libm.so.6",
+        "/usr/lib64/libpthread.so.0",
+        "/usr/lib64/librt.so.1",
+        "/usr/lib64/libutil.so.1",
+        "/usr/lib64/libz.so.1.2.11"
+      ],
+      "python": "3.14.10 (main, Nov 11 2026, 00:18:44) [Clang 23.1.3 ]"
+    }
+  },
+  "pstats": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/profile.pstats",
+    "sha256": "2f2365d596163fcc9c5be900831cd1fbb5feeeab3007cfb886bd653c86dc337c",
+    "bytes": 870362
+  },
+  "exact_stock_histogram": true
+}

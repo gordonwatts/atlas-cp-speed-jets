@@ -1,0 +1,3 @@
+{"utc":"2026-11-18T13:22:01.7018373Z","cpu_percent":12.354,"disk_read_bytes_s":610973.907,"disk_write_bytes_s":252325.61,"available_memory_MiB":2008.0,"pages_input_s":145.065,"wsl_working_bytes":14832193536,"wsl_cpu_seconds":null}
+{"utc":"2026-11-18T13:22:17.7905912Z","cpu_percent":8.604,"disk_read_bytes_s":133810.757,"disk_write_bytes_s":660944.045,"available_memory_MiB":1175.0,"pages_input_s":48.508,"wsl_working_bytes":15714054144,"wsl_cpu_seconds":null}
+{"utc":"2026-11-18T13:22:33.8246768Z","cpu_percent":0.183,"disk_read_bytes_s":0.0,"disk_write_bytes_s":434509.711,"available_memory_MiB":1366.0,"pages_input_s":15.863,"wsl_working_bytes":15410896896,"wsl_cpu_seconds":null}

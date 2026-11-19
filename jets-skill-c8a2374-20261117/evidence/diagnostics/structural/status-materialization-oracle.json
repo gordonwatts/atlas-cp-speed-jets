@@ -1,0 +1,6 @@
+{
+  "exact_diagnostic_bits": true,
+  "histogram_materializes_no_bits": true,
+  "exact_errors": true,
+  "scope": "Native numeric storage layout, including absent rows, empty rows and present invalid statuses"
+}

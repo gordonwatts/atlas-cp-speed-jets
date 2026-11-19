@@ -1,0 +1,24 @@
+{
+  "kernel": {
+    "system": "Linux",
+    "node": "PHYS-PROFWSN04",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "version": "#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026",
+    "machine": "x86_64",
+    "processor": "x86_64"
+  },
+  "perf": "perf version 5.14.0-687.61.1.el9_8.x86_64",
+  "perf_event_paranoid": "2",
+  "event_sources": [
+    "breakpoint",
+    "kprobe",
+    "msr",
+    "power",
+    "software",
+    "tracepoint",
+    "uprobe"
+  ],
+  "event": "cpu-clock:u",
+  "period_ns": 10000000,
+  "clock": "CLOCK_MONOTONIC"
+}

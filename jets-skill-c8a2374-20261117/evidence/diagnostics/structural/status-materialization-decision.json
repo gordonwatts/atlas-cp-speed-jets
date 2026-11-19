@@ -1,0 +1,79 @@
+{
+  "selected": "current columnar source with ordinary status materialization",
+  "trial_retained": false,
+  "reason": "Combined mean reversed direction on the bounded repeat and candidate spread exceeded 5%. Large-only means regressed in both cohorts. The small-only means improved but individual pairs straddled zero. Retain the simpler common status path.",
+  "sources": [
+    {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/visible-status-mask-001/summary.json",
+      "sha256": "0260496bdcadfd6919313032394ad0a1882ad8f256ad710f900c8d37c206e450",
+      "scope_means": {
+        "small": {
+          "control": {
+            "mean_s": 11.444473987333334,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 11.382069481666667,
+            "pass": true
+          }
+        },
+        "large": {
+          "control": {
+            "mean_s": 2.988970071333333,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 3.003711718,
+            "pass": true
+          }
+        },
+        "both": {
+          "control": {
+            "mean_s": 13.659108791333333,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 13.345203440666667,
+            "pass": true
+          }
+        }
+      }
+    },
+    {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/visible-status-mask-002/summary.json",
+      "sha256": "182b8d6f02352375d9531f2bb2513db2ebf6192cf531f64316d2513e6c64db63",
+      "scope_means": {
+        "small": {
+          "control": {
+            "mean_s": 11.334668270333333,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 11.130400646333333,
+            "pass": true
+          }
+        },
+        "large": {
+          "control": {
+            "mean_s": 2.8633704343333335,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 2.8925202883333334,
+            "pass": true
+          }
+        },
+        "both": {
+          "control": {
+            "mean_s": 13.318132373333334,
+            "pass": true
+          },
+          "skip-decorations": {
+            "mean_s": 13.523127904666667,
+            "pass": false
+          }
+        }
+      }
+    }
+  ]
+}

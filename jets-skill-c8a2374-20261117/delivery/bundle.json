@@ -1,0 +1,153 @@
+{
+  "tag": "cp314-cp314-linux_x86_64",
+  "original_wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb-cp314-cp314-linux_x86_64.whl",
+    "bytes": 644997,
+    "sha256": "9c05da84db0cd449f1dd5c90556456ba7def9c4b36d44bec6823166025df98d8"
+  },
+  "provider": {
+    "name": "libjets.so",
+    "bytes": 16970800,
+    "sha256": "d4c17d1bf9156a4684077c5327539e2aaa7caab321ea57cdd4f37197c3c3379a"
+  },
+  "payload": {
+    "bytes": 75847478,
+    "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+  },
+  "payload_provenance": {
+    "bytes": 175116,
+    "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+  },
+  "compiler_inputs": {
+    "libstdc++.so.6": {
+      "bytes": 2575440,
+      "sha256": "a1247c7333c8cfbd9aecc0bef0b71dd6cc573047d004afc3722972d878b770ec"
+    },
+    "libgcc_s.so.1": {
+      "bytes": 908488,
+      "sha256": "bcb03f2ffabd8890cb54200e2dbb3d271e8877d8ce51cf95fa73e0cc53c4ac7c"
+    }
+  },
+  "columnar_source": {
+    "bytes": 29798,
+    "sha256": "29f658d5d0e888cbcb0c97994ef8dbd988b2a312ab70be00afb7f78c1c884eef"
+  },
+  "demo_defaults": {
+    "mode": "full",
+    "scope": "both",
+    "compact_payload_default_scopes": [
+      "small",
+      "large"
+    ],
+    "reuse_uncertainty_sign_pair_scopes": [
+      "small",
+      "both"
+    ],
+    "chunk_events_by_scope": {
+      "small": 1000,
+      "large": 4000,
+      "both": 1000
+    },
+    "reuse_nominal_nnjvt_update": true,
+    "reuse_nominal_nnjvt_update_modes": [
+      "full"
+    ],
+    "reuse_nominal_nnjvt_update_scopes": [
+      "small",
+      "both"
+    ]
+  },
+  "input_transport": {
+    "bytes": 4123,
+    "sha256": "9238ad09f3f43f3365c1445f28db5c3c0537b14942726e16c0dfebf3fc2be908"
+  },
+  "native_members": {
+    "correctionlib/_core.cpython-314-x86_64-linux-gnu.so": {
+      "bytes": 356800,
+      "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.32",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libcorrectionlib.so": {
+      "bytes": 1363113,
+      "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.29",
+        "2.32",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libgcc_s.so.1": {
+      "bytes": 917417,
+      "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.14",
+        "2.34"
+      ]
+    },
+    "correctionlib/lib/libjets.so": {
+      "bytes": 16970800,
+      "sha256": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14",
+        "2.29",
+        "2.32"
+      ]
+    },
+    "correctionlib/lib/libstdc++.so.6": {
+      "bytes": 2924465,
+      "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab",
+      "glibc_required_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17",
+        "2.18",
+        "2.25",
+        "2.26",
+        "2.32",
+        "2.33",
+        "2.34"
+      ]
+    }
+  },
+  "git_commit": "04c9e4abc60f26dcb16d88f68dfad7f9933436e6",
+  "scope_index": {
+    "bytes": 687,
+    "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+  },
+  "scope_projector": {
+    "bytes": 5300,
+    "sha256": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+  },
+  "visible_source": {
+    "bytes": 31776,
+    "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+  },
+  "wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+    "bytes": 36078219,
+    "sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78"
+  },
+  "visible_script": {
+    "name": "jets_demo.py",
+    "bytes": 31776,
+    "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+  }
+}

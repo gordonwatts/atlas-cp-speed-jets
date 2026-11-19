@@ -1,0 +1,222 @@
+{
+  "canonical": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+    "bytes": 160837477,
+    "sha256": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+  },
+  "provenance": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+    "sha256": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6"
+  },
+  "canonical_order": [
+    "small_pileup",
+    "jet_event_inputs",
+    "jet_pileup_truth",
+    "large_selection",
+    "jet_event_sf",
+    "small_uncertainty",
+    "large_uncertainty",
+    "small_gsc",
+    "small_eta_jes",
+    "large_eta_jes",
+    "large_jms",
+    "large_jmr",
+    "small_nnjvt_update",
+    "small_nnjvt_select",
+    "small_nnjvt_sf"
+  ],
+  "nodes": {
+    "small_pileup": {
+      "characters": [
+        35,
+        1863
+      ],
+      "sha256": "c97c8da946be9b494a8f464f7ec4a7f5a0604c8a40810b5f2728bddc9f695f2f",
+      "bytes": 1828
+    },
+    "jet_event_inputs": {
+      "characters": [
+        1864,
+        2295
+      ],
+      "sha256": "14b31d21d40409f3cb7cdd0c8010cb08f6e25a78b75975cc0b5bbc11089021fa",
+      "bytes": 431
+    },
+    "jet_pileup_truth": {
+      "characters": [
+        2296,
+        2705
+      ],
+      "sha256": "7d2e73c6ff9a2a74610903c243f8e28f0559805d4b4e8b2c0d1766d97f526e60",
+      "bytes": 409
+    },
+    "large_selection": {
+      "characters": [
+        2706,
+        3130
+      ],
+      "sha256": "cfb42c92a12c2cc23d171e3341a08aaf353e172db0c7c6dbf4dff31b334edd52",
+      "bytes": 424
+    },
+    "jet_event_sf": {
+      "characters": [
+        3131,
+        3337
+      ],
+      "sha256": "0bc5d0fe8e0c15f0c2b8e8627a1f5777b1946a72a69e05c96989aaceef31a8bc",
+      "bytes": 206
+    },
+    "small_uncertainty": {
+      "characters": [
+        3338,
+        12235317
+      ],
+      "sha256": "1a6d72f657f1537bf733df58c3bed67ac21f434e4112f63d1f906a25b7ea30d1",
+      "bytes": 12231979
+    },
+    "large_uncertainty": {
+      "characters": [
+        12235318,
+        26236052
+      ],
+      "sha256": "92f22e7a236009d37f6aed31da54dd3ab64a4a8a0a5aa3db6e91d069489eddc1",
+      "bytes": 14000734
+    },
+    "small_gsc": {
+      "characters": [
+        26236053,
+        30090636
+      ],
+      "sha256": "b8a8568e4eb065e33321411c1a9b53d27d96448a7be118dedb48f6d2adb8b2b7",
+      "bytes": 3854583
+    },
+    "small_eta_jes": {
+      "characters": [
+        30090637,
+        97837804
+      ],
+      "sha256": "f1799974a42688dd7dbbfd7a67e3cceaa5e9024a37f7769e7bbdf1ec41323707",
+      "bytes": 67747167
+    },
+    "large_eta_jes": {
+      "characters": [
+        97837805,
+        148728102
+      ],
+      "sha256": "366a9e7baa22542dfba6a45b4e4b6f5f30cc691195e5b03b034cb539e960c8c3",
+      "bytes": 50890297
+    },
+    "large_jms": {
+      "characters": [
+        148728103,
+        150132925
+      ],
+      "sha256": "cfe3990d6855d0a0d469ee59e7ab61e1986ce56ac9840906ac205cd658053dbb",
+      "bytes": 1404822
+    },
+    "large_jmr": {
+      "characters": [
+        150132926,
+        160825560
+      ],
+      "sha256": "413be8542e4e8d849f38375b75daa243ee0f3ea2f8adad65b5a266fc05a1a2f7",
+      "bytes": 10692634
+    },
+    "small_nnjvt_update": {
+      "characters": [
+        160825561,
+        160833278
+      ],
+      "sha256": "6e1f123596634af8ad5c0bb21ac3bc88a69c14a43b59d5d5c28661ddd0d29202",
+      "bytes": 7717
+    },
+    "small_nnjvt_select": {
+      "characters": [
+        160833279,
+        160834424
+      ],
+      "sha256": "a1fedcdb7f68591215d01092fdef6f8e23026c9842b0d6073571483e25f92b3e",
+      "bytes": 1145
+    },
+    "small_nnjvt_sf": {
+      "characters": [
+        160834425,
+        160837475
+      ],
+      "sha256": "d3eb47b8f2700703f3f12b77cae26bd44a32690954f12434fb34694f89659e26",
+      "bytes": 3050
+    }
+  },
+  "artifacts": {
+    "fragments/shared.json": {
+      "bytes": 1085,
+      "sha256": "9998f97e03bf3aa53a4478b9acef0cd7ad97f724d9d03bdcc7ddd265596edaae",
+      "corrections": [
+        "jet_event_inputs",
+        "jet_pileup_truth",
+        "jet_event_sf"
+      ]
+    },
+    "fragments/small.json": {
+      "bytes": 83847512,
+      "sha256": "d118df6fd459165bf1ba045ec10457abf1ea019811a58495a1839732ba85d11c",
+      "corrections": [
+        "small_pileup",
+        "small_uncertainty",
+        "small_gsc",
+        "small_eta_jes",
+        "small_nnjvt_update",
+        "small_nnjvt_select",
+        "small_nnjvt_sf"
+      ]
+    },
+    "fragments/large.json": {
+      "bytes": 76988952,
+      "sha256": "ca424b0094ba3d37c3b560561e1996838a269749ffc95a81bd1879fe47125ae0",
+      "corrections": [
+        "large_selection",
+        "large_uncertainty",
+        "large_eta_jes",
+        "large_jms",
+        "large_jmr"
+      ]
+    },
+    "scopes/small/jets.json": {
+      "bytes": 83848561,
+      "sha256": "465bdcc2d578d52e10037bb8d032294252b55cb01b7dcb5e74094ffdf55fd9e7",
+      "corrections": [
+        "small_pileup",
+        "jet_event_inputs",
+        "jet_pileup_truth",
+        "jet_event_sf",
+        "small_uncertainty",
+        "small_gsc",
+        "small_eta_jes",
+        "small_nnjvt_update",
+        "small_nnjvt_select",
+        "small_nnjvt_sf"
+      ]
+    },
+    "scopes/large/jets.json": {
+      "bytes": 76990001,
+      "sha256": "05805800566eccd9484bc7d3992999384e0c5a1e465aff8d5bbb988dd8fb6c2e",
+      "corrections": [
+        "jet_event_inputs",
+        "jet_pileup_truth",
+        "large_selection",
+        "jet_event_sf",
+        "large_uncertainty",
+        "large_eta_jes",
+        "large_jms",
+        "large_jmr"
+      ]
+    }
+  },
+  "raw_node_identity_verified": true,
+  "native_load_paths": {
+    "small": "scopes/small/jets.json",
+    "large": "scopes/large/jets.json",
+    "combined": "canonical/jets.json"
+  },
+  "package_storage": "Disjoint fragments OR canonical payload plus its scope index. Projections are development fixtures."
+}

@@ -1,0 +1,171 @@
+{
+  "scope": "both",
+  "mode": "full",
+  "events": 20000,
+  "passes": 1,
+  "cpu": 3,
+  "threads": 1,
+  "measurement": "deterministic cProfile diagnostic, separate from retained timing",
+  "original": {
+    "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "release_alias": "ASG_TEST_FILE_LITE_RUN3_MC",
+    "sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+    "bytes": 245815772,
+    "tfile_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+    "pool_guid": "25DE1628-311C-11F1-96A1-BC97E1EECF70",
+    "file_format": "StreamDAOD_PHYSLITE",
+    "collection_tree": "CollectionTree",
+    "simulation": "FullG4_QS",
+    "campaign": "mc23a",
+    "dsid": 601229,
+    "processing_tag": "p7266",
+    "sample": "PowhegPythia8 ttbar single lepton",
+    "entry_interval": [
+      0,
+      20000
+    ],
+    "source_collections": {
+      "small_r": "AnalysisJets",
+      "large_r": "AnalysisLargeRJets"
+    },
+    "release": "AnalysisBase/25.2.117",
+    "platform": "x86_64-el9-gcc15-opt"
+  },
+  "stock": {
+    "histogram": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    "provenance": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/provenance.json",
+      "bytes": 4994,
+      "sha256": "c2aa5ebeadd9d658ac7173b05e520ab1d37b787441bed560bc221488e0ca847f"
+    },
+    "legs": {
+      "framework": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/framework.json",
+        "bytes": 29786,
+        "sha256": "eaff052e882c1c8f501ccd3a4bf3af3457ff5fd80e93030f486ddf2f4ea14c5c"
+      },
+      "histogram": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histogram.json",
+        "bytes": 5021,
+        "sha256": "1c74c41180c00d5956e545b3115c4c0e7e6ad0adb9f6b590762315f69f791546"
+      }
+    }
+  },
+  "selected_defaults": {
+    "mode": "full",
+    "scope": "both",
+    "compact_payload_default_scopes": [
+      "small",
+      "large"
+    ],
+    "reuse_uncertainty_sign_pair_scopes": [
+      "small",
+      "both"
+    ],
+    "chunk_events_by_scope": {
+      "small": 1000,
+      "large": 4000,
+      "both": 1000
+    },
+    "reuse_nominal_nnjvt_update": true,
+    "reuse_nominal_nnjvt_update_modes": [
+      "full"
+    ],
+    "reuse_nominal_nnjvt_update_scopes": [
+      "small",
+      "both"
+    ]
+  },
+  "demo": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+    "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+  },
+  "wheel": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+    "sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+    "native": {
+      "_core.cpython-314-x86_64-linux-gnu.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+        "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2"
+      },
+      "libcorrectionlib.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+        "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5"
+      },
+      "libgcc_s.so.1": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+        "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da"
+      },
+      "libjets.so": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+        "sha256": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441"
+      },
+      "libstdc++.so.6": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+        "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+      }
+    },
+    "data": {
+      "build.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/build.json",
+        "sha256": "18663c0c05ed2bec3b105d8826eb292ee9cec7a93289fddd1f36d50fd7b9bc49"
+      },
+      "jet-histogram.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-histogram.json",
+        "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727"
+      },
+      "jet-states.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-states.json",
+        "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+      },
+      "jets.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+        "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+      },
+      "provenance.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+        "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+      }
+    },
+    "workflow": {
+      "__init__.py": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/__init__.py",
+        "bytes": 56,
+        "sha256": "bdd3816687e1b37d07a10994e126204fed1a00973102c82e1e18021512cbf351"
+      },
+      "inputs.py": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/inputs.py",
+        "bytes": 7167,
+        "sha256": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9"
+      },
+      "transport.py": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+        "bytes": 4123,
+        "sha256": "9238ad09f3f43f3365c1445f28db5c3c0537b14942726e16c0dfebf3fc2be908"
+      },
+      "runtime.py": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/runtime.py",
+        "bytes": 2885,
+        "sha256": "6971a69a937c157ceb744c7051647ce2d182be254bbff0579d09e7ef314bb8f6"
+      },
+      "payload_ranges.py": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py",
+        "bytes": 5300,
+        "sha256": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+      },
+      "data/payload-index.json": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json",
+        "bytes": 687,
+        "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+      }
+    }
+  },
+  "bundle": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/bundle.json",
+    "sha256": "97e609ff294d738c16e6999eeb4a58b2d9a482e764b47f6d2fb7d864c3eff473"
+  }
+}

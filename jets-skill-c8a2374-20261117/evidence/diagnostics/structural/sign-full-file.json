@@ -1,0 +1,522 @@
+{
+  "plan": {
+    "plan": {
+      "experiment": "unsigned-sign-pairs",
+      "build_label": "001",
+      "rounds": 1,
+      "input": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+      "input_identity": {
+        "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "release_alias": "ASG_TEST_FILE_LITE_RUN3_MC",
+        "sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+        "bytes": 245815772,
+        "tfile_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+        "pool_guid": "25DE1628-311C-11F1-96A1-BC97E1EECF70",
+        "file_format": "StreamDAOD_PHYSLITE",
+        "collection_tree": "CollectionTree",
+        "simulation": "FullG4_QS",
+        "campaign": "mc23a",
+        "dsid": 601229,
+        "processing_tag": "p7266",
+        "sample": "PowhegPythia8 ttbar single lepton",
+        "entry_interval": [
+          0,
+          20000
+        ],
+        "source_collections": {
+          "small_r": "AnalysisJets",
+          "large_r": "AnalysisLargeRJets"
+        },
+        "release": "AnalysisBase/25.2.117",
+        "platform": "x86_64-el9-gcc15-opt"
+      },
+      "script": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+      "script_sources": {
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py": "29f658d5d0e888cbcb0c97994ef8dbd988b2a312ab70be00afb7f78c1c884eef",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/inputs.py": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/jet_transport.py": "9238ad09f3f43f3365c1445f28db5c3c0537b14942726e16c0dfebf3fc2be908",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/compare_columnar.py": "d676aece73516d8f7514806b2e2fcdee248fa4402d2d7f5210f05afc5e61ef25",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/time_columnar_trials.py": "10b0b3fa6514a493ef28f21dd61fead704cbe8ae12827c0641058953b7a44f58"
+      },
+      "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+      "scopes": [
+        "small",
+        "large",
+        "both"
+      ],
+      "events": 20000,
+      "observer": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/reference.root",
+      "authority": {
+        "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+        "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+        "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz"
+      },
+      "screen_events": 32,
+      "screen_each_scope": true,
+      "require_matching_branches": true,
+      "compiler_only_runtime": true,
+      "variants": {
+        "off": {
+          "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+          "sdk": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib",
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+          "scopes": [
+            "small",
+            "large",
+            "both"
+          ],
+          "options": [
+            "--reuse-nominal-nnjvt-update"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json"
+          },
+          "provenances": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json"
+          }
+        },
+        "on": {
+          "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+          "sdk": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib",
+          "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+          "scopes": [
+            "small",
+            "large",
+            "both"
+          ],
+          "options": [
+            "--reuse-nominal-nnjvt-update",
+            "--reuse-uncertainty-sign-pairs"
+          ],
+          "payloads": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json"
+          },
+          "provenances": {
+            "small": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+            "large": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+            "both": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json"
+          }
+        }
+      }
+    },
+    "digests": {
+      "off": {
+        "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "core": "eca58e47350e0d69142fe625311d0d725f95ebc1ab18e8dba1cea5714a33e1cf",
+        "provider": "48d8e8eddf9bc308e6916c58b1d85b32a1267ae80b729819fc65675607a3bd3d",
+        "payloads": {
+          "small": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "large": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "both": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+        },
+        "provenance": {
+          "small": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+          "large": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+          "both": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6"
+        }
+      },
+      "on": {
+        "python": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "core": "eca58e47350e0d69142fe625311d0d725f95ebc1ab18e8dba1cea5714a33e1cf",
+        "provider": "48d8e8eddf9bc308e6916c58b1d85b32a1267ae80b729819fc65675607a3bd3d",
+        "payloads": {
+          "small": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "large": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8",
+          "both": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+        },
+        "provenance": {
+          "small": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+          "large": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+          "both": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6"
+        }
+      }
+    },
+    "source_sha256": "29f658d5d0e888cbcb0c97994ef8dbd988b2a312ab70be00afb7f78c1c884eef",
+    "source_snapshot": "b2130a1caba48bb8b7f25073b6e436ca13dd5068",
+    "starts": {
+      "cpu3": "cpu3 1267828 0 46980 6900211 18206 0 1728 0 0 0",
+      "all_guest_cpus": [
+        "cpu  3936897 555270 654490 159362172 88868 0 1589305 0 0 0",
+        "cpu0 191604 0 157256 7796209 7424 0 1554919 0 0 0",
+        "cpu1 56442 0 25110 8142600 8039 0 22656 0 0 0",
+        "cpu2 35141 0 30336 8161236 4147 0 5955 0 0 0",
+        "cpu3 1267828 0 46980 6900211 18206 0 1728 0 0 0",
+        "cpu4 1134782 0 57208 7026718 12080 0 1357 0 0 0",
+        "cpu5 146870 0 26371 8059869 2305 0 588 0 0 0",
+        "cpu6 48849 0 24771 8157196 2128 0 538 0 0 0",
+        "cpu7 39968 0 22958 8168766 2011 0 347 0 0 0",
+        "cpu8 76631 4 14661 8142762 2094 0 195 0 0 0",
+        "cpu9 59402 0 15439 8158516 1768 0 144 0 0 0",
+        "cpu10 102774 0 16842 8113494 2134 0 104 0 0 0",
+        "cpu11 36782 2 29446 8162804 1992 0 107 0 0 0",
+        "cpu12 54791 84 14654 8164377 1593 0 63 0 0 0",
+        "cpu13 27311 4 16496 8187829 2949 0 134 0 0 0",
+        "cpu14 38597 2 21502 8171845 1225 0 74 0 0 0",
+        "cpu15 169295 2 17708 8046710 1121 0 42 0 0 0",
+        "cpu16 55764 4 13532 8165396 1326 0 163 0 0 0",
+        "cpu17 110863 91 20821 8094935 7115 0 49 0 0 0",
+        "cpu18 249516 554982 70210 7352607 6723 0 96 0 0 0",
+        "cpu19 33679 90 12180 8188083 2479 0 38 0 0 0"
+      ],
+      "io_pressure": "some avg10=0.00 avg60=0.00 avg300=0.00 total=253606810\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=251388076\n",
+      "top": [
+        "    PID PSR %CPU COMMAND",
+        " 243297  11  3.9 cvmfs2",
+        " 243506   6  0.7 cvmfs2",
+        " 243228   8  0.1 cvmfs2",
+        "1313612   5  0.1 python3",
+        "      1   1  0.0 init(atlas_al9)",
+        "      6   6  0.0 init",
+        "     10  16  0.0 Relay(11)",
+        "     34  19  0.0 automount",
+        " 243224   1  0.0 cvmfs2",
+        " 243232   2  0.0 cvmfs2",
+        " 243236   8  0.0 cvmfs2"
+      ]
+    },
+    "policy": "Four rounds, first excluded. A one-round diagnostic gives no retained mean."
+  },
+  "summary": {
+    "observations": 6,
+    "metrics": {},
+    "all_histograms_equal": true,
+    "resource_review_required": true
+  },
+  "rows": [
+    {
+      "name": "off",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-both-off/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 18.78169416700257,
+      "cpu_s": 18.769752999999998,
+      "peak_rss_kB": 873348,
+      "process": {
+        "samples": 38,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-both-off/receipt.json",
+      "receipt_sha256": "9080d2e10f9f38e0ac06f87762b24ad23c863795b05ab8f2de2d7749b5cb658d",
+      "worker_cpu_over_wall": 0.999364212466863,
+      "other_guest_core_equivalents": 0.012245966628723272,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "on",
+      "scope": "both",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-both-on/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "both",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update",
+        "--reuse-uncertainty-sign-pairs"
+      ],
+      "exit": 0,
+      "wall_s": 20.942278359012562,
+      "cpu_s": 20.92673,
+      "peak_rss_kB": 873940,
+      "process": {
+        "samples": 42,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-both-on/receipt.json",
+      "receipt_sha256": "4a27c51b3f8d8fec3420575051e5bc1113073792bed4a4d8b68294e38246dc7c",
+      "worker_cpu_over_wall": 0.9992575612478252,
+      "other_guest_core_equivalents": 0.08499552768259203,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "off",
+      "scope": "large",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-large-off/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 5.669521193995024,
+      "cpu_s": 5.660235,
+      "peak_rss_kB": 873444,
+      "process": {
+        "samples": 12,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-large-off/receipt.json",
+      "receipt_sha256": "c9e0cf5a0ae88de493466fee06c45758e21420428fbf12029a5f82aa3499877e",
+      "worker_cpu_over_wall": 0.9983620849667412,
+      "other_guest_core_equivalents": 0.02469344327494243,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "on",
+      "scope": "large",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-large-on/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "large",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update",
+        "--reuse-uncertainty-sign-pairs"
+      ],
+      "exit": 0,
+      "wall_s": 5.958532617005403,
+      "cpu_s": 5.95137,
+      "peak_rss_kB": 872048,
+      "process": {
+        "samples": 12,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-large-on/receipt.json",
+      "receipt_sha256": "d33b67d2ef891a19a8013d4438266637f58fda314d6eca0c77054554cdaa3bc9",
+      "worker_cpu_over_wall": 0.9987979226655634,
+      "other_guest_core_equivalents": 0.17118308576325697,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "off",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-small-off/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update"
+      ],
+      "exit": 0,
+      "wall_s": 17.46657163000782,
+      "cpu_s": 17.450232,
+      "peak_rss_kB": 873240,
+      "process": {
+        "samples": 35,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-small-off/receipt.json",
+      "receipt_sha256": "5537ec3f4c9fecf0ac287c34b92ee96e4d0e950c8c6fd37c1b43335352392f99",
+      "worker_cpu_over_wall": 0.9990645199095769,
+      "other_guest_core_equivalents": 0.0022900887963199046,
+      "cpu3_iowait_s": 0.0
+    },
+    {
+      "name": "on",
+      "scope": "small",
+      "round": 1,
+      "command": [
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/bin/python",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/columnar/jets.py",
+        "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-small-on/histogram.npz",
+        "--provider",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so",
+        "--payload",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+        "--provenance",
+        "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "--scope",
+        "small",
+        "--mode",
+        "full",
+        "--events",
+        "20000",
+        "--reuse-nominal-nnjvt-update",
+        "--reuse-uncertainty-sign-pairs"
+      ],
+      "exit": 0,
+      "wall_s": 15.037451730997418,
+      "cpu_s": 15.024269,
+      "peak_rss_kB": 872260,
+      "process": {
+        "samples": 31,
+        "states": [
+          [
+            1,
+            "3"
+          ]
+        ],
+        "loaded_libraries": {
+          "libjets.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/joint-sign-001/libjets.so"
+          ],
+          "libcorrectionlib.so": [
+            "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so"
+          ]
+        },
+        "passed": true
+      },
+      "exact_histogram": true,
+      "source_branch_sha256": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+      "matching_source_branches": true,
+      "receipt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/joint-sign-structural-001/workflow/01-small-on/receipt.json",
+      "receipt_sha256": "e1ae826b0a95ba913e5a04bed16fe2f86a7d4cb32e6cda591c1a78a9af0630bd",
+      "worker_cpu_over_wall": 0.9991233400955666,
+      "other_guest_core_equivalents": 0.001995018872656433,
+      "cpu3_iowait_s": 0.0
+    }
+  ]
+}

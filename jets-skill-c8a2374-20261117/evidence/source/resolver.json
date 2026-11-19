@@ -1,0 +1,82 @@
+{
+  "evidence": "PathResolver file-resolution probe only",
+  "analysis_base": "25.2.117",
+  "calib_path": [
+    "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/data",
+    "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/share",
+    "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/data",
+    "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/share",
+    "/sw/DbData/GroupData",
+    "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData",
+    "/eos/atlas/atlascerngroupdisk/asg-calib",
+    "http//cern.ch/atlas-groupdata",
+    "http//atlas.web.cern.ch/Atlas/GROUPS/DATABASE/GroupData"
+  ],
+  "files": [
+    {
+      "logical": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config"
+    },
+    {
+      "logical": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config"
+    },
+    {
+      "logical": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config"
+    },
+    {
+      "logical": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root"
+    },
+    {
+      "logical": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root"
+    },
+    {
+      "logical": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config"
+    },
+    {
+      "logical": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root"
+    },
+    {
+      "logical": "JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root"
+    },
+    {
+      "logical": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json"
+    },
+    {
+      "logical": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json"
+    },
+    {
+      "logical": "JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+      "resolved": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+      "expected": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root"
+    },
+    {
+      "logical": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllNuisanceParameters_AllJERNP.config",
+      "resolved": null,
+      "expected": null
+    },
+    {
+      "logical": "rel22/Winter2025_PreRec/R4_AllNuisanceParameters_AllJERNP.config",
+      "resolved": null,
+      "expected": null
+    }
+  ]
+}

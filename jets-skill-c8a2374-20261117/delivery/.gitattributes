@@ -1,0 +1,4 @@
+jets_demo.py -text
+bundle.json -text
+SHA256SUMS -text
+*.whl binary

@@ -1,0 +1,129 @@
+{
+  "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+  "payload": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+  "authority": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/reference.root",
+  "original": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+  "checks": {
+    "small": {
+      "eta_jes": {
+        "pt": {
+          "objects": 196606,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "eta": {
+          "objects": 196606,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "phi": {
+          "objects": 196606,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "m": {
+          "objects": 196606,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        }
+      }
+    },
+    "large": {
+      "eta_jes": {
+        "pt": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "eta": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "phi": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "m": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        }
+      },
+      "jms_from_A_eta_jes": {
+        "pt": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "eta": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "phi": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "m": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        }
+      },
+      "jms_from_original_constituent_scale": {
+        "pt": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "eta": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "phi": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        },
+        "m": {
+          "objects": 22177,
+          "exact_mismatches": 0,
+          "max_abs": 0.0,
+          "first": null
+        }
+      }
+    }
+  },
+  "entries": 20000,
+  "loaded": [
+    "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib/libJetCalibToolsLib.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so"
+  ],
+  "limits": {
+    "Threads": "1",
+    "Cpus_allowed_list": "3"
+  },
+  "passed": true
+}

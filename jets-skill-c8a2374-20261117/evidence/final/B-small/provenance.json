@@ -1,0 +1,26 @@
+{
+  "path": "B",
+  "input": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+  "events": 20000,
+  "cpu": 3,
+  "analysisbase": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+  "scope_collections": "small",
+  "warmup_count": 0,
+  "artifact_sha256": {
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetCalibToolsLib.so": "f114f193178677d1841921b28e3feedce1d103819370cc7495a105ee1ec86c14",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetsCorrectionRuntime.so": "1a6daeb01acf2251880dc0a7431e08b2e39490683504026b58f8cfbee3414262",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetMomentToolsLib.so": "7a84ca8f5946e8e7cf0e7a439178beac677072466374461258c678c588a83e3d",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetJvtEfficiencyLib.so": "2db481480cf23b874cda69b0a9366a369d5e81877af029e1367b386f2e33d5b4",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetUncertaintiesLib.so": "630e15828435820e0ac6dffe6f6b212ef17a0c971d5f6f943560252ab8e3ffe5",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libParticleJetToolsLib.so": "203a5f44ab430674b7ca92081df97d2fbb9e689b586ffbce3cce7810354caec8",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libAsgAnalysisAlgorithmsLib.so": "a7e831b3d1c61d0d341bcfe7e12876e4cd4fdd3474bae6988d3a79ca1e48d47d",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/libjets.so": "d4c17d1bf9156a4684077c5327539e2aaa7caab321ea57cdd4f37197c3c3379a",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/scopes/small/jets.json": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so": "eca58e47350e0d69142fe625311d0d725f95ebc1ab18e8dba1cea5714a33e1cf"
+  },
+  "histogram_spec": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json",
+  "histogram_spec_sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727",
+  "stock": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002",
+  "pilot": true,
+  "clock": "monotonic wall from launch through exit, identical to the stock run_leg"
+}

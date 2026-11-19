@@ -1,0 +1,1662 @@
+{
+  "original": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+  "root_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+  "events": 20000,
+  "tree": "CollectionTree",
+  "basis": "One basket copy per selected terminal branch, selected for the full entry range; both byte totals include ROOT basket headers. Cached, repeated and physical disk I/O are outside this measure.",
+  "scopes": {
+    "small": {
+      "stored": {
+        "requested": [
+          "AnalysisJetsAuxDyn.pt"
+        ],
+        "branch_count": 1,
+        "physical_basket_branches": 1,
+        "distinct_leaves": 1,
+        "compressed_bytes": 818984,
+        "uncompressed_bytes": 1074162,
+        "compressed_kB_per_event": 0.0409492,
+        "uncompressed_kB_per_event": 0.0537081,
+        "inventory": {
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          }
+        }
+      },
+      "nominal": {
+        "requested": [
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt",
+          "AnalysisJetsAuxDyn.DetectorEta",
+          "AnalysisJetsAuxDyn.EnergyPerSampling",
+          "AnalysisJetsAuxDyn.JVFCorr",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisJetsAuxDyn.NNJvtPass",
+          "AnalysisJetsAuxDyn.NumTrkPt1000",
+          "AnalysisJetsAuxDyn.PartonTruthLabelID",
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500",
+          "AnalysisJetsAuxDyn.SumPtTrkPt500",
+          "AnalysisJetsAuxDyn.TrackWidthPt1000",
+          "AnalysisJetsAuxDyn.eta",
+          "AnalysisJetsAuxDyn.m",
+          "AnalysisJetsAuxDyn.phi",
+          "AnalysisJetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 26,
+        "physical_basket_branches": 26,
+        "distinct_leaves": 26,
+        "compressed_bytes": 34139402,
+        "uncompressed_bytes": 456383294,
+        "compressed_kB_per_event": 1.7069701,
+        "uncompressed_kB_per_event": 22.8191647,
+        "inventory": {
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.ActiveArea4vec_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 783543,
+            "uncompressed_basket_bytes": 1075378
+          },
+          "AnalysisJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854597,
+            "uncompressed_basket_bytes": 1074819
+          },
+          "AnalysisJetsAuxDyn.EnergyPerSampling": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.EnergyPerSampling"
+            ],
+            "baskets": 478,
+            "compressed_basket_bytes": 5863481,
+            "uncompressed_basket_bytes": 23144134
+          },
+          "AnalysisJetsAuxDyn.JVFCorr": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JVFCorr"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 650536,
+            "uncompressed_basket_bytes": 1074527
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 855957,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 834132,
+            "uncompressed_basket_bytes": 1075970
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 852153,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 825983,
+            "uncompressed_basket_bytes": 1076044
+          },
+          "AnalysisJetsAuxDyn.NNJvtPass": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NNJvtPass"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 111614,
+            "uncompressed_basket_bytes": 484855
+          },
+          "AnalysisJetsAuxDyn.NumTrkPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NumTrkPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1370558,
+            "uncompressed_basket_bytes": 22785764
+          },
+          "AnalysisJetsAuxDyn.PartonTruthLabelID": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.PartonTruthLabelID"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 217053,
+            "uncompressed_basket_bytes": 1075452
+          },
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtChargedPFOPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1149216,
+            "uncompressed_basket_bytes": 22789868
+          },
+          "AnalysisJetsAuxDyn.SumPtTrkPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtTrkPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 5597978,
+            "uncompressed_basket_bytes": 22786277
+          },
+          "AnalysisJetsAuxDyn.TrackWidthPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.TrackWidthPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 3132451,
+            "uncompressed_basket_bytes": 22787816
+          },
+          "AnalysisJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854016,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 810516,
+            "uncompressed_basket_bytes": 1074089
+          },
+          "AnalysisJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 850229,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density": {
+            "leaves": [
+              "Density"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 85449,
+            "uncompressed_basket_bytes": 90695
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      },
+      "full": {
+        "requested": [
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt",
+          "AnalysisJetsAuxDyn.DetectorEta",
+          "AnalysisJetsAuxDyn.EnergyPerSampling",
+          "AnalysisJetsAuxDyn.JVFCorr",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisJetsAuxDyn.NNJvtPass",
+          "AnalysisJetsAuxDyn.NumTrkPt1000",
+          "AnalysisJetsAuxDyn.PartonTruthLabelID",
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500",
+          "AnalysisJetsAuxDyn.SumPtTrkPt500",
+          "AnalysisJetsAuxDyn.TrackWidthPt1000",
+          "AnalysisJetsAuxDyn.eta",
+          "AnalysisJetsAuxDyn.m",
+          "AnalysisJetsAuxDyn.phi",
+          "AnalysisJetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 26,
+        "physical_basket_branches": 26,
+        "distinct_leaves": 26,
+        "compressed_bytes": 34139402,
+        "uncompressed_bytes": 456383294,
+        "compressed_kB_per_event": 1.7069701,
+        "uncompressed_kB_per_event": 22.8191647,
+        "inventory": {
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.ActiveArea4vec_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 783543,
+            "uncompressed_basket_bytes": 1075378
+          },
+          "AnalysisJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854597,
+            "uncompressed_basket_bytes": 1074819
+          },
+          "AnalysisJetsAuxDyn.EnergyPerSampling": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.EnergyPerSampling"
+            ],
+            "baskets": 478,
+            "compressed_basket_bytes": 5863481,
+            "uncompressed_basket_bytes": 23144134
+          },
+          "AnalysisJetsAuxDyn.JVFCorr": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JVFCorr"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 650536,
+            "uncompressed_basket_bytes": 1074527
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 855957,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 834132,
+            "uncompressed_basket_bytes": 1075970
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 852153,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 825983,
+            "uncompressed_basket_bytes": 1076044
+          },
+          "AnalysisJetsAuxDyn.NNJvtPass": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NNJvtPass"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 111614,
+            "uncompressed_basket_bytes": 484855
+          },
+          "AnalysisJetsAuxDyn.NumTrkPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NumTrkPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1370558,
+            "uncompressed_basket_bytes": 22785764
+          },
+          "AnalysisJetsAuxDyn.PartonTruthLabelID": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.PartonTruthLabelID"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 217053,
+            "uncompressed_basket_bytes": 1075452
+          },
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtChargedPFOPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1149216,
+            "uncompressed_basket_bytes": 22789868
+          },
+          "AnalysisJetsAuxDyn.SumPtTrkPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtTrkPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 5597978,
+            "uncompressed_basket_bytes": 22786277
+          },
+          "AnalysisJetsAuxDyn.TrackWidthPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.TrackWidthPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 3132451,
+            "uncompressed_basket_bytes": 22787816
+          },
+          "AnalysisJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854016,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 810516,
+            "uncompressed_basket_bytes": 1074089
+          },
+          "AnalysisJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 850229,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density": {
+            "leaves": [
+              "Density"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 85449,
+            "uncompressed_basket_bytes": 90695
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      }
+    },
+    "large": {
+      "stored": {
+        "requested": [
+          "AnalysisLargeRJetsAuxDyn.pt"
+        ],
+        "branch_count": 1,
+        "physical_basket_branches": 1,
+        "distinct_leaves": 1,
+        "compressed_bytes": 166552,
+        "uncompressed_bytes": 376884,
+        "compressed_kB_per_event": 0.008327600000000001,
+        "uncompressed_kB_per_event": 0.018844200000000002,
+        "inventory": {
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          }
+        }
+      },
+      "nominal": {
+        "requested": [
+          "AnalysisLargeRJetsAuxDyn.DetectorEta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1",
+          "AnalysisLargeRJetsAuxDyn.eta",
+          "AnalysisLargeRJetsAuxDyn.m",
+          "AnalysisLargeRJetsAuxDyn.phi",
+          "AnalysisLargeRJetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 17,
+        "physical_basket_branches": 17,
+        "distinct_leaves": 17,
+        "compressed_bytes": 9252860,
+        "uncompressed_bytes": 332392340,
+        "compressed_kB_per_event": 0.46264299999999997,
+        "uncompressed_kB_per_event": 16.619616999999998,
+        "inventory": {
+          "AnalysisLargeRJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173781,
+            "uncompressed_basket_bytes": 377541
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 175129,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 171108,
+            "uncompressed_basket_bytes": 378698
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 174743,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 168882,
+            "uncompressed_basket_bytes": 378772
+          },
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 86679,
+            "uncompressed_basket_bytes": 379290
+          },
+          "AnalysisLargeRJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173137,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 169115,
+            "uncompressed_basket_bytes": 376811
+          },
+          "AnalysisLargeRJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 172778,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      },
+      "full": {
+        "requested": [
+          "AnalysisLargeRJetsAuxDyn.DetectorEta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1",
+          "AnalysisLargeRJetsAuxDyn.eta",
+          "AnalysisLargeRJetsAuxDyn.m",
+          "AnalysisLargeRJetsAuxDyn.phi",
+          "AnalysisLargeRJetsAuxDyn.pt",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 21,
+        "physical_basket_branches": 21,
+        "distinct_leaves": 21,
+        "compressed_bytes": 10554871,
+        "uncompressed_bytes": 334529056,
+        "compressed_kB_per_event": 0.5277435500000001,
+        "uncompressed_kB_per_event": 16.7264528,
+        "inventory": {
+          "AnalysisLargeRJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173781,
+            "uncompressed_basket_bytes": 377541
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 175129,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 171108,
+            "uncompressed_basket_bytes": 378698
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 174743,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 168882,
+            "uncompressed_basket_bytes": 378772
+          },
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 86679,
+            "uncompressed_basket_bytes": 379290
+          },
+          "AnalysisLargeRJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173137,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 169115,
+            "uncompressed_basket_bytes": 376811
+          },
+          "AnalysisLargeRJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 172778,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 331624,
+            "uncompressed_basket_bytes": 534236
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 323374,
+            "uncompressed_basket_bytes": 534084
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 330564,
+            "uncompressed_basket_bytes": 534236
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 316449,
+            "uncompressed_basket_bytes": 534160
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      }
+    },
+    "combined": {
+      "stored": {
+        "requested": [
+          "AnalysisJetsAuxDyn.pt",
+          "AnalysisLargeRJetsAuxDyn.pt"
+        ],
+        "branch_count": 2,
+        "physical_basket_branches": 2,
+        "distinct_leaves": 2,
+        "compressed_bytes": 985536,
+        "uncompressed_bytes": 1451046,
+        "compressed_kB_per_event": 0.0492768,
+        "uncompressed_kB_per_event": 0.0725523,
+        "inventory": {
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          },
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          }
+        }
+      },
+      "nominal": {
+        "requested": [
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt",
+          "AnalysisJetsAuxDyn.DetectorEta",
+          "AnalysisJetsAuxDyn.EnergyPerSampling",
+          "AnalysisJetsAuxDyn.JVFCorr",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisJetsAuxDyn.NNJvtPass",
+          "AnalysisJetsAuxDyn.NumTrkPt1000",
+          "AnalysisJetsAuxDyn.PartonTruthLabelID",
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500",
+          "AnalysisJetsAuxDyn.SumPtTrkPt500",
+          "AnalysisJetsAuxDyn.TrackWidthPt1000",
+          "AnalysisJetsAuxDyn.eta",
+          "AnalysisJetsAuxDyn.m",
+          "AnalysisJetsAuxDyn.phi",
+          "AnalysisJetsAuxDyn.pt",
+          "AnalysisLargeRJetsAuxDyn.DetectorEta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1",
+          "AnalysisLargeRJetsAuxDyn.eta",
+          "AnalysisLargeRJetsAuxDyn.m",
+          "AnalysisLargeRJetsAuxDyn.phi",
+          "AnalysisLargeRJetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 36,
+        "physical_basket_branches": 36,
+        "distinct_leaves": 36,
+        "compressed_bytes": 35771306,
+        "uncompressed_bytes": 460162896,
+        "compressed_kB_per_event": 1.7885653,
+        "uncompressed_kB_per_event": 23.008144799999997,
+        "inventory": {
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.ActiveArea4vec_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 783543,
+            "uncompressed_basket_bytes": 1075378
+          },
+          "AnalysisJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854597,
+            "uncompressed_basket_bytes": 1074819
+          },
+          "AnalysisJetsAuxDyn.EnergyPerSampling": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.EnergyPerSampling"
+            ],
+            "baskets": 478,
+            "compressed_basket_bytes": 5863481,
+            "uncompressed_basket_bytes": 23144134
+          },
+          "AnalysisJetsAuxDyn.JVFCorr": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JVFCorr"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 650536,
+            "uncompressed_basket_bytes": 1074527
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 855957,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 834132,
+            "uncompressed_basket_bytes": 1075970
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 852153,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 825983,
+            "uncompressed_basket_bytes": 1076044
+          },
+          "AnalysisJetsAuxDyn.NNJvtPass": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NNJvtPass"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 111614,
+            "uncompressed_basket_bytes": 484855
+          },
+          "AnalysisJetsAuxDyn.NumTrkPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NumTrkPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1370558,
+            "uncompressed_basket_bytes": 22785764
+          },
+          "AnalysisJetsAuxDyn.PartonTruthLabelID": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.PartonTruthLabelID"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 217053,
+            "uncompressed_basket_bytes": 1075452
+          },
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtChargedPFOPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1149216,
+            "uncompressed_basket_bytes": 22789868
+          },
+          "AnalysisJetsAuxDyn.SumPtTrkPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtTrkPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 5597978,
+            "uncompressed_basket_bytes": 22786277
+          },
+          "AnalysisJetsAuxDyn.TrackWidthPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.TrackWidthPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 3132451,
+            "uncompressed_basket_bytes": 22787816
+          },
+          "AnalysisJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854016,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 810516,
+            "uncompressed_basket_bytes": 1074089
+          },
+          "AnalysisJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 850229,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          },
+          "AnalysisLargeRJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173781,
+            "uncompressed_basket_bytes": 377541
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 175129,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 171108,
+            "uncompressed_basket_bytes": 378698
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 174743,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 168882,
+            "uncompressed_basket_bytes": 378772
+          },
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 86679,
+            "uncompressed_basket_bytes": 379290
+          },
+          "AnalysisLargeRJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173137,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 169115,
+            "uncompressed_basket_bytes": 376811
+          },
+          "AnalysisLargeRJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 172778,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density": {
+            "leaves": [
+              "Density"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 85449,
+            "uncompressed_basket_bytes": 90695
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      },
+      "full": {
+        "requested": [
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt",
+          "AnalysisJetsAuxDyn.DetectorEta",
+          "AnalysisJetsAuxDyn.EnergyPerSampling",
+          "AnalysisJetsAuxDyn.JVFCorr",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisJetsAuxDyn.NNJvtPass",
+          "AnalysisJetsAuxDyn.NumTrkPt1000",
+          "AnalysisJetsAuxDyn.PartonTruthLabelID",
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500",
+          "AnalysisJetsAuxDyn.SumPtTrkPt500",
+          "AnalysisJetsAuxDyn.TrackWidthPt1000",
+          "AnalysisJetsAuxDyn.eta",
+          "AnalysisJetsAuxDyn.m",
+          "AnalysisJetsAuxDyn.phi",
+          "AnalysisJetsAuxDyn.pt",
+          "AnalysisLargeRJetsAuxDyn.DetectorEta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi",
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt",
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1",
+          "AnalysisLargeRJetsAuxDyn.eta",
+          "AnalysisLargeRJetsAuxDyn.m",
+          "AnalysisLargeRJetsAuxDyn.phi",
+          "AnalysisLargeRJetsAuxDyn.pt",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi",
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt",
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta",
+          "AntiKt4TruthDressedWZJetsAuxDyn.m",
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi",
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt",
+          "EventInfoAuxDyn.averageInteractionsPerCrossing",
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density",
+          "PrimaryVerticesAuxDyn.trackParticleLinks",
+          "PrimaryVerticesAuxDyn.vertexType"
+        ],
+        "branch_count": 40,
+        "physical_basket_branches": 40,
+        "distinct_leaves": 40,
+        "compressed_bytes": 37073317,
+        "uncompressed_bytes": 462299612,
+        "compressed_kB_per_event": 1.85366585,
+        "uncompressed_kB_per_event": 23.1149806,
+        "inventory": {
+          "AnalysisJetsAuxDyn.ActiveArea4vec_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.ActiveArea4vec_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 783543,
+            "uncompressed_basket_bytes": 1075378
+          },
+          "AnalysisJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854597,
+            "uncompressed_basket_bytes": 1074819
+          },
+          "AnalysisJetsAuxDyn.EnergyPerSampling": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.EnergyPerSampling"
+            ],
+            "baskets": 478,
+            "compressed_basket_bytes": 5863481,
+            "uncompressed_basket_bytes": 23144134
+          },
+          "AnalysisJetsAuxDyn.JVFCorr": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JVFCorr"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 650536,
+            "uncompressed_basket_bytes": 1074527
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 855957,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 834132,
+            "uncompressed_basket_bytes": 1075970
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 852153,
+            "uncompressed_basket_bytes": 1076118
+          },
+          "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 825983,
+            "uncompressed_basket_bytes": 1076044
+          },
+          "AnalysisJetsAuxDyn.NNJvtPass": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NNJvtPass"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 111614,
+            "uncompressed_basket_bytes": 484855
+          },
+          "AnalysisJetsAuxDyn.NumTrkPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.NumTrkPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1370558,
+            "uncompressed_basket_bytes": 22785764
+          },
+          "AnalysisJetsAuxDyn.PartonTruthLabelID": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.PartonTruthLabelID"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 217053,
+            "uncompressed_basket_bytes": 1075452
+          },
+          "AnalysisJetsAuxDyn.SumPtChargedPFOPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtChargedPFOPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 1149216,
+            "uncompressed_basket_bytes": 22789868
+          },
+          "AnalysisJetsAuxDyn.SumPtTrkPt500": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.SumPtTrkPt500"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 5597978,
+            "uncompressed_basket_bytes": 22786277
+          },
+          "AnalysisJetsAuxDyn.TrackWidthPt1000": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.TrackWidthPt1000"
+            ],
+            "baskets": 513,
+            "compressed_basket_bytes": 3132451,
+            "uncompressed_basket_bytes": 22787816
+          },
+          "AnalysisJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 854016,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 810516,
+            "uncompressed_basket_bytes": 1074089
+          },
+          "AnalysisJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 850229,
+            "uncompressed_basket_bytes": 1074235
+          },
+          "AnalysisJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 818984,
+            "uncompressed_basket_bytes": 1074162
+          },
+          "AnalysisLargeRJetsAuxDyn.DetectorEta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.DetectorEta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173781,
+            "uncompressed_basket_bytes": 377541
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_eta"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 175129,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_m"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 171108,
+            "uncompressed_basket_bytes": 378698
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_phi"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 174743,
+            "uncompressed_basket_bytes": 378846
+          },
+          "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.JetConstitScaleMomentum_pt"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 168882,
+            "uncompressed_basket_bytes": 378772
+          },
+          "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.R10TruthLabel_R21Precision_2022v1"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 86679,
+            "uncompressed_basket_bytes": 379290
+          },
+          "AnalysisLargeRJetsAuxDyn.eta": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.eta"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 173137,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.m": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.m"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 169115,
+            "uncompressed_basket_bytes": 376811
+          },
+          "AnalysisLargeRJetsAuxDyn.phi": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.phi"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 172778,
+            "uncompressed_basket_bytes": 376957
+          },
+          "AnalysisLargeRJetsAuxDyn.pt": {
+            "leaves": [
+              "AnalysisLargeRJetsAuxDyn.pt"
+            ],
+            "baskets": 73,
+            "compressed_basket_bytes": 166552,
+            "uncompressed_basket_bytes": 376884
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.eta"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 331624,
+            "uncompressed_basket_bytes": 534236
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.m"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 323374,
+            "uncompressed_basket_bytes": 534084
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.phi"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 330564,
+            "uncompressed_basket_bytes": 534236
+          },
+          "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt10TruthSoftDropBeta100Zcut10JetsAuxDyn.pt"
+            ],
+            "baskets": 76,
+            "compressed_basket_bytes": 316449,
+            "uncompressed_basket_bytes": 534160
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.eta": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.eta"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1036691,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.m": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.m"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1000413,
+            "uncompressed_basket_bytes": 1262900
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.phi": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.phi"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1032017,
+            "uncompressed_basket_bytes": 1263060
+          },
+          "AntiKt4TruthDressedWZJetsAuxDyn.pt": {
+            "leaves": [
+              "AntiKt4TruthDressedWZJetsAuxDyn.pt"
+            ],
+            "baskets": 80,
+            "compressed_basket_bytes": 1008694,
+            "uncompressed_basket_bytes": 1262980
+          },
+          "EventInfoAuxDyn.averageInteractionsPerCrossing": {
+            "leaves": [
+              "averageInteractionsPerCrossing"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 17613,
+            "uncompressed_basket_bytes": 91439
+          },
+          "Kt4EMPFlowNeutEventShapeAuxDyn.Density": {
+            "leaves": [
+              "Density"
+            ],
+            "baskets": 93,
+            "compressed_basket_bytes": 85449,
+            "uncompressed_basket_bytes": 90695
+          },
+          "PrimaryVerticesAuxDyn.trackParticleLinks": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.trackParticleLinks"
+            ],
+            "baskets": 1799,
+            "compressed_basket_bytes": 3416347,
+            "uncompressed_basket_bytes": 322127799
+          },
+          "PrimaryVerticesAuxDyn.vertexType": {
+            "leaves": [
+              "PrimaryVerticesAuxDyn.vertexType"
+            ],
+            "baskets": 74,
+            "compressed_basket_bytes": 109181,
+            "uncompressed_basket_bytes": 1341500
+          }
+        }
+      }
+    }
+  }
+}

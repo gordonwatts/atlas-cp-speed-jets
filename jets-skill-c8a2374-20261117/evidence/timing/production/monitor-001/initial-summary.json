@@ -1,0 +1,9 @@
+{
+  "completed": 2,
+  "histogram_guards": 1,
+  "planned": 112,
+  "progress": {
+    "00-small-stored-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production/00-small-stored-A/attempt-001",
+    "00-small-stored-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production/00-small-stored-B/attempt-001"
+  }
+}

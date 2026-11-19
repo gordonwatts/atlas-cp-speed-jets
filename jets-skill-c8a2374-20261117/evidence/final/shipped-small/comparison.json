@@ -1,0 +1,78 @@
+{
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+    "script_sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+    "demo_defaults": {
+      "mode": "full",
+      "scope": "both",
+      "compact_payload_default_scopes": [
+        "small",
+        "large"
+      ],
+      "reuse_uncertainty_sign_pair_scopes": [
+        "small",
+        "both"
+      ],
+      "chunk_events_by_scope": {
+        "small": 1000,
+        "large": 4000,
+        "both": 1000
+      },
+      "reuse_nominal_nnjvt_update": true,
+      "reuse_nominal_nnjvt_update_modes": [
+        "full"
+      ],
+      "reuse_nominal_nnjvt_update_scopes": [
+        "small",
+        "both"
+      ]
+    },
+    "columnar_source": {
+      "bytes": 29798,
+      "sha256": "29f658d5d0e888cbcb0c97994ef8dbd988b2a312ab70be00afb7f78c1c884eef"
+    },
+    "visible_source": {
+      "bytes": 31776,
+      "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+    }
+  },
+  "scope": "small",
+  "events": 20000,
+  "original": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+  "stock_full_histogram": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+    "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+  },
+  "branch_digests": {
+    "pip-canonical-full": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+    "pip-indexed-full": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+    "pip-indexed-nominal": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+    "uv-indexed-full": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b",
+    "pip-selected-default-full": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b"
+  },
+  "projection_identities": {
+    "pip-canonical-full": {},
+    "pip-indexed-full": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "pip-indexed-nominal": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "uv-indexed-full": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    },
+    "pip-selected-default-full": {
+      "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91",
+      "bytes": 35330047
+    }
+  },
+  "all_histogram_fields_exact": true,
+  "matched_nominal_nosys_exact": true
+}

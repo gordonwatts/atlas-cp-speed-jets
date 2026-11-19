@@ -1,0 +1,120 @@
+{
+  "comparison": {
+    "name": "A_over_C_end_to_end",
+    "quality": {
+      "A": {
+        "framework": {
+          "max_median_deviation": 0.00796490737890508,
+          "mean_s": 97.68837299433333,
+          "pass": true,
+          "retained": [
+            96.989006868,
+            98.308394431,
+            97.767717684
+          ],
+          "sample_cv": 0.006789577930499607,
+          "sample_sd_s": 0.6632628213487394,
+          "warmup_s": 97.575619397
+        },
+        "histogram": {
+          "max_median_deviation": 0.04055466203077751,
+          "mean_s": 6.051736301666667,
+          "pass": true,
+          "retained": [
+            5.977921646,
+            6.220354238,
+            5.956933021
+          ],
+          "sample_cv": 0.024192068562318814,
+          "sample_sd_s": 0.1464040195309937,
+          "warmup_s": 6.017895768
+        },
+        "total": {
+          "max_median_deviation": 0.007752235929787826,
+          "mean_s": 103.740109296,
+          "pass": true,
+          "retained": [
+            102.966928514,
+            104.528748669,
+            103.724650705
+          ],
+          "sample_cv": 0.007528667831148299,
+          "sample_sd_s": 0.7810248236566038,
+          "warmup_s": 103.593515165
+        }
+      },
+      "C": {
+        "total": {
+          "max_median_deviation": 0.054400606050762385,
+          "mean_s": 3.0644102083333333,
+          "pass": true,
+          "retained": [
+            3.192390807,
+            3.027683016,
+            2.973156802
+          ],
+          "sample_cv": 0.037246417848351365,
+          "sample_sd_s": 0.11413830307833679,
+          "warmup_s": 3.080584727
+        }
+      }
+    },
+    "quality_pass": true,
+    "ratio_of_retained_means": 33.85320575355413,
+    "ratio_qualified": true,
+    "retained_pairs_straddle": false,
+    "same_round_ratios": [
+      32.25386073917485,
+      34.52433696546521,
+      34.88704350716582
+    ],
+    "threshold": 10.0,
+    "threshold_kind": "full-systematics aspiration",
+    "threshold_pass": true
+  },
+  "completed": 10,
+  "planned": 10,
+  "progress": {
+    "00-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/00-large-full-A/attempt-001",
+    "00-large-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/00-large-full-C/attempt-001",
+    "01-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/01-large-full-A/attempt-001",
+    "01-large-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/01-large-full-C/attempt-001",
+    "02-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/02-large-full-A/attempt-001",
+    "02-large-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/02-large-full-C/attempt-001",
+    "03-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/03-large-full-A/attempt-001",
+    "03-large-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/03-large-full-C/attempt-001",
+    "anchor-00-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/anchor-00-large-full-A/attempt-001",
+    "anchor-04-large-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-large-full-001/anchor-04-large-full-A/attempt-001"
+  },
+  "quality_pass": true,
+  "ratio_qualified": true,
+  "stock_anchor_drift": {
+    "framework": {
+      "max_median_deviation": 0.004297484803296849,
+      "pass": true,
+      "retained_stock_median_s": 97.767717684,
+      "wall_s": [
+        97.86494263,
+        97.347562403
+      ]
+    },
+    "histogram": {
+      "max_median_deviation": 0.03381957626280992,
+      "pass": true,
+      "retained_stock_median_s": 5.977921646,
+      "wall_s": [
+        5.991865921,
+        6.180092423
+      ]
+    },
+    "total": {
+      "max_median_deviation": 0.0018992194975933831,
+      "pass": true,
+      "retained_stock_median_s": 103.724650705,
+      "wall_s": [
+        103.856808551,
+        103.527654826
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "baseline_wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets3-cp314-cp314-linux_x86_64.whl",
+    "bytes": 64595829,
+    "sha256": "31c8f6e5f7fbc1d77642aeeae96352b5fd55daaa0799f760db8065435098b43f"
+  },
+  "candidate_wheel": {
+    "name": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets4-cp314-cp314-linux_x86_64.whl",
+    "bytes": 64598387,
+    "sha256": "b663120eb337dc4b7d01abf5e8f60d76df385f40f2855711fbf3b895dd11681d"
+  },
+  "byte_difference": 2558,
+  "identical_provider_core_and_compiler_and_payload": true,
+  "wheel_payload_members": {
+    "atlas_jet_demo/data/build.json": {
+      "extracted_bytes": 3110,
+      "compressed_bytes": 1158
+    },
+    "atlas_jet_demo/data/jet-histogram.json": {
+      "extracted_bytes": 759,
+      "compressed_bytes": 399
+    },
+    "atlas_jet_demo/data/jet-states.json": {
+      "extracted_bytes": 46226,
+      "compressed_bytes": 2043
+    },
+    "atlas_jet_demo/data/jets.json": {
+      "extracted_bytes": 160837477,
+      "compressed_bytes": 57764983
+    },
+    "atlas_jet_demo/data/payload-index.json": {
+      "extracted_bytes": 701,
+      "compressed_bytes": 377
+    },
+    "atlas_jet_demo/data/provenance.json": {
+      "extracted_bytes": 174748,
+      "compressed_bytes": 14261
+    }
+  },
+  "wheel_expanded_bytes": 183498654
+}

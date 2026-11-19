@@ -1,0 +1,1864 @@
+{
+  "campaign": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001",
+  "metadata": {
+    "accepted_observers": {
+      "B": {
+        "authority": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/reference.root",
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/observer-comparison.json",
+        "sha256": "650e73979a519609b441ad4473e63b3e072f5f56deca0f13545c221c1839d010"
+      },
+      "C": {
+        "authority": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/reference.root",
+        "core": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/comparison.json",
+        "payload": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+        "provider": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+        "sha256": "f6c9d5d4953baf15df319f407f9e2522d5fdade27c4064f1963bd7d5500040b3"
+      }
+    },
+    "cohort": "production",
+    "columnar_matched_read": true,
+    "columnar_startup_library_observations": 10,
+    "compact_default_scopes": [
+      "large",
+      "small"
+    ],
+    "cpu": 3,
+    "endpoint": {
+      "A": [
+        "CPRun",
+        "histogram"
+      ],
+      "B": [
+        "CPRun",
+        "histogram"
+      ],
+      "C": [
+        "one direct PHYSLITE histogram pass"
+      ]
+    },
+    "endpoint_clock": "monotonic wall including startup and output serialization",
+    "guest_node": "PHYS-PROFWSN04",
+    "guest_release": "6.18.33.2-microsoft-standard-WSL2",
+    "identity_sha256": {
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-histogram.json": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-a-large.yaml": "282488b0fe7b9b27dbc2baa3450dbf4a2874bfd01e3a9db0a7d3758652ee76d0",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-a-small.yaml": "945626eb18860abe8b8a90ab0e8ae16785cdb921833e77daef4766bfe13b274b",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-a.yaml": "f68b6908825455a5b3ad8525bb9f6ec652467a4f4deb6263bb0e8b9e0c2bf084",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-stored-large.yaml": "f2aeb972660a2b1f1efddb5dfea4fecf5e73d4b58942a906c341dbf21f5f14be",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-stored-small.yaml": "2992b5888c328e2feae0d6fbbb6a499da239a97c88548b6100c109fef067b8df",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-stored.yaml": "6f10536994260ea076d8f06f270598bb3be532c2e03c3e7c6885da5b7e1d90d4",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so": "eca58e47350e0d69142fe625311d0d725f95ebc1ab18e8dba1cea5714a33e1cf",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/final-prefix-truth-index-001/libjets.so": "d4c17d1bf9156a4684077c5327539e2aaa7caab321ea57cdd4f37197c3c3379a",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libAsgAnalysisAlgorithmsLib.so": "a7e831b3d1c61d0d341bcfe7e12876e4cd4fdd3474bae6988d3a79ca1e48d47d",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetCalibToolsLib.so": "f114f193178677d1841921b28e3feedce1d103819370cc7495a105ee1ec86c14",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetJvtEfficiencyLib.so": "2db481480cf23b874cda69b0a9366a369d5e81877af029e1367b386f2e33d5b4",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetMomentToolsLib.so": "7a84ca8f5946e8e7cf0e7a439178beac677072466374461258c678c588a83e3d",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetUncertaintiesLib.so": "630e15828435820e0ac6dffe6f6b212ef17a0c971d5f6f943560252ab8e3ffe5",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libJetsCorrectionRuntime.so": "1a6daeb01acf2251880dc0a7431e08b2e39490683504026b58f8cfbee3414262",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/full-scoped-001/overlay/libParticleJetToolsLib.so": "203a5f44ab430674b7ca92081df97d2fbb9e689b586ffbce3cce7810354caec8",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-packed-001/jets.json": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/bundle.json": "97e609ff294d738c16e6999eeb4a58b2d9a482e764b47f6d2fb7d864c3eff473",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/bin/python": "32b6777d62aba66726091c65e4a4631073a49b069e4267cc83d4a5df14009f91",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/verification.json": "fb1d941fecc1b09346779f7b0dcc35b22f1c1d81a4da6c5859d356eee410a320",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/reference/setup.sh": "42b7d9101a1204068f4a0630d072f5c52f8ae465d9223e6bb113a17f8e374b69",
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/reference/workflow.py": "81062c2d9c1c5101eea163f251714bb32a35ca6fe5b213f9a3dc349b4196ff03"
+    },
+    "original": {
+      "bytes": 245815772,
+      "campaign": "mc23a",
+      "collection_tree": "CollectionTree",
+      "dsid": 601229,
+      "entry_interval": [
+        0,
+        20000
+      ],
+      "file_format": "StreamDAOD_PHYSLITE",
+      "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+      "platform": "x86_64-el9-gcc15-opt",
+      "pool_guid": "25DE1628-311C-11F1-96A1-BC97E1EECF70",
+      "processing_tag": "p7266",
+      "release": "AnalysisBase/25.2.117",
+      "release_alias": "ASG_TEST_FILE_LITE_RUN3_MC",
+      "sample": "PowhegPythia8 ttbar single lepton",
+      "sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+      "simulation": "FullG4_QS",
+      "source_collections": {
+        "large_r": "AnalysisLargeRJets",
+        "small_r": "AnalysisJets"
+      },
+      "tfile_uuid": "79ee6652-311f-11f1-aa37-0445010abeef"
+    },
+    "projected_payloads": {
+      "large": {
+        "B": {
+          "events": 20000,
+          "full_branches": 657,
+          "full_values": 14570289,
+          "histograms": {
+            "full": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1",
+            "nominal": "d0477dc3ebea1ee6b7984e8281ac5e0f057f0c5bb86bce44db192566c1c6ceb4",
+            "stored": "760ebd096dbf65c76b1448058426a166359f0ce687e86b18495592096f4e7d43"
+          },
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/recovery.json",
+          "sha256": "10140e89062497f3480b40a564c82e0ee6d983631ad1f9b4ae1618069851476f"
+        },
+        "C": {
+          "objects": {
+            "events": 20000,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/comparison.json",
+            "sha256": "dd32f4c0e66a41e605dfe016aac3506cccac4c6bc249c2a5a0ccb428ac3a1b1a"
+          },
+          "shipped": {
+            "events": 20000,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/comparison.json",
+            "sha256": "8c5b3b0efd2679810dc85c7971bb01f87cb7903af986b4efc7d269eb2697950b"
+          }
+        },
+        "canonical": {
+          "bytes": 75847478,
+          "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+        },
+        "document": {
+          "bytes": 40518516,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/scopes/large/jets.json",
+          "sha256": "5fc018bd35b4d068451cb41f3ee4011ddb5626052d74c12823ce3cb0ae7a3c0f"
+        },
+        "index": {
+          "bytes": 687,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/payload-index.json",
+          "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+        },
+        "partition_manifest": {
+          "bytes": 5896,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/manifest.json",
+          "sha256": "c8c2805a0eee5badb32ea2222d95ebccb53c5d2ac42916bf4133b10d61b680c7"
+        },
+        "runtime_identity_log_required": true,
+        "shipped_component_sha256": {
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7",
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda",
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+        },
+        "subtrees_sha256": {
+          "jet_event_inputs": "14b31d21d40409f3cb7cdd0c8010cb08f6e25a78b75975cc0b5bbc11089021fa",
+          "jet_event_sf": "0bc5d0fe8e0c15f0c2b8e8627a1f5777b1946a72a69e05c96989aaceef31a8bc",
+          "jet_pileup_truth": "7d2e73c6ff9a2a74610903c243f8e28f0559805d4b4e8b2c0d1766d97f526e60",
+          "large_eta_jes": "e6d9cdf09bb36cf0c2631fc7152f3ef0eaa1fe21b8db84d3e3d4466dbf5caebc",
+          "large_jmr": "413be8542e4e8d849f38375b75daa243ee0f3ea2f8adad65b5a266fc05a1a2f7",
+          "large_jms": "cfe3990d6855d0a0d469ee59e7ab61e1986ce56ac9840906ac205cd658053dbb",
+          "large_selection": "cfb42c92a12c2cc23d171e3341a08aaf353e172db0c7c6dbf4dff31b334edd52",
+          "large_uncertainty": "92f22e7a236009d37f6aed31da54dd3ab64a4a8a0a5aa3db6e91d069489eddc1"
+        }
+      },
+      "small": {
+        "B": {
+          "events": 20000,
+          "full_branches": 353,
+          "full_values": 69401918,
+          "histograms": {
+            "full": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07",
+            "nominal": "0c07da80e228e961e806b00c7ba981c43cc53c3b6c039cf4fdb8c5fedae16132",
+            "stored": "f5a95435b0def3cf241b82adbe5b7c9fcf949ad5962940c472140d18ac7cc142"
+          },
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/recovery.json",
+          "sha256": "833653e2f10eb0f18fe845d666ef0f8c73b5ca58da923c6a7cd51eb1ccfb5212"
+        },
+        "C": {
+          "objects": {
+            "events": 20000,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/comparison.json",
+            "sha256": "d8d8e4c8d662e5f73f2b13ed2c90ede54c6767966f326bb0b391a20c69f302b1"
+          },
+          "shipped": {
+            "events": 20000,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/comparison.json",
+            "sha256": "258c52b93632f709b4c0e06c8fb8db6c406140a64b18123c384cf6509137252e"
+          }
+        },
+        "canonical": {
+          "bytes": 75847478,
+          "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+        },
+        "document": {
+          "bytes": 35330047,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/scopes/small/jets.json",
+          "sha256": "5db54b95119bfe47fac6d6ddca8c70e26b01eaa1b997cb16d6c90089fd045b91"
+        },
+        "index": {
+          "bytes": 687,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/payload-index.json",
+          "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+        },
+        "partition_manifest": {
+          "bytes": 5896,
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/manifest.json",
+          "sha256": "c8c2805a0eee5badb32ea2222d95ebccb53c5d2ac42916bf4133b10d61b680c7"
+        },
+        "runtime_identity_log_required": true,
+        "shipped_component_sha256": {
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7",
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda",
+          "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+        },
+        "subtrees_sha256": {
+          "jet_event_inputs": "14b31d21d40409f3cb7cdd0c8010cb08f6e25a78b75975cc0b5bbc11089021fa",
+          "jet_event_sf": "0bc5d0fe8e0c15f0c2b8e8627a1f5777b1946a72a69e05c96989aaceef31a8bc",
+          "jet_pileup_truth": "7d2e73c6ff9a2a74610903c243f8e28f0559805d4b4e8b2c0d1766d97f526e60",
+          "small_eta_jes": "3c40f8902ace0dfcfb603dcefffa570b0533e66ce083c50faf281fb5359e2f9c",
+          "small_gsc": "b8a8568e4eb065e33321411c1a9b53d27d96448a7be118dedb48f6d2adb8b2b7",
+          "small_nnjvt_select": "a1fedcdb7f68591215d01092fdef6f8e23026c9842b0d6073571483e25f92b3e",
+          "small_nnjvt_sf": "d3eb47b8f2700703f3f12b77cae26bd44a32690954f12434fb34694f89659e26",
+          "small_nnjvt_update": "6e1f123596634af8ad5c0bb21ac3bc88a69c14a43b59d5d5c28661ddd0d29202",
+          "small_pileup": "c97c8da946be9b494a8f464f7ec4a7f5a0604c8a40810b5f2728bddc9f695f2f",
+          "small_uncertainty": "1a6d72f657f1537bf733df58c3bed67ac21f434e4112f63d1f906a25b7ea30d1"
+        }
+      }
+    },
+    "release": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+    "schedule": [
+      {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "A",
+        "key": "00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      {
+        "anchor": false,
+        "arm": "B",
+        "key": "00-combined-full-B",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      {
+        "anchor": false,
+        "arm": "B",
+        "key": "01-combined-full-B",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "A",
+        "key": "01-combined-full-A",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "A",
+        "key": "02-combined-full-A",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "B",
+        "key": "02-combined-full-B",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "B",
+        "key": "03-combined-full-B",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": false,
+        "arm": "A",
+        "key": "03-combined-full-A",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-04-combined-full-A",
+        "mode": "full",
+        "round": 4,
+        "scope": "combined",
+        "warmup": false
+      }
+    ],
+    "scoped_acceptance_sha256": "0385df4fa2d30f3b39556516c3cc13b5805fd6e47244f16ec496bddfa7b75f19",
+    "thread_limits": {
+      "BLIS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "RAYON_NUM_THREADS": "1",
+      "ROOT_MAX_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "timing_recheck": {
+      "guards": {
+        "candidate": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-B/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1465,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-B/attempt-001/receipt.json",
+            "sha256": "487f596dbed015b97e3020f0b9cdb163dbd00aa3437537106b758453adbd66ad"
+          }
+        },
+        "stock": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-A/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1464,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-A/attempt-001/receipt.json",
+            "sha256": "fa94a72ddd3d634ef92fd3f8e5c0dd4c836e1ecb6986e7d2d6567ff1195a5f3f"
+          }
+        }
+      },
+      "mode": "full",
+      "origin_campaign": {
+        "bytes": 36537,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/campaign.json",
+        "sha256": "1ac2b1e113abd1d904e04f2cf934ce5bae0d80313ec3384b5520afe03b0ae20c"
+      },
+      "origin_summary": {
+        "bytes": 47715,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/summary.json",
+        "sha256": "3fe0ec4c8ed8a4b67a9f9900496bd8fae8bf84cb6ff327a95b65941df9ed0aea"
+      },
+      "original_attempts": {
+        "00-combined-full-A": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-A/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1464,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-A/attempt-001/receipt.json",
+            "sha256": "fa94a72ddd3d634ef92fd3f8e5c0dd4c836e1ecb6986e7d2d6567ff1195a5f3f"
+          }
+        },
+        "00-combined-full-B": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-B/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1465,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/00-combined-full-B/attempt-001/receipt.json",
+            "sha256": "487f596dbed015b97e3020f0b9cdb163dbd00aa3437537106b758453adbd66ad"
+          }
+        },
+        "01-combined-full-A": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/01-combined-full-A/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1454,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/01-combined-full-A/attempt-001/receipt.json",
+            "sha256": "06de2dca1eda59a17a6642f408408a259266b7db13c6c8c9e60b76f9e3cee518"
+          }
+        },
+        "01-combined-full-B": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/01-combined-full-B/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1456,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/01-combined-full-B/attempt-001/receipt.json",
+            "sha256": "bd70806300c5003e5969543dcaa2287f131795347df3ac84b800813f8da271fd"
+          }
+        },
+        "02-combined-full-A": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/02-combined-full-A/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1456,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/02-combined-full-A/attempt-001/receipt.json",
+            "sha256": "4fdc203e293aba10dcdbe344d5f88881047794938e7aeefe9a9578cdc098a11b"
+          }
+        },
+        "02-combined-full-B": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/02-combined-full-B/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1462,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/02-combined-full-B/attempt-001/receipt.json",
+            "sha256": "80dd1d8300b8c226084495feb6424624faea5fde77538663d26489ec48284170"
+          }
+        },
+        "03-combined-full-A": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/03-combined-full-A/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1467,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/03-combined-full-A/attempt-001/receipt.json",
+            "sha256": "c309023dd3106243fdc92382244fe30cfda683f66946dbe9eb48d64287eb16a5"
+          }
+        },
+        "03-combined-full-B": {
+          "histogram": {
+            "bytes": 173712,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/03-combined-full-B/attempt-001/histograms.npz",
+            "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+          },
+          "receipt": {
+            "bytes": 1463,
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/03-combined-full-B/attempt-001/receipt.json",
+            "sha256": "351f59c5f5ebefb363974c1b8a415d1ff1a10544ab3becbb6f63d4778091677e"
+          }
+        }
+      },
+      "original_ratio": {
+        "name": "B_over_A_framework",
+        "quality": {
+          "A": {
+            "framework": {
+              "max_median_deviation": 0.10068689188131336,
+              "mean_s": 259.537622953,
+              "pass": false,
+              "retained": [
+                277.025163751,
+                249.903810447,
+                251.683894661
+              ],
+              "sample_cv": 0.05845312706573456,
+              "sample_sd_s": 15.170785652810414,
+              "warmup_s": 250.783968567
+            }
+          },
+          "B": {
+            "framework": {
+              "max_median_deviation": 0.04294731639840567,
+              "mean_s": 268.027317983,
+              "pass": true,
+              "retained": [
+                277.360944958,
+                260.781454234,
+                265.939554757
+              ],
+              "sample_cv": 0.03165584004389155,
+              "sample_sd_s": 8.484629905463104,
+              "warmup_s": 264.508393536
+            }
+          }
+        },
+        "quality_pass": false,
+        "ratio_of_retained_means": 1.0327108452847986,
+        "ratio_qualified": false,
+        "retained_pairs_straddle": false,
+        "same_round_ratios": [
+          1.0012120964119413,
+          1.0435273226428332,
+          1.056641129601087
+        ],
+        "threshold": 1.2,
+        "threshold_kind": "framework budget",
+        "threshold_pass": null
+      },
+      "pair": "AB",
+      "reason": [
+        "relevant original endpoint spread or stock drift did not qualify"
+      ],
+      "scope": "combined"
+    },
+    "wheel_members_sha256": {
+      "data": {
+        "build.json": "18663c0c05ed2bec3b105d8826eb292ee9cec7a93289fddd1f36d50fd7b9bc49",
+        "jet-histogram.json": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727",
+        "jet-states.json": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+        "jets.json": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7",
+        "provenance.json": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+      },
+      "native": {
+        "_core.cpython-314-x86_64-linux-gnu.so": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2",
+        "libcorrectionlib.so": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5",
+        "libgcc_s.so.1": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da",
+        "libjets.so": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441",
+        "libstdc++.so.6": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+      }
+    }
+  },
+  "summary": {
+    "comparison": {
+      "name": "B_over_A_framework",
+      "quality": {
+        "A": {
+          "framework": {
+            "max_median_deviation": 0.016594994363694344,
+            "mean_s": 250.59517752566666,
+            "pass": true,
+            "retained": [
+              249.611163235,
+              248.42091026,
+              253.753459082
+            ],
+            "sample_cv": 0.011170001466717969,
+            "sample_sd_s": 2.7991485005141463,
+            "warmup_s": 262.042700097
+          }
+        },
+        "B": {
+          "framework": {
+            "max_median_deviation": 0.021643339490088398,
+            "mean_s": 260.48144185266665,
+            "pass": true,
+            "retained": [
+              258.763348538,
+              258.317125482,
+              264.363851538
+            ],
+            "sample_cv": 0.012936276081695812,
+            "sample_sd_s": 3.3696598459642897,
+            "warmup_s": 261.020016628
+          }
+        }
+      },
+      "quality_pass": false,
+      "ratio_of_retained_means": 1.039451135590937,
+      "ratio_qualified": false,
+      "retained_pairs_straddle": false,
+      "same_round_ratios": [
+        1.036665769208341,
+        1.0398364824106092,
+        1.0418137845071553
+      ],
+      "threshold": 1.2,
+      "threshold_kind": "framework budget",
+      "threshold_pass": null
+    },
+    "completed": 10,
+    "planned": 10,
+    "progress": {
+      "00-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/00-combined-full-A/attempt-001",
+      "00-combined-full-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/00-combined-full-B/attempt-001",
+      "01-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/01-combined-full-A/attempt-001",
+      "01-combined-full-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/01-combined-full-B/attempt-001",
+      "02-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/02-combined-full-A/attempt-001",
+      "02-combined-full-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/02-combined-full-B/attempt-001",
+      "03-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/03-combined-full-A/attempt-001",
+      "03-combined-full-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/03-combined-full-B/attempt-001",
+      "anchor-00-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/anchor-00-combined-full-A/attempt-001",
+      "anchor-04-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/anchor-04-combined-full-A/attempt-001"
+    },
+    "quality_pass": false,
+    "ratio_qualified": false,
+    "stock_anchor_drift": {
+      "framework": {
+        "max_median_deviation": 0.11685765029883088,
+        "pass": false,
+        "retained_stock_median_s": 249.611163235,
+        "wall_s": [
+          278.780137259,
+          250.905511336
+        ]
+      },
+      "histogram": {
+        "max_median_deviation": 0.06959938486681572,
+        "pass": true,
+        "retained_stock_median_s": 9.225260715,
+        "wall_s": [
+          9.867333186,
+          9.236236954
+        ]
+      },
+      "total": {
+        "max_median_deviation": 0.11471392059617203,
+        "pass": false,
+        "retained_stock_median_s": 258.943093032,
+        "wall_s": [
+          288.647470445,
+          260.14174829
+        ]
+      }
+    }
+  },
+  "clock_ticks_per_second": 100,
+  "observations": [
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/00-combined-full-A/attempt-001",
+      "classification": "warmup",
+      "completed_unix_ns": 1795019334785455944,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 259.32,
+          "cpu_stat_delta": [
+            25725,
+            0,
+            201,
+            204,
+            82,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 259.04942751000004,
+          "unattributed_busy_s": 0.27057248999994954
+        },
+        "histogram": {
+          "cpu_busy_s": 9.28,
+          "cpu_stat_delta": [
+            915,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.242148615,
+          "unattributed_busy_s": 0.03785138499999974
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 100270250828435,
+        "unix_ns": 1795019063297215693
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "15eba85b08aaaecb096fbd1b23f2c1c3336b037c26851c351a7715e59a2d2cc3",
+        "histogram.json": "4a34cfe6c0bd6d7d1a007ed767a5127ddb9ffb42a6b19e870f6201051955c782"
+      },
+      "wall_s": {
+        "framework": 262.042700097,
+        "histogram": 9.297881493,
+        "total": 271.34058159
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 262.042700097,
+          "cpu_user_s": 255.544028,
+          "cpu_sys_s": 1.369418,
+          "peak_rss_kb": 1332940,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019063300203332,
+            "end_unix_ns": 1795019325341744934,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 256.4110245902949,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.5740372578166151
+            },
+            "external_core_equivalents": 0.0021906248775643224
+          },
+          "cpu3_iowait_s": 0.82,
+          "cpu3_idle_s": 2.04,
+          "other_cpu3_busy_s": 0.27057248999994954
+        },
+        "histogram": {
+          "wall_s": 9.297881493,
+          "cpu_user_s": 9.11886,
+          "cpu_sys_s": 0.083879,
+          "peak_rss_kb": 445888,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019325484525133,
+            "end_unix_ns": 1795019334782408189,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 6.088985274362518,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.03627617022160454
+            },
+            "external_core_equivalents": 0.00390155222444117
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.03785138499999974
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "B",
+        "key": "00-combined-full-B",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": true
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/00-combined-full-B/attempt-001",
+      "classification": "warmup",
+      "completed_unix_ns": 1795019605186141315,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 259.69,
+          "cpu_stat_delta": [
+            25819,
+            0,
+            148,
+            93,
+            41,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 259.64815114899994,
+          "unattributed_busy_s": 0.04184885100005431
+        },
+        "histogram": {
+          "cpu_busy_s": 9.22,
+          "cpu_stat_delta": [
+            910,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.176244718,
+          "unattributed_busy_s": 0.04375528200000112
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 100541746795273,
+        "unix_ns": 1795019334792021960
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "51db658e69f6832a536b6a68f9a9d99eb616869ab68e449af1ef2db9faf4347e",
+        "histogram.json": "d2bd6fd3453ca233527bd5f1f37e685ab9e0bc97119146fa3038e0de0f13f374"
+      },
+      "wall_s": {
+        "framework": 261.020016628,
+        "histogram": 9.222735577,
+        "total": 270.242752205
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 261.020016628,
+          "cpu_user_s": 256.764597,
+          "cpu_sys_s": 0.984132,
+          "peak_rss_kb": 1430396,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019334794860288,
+            "end_unix_ns": 1795019595814878269,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 257.0969184808928,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.12341265232796032
+            },
+            "external_core_equivalents": 0.0004728091505098834
+          },
+          "cpu3_iowait_s": 0.41,
+          "cpu3_idle_s": 0.93,
+          "other_cpu3_busy_s": 0.04184885100005431
+        },
+        "histogram": {
+          "wall_s": 9.222735577,
+          "cpu_user_s": 9.066329,
+          "cpu_sys_s": 0.07195399999999999,
+          "peak_rss_kb": 445904,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019595960260105,
+            "end_unix_ns": 1795019605182997001,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 6.052182899278703,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.0
+            },
+            "external_core_equivalents": 0.0
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.04375528200000112
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "01-combined-full-A",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/01-combined-full-A/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795020132444761206,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 248.46,
+          "cpu_stat_delta": [
+            24692,
+            0,
+            152,
+            83,
+            40,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 248.34452850600002,
+          "unattributed_busy_s": 0.11547149399999057
+        },
+        "histogram": {
+          "cpu_busy_s": 9.34,
+          "cpu_stat_delta": [
+            923,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.298154946,
+          "unattributed_busy_s": 0.04184505399999949
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 101080314567336,
+        "unix_ns": 1795019873359793961
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "71fcde3096f489b0c25d07663f7336ff37954707ffce33d7484f24b03e9c0d21",
+        "histogram.json": "6ffb7e08b03faf8c0e2f7dc6934f93d5717191be751935a8bb970ca2d8cfd8db"
+      },
+      "wall_s": {
+        "framework": 249.611163235,
+        "histogram": 9.331929797,
+        "total": 258.943093032
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 249.611163235,
+          "cpu_user_s": 245.419677,
+          "cpu_sys_s": 1.04865,
+          "peak_rss_kb": 1336276,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019873362107145,
+            "end_unix_ns": 1795020122973272172,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 245.19533252977698,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.14
+            },
+            "external_core_equivalents": 0.0005608723511624158
+          },
+          "cpu3_iowait_s": 0.4,
+          "cpu3_idle_s": 0.83,
+          "other_cpu3_busy_s": 0.11547149399999057
+        },
+        "histogram": {
+          "wall_s": 9.331929797,
+          "cpu_user_s": 9.187932,
+          "cpu_sys_s": 0.07178,
+          "peak_rss_kb": 445884,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020123109797845,
+            "end_unix_ns": 1795020132441729125,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 7.98443283121731,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.033081103449666395
+            },
+            "external_core_equivalents": 0.0035449370247407136
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.04184505399999949
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "B",
+        "key": "01-combined-full-B",
+        "mode": "full",
+        "round": 1,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/01-combined-full-B/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795019873353938234,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 257.43,
+          "cpu_stat_delta": [
+            25592,
+            0,
+            146,
+            87,
+            46,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 257.39922526,
+          "unattributed_busy_s": 0.030774740000026668
+        },
+        "histogram": {
+          "cpu_busy_s": 9.19,
+          "cpu_stat_delta": [
+            904,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.141442821,
+          "unattributed_busy_s": 0.04855717899999945
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 100812148285543,
+        "unix_ns": 1795019605193512219
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "90d249621354d688e88941624768215bd7995413eae0029807d7864d420929f1",
+        "histogram.json": "42f54c571f793ce1f6e1d9f837dfd6f2aa58317cfb5095d8fdf725deddeac641"
+      },
+      "wall_s": {
+        "framework": 258.763348538,
+        "histogram": 9.187959565,
+        "total": 267.951308103
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 258.763348538,
+          "cpu_user_s": 254.479244,
+          "cpu_sys_s": 1.053959,
+          "peak_rss_kb": 1430492,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019605196501645,
+            "end_unix_ns": 1795019863959851910,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 255.06982724452067,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.12000000000000001
+            },
+            "external_core_equivalents": 0.000463744192050358
+          },
+          "cpu3_iowait_s": 0.46,
+          "cpu3_idle_s": 0.87,
+          "other_cpu3_busy_s": 0.030774740000026668
+        },
+        "histogram": {
+          "wall_s": 9.187959565,
+          "cpu_user_s": 9.004555,
+          "cpu_sys_s": 0.09974,
+          "peak_rss_kb": 445964,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019864163135558,
+            "end_unix_ns": 1795019873351096481,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 6.078837488832063,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.0
+            },
+            "external_core_equivalents": 0.0
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.04855717899999945
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "02-combined-full-A",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/02-combined-full-A/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795020390238616163,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 246.88,
+          "cpu_stat_delta": [
+            24553,
+            0,
+            132,
+            107,
+            48,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 246.82958501899998,
+          "unattributed_busy_s": 0.05041498100001718
+        },
+        "histogram": {
+          "cpu_busy_s": 9.21,
+          "cpu_stat_delta": [
+            912,
+            0,
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.201163504999998,
+          "unattributed_busy_s": 0.008836495000002387
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 101339405108801,
+        "unix_ns": 1795020132450335471
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "33255d7b618438df43f0f7b1cea47730fc26288871a19e20cdb86db156345694",
+        "histogram.json": "2445e85d3ea0b80252cfbe39cc4c363fe92db2c4ce9503e7b1148b530c008c00"
+      },
+      "wall_s": {
+        "framework": 248.42091026,
+        "histogram": 9.222476714,
+        "total": 257.643386974
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 248.42091026,
+          "cpu_user_s": 244.097739,
+          "cpu_sys_s": 0.861305,
+          "peak_rss_kb": 1336396,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020132452971545,
+            "end_unix_ns": 1795020380873883378,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 243.0839865515283,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.11641322003549302
+            },
+            "external_core_equivalents": 0.0004686128068432472
+          },
+          "cpu3_iowait_s": 0.48,
+          "cpu3_idle_s": 1.07,
+          "other_cpu3_busy_s": 0.05041498100001718
+        },
+        "histogram": {
+          "wall_s": 9.222476714,
+          "cpu_user_s": 9.090535,
+          "cpu_sys_s": 0.07195599999999999,
+          "peak_rss_kb": 445984,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020381013393521,
+            "end_unix_ns": 1795020390235871731,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 8.014856884982189,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.02242952666833723
+            },
+            "external_core_equivalents": 0.0024320502359511005
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.01,
+          "other_cpu3_busy_s": 0.008836495000002387
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "B",
+        "key": "02-combined-full-B",
+        "mode": "full",
+        "round": 2,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/02-combined-full-B/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795020657959994007,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 257.13,
+          "cpu_stat_delta": [
+            25573,
+            0,
+            136,
+            86,
+            38,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 257.03694417,
+          "unattributed_busy_s": 0.09305582999996886
+        },
+        "histogram": {
+          "cpu_busy_s": 9.18,
+          "cpu_stat_delta": [
+            909,
+            0,
+            9,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.15011656,
+          "unattributed_busy_s": 0.029883439999998984
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 101597198768616,
+        "unix_ns": 1795020390243995196
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "77482d2cf3bd977a2a7b91d92b244769843b79e4b48cfdaf6d72c07f7f482f19",
+        "histogram.json": "762e20f3ba470e4502ef66c5b4d1375c5bd4852e58e9dae554d42749f0c2e4c9"
+      },
+      "wall_s": {
+        "framework": 258.317125482,
+        "histogram": 9.188947153,
+        "total": 267.506072635
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 258.317125482,
+          "cpu_user_s": 254.222706,
+          "cpu_sys_s": 0.960055,
+          "peak_rss_kb": 1430984,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020390246671738,
+            "end_unix_ns": 1795020648563799263,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 253.4342690428714,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.14697672700270137
+            },
+            "external_core_equivalents": 0.00056897786675372
+          },
+          "cpu3_iowait_s": 0.38,
+          "cpu3_idle_s": 0.86,
+          "other_cpu3_busy_s": 0.09305582999996886
+        },
+        "histogram": {
+          "wall_s": 9.188947153,
+          "cpu_user_s": 9.059409,
+          "cpu_sys_s": 0.051949999999999996,
+          "peak_rss_kb": 445940,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020648768119580,
+            "end_unix_ns": 1795020657957068082,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 8.064286939866134,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 8.092964398618188e-05
+            },
+            "external_core_equivalents": 8.807281469646937e-06
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.01,
+          "other_cpu3_busy_s": 0.029883439999998984
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "A",
+        "key": "03-combined-full-A",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/03-combined-full-A/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795021195065569179,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 252.47,
+          "cpu_stat_delta": [
+            25100,
+            0,
+            143,
+            104,
+            25,
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 252.427396052,
+          "unattributed_busy_s": 0.0426039479999929
+        },
+        "histogram": {
+          "cpu_busy_s": 9.22,
+          "cpu_stat_delta": [
+            913,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.195673541,
+          "unattributed_busy_s": 0.024326459000000966
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 102138898221686,
+        "unix_ns": 1795020931943448367
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "043cddff68d698eca469a31850479983eba89387417749bcdbdd320aed963baa",
+        "histogram.json": "cb6d3af24bd828f80006b042f5557b406646e0955d3b1c77510dfe1aaae866ab"
+      },
+      "wall_s": {
+        "framework": 253.753459082,
+        "histogram": 9.225260715,
+        "total": 262.978719797
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 253.753459082,
+          "cpu_user_s": 249.497553,
+          "cpu_sys_s": 0.98263,
+          "peak_rss_kb": 1336172,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020931946315335,
+            "end_unix_ns": 1795021185699775959,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 249.0041104805042,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.15000000000000002
+            },
+            "external_core_equivalents": 0.0005911249467993569
+          },
+          "cpu3_iowait_s": 0.25,
+          "cpu3_idle_s": 1.04,
+          "other_cpu3_busy_s": 0.0426039479999929
+        },
+        "histogram": {
+          "wall_s": 9.225260715,
+          "cpu_user_s": 9.101706,
+          "cpu_sys_s": 0.055911999999999996,
+          "peak_rss_kb": 445988,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795021185837357630,
+            "end_unix_ns": 1795021195062619753,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 7.966263137651117,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.033841275870654226
+            },
+            "external_core_equivalents": 0.003668327315197642
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.024326459000000966
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": false,
+        "arm": "B",
+        "key": "03-combined-full-B",
+        "mode": "full",
+        "round": 3,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/03-combined-full-B/attempt-001",
+      "classification": "retained",
+      "completed_unix_ns": 1795020931936369151,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 262.64,
+          "cpu_stat_delta": [
+            26100,
+            0,
+            161,
+            93,
+            82,
+            0,
+            3,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 262.573469263,
+          "unattributed_busy_s": 0.06653073699999368
+        },
+        "histogram": {
+          "cpu_busy_s": 9.46,
+          "cpu_stat_delta": [
+            935,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.421491909,
+          "unattributed_busy_s": 0.03850809100000063
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 101864920499894,
+        "unix_ns": 1795020657965726547
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "7af7f70545b0b24a5ecfc3a375165f191018dc9c21b4cecece188d2823ab9e02",
+        "histogram.json": "fc0759a4996c7fc8ce3a5309d583a8bc815fdadd4a3e11f1f53a542701de7755"
+      },
+      "wall_s": {
+        "framework": 264.363851538,
+        "histogram": 9.463596074,
+        "total": 273.827447612
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 264.363851538,
+          "cpu_user_s": 259.497573,
+          "cpu_sys_s": 1.074553,
+          "peak_rss_kb": 1430940,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020657968229146,
+            "end_unix_ns": 1795020922332083102,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 258.7673958983004,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.15930547284934843
+            },
+            "external_core_equivalents": 0.0006025993036587669
+          },
+          "cpu3_iowait_s": 0.82,
+          "cpu3_idle_s": 0.93,
+          "other_cpu3_busy_s": 0.06653073699999368
+        },
+        "histogram": {
+          "wall_s": 9.463596074,
+          "cpu_user_s": 9.30726,
+          "cpu_sys_s": 0.071809,
+          "peak_rss_kb": 445956,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795020922469440973,
+            "end_unix_ns": 1795020931933039221,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 6.062994818365095,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.0
+            },
+            "external_core_equivalents": 0.0
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.03850809100000063
+        }
+      },
+      "ntuple_disk_bytes": 248168142
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-00-combined-full-A",
+        "mode": "full",
+        "round": 0,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/anchor-00-combined-full-A/attempt-001",
+      "classification": "anchor",
+      "completed_unix_ns": 1795019063290996898,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 277.16,
+          "cpu_stat_delta": [
+            27505,
+            0,
+            205,
+            105,
+            62,
+            0,
+            6,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 276.94544973200004,
+          "unattributed_busy_s": 0.21455026799998222
+        },
+        "histogram": {
+          "cpu_busy_s": 9.82,
+          "cpu_stat_delta": [
+            964,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.79418942,
+          "unattributed_busy_s": 0.025810579999999916
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 99981396213617,
+        "unix_ns": 1795018774514867416
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "68746bea05068ada19af2710e72dc5b193d06304cb603d37a6a0c651b77ba249",
+        "histogram.json": "176702b230aabefc69f591ff6357ac7eaed66b0a0420e6d6fedcfd21ebef0327"
+      },
+      "wall_s": {
+        "framework": 278.780137259,
+        "histogram": 9.867333186,
+        "total": 288.647470445
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 278.780137259,
+          "cpu_user_s": 273.26609,
+          "cpu_sys_s": 1.19666,
+          "peak_rss_kb": 1332212,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795018774517918165,
+            "end_unix_ns": 1795019053225791071,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 274.288543530126,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.3271775402023721
+            },
+            "external_core_equivalents": 0.0011736042008559907
+          },
+          "cpu3_iowait_s": 0.62,
+          "cpu3_idle_s": 1.05,
+          "other_cpu3_busy_s": 0.21455026799998222
+        },
+        "histogram": {
+          "wall_s": 9.867333186,
+          "cpu_user_s": 9.610058,
+          "cpu_sys_s": 0.135859,
+          "peak_rss_kb": 446264,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795019053420046136,
+            "end_unix_ns": 1795019063287381516,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 8.076803296792864,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.01404050728276123
+            },
+            "external_core_equivalents": 0.0014229282642124852
+          },
+          "cpu3_iowait_s": 0.0,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.025810579999999916
+        }
+      },
+      "ntuple_disk_bytes": 248164357
+    },
+    {
+      "job": {
+        "anchor": true,
+        "arm": "A",
+        "key": "anchor-04-combined-full-A",
+        "mode": "full",
+        "round": 4,
+        "scope": "combined",
+        "warmup": false
+      },
+      "attempt": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-combined-full-001/anchor-04-combined-full-A/attempt-001",
+      "classification": "anchor",
+      "completed_unix_ns": 1795021455429720124,
+      "cpu_accounting": {
+        "framework": {
+          "cpu_busy_s": 249.57,
+          "cpu_stat_delta": [
+            24816,
+            0,
+            136,
+            110,
+            33,
+            0,
+            5,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 249.451048446,
+          "unattributed_busy_s": 0.1189515540000059
+        },
+        "histogram": {
+          "cpu_busy_s": 9.24,
+          "cpu_stat_delta": [
+            908,
+            0,
+            15,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "measured_process_cpu_s": 9.198494267,
+          "unattributed_busy_s": 0.041505733000001044
+        }
+      },
+      "histogram_sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981",
+      "input_visit_counters": {},
+      "launch": {
+        "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+        "monotonic_ns": 102402026631180,
+        "unix_ns": 1795021195071857781
+      },
+      "resource_receipts_sha256": {
+        "framework.json": "80db23b7f3dfed40410293a3a90a5c74ef8e834b385a423a392fb3547385e9a9",
+        "histogram.json": "cf2cb2d1e9993e9654f6fb1f1c69af7db1783e3304bfe8eb35fc88d2a28970a0"
+      },
+      "wall_s": {
+        "framework": 250.905511336,
+        "histogram": 9.236236954,
+        "total": 260.14174829
+      },
+      "legs": {
+        "framework": {
+          "wall_s": 250.905511336,
+          "cpu_user_s": 246.583076,
+          "cpu_sys_s": 1.003416,
+          "peak_rss_kb": 1336308,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795021195074592236,
+            "end_unix_ns": 1795021445980105320,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 245.300854920087,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.11568001231597597
+            },
+            "external_core_equivalents": 0.0004610501048781792
+          },
+          "cpu3_iowait_s": 0.33,
+          "cpu3_idle_s": 1.1,
+          "other_cpu3_busy_s": 0.1189515540000059
+        },
+        "histogram": {
+          "wall_s": 9.236236954,
+          "cpu_user_s": 9.051902,
+          "cpu_sys_s": 0.10795099999999999,
+          "peak_rss_kb": 446200,
+          "cpus_seen": [
+            "3"
+          ],
+          "threads_seen": [
+            1
+          ],
+          "guest_activity": {
+            "start_unix_ns": 1795021446190701908,
+            "end_unix_ns": 1795021455426940643,
+            "coverage_fraction": 1.0,
+            "sampled_process_cpu_s": {
+              "jets": 7.9559902859917715,
+              "muon": 0.0,
+              "other": 0.0,
+              "exited": 0.0
+            },
+            "external_core_equivalents": 0.0
+          },
+          "cpu3_iowait_s": 0.01,
+          "cpu3_idle_s": 0.0,
+          "other_cpu3_busy_s": 0.041505733000001044
+        }
+      },
+      "ntuple_disk_bytes": 248164357
+    }
+  ],
+  "guest_monitor": {
+    "sources": {
+      "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/recheck-AB-combined-full-001-monitor-001/guest.jsonl": "a72edef16133c74f7ac8f388729b56cd00c7a4b6d0068dae7cfb9e4e52893515"
+    },
+    "method": "Intersects each worker's Unix-clock bounds with guest snapshots. CPU seconds within a partial interval are prorated. Processes must survive two snapshots and accumulate at least 0.05 CPU seconds. Averages are descriptive lower estimates."
+  }
+}

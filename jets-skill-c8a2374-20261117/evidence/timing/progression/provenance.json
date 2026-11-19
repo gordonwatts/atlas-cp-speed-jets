@@ -1,0 +1,716 @@
+{
+  "input": {
+    "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "release_alias": "ASG_TEST_FILE_LITE_RUN3_MC",
+    "sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+    "bytes": 245815772,
+    "tfile_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+    "pool_guid": "25DE1628-311C-11F1-96A1-BC97E1EECF70",
+    "file_format": "StreamDAOD_PHYSLITE",
+    "collection_tree": "CollectionTree",
+    "simulation": "FullG4_QS",
+    "campaign": "mc23a",
+    "dsid": 601229,
+    "processing_tag": "p7266",
+    "sample": "PowhegPythia8 ttbar single lepton",
+    "entry_interval": [
+      0,
+      20000
+    ],
+    "source_collections": {
+      "small_r": "AnalysisJets",
+      "large_r": "AnalysisLargeRJets"
+    },
+    "release": "AnalysisBase/25.2.117",
+    "platform": "x86_64-el9-gcc15-opt"
+  },
+  "authority": {
+    "small": {
+      "histogram": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+        "bytes": 59712,
+        "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+      },
+      "provenance": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/provenance.json",
+        "bytes": 4991,
+        "sha256": "bdc979756e50108b5e10d7e1191a5f4f3584d129b2642be789bce38c8acc5a37"
+      },
+      "legs": {
+        "framework": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/framework.json",
+          "bytes": 30323,
+          "sha256": "2c014c065211ea7c9db8c897f464e0b3703519e3ec4c19e83ff9d4655292cfdd"
+        },
+        "histogram": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histogram.json",
+          "bytes": 6046,
+          "sha256": "328daeaccbe8e508eb78ad0545cd4182ea0d38552c612fdbd7132718ccd89b3f"
+        }
+      }
+    },
+    "large": {
+      "histogram": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+        "bytes": 114644,
+        "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+      },
+      "provenance": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/provenance.json",
+        "bytes": 4991,
+        "sha256": "4b91a9b72365bcfc370bc2fee2e2b7c031ba6619b8413de3ceebf1716eaa61bc"
+      },
+      "legs": {
+        "framework": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/framework.json",
+          "bytes": 28219,
+          "sha256": "b2e6950a2853a33215e9df5ac114e1b3df3d175c9607c4465a95aa6d3e5742bc"
+        },
+        "histogram": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histogram.json",
+          "bytes": 6041,
+          "sha256": "f7de7485dde4d958355fb809015d15fe47d58cc84629308f5c5121a888306adf"
+        }
+      }
+    },
+    "both": {
+      "histogram": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz",
+        "bytes": 173712,
+        "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+      },
+      "provenance": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/provenance.json",
+        "bytes": 4994,
+        "sha256": "c2aa5ebeadd9d658ac7173b05e520ab1d37b787441bed560bc221488e0ca847f"
+      },
+      "legs": {
+        "framework": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/framework.json",
+          "bytes": 29786,
+          "sha256": "eaff052e882c1c8f501ccd3a4bf3af3457ff5fd80e93030f486ddf2f4ea14c5c"
+        },
+        "histogram": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histogram.json",
+          "bytes": 5021,
+          "sha256": "1c74c41180c00d5956e545b3115c4c0e7e6ad0adb9f6b590762315f69f791546"
+        }
+      }
+    }
+  },
+  "events": 20000,
+  "scopes": [
+    "small",
+    "large",
+    "both"
+  ],
+  "cpu": 3,
+  "threads": 1,
+  "controller": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/packaging/compare_shipment_progression.py",
+    "sha256": "d1ef3aa2e2e1c07460b30194d4c2f89c813d59e7e2770a2dab03290327bd013e",
+    "bytes": 17788
+  },
+  "rounds": 4,
+  "policy": "Fresh CLI per cell. Rotate scope and arm order. Exclude round 1. Warm OS cache is allowed. Wall time includes startup and saved histogram. CPU includes the observed worker process.",
+  "launch_environment": {
+    "PATH": "/usr/bin:/bin",
+    "LANG": "C.UTF-8",
+    "PYTHONNOUSERSITE": "1",
+    "UV_CONCURRENT_BUILDS": "1",
+    "UV_CONCURRENT_INSTALLS": "1",
+    "UV_CONCURRENT_DOWNLOADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "RAYON_NUM_THREADS": "1",
+    "ROOT_MAX_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "faithful_omission": null,
+  "schedule": [
+    [
+      1,
+      "small",
+      "faithful"
+    ],
+    [
+      1,
+      "small",
+      "packed"
+    ],
+    [
+      1,
+      "small",
+      "final"
+    ],
+    [
+      1,
+      "large",
+      "packed"
+    ],
+    [
+      1,
+      "large",
+      "final"
+    ],
+    [
+      1,
+      "large",
+      "faithful"
+    ],
+    [
+      1,
+      "both",
+      "final"
+    ],
+    [
+      1,
+      "both",
+      "faithful"
+    ],
+    [
+      1,
+      "both",
+      "packed"
+    ],
+    [
+      2,
+      "large",
+      "final"
+    ],
+    [
+      2,
+      "large",
+      "faithful"
+    ],
+    [
+      2,
+      "large",
+      "packed"
+    ],
+    [
+      2,
+      "both",
+      "faithful"
+    ],
+    [
+      2,
+      "both",
+      "packed"
+    ],
+    [
+      2,
+      "both",
+      "final"
+    ],
+    [
+      2,
+      "small",
+      "packed"
+    ],
+    [
+      2,
+      "small",
+      "final"
+    ],
+    [
+      2,
+      "small",
+      "faithful"
+    ],
+    [
+      3,
+      "both",
+      "packed"
+    ],
+    [
+      3,
+      "both",
+      "final"
+    ],
+    [
+      3,
+      "both",
+      "faithful"
+    ],
+    [
+      3,
+      "small",
+      "final"
+    ],
+    [
+      3,
+      "small",
+      "faithful"
+    ],
+    [
+      3,
+      "small",
+      "packed"
+    ],
+    [
+      3,
+      "large",
+      "faithful"
+    ],
+    [
+      3,
+      "large",
+      "packed"
+    ],
+    [
+      3,
+      "large",
+      "final"
+    ],
+    [
+      4,
+      "small",
+      "faithful"
+    ],
+    [
+      4,
+      "small",
+      "packed"
+    ],
+    [
+      4,
+      "small",
+      "final"
+    ],
+    [
+      4,
+      "large",
+      "packed"
+    ],
+    [
+      4,
+      "large",
+      "final"
+    ],
+    [
+      4,
+      "large",
+      "faithful"
+    ],
+    [
+      4,
+      "both",
+      "final"
+    ],
+    [
+      4,
+      "both",
+      "faithful"
+    ],
+    [
+      4,
+      "both",
+      "packed"
+    ]
+  ],
+  "arms": {
+    "faithful": {
+      "paired_stream_input_receipt": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/inputs.json",
+        "sha256": "1fe92de7532a933d38eac384b4b4956e6bb2e188774e6184059bdb3c09598b53",
+        "bytes": 7213
+      },
+      "paired_stream_scopes": {
+        "small": {
+          "receipt": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-faithful/receipt.json",
+            "sha256": "d6b9d1d12f3752bbc2f86c71abf1c68fedfa90e4f42bb09e5831ba5ef5feefea",
+            "bytes": 4868
+          },
+          "log": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-small-faithful/run.log",
+            "sha256": "43d5d65eabbdefdf6e4b0c2f4a48875a570df517a41d76dcef21502f0c9e742b",
+            "bytes": 5309
+          },
+          "branch_sha256": "57e749b59fc24143562edb34994124dfb72bb38bad33adc4e1fe0ec1a5e2d17b"
+        },
+        "large": {
+          "receipt": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-faithful/receipt.json",
+            "sha256": "7637f660040ad62c1b97892a117a61324f1f68256df109307133768c63fc45a6",
+            "bytes": 4871
+          },
+          "log": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-large-faithful/run.log",
+            "sha256": "5cce7591d4f4afeb8cc0f6c2622a1698fd852dd5a8d36e238511a5a08fe1584d",
+            "bytes": 8986
+          },
+          "branch_sha256": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc"
+        },
+        "both": {
+          "receipt": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-faithful/receipt.json",
+            "sha256": "136c2fb6a2b6d95e853a0daed80b88b6bb1129276fc2fd552f9be47267f8a6ff",
+            "bytes": 4868
+          },
+          "log": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/paired-stream-001/pairs/01-both-faithful/run.log",
+            "sha256": "7b11e5de1c392dd88fcc7a40ac5c763b354e946dda7b9923f159f117748dc4ac",
+            "bytes": 13155
+          },
+          "branch_sha256": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7"
+        }
+      },
+      "source_revision": "7b296d18d48f2c4a4105ba387141c6edccd86bcf",
+      "source_files": {
+        "columnar/jets.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/columnar/jets.py",
+          "sha256": "736daad557116b94c3198ac203e4c490db166dda90710e0ec909087fe1f85672",
+          "bytes": 28758
+        },
+        "columnar/inputs.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/columnar/inputs.py",
+          "sha256": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9",
+          "bytes": 7167
+        },
+        "jet_transport.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/jet_transport.py",
+          "sha256": "7e4e6b2df2329811bdf40d61e29f898690284e9c3084bf5a46936870ff5b1623",
+          "bytes": 2057
+        },
+        "config/jet-states.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/config/jet-states.json",
+          "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+          "bytes": 46226
+        },
+        "config/jet-histogram.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/config/jet-histogram.json",
+          "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727",
+          "bytes": 759
+        },
+        "tools/reference/setup.sh": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/tools/reference/setup.sh",
+          "sha256": "42b7d9101a1204068f4a0630d072f5c52f8ae465d9223e6bb113a17f8e374b69",
+          "bytes": 735
+        }
+      },
+      "original_precision_wheel": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/wheels/correctionlib-0.1.dev230+g0c498f4cb-cp314-cp314-linux_x86_64.whl",
+        "sha256": "9c05da84db0cd449f1dd5c90556456ba7def9c4b36d44bec6823166025df98d8",
+        "bytes": 644997
+      },
+      "provider": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+        "sha256": "6f47b30ab82521308c4a64848a8fa9fe61f43a75ae32f77bede969d35ee7d5ca",
+        "bytes": 18947712
+      },
+      "evaluator": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+        "sha256": "eca58e47350e0d69142fe625311d0d725f95ebc1ab18e8dba1cea5714a33e1cf",
+        "bytes": 1178072
+      },
+      "binding": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+        "sha256": "0e089eaefe189527dccd4827298e0f6ecc0013ab884d687c07a9bd08ee67a922",
+        "bytes": 356800
+      },
+      "provider_linkage": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/link-libraries.txt",
+        "sha256": "bef963e0d4e6e5c1eb9c6d066c383055bd0e33f27a064c731ee663b96ad12a49",
+        "bytes": 12793
+      },
+      "release_libraries": {
+        "libJetCalibToolsLib.so": {
+          "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib/libJetCalibToolsLib.so",
+          "sha256": "d1d8b723b777bbcac0ce29dad2ea4375254cd3351cff44d4777b29f754d8cb35",
+          "bytes": 2053856
+        },
+        "libJetUncertaintiesLib.so": {
+          "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib/libJetUncertaintiesLib.so",
+          "sha256": "029ad038281e1847e0f5150dc70184c45da0462f53172c1479a9f0a23acb63ee",
+          "bytes": 1190208
+        },
+        "libCore.so": {
+          "path": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib/libCore.so",
+          "sha256": "11203ab90705eb7d6920b7274ae5a742b6ca6e31394c2646d2b8e8603488e12e",
+          "bytes": 6446720
+        }
+      },
+      "elf": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/faithful-source/elf",
+      "payloads": {
+        "small": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+          "sha256": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8",
+          "bytes": 160803597
+        },
+        "large": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+          "sha256": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8",
+          "bytes": 160803597
+        },
+        "both": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+          "sha256": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8",
+          "bytes": 160803597
+        }
+      },
+      "payload_provenance": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+        "sha256": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+        "bytes": 174748
+      },
+      "environment_policy": "Recreate the pinned AnalysisBase setup and load the original precision core. The inherited historical environment was not saved by the paired-stream controller.",
+      "launch_environment": {
+        "AtlasVersion": "25.2.117",
+        "AtlasArea": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117",
+        "CMTCONFIG": "x86_64-el9-gcc15-opt",
+        "PATH": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/share:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/bin:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/bin:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/share:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/4.4.0/Linux-x86_64/bin:/cvmfs/sft.cern.ch/lcg/releases/gcc/15.2.0-35657/x86_64-el9/bin:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/bin:/tmp/gwatts/.asetup-sysbin-M4udlQ_1442739:/usr/bin:/bin",
+        "ROOTSYS": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/../../../../AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt",
+        "ROOT_INCLUDE_PATH": "/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/include:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/include/libxml2:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/include:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/include/eigen3",
+        "LD_LIBRARY_PATH": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/core-precision-002/venv/lib/python3.14/site-packages/correctionlib/lib:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBase/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib:/cvmfs/atlas.cern.ch/repo/sw/software/25.2/AnalysisBaseExternals/25.2.117/InstallArea/x86_64-el9-gcc15-opt/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/15.2.0-35657/x86_64-el9/lib:/cvmfs/sft.cern.ch/lcg/releases/gcc/15.2.0-35657/x86_64-el9/lib64:/cvmfs/sft.cern.ch/lcg/releases/binutils/2.40-acaab/x86_64-el9/lib",
+        "JETS_REFERENCE_INPUT": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1"
+      },
+      "defaults": {
+        "mode": "nominal",
+        "scope": "both",
+        "repeat": 1,
+        "effective_mode": "full",
+        "effective_options": []
+      }
+    },
+    "packed": {
+      "installations": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/installations.json",
+        "sha256": "fe183e1a45029230bbc5fc2de74e7ff3ef677abb93ad3cdb1a05a0d66a40c925",
+        "bytes": 1026
+      },
+      "wheel": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/correctionlib-0.1.dev230+g0c498f4cb.atlasjets5-cp314-cp314-linux_x86_64.whl",
+        "sha256": "bbcbd311b86046e63f93b5ba7360ca1a6db38e66d2195d91ceca3d1c7b781dc8",
+        "native": {
+          "_core.cpython-314-x86_64-linux-gnu.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+            "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2"
+          },
+          "libcorrectionlib.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+            "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5"
+          },
+          "libgcc_s.so.1": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+            "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da"
+          },
+          "libjets.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+            "sha256": "1160a6646a736b651dd59991cfea6d2688f39917db6476cff1982baf03a44e53"
+          },
+          "libstdc++.so.6": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+            "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+          }
+        },
+        "data": {
+          "build.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/build.json",
+            "sha256": "85dbd68f8c867cc03f9eb1f8507bf852b307ebbf7909b75bd741260df6ab0cba"
+          },
+          "jet-histogram.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-histogram.json",
+            "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727"
+          },
+          "jet-states.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-states.json",
+            "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+          },
+          "jets.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+            "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+          },
+          "provenance.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+            "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+          }
+        },
+        "workflow": {
+          "__init__.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/__init__.py",
+            "bytes": 56,
+            "sha256": "bdd3816687e1b37d07a10994e126204fed1a00973102c82e1e18021512cbf351"
+          },
+          "inputs.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/inputs.py",
+            "bytes": 7167,
+            "sha256": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9"
+          },
+          "transport.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+            "bytes": 2483,
+            "sha256": "9ec3f3adcd0f824dd734cd0a72061b27a53b69cec36925f4baa3057e6c17aa3e"
+          },
+          "runtime.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/runtime.py",
+            "bytes": 2885,
+            "sha256": "6971a69a937c157ceb744c7051647ce2d182be254bbff0579d09e7ef314bb8f6"
+          },
+          "payload_ranges.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py",
+            "bytes": 5300,
+            "sha256": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+          },
+          "data/payload-index.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json",
+            "bytes": 687,
+            "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+          }
+        }
+      },
+      "original_bundle": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-005/bundle.json",
+        "sha256": "f8ef15de7ac3e92cdad458dea14edf258a7246616fc55159088fb8c39e3968cf",
+        "bytes": 3894
+      },
+      "visible_script": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-005/pip/jets_demo.py",
+        "sha256": "3cd4e552065548e3e419418e2489dfab6bd0d9fd68dc783690addd2b06ab3a2e",
+        "bytes": 30783
+      },
+      "native_elf": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/packed-elf",
+      "defaults": {
+        "mode": "full",
+        "scope": "both",
+        "compact_payload_default_scopes": [],
+        "reuse_nominal_nnjvt_update": true,
+        "reuse_nominal_nnjvt_update_modes": [
+          "full"
+        ],
+        "reuse_nominal_nnjvt_update_scopes": [
+          "small",
+          "both"
+        ]
+      }
+    },
+    "final": {
+      "installations": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/installations.json",
+        "sha256": "08271c6a4ab80546b7563ef1aacf4cb34e802ff5d725734135a17300ce046ca2",
+        "bytes": 1238
+      },
+      "wheel": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+        "sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+        "native": {
+          "_core.cpython-314-x86_64-linux-gnu.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+            "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2"
+          },
+          "libcorrectionlib.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+            "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5"
+          },
+          "libgcc_s.so.1": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+            "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da"
+          },
+          "libjets.so": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+            "sha256": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441"
+          },
+          "libstdc++.so.6": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+            "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+          }
+        },
+        "data": {
+          "build.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/build.json",
+            "sha256": "18663c0c05ed2bec3b105d8826eb292ee9cec7a93289fddd1f36d50fd7b9bc49"
+          },
+          "jet-histogram.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-histogram.json",
+            "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727"
+          },
+          "jet-states.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-states.json",
+            "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+          },
+          "jets.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+            "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+          },
+          "provenance.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+            "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+          }
+        },
+        "workflow": {
+          "__init__.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/__init__.py",
+            "bytes": 56,
+            "sha256": "bdd3816687e1b37d07a10994e126204fed1a00973102c82e1e18021512cbf351"
+          },
+          "inputs.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/inputs.py",
+            "bytes": 7167,
+            "sha256": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9"
+          },
+          "transport.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+            "bytes": 4123,
+            "sha256": "9238ad09f3f43f3365c1445f28db5c3c0537b14942726e16c0dfebf3fc2be908"
+          },
+          "runtime.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/runtime.py",
+            "bytes": 2885,
+            "sha256": "6971a69a937c157ceb744c7051647ce2d182be254bbff0579d09e7ef314bb8f6"
+          },
+          "payload_ranges.py": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py",
+            "bytes": 5300,
+            "sha256": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+          },
+          "data/payload-index.json": {
+            "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json",
+            "bytes": 687,
+            "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+          }
+        }
+      },
+      "original_bundle": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/bundle.json",
+        "sha256": "97e609ff294d738c16e6999eeb4a58b2d9a482e764b47f6d2fb7d864c3eff473",
+        "bytes": 4106
+      },
+      "visible_script": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/jets_demo.py",
+        "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+        "bytes": 31776
+      },
+      "native_elf": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/shipment-progression-001/final-elf",
+      "defaults": {
+        "mode": "full",
+        "scope": "both",
+        "compact_payload_default_scopes": [
+          "small",
+          "large"
+        ],
+        "reuse_uncertainty_sign_pair_scopes": [
+          "small",
+          "both"
+        ],
+        "chunk_events_by_scope": {
+          "small": 1000,
+          "large": 4000,
+          "both": 1000
+        },
+        "reuse_nominal_nnjvt_update": true,
+        "reuse_nominal_nnjvt_update_modes": [
+          "full"
+        ],
+        "reuse_nominal_nnjvt_update_scopes": [
+          "small",
+          "both"
+        ]
+      }
+    }
+  }
+}

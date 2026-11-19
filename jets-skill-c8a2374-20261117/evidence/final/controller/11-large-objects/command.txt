@@ -1,0 +1,1 @@
+taskset -c 3 /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/.reference-venv/bin/python tools/qualify_shipment.py /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/specification.json objects --scope large 

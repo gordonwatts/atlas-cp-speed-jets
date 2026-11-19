@@ -1,0 +1,14 @@
+{
+  "pip_uv_full_exact": true,
+  "original_nominal_control": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/benchmark-pilot-combined-002/01-nominal/histograms.npz",
+  "nominal_histogram_max_absolute_differences": {
+    "sr_sumw": 0.0,
+    "sr_sumw2": 0.0,
+    "lr_sumw": 0.0,
+    "lr_sumw2": 0.0
+  },
+  "state_counts": {
+    "sr": 119,
+    "lr": 219
+  }
+}

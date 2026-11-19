@@ -1,0 +1,25 @@
+{
+  "installation": {
+    "python": "/home/gwatts/.local/share/uv/python/cpython-3.14.10-linux-x86_64-gnu/bin/python3.14",
+    "uv": "/cvmfs/sft.cern.ch/lcg/releases/uv/0.11.21-24fd6/x86_64-el9-gcc15-opt/bin/uv",
+    "script": "jets_demo.py",
+    "wheel": "correctionlib-0.1.dev230+g0c498f4cb.atlasjets4-cp314-cp314-linux_x86_64.whl",
+    "wheel_sha256": "b663120eb337dc4b7d01abf5e8f60d76df385f40f2855711fbf3b895dd11681d",
+    "script_sha256": "58ad2849adfe60983d5fb1041f374f3a73c1bce97c6ab340c5b135b6592b6d87"
+  },
+  "scope": "both",
+  "events": 32,
+  "original": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art",
+  "stock_full_histogram": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/benchmark-pilot-combined-002/01-full/histograms.npz",
+    "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+  },
+  "branch_digests": {
+    "pip-canonical-full": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+    "pip-indexed-full": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+    "pip-indexed-nominal": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7",
+    "uv-indexed-full": "eaa7cd166be4eadd93f27d55025271cdda0fffebdabdc198cc2c5a0d0821a4c7"
+  },
+  "all_histogram_fields_exact": true,
+  "matched_nominal_nosys_exact": true
+}

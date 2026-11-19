@@ -1,0 +1,10 @@
+Payload materialized SHA-256: 5fc018bd35b4d068451cb41f3ee4011ddb5626052d74c12823ce3cb0ae7a3c0f
+Payload materialized bytes: 40518516
+Pass 1/1, 20000 events, lr 22177 original jets
+76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art (79ee6652-311f-11f1-aa37-0445010abeef), 21 input branches
+Input branch SHA-256: 5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc
+Calibrated input plan: matched full-state reads and truth preparation
+20000 unique events, 20000 event visits across 1 passes
+lr 22177 unique jets, 22177 jet visits, 3302 nominal entries, 1 states
+NOSYS
+Saved the final single-pass histogram to /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal.npz

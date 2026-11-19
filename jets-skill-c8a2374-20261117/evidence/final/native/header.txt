@@ -1,0 +1,32 @@
+# ========
+# captured on    : Wed Nov 18 04:36:02 2026
+# header version : 1
+# data offset    : 416
+# data size      : 197339832
+# feat offset    : 197340248
+# hostname : PHYS-PROFWSN04
+# os release : 6.18.33.2-microsoft-standard-WSL2
+# perf version : 5.14.0-687.61.1.el9_8.x86_64
+# arch : x86_64
+# nrcpus online : 20
+# nrcpus avail : 20
+# cpudesc : Intel(R) Core(TM) Ultra 7 265T
+# cpuid : GenuineIntel,6,198,2
+# total memory : 16091816 kB
+# cmdline : /usr/bin/perf record --event cpu-clock:u --count 10000000 --clockid CLOCK_MONOTONIC --timestamp --period --sample-cpu --no-inherit --no-buildid-cache --call-graph dwarf,16384 -o /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/record.data -- /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/bin/python /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py /cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/.art/76315e7ffa8dd82d312e0ee59e71336fa4b01af5.art /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/histogram.npz -n 10 
+# event : name = cpu-clock:u, , id = { 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974 }, type = 1 (software), size = 136, config = 0 (PERF_COUNT_SW_CPU_CLOCK), { sample_period, sample_freq } = 10000000, sample_type = IP|TID|TIME|ADDR|CALLCHAIN|CPU|PERIOD|REGS_USER|STACK_USER|DATA_SRC, read_format = ID|LOST, disabled = 1, exclude_kernel = 1, exclude_hv = 1, mmap = 1, comm = 1, enable_on_exec = 1, task = 1, mmap_data = 1, sample_id_all = 1, exclude_callchain_user = 1, mmap2 = 1, comm_exec = 1, use_clockid = 1, ksymbol = 1, bpf_event = 1, sample_regs_user = 0xff0fff, sample_stack_user = 16384, clockid = 1
+# CPU_TOPOLOGY info available, use -I to display
+# NUMA_TOPOLOGY info available, use -I to display
+# pmu mappings: cpu = 4, breakpoint = 5, kprobe = 8, msr = 11, power = 10, software = 1, tracepoint = 2, uprobe = 9
+# CACHE info available, use -I to display
+# time of first sample : 86450.230480
+# time of last sample : 86569.605658
+# sample duration : 119375.177 ms
+# MEM_TOPOLOGY info available, use -I to display
+# clockid frequency: 1000 MHz
+# cpu pmu capabilities: not available
+# clockid: monotonic (1)
+# reference time: 2026-11-18 04:34:03.314114 = 1795005243.314114 (TOD) = 86450.195460420 (monotonic)
+# missing features: TRACING_DATA BRANCH_STACK GROUP_DESC AUXTRACE STAT DIR_FORMAT COMPRESSED HYBRID_TOPOLOGY 
+# ========
+#

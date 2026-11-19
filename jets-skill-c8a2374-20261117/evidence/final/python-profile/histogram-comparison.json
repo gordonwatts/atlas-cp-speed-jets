@@ -1,0 +1,15 @@
+{
+  "exact_fields": {
+    "edges": true,
+    "events": true,
+    "lr_entries": true,
+    "lr_states": true,
+    "lr_sumw": true,
+    "lr_sumw2": true,
+    "sr_entries": true,
+    "sr_states": true,
+    "sr_sumw": true,
+    "sr_sumw2": true
+  },
+  "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+}

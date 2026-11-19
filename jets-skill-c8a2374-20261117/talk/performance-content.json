@@ -1,0 +1,72 @@
+{
+  "slides": [
+    {
+      "title": "From PHYSLITE to the full-systematics histograms",
+      "figure": "full-workflow-time.png",
+      "takeaway": "Full A/C after checks    Small-R 11.70\u00d7    |    Large-R 33.85\u00d7    |    Combined 20.09\u00d7",
+      "notes": "Each job reads the same 20,000 events with one analysis thread. The bars and points describe production jobs. Each bar is the mean of three retained rounds after one warmup. A and B include the framework ntuple and the separate histogram job. C runs the delivered direct script through histogram output. A/C is the ratio of means. The full-workflow goal is 10\u00d7. Small-R 11.70\u00d7 \u00b7 goal met (10.00\u00d7). Large-R 36.96\u00d7 \u00b7 quality flagged (A ntuple read + histogram). Combined 20.96\u00d7 \u00b7 quality flagged (A framework, A total). Separate paired recheck for Combined full systematics measured 20.09\u00d7, goal met. evidence/timing/recheck-AC-combined-full-001/summary.json Separate paired recheck for Large-R full systematics measured 33.85\u00d7, goal met. evidence/timing/recheck-AC-large-full-001/summary.json Source evidence/timing/production/compact.json."
+    },
+    {
+      "title": "Framework wall time against the 1.20\u00d7 budget",
+      "rows": [
+        [
+          "Scope",
+          "Nominal B/A",
+          "Full B/A"
+        ],
+        [
+          "Small-R",
+          "1.04\u00d7 \u00b7 unresolved (recheck)",
+          "1.07\u00d7 \u00b7 within"
+        ],
+        [
+          "Large-R",
+          "1.02\u00d7 \u00b7 within",
+          "1.02\u00d7 \u00b7 within"
+        ],
+        [
+          "Combined",
+          "1.05\u00d7 \u00b7 within",
+          "1.04\u00d7 \u00b7 unresolved (recheck)"
+        ]
+      ],
+      "takeaway": "B/A compares framework jobs through ntuple output. The first round is excluded.",
+      "notes": "The budget allows CorrectionLib framework B up to 1.20\u00d7 stock A for nominal calibration and full systematics. Each ratio divides the framework-only retained means. Stock anchors and endpoint spread must qualify, and same-round ratios that straddle the budget leave the decision unresolved. Small-R nominal production 1.01\u00d7 \u00b7 quality flagged (B framework). Small-R full production 1.07\u00d7 \u00b7 within budget (1.20\u00d7). Large-R nominal production 1.02\u00d7 \u00b7 within budget (1.20\u00d7). Large-R full production 1.02\u00d7 \u00b7 within budget (1.20\u00d7). Combined nominal production 1.05\u00d7 \u00b7 within budget (1.20\u00d7). Combined full production 1.03\u00d7 \u00b7 quality flagged (A framework). Separate paired recheck for Combined full systematics measured 1.04\u00d7, unresolved. evidence/timing/recheck-AB-combined-full-001/summary.json Separate paired recheck for Small-R nominal calibration measured 1.04\u00d7, unresolved. evidence/timing/recheck-AB-small-nominal-001/summary.json Source evidence/timing/production/compact.json."
+    },
+    {
+      "title": "What changed within the direct workflow",
+      "rows": [
+        [
+          "Scope",
+          "Faithful (s)",
+          "Packed (s)",
+          "Selected (s)",
+          "Faithful/selected"
+        ],
+        [
+          "Small-R",
+          "54.25 \u00b1 0.51",
+          "13.82 \u00b1 0.46",
+          "11.28 \u00b1 0.28",
+          "4.81\u00d7"
+        ],
+        [
+          "Large-R",
+          "12.14 \u00b1 0.10",
+          "3.70 \u00b1 0.06",
+          "2.81 \u00b1 0.01",
+          "4.33\u00d7"
+        ],
+        [
+          "Combined",
+          "60.62 \u00b1 0.39",
+          "15.24 \u00b1 0.10",
+          "12.92 \u00b1 0.21",
+          "4.69\u00d7"
+        ]
+      ],
+      "takeaway": "Same branch requests and stock-exact histograms. Wall time includes startup and output.",
+      "notes": "This independent progression compares end-to-end full-systematics direct commands. Each arm is a fresh process and each scope uses the same original events and branch-set digest. The histogram is exact against stock for each job. The displayed means and sample SD use three retained runs after one warmup. An asterisk marks a spread failure. This progression compares bundled configurations. It cannot assign an isolated speedup to one mechanism. Sources evidence/timing/progression/summary.json and evidence/timing/progression/provenance.json."
+    }
+  ]
+}

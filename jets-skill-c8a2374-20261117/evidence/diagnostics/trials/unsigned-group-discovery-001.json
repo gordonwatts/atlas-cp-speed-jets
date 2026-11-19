@@ -1,0 +1,103 @@
+{
+  "inputs": {
+    "results/export/portable-001/provenance.json": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+    "results/export/portable-001/plan.json": "e4f13c16b7a2d677065361187878fd587f5296214822f6c46d70974e137ec713",
+    "results/validation/direct-portable-full-001/distributions/metadata.json": "7e2acbbcf5450e154d999d636aeda8b3b7f31effd0a92cd86af067493b200eae",
+    "config/jet-states.json": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8",
+    "results/diagnostics/native-baseline-decode-003/summary.json": "dadec45a3c11b22826f8b6c2f82c2e1b6609c6931c91f0319f16e9bb234f4d4a",
+    "results/diagnostics/native-baseline-decode-003/stacks.folded": "10faf0baa4b9f4e73a31b22af14ba4ddeab36e7d4738ed03a6b14aefc22f5f52"
+  },
+  "models": {
+    "SmallR": {
+      "configured_groups": 44,
+      "active_groups": 44,
+      "active_states": 116,
+      "ordinary_only_pairs": 30,
+      "ordinary_and_pseudo_quartets": 14,
+      "ordinary_pseudo_gap": {
+        "JET_JERUnc_Noise_PreRec": 1,
+        "JET_JER_DataVsMC_MC16": 1,
+        "JET_JER_EffectiveNP_1": 13,
+        "JET_JER_EffectiveNP_10": 1,
+        "JET_JER_EffectiveNP_11": 1,
+        "JET_JER_EffectiveNP_12restTerm": 1,
+        "JET_JER_EffectiveNP_2": 1,
+        "JET_JER_EffectiveNP_3": 1,
+        "JET_JER_EffectiveNP_4": 1,
+        "JET_JER_EffectiveNP_5": 1,
+        "JET_JER_EffectiveNP_6": 1,
+        "JET_JER_EffectiveNP_7": 1,
+        "JET_JER_EffectiveNP_8": 1,
+        "JET_JER_EffectiveNP_9": 1
+      },
+      "distinct_scales_per_active_group": {
+        "1": 44
+      },
+      "pseudo_bjet_sensitive_groups": [],
+      "component_validity_groups": [],
+      "file_validity": "",
+      "counts": {
+        "state_valid_applications": 22806296,
+        "unique_group_valid_aggregations": 8650664,
+        "component_value_calls": 25951992,
+        "same_pseudo_paired_component_calls": 12975996,
+        "same_pseudo_paired_group_aggregations": 11403148,
+        "all_family_reused_component_calls": 10223512,
+        "adjacent_family_reused_component_calls": 10420118
+      }
+    },
+    "LargeR": {
+      "configured_groups": 85,
+      "active_groups": 76,
+      "active_states": 182,
+      "ordinary_only_pairs": 61,
+      "ordinary_and_pseudo_quartets": 15,
+      "ordinary_pseudo_gap": {
+        "JET_JERUnc_Noise_R10_PreRec": 1,
+        "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec": 1,
+        "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec": 1,
+        "JET_JER_AllOthers": 1,
+        "JET_JER_DataVsMC_R10_MC16": 1,
+        "JET_JER_dijet_R10_closure": 1,
+        "JET_JER_dijet_R10_jesEffNP1": 1,
+        "JET_JER_dijet_R10_jesEffNP3": 1,
+        "JET_JER_dijet_R10_jesEffNP4": 1,
+        "JET_JER_dijet_R10_jesEtaIntMod": 1,
+        "JET_JER_dijet_R10_jesFlavComp": 1,
+        "JET_JER_dijet_R10_jesFlavResp": 1,
+        "JET_JER_dijet_R10_mcgenerator": 1,
+        "JET_JER_dijet_R10_selection": 1,
+        "JET_JER_dijet_R10_stat": 1
+      },
+      "distinct_scales_per_active_group": {
+        "1": 76
+      },
+      "pseudo_bjet_sensitive_groups": [],
+      "component_validity_groups": [],
+      "file_validity": "ValidRange_JMS_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+      "counts": {
+        "state_valid_applications": 1136708,
+        "unique_group_valid_aggregations": 474664,
+        "component_value_calls": 1286612,
+        "same_pseudo_paired_component_calls": 643306,
+        "same_pseudo_paired_group_aggregations": 568354,
+        "all_family_reused_component_calls": 524632,
+        "adjacent_family_reused_component_calls": 524632
+      }
+    }
+  },
+  "combined": {
+    "state_valid_applications": 23943004,
+    "unique_group_valid_aggregations": 9125328,
+    "component_value_calls": 27238604,
+    "same_pseudo_paired_component_calls": 13619302,
+    "same_pseudo_paired_group_aggregations": 11971502,
+    "all_family_reused_component_calls": 10748144,
+    "adjacent_family_reused_component_calls": 10944750
+  },
+  "sample_basis_ns": 110400000000,
+  "baseline_periods_ns": {
+    "component_value": 10670000000
+  },
+  "scope": "Static opportunity estimate from verified stock validity counts and retained native stacks. No new execution."
+}

@@ -1,0 +1,2 @@
+coordinate/model pairs checked 260, deliberate collision bucket 2
+exact cache fixture passed with 16384 slots and 786432 bytes per active worker thread

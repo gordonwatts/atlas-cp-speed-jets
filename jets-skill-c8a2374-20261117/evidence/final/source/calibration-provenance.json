@@ -1,0 +1,4547 @@
+{
+  "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7",
+  "correction_names": [
+    "small_pileup",
+    "jet_event_inputs",
+    "jet_pileup_truth",
+    "large_selection",
+    "jet_event_sf",
+    "small_uncertainty",
+    "large_uncertainty",
+    "small_gsc",
+    "small_eta_jes",
+    "large_eta_jes",
+    "large_jms",
+    "large_jmr",
+    "small_nnjvt_update",
+    "small_nnjvt_select",
+    "small_nnjvt_sf"
+  ],
+  "sources": {
+    "small_pileup": {
+      "analysisbase_release": "25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "jet_definition": "AntiKt4EMPFlow",
+      "calibration_area": "00-04-83",
+      "calibration_sequence": "JetArea_Residual_EtaJES_GSC",
+      "resolved_files": [
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "bytes": 3898,
+          "sha256": "30d6965c9a8d717334f9edca3bef95ef011d6775aa479cff437a56a40afcedb2"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "bytes": 1356,
+          "sha256": "ac2321fd5563fd2eb1d72e19c8cd1f838f3d9f8b6067cb3635b3008f91d1d27f"
+        }
+      ],
+      "residual_name": "ResidualOffsetMC23aFebruary2024",
+      "starting_scale": "JetConstitScaleMomentum",
+      "output_scale": "JetPileupScaleMomentum",
+      "rho_container": "Kt4EMPFlowNeutEventShape",
+      "event_inputs": {
+        "rho": "Missing density or event shape is an event failure.",
+        "mu": "Use float EventInfo.averageInteractionsPerCrossing. Missing EventInfo sets mu and NPV to zero; missing decoration on available EventInfo fails.",
+        "npv": "Count PriVtx or PileUp in PrimaryVertices; use zero on missing PrimaryVertices."
+      },
+      "source_contract": {
+        "cases": "Scalar area subtraction and simultaneous mu/NPV residual on MC.",
+        "negative_pt": "Only negative corrected pT resets to 10 MeV through four-vector scaling.",
+        "invalid_inputs": "Missing required jet auxiliary values and E<m are errors.",
+        "eta_boundary": "The release residual loop indexes past the last coefficient if no interval matches. The node reports that undefined input as an error.",
+        "precision": "Retain binary32 auxiliary reads and writes, binary64 density and arithmetic, and the source interval accumulation order."
+      },
+      "acceptance": "Compare [pt, eta, phi, m] to JetPileupScaleMomentum and exercise the negative reset, zero corrected pT, and residual eta edges."
+    },
+    "event": {
+      "release": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "vertex": "JetCalibrationTool::initializeEvent, JetUncertaintiesTool::getDefaultEventInfo, JetVertexNNTagger::findHSVertex",
+      "truth": "JetPileupLabelingTool::decorate and JetPileupLabelingTool.h defaults for both configured collections",
+      "selection": "AsgSelectionAlg, AsgPtEtaSelectionTool, AsgMassSelectionTool with config/jets-a.yaml thresholds",
+      "event_sf": "AsgEventScaleFactorAlg with valid per-jet SF or neutral weight in source order"
+    },
+    "uncertainties": {
+      "release": "AnalysisBase 25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "mc_type": "MC23",
+      "configured_state_contract": {
+        "path_resolver_name": "configured state contract",
+        "resolved_path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+        "real_path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jet-states.json",
+        "bytes": 46226,
+        "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+      },
+      "initialized_tools": {
+        "path_resolver_name": "Path A initialized tools",
+        "resolved_path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/observer-smoke-003/initialized-tools.tsv",
+        "real_path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/observer-smoke-003/initialized-tools.tsv",
+        "bytes": 63777,
+        "sha256": "1aca5d60991103f20a57c8a5254eccc94941bf38c1c33c41cf29dffd44d7a547"
+      },
+      "collections": {
+        "SmallR": {
+          "jet_definition": "AntiKt4EMPFlow",
+          "recommendation": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_CategoryReduction_FullJER.config",
+            "bytes": 22265,
+            "sha256": "4fae9959dbdc8fa1ded14930feba762be1fa48d7f4a011ced25c85c67a47dff6"
+          },
+          "histogram_file": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Winter2025_PreRec/R4_AllComponents.root",
+            "bytes": 3563929,
+            "sha256": "03b7335de536509eeb6afcceec6c90ea32f51fdd03578219b3bd63af1af19db7",
+            "objects": {
+              "EffectiveNP_Detector1_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Detector2_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed1_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed2_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed3_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling1_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling2_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling3_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling4_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical1_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical2_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical3_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical4_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical5_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical6_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "EtaIntercalibration_Modelling_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "EtaIntercalibration_NonClosure_0p2_PreRec_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "EtaIntercalibration_TotalStat_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "FCal_MC23_NonClosure_PreRec_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "FlavorResponse_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "InSituProp_EtaIntercalModelling_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_EtaIntercalStat_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_FlavorComposition_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_FlavorResponse_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_PileupOffsetMu_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_PileupOffsetNPV_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_PileupPtTerm_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSituProp_PileupRhoTopology_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "InSitu_NonClosure_PreRec_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "JERUnc_Noise_PreRec_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_DataVsMC_MC16_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_10_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_11_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_12restTerm_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_1_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_2_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_3_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_4_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_5_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_6_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_7_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_8_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_EffectiveNP_9_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_Nominal_MC16_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JER_Nominal_data_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JESUnc_Noise_PreRec_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "JESUnc_VertexingAlg_PreRec_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "Pileup_OffsetMu_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "Pileup_OffsetNPV_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "Pileup_PtTerm_mu_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "Pileup_PtTerm_npv_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "Pileup_RhoTopology_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "SingleParticle_HighPt_AntiKt4EMPFlow": {
+                "class": "TH1D",
+                "cycle": 1
+              },
+              "bJES_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "flavorCompGlu_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "flavorCompLight_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              }
+            }
+          },
+          "analysis_file": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourComp.root",
+            "bytes": 8681,
+            "sha256": "f6165066e99a26c9f1db09ed711090dd7561aa00f3a6e1eef0ffe2e71ca74007",
+            "objects": {
+              "gluonFraction_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "gluonFractionError_AntiKt4EMPFlow": {
+                "class": "TH2D",
+                "cycle": 1
+              }
+            }
+          },
+          "initialized": {
+            "main_affecting": [
+              "JET_BJES_Response",
+              "JET_EffectiveNP_Detector1",
+              "JET_EffectiveNP_Detector2",
+              "JET_EffectiveNP_Mixed1",
+              "JET_EffectiveNP_Mixed2",
+              "JET_EffectiveNP_Mixed3",
+              "JET_EffectiveNP_Modelling1",
+              "JET_EffectiveNP_Modelling2",
+              "JET_EffectiveNP_Modelling3",
+              "JET_EffectiveNP_Modelling4",
+              "JET_EffectiveNP_Statistical1",
+              "JET_EffectiveNP_Statistical2",
+              "JET_EffectiveNP_Statistical3",
+              "JET_EffectiveNP_Statistical4",
+              "JET_EffectiveNP_Statistical5",
+              "JET_EffectiveNP_Statistical6",
+              "JET_EtaIntercalibration_Modelling",
+              "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "JET_EtaIntercalibration_TotalStat",
+              "JET_FCal_MC23_NonClosure_PreRec",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_PreRec",
+              "JET_JERUnc_Noise_PreRec",
+              "JET_JER_DataVsMC_MC16",
+              "JET_JER_EffectiveNP_1",
+              "JET_JER_EffectiveNP_10",
+              "JET_JER_EffectiveNP_11",
+              "JET_JER_EffectiveNP_12restTerm",
+              "JET_JER_EffectiveNP_2",
+              "JET_JER_EffectiveNP_3",
+              "JET_JER_EffectiveNP_4",
+              "JET_JER_EffectiveNP_5",
+              "JET_JER_EffectiveNP_6",
+              "JET_JER_EffectiveNP_7",
+              "JET_JER_EffectiveNP_8",
+              "JET_JER_EffectiveNP_9",
+              "JET_JESUnc_Noise_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_Pileup_OffsetMu",
+              "JET_Pileup_OffsetNPV",
+              "JET_Pileup_PtTerm",
+              "JET_Pileup_RhoTopology",
+              "JET_SingleParticle_HighPt"
+            ],
+            "main_recommended": [
+              "JET_BJES_Response",
+              "JET_EffectiveNP_Detector1",
+              "JET_EffectiveNP_Detector2",
+              "JET_EffectiveNP_Mixed1",
+              "JET_EffectiveNP_Mixed2",
+              "JET_EffectiveNP_Mixed3",
+              "JET_EffectiveNP_Modelling1",
+              "JET_EffectiveNP_Modelling2",
+              "JET_EffectiveNP_Modelling3",
+              "JET_EffectiveNP_Modelling4",
+              "JET_EffectiveNP_Statistical1",
+              "JET_EffectiveNP_Statistical2",
+              "JET_EffectiveNP_Statistical3",
+              "JET_EffectiveNP_Statistical4",
+              "JET_EffectiveNP_Statistical5",
+              "JET_EffectiveNP_Statistical6",
+              "JET_EtaIntercalibration_Modelling",
+              "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "JET_EtaIntercalibration_TotalStat",
+              "JET_FCal_MC23_NonClosure_PreRec",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_PreRec",
+              "JET_JERUnc_Noise_PreRec",
+              "JET_JER_DataVsMC_MC16",
+              "JET_JER_EffectiveNP_1",
+              "JET_JER_EffectiveNP_10",
+              "JET_JER_EffectiveNP_11",
+              "JET_JER_EffectiveNP_12restTerm",
+              "JET_JER_EffectiveNP_2",
+              "JET_JER_EffectiveNP_3",
+              "JET_JER_EffectiveNP_4",
+              "JET_JER_EffectiveNP_5",
+              "JET_JER_EffectiveNP_6",
+              "JET_JER_EffectiveNP_7",
+              "JET_JER_EffectiveNP_8",
+              "JET_JER_EffectiveNP_9",
+              "JET_JESUnc_Noise_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_Pileup_OffsetMu",
+              "JET_Pileup_OffsetNPV",
+              "JET_Pileup_PtTerm",
+              "JET_Pileup_RhoTopology",
+              "JET_SingleParticle_HighPt"
+            ],
+            "pseudo_data_affecting": [
+              "JET_BJES_Response",
+              "JET_EffectiveNP_Detector1",
+              "JET_EffectiveNP_Detector2",
+              "JET_EffectiveNP_Mixed1",
+              "JET_EffectiveNP_Mixed2",
+              "JET_EffectiveNP_Mixed3",
+              "JET_EffectiveNP_Modelling1",
+              "JET_EffectiveNP_Modelling2",
+              "JET_EffectiveNP_Modelling3",
+              "JET_EffectiveNP_Modelling4",
+              "JET_EffectiveNP_Statistical1",
+              "JET_EffectiveNP_Statistical2",
+              "JET_EffectiveNP_Statistical3",
+              "JET_EffectiveNP_Statistical4",
+              "JET_EffectiveNP_Statistical5",
+              "JET_EffectiveNP_Statistical6",
+              "JET_EtaIntercalibration_Modelling",
+              "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "JET_EtaIntercalibration_TotalStat",
+              "JET_FCal_MC23_NonClosure_PreRec",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_PreRec",
+              "JET_JERUnc_Noise_PreRec",
+              "JET_JERUnc_Noise_PreRec_PseudoData",
+              "JET_JER_DataVsMC_MC16",
+              "JET_JER_DataVsMC_MC16_PseudoData",
+              "JET_JER_EffectiveNP_1",
+              "JET_JER_EffectiveNP_10",
+              "JET_JER_EffectiveNP_10_PseudoData",
+              "JET_JER_EffectiveNP_11",
+              "JET_JER_EffectiveNP_11_PseudoData",
+              "JET_JER_EffectiveNP_12restTerm",
+              "JET_JER_EffectiveNP_12restTerm_PseudoData",
+              "JET_JER_EffectiveNP_1_PseudoData",
+              "JET_JER_EffectiveNP_2",
+              "JET_JER_EffectiveNP_2_PseudoData",
+              "JET_JER_EffectiveNP_3",
+              "JET_JER_EffectiveNP_3_PseudoData",
+              "JET_JER_EffectiveNP_4",
+              "JET_JER_EffectiveNP_4_PseudoData",
+              "JET_JER_EffectiveNP_5",
+              "JET_JER_EffectiveNP_5_PseudoData",
+              "JET_JER_EffectiveNP_6",
+              "JET_JER_EffectiveNP_6_PseudoData",
+              "JET_JER_EffectiveNP_7",
+              "JET_JER_EffectiveNP_7_PseudoData",
+              "JET_JER_EffectiveNP_8",
+              "JET_JER_EffectiveNP_8_PseudoData",
+              "JET_JER_EffectiveNP_9",
+              "JET_JER_EffectiveNP_9_PseudoData",
+              "JET_JESUnc_Noise_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_Pileup_OffsetMu",
+              "JET_Pileup_OffsetNPV",
+              "JET_Pileup_PtTerm",
+              "JET_Pileup_RhoTopology",
+              "JET_SingleParticle_HighPt"
+            ],
+            "pseudo_data_recommended": [
+              "JET_BJES_Response",
+              "JET_EffectiveNP_Detector1",
+              "JET_EffectiveNP_Detector2",
+              "JET_EffectiveNP_Mixed1",
+              "JET_EffectiveNP_Mixed2",
+              "JET_EffectiveNP_Mixed3",
+              "JET_EffectiveNP_Modelling1",
+              "JET_EffectiveNP_Modelling2",
+              "JET_EffectiveNP_Modelling3",
+              "JET_EffectiveNP_Modelling4",
+              "JET_EffectiveNP_Statistical1",
+              "JET_EffectiveNP_Statistical2",
+              "JET_EffectiveNP_Statistical3",
+              "JET_EffectiveNP_Statistical4",
+              "JET_EffectiveNP_Statistical5",
+              "JET_EffectiveNP_Statistical6",
+              "JET_EtaIntercalibration_Modelling",
+              "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "JET_EtaIntercalibration_TotalStat",
+              "JET_FCal_MC23_NonClosure_PreRec",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_PreRec",
+              "JET_JERUnc_Noise_PreRec",
+              "JET_JERUnc_Noise_PreRec_PseudoData",
+              "JET_JER_DataVsMC_MC16",
+              "JET_JER_DataVsMC_MC16_PseudoData",
+              "JET_JER_EffectiveNP_1",
+              "JET_JER_EffectiveNP_10",
+              "JET_JER_EffectiveNP_10_PseudoData",
+              "JET_JER_EffectiveNP_11",
+              "JET_JER_EffectiveNP_11_PseudoData",
+              "JET_JER_EffectiveNP_12restTerm",
+              "JET_JER_EffectiveNP_12restTerm_PseudoData",
+              "JET_JER_EffectiveNP_1_PseudoData",
+              "JET_JER_EffectiveNP_2",
+              "JET_JER_EffectiveNP_2_PseudoData",
+              "JET_JER_EffectiveNP_3",
+              "JET_JER_EffectiveNP_3_PseudoData",
+              "JET_JER_EffectiveNP_4",
+              "JET_JER_EffectiveNP_4_PseudoData",
+              "JET_JER_EffectiveNP_5",
+              "JET_JER_EffectiveNP_5_PseudoData",
+              "JET_JER_EffectiveNP_6",
+              "JET_JER_EffectiveNP_6_PseudoData",
+              "JET_JER_EffectiveNP_7",
+              "JET_JER_EffectiveNP_7_PseudoData",
+              "JET_JER_EffectiveNP_8",
+              "JET_JER_EffectiveNP_8_PseudoData",
+              "JET_JER_EffectiveNP_9",
+              "JET_JER_EffectiveNP_9_PseudoData",
+              "JET_JESUnc_Noise_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_Pileup_OffsetMu",
+              "JET_Pileup_OffsetNPV",
+              "JET_Pileup_PtTerm",
+              "JET_Pileup_RhoTopology",
+              "JET_SingleParticle_HighPt"
+            ]
+          },
+          "states": {
+            "JET_BJES_Response__1up": {
+              "basename": "JET_BJES_Response",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_BJES_Response__1down": {
+              "basename": "JET_BJES_Response",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Detector1__1up": {
+              "basename": "JET_EffectiveNP_Detector1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Detector1__1down": {
+              "basename": "JET_EffectiveNP_Detector1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Detector2__1up": {
+              "basename": "JET_EffectiveNP_Detector2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Detector2__1down": {
+              "basename": "JET_EffectiveNP_Detector2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed1__1up": {
+              "basename": "JET_EffectiveNP_Mixed1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed1__1down": {
+              "basename": "JET_EffectiveNP_Mixed1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed2__1up": {
+              "basename": "JET_EffectiveNP_Mixed2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed2__1down": {
+              "basename": "JET_EffectiveNP_Mixed2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed3__1up": {
+              "basename": "JET_EffectiveNP_Mixed3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Mixed3__1down": {
+              "basename": "JET_EffectiveNP_Mixed3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling1__1up": {
+              "basename": "JET_EffectiveNP_Modelling1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling1__1down": {
+              "basename": "JET_EffectiveNP_Modelling1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling2__1up": {
+              "basename": "JET_EffectiveNP_Modelling2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling2__1down": {
+              "basename": "JET_EffectiveNP_Modelling2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling3__1up": {
+              "basename": "JET_EffectiveNP_Modelling3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling3__1down": {
+              "basename": "JET_EffectiveNP_Modelling3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling4__1up": {
+              "basename": "JET_EffectiveNP_Modelling4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Modelling4__1down": {
+              "basename": "JET_EffectiveNP_Modelling4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical1__1up": {
+              "basename": "JET_EffectiveNP_Statistical1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical1__1down": {
+              "basename": "JET_EffectiveNP_Statistical1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical2__1up": {
+              "basename": "JET_EffectiveNP_Statistical2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical2__1down": {
+              "basename": "JET_EffectiveNP_Statistical2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical3__1up": {
+              "basename": "JET_EffectiveNP_Statistical3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical3__1down": {
+              "basename": "JET_EffectiveNP_Statistical3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical4__1up": {
+              "basename": "JET_EffectiveNP_Statistical4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical4__1down": {
+              "basename": "JET_EffectiveNP_Statistical4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical5__1up": {
+              "basename": "JET_EffectiveNP_Statistical5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical5__1down": {
+              "basename": "JET_EffectiveNP_Statistical5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical6__1up": {
+              "basename": "JET_EffectiveNP_Statistical6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_Statistical6__1down": {
+              "basename": "JET_EffectiveNP_Statistical6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_Modelling__1up": {
+              "basename": "JET_EtaIntercalibration_Modelling",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_Modelling__1down": {
+              "basename": "JET_EtaIntercalibration_Modelling",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_NonClosure_0p2_PreRec__1up": {
+              "basename": "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_NonClosure_0p2_PreRec__1down": {
+              "basename": "JET_EtaIntercalibration_NonClosure_0p2_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_TotalStat__1up": {
+              "basename": "JET_EtaIntercalibration_TotalStat",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_TotalStat__1down": {
+              "basename": "JET_EtaIntercalibration_TotalStat",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_FCal_MC23_NonClosure_PreRec__1up": {
+              "basename": "JET_FCal_MC23_NonClosure_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_FCal_MC23_NonClosure_PreRec__1down": {
+              "basename": "JET_FCal_MC23_NonClosure_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Composition__1up": {
+              "basename": "JET_Flavor_Composition",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Composition__1down": {
+              "basename": "JET_Flavor_Composition",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Response__1up": {
+              "basename": "JET_Flavor_Response",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Response__1down": {
+              "basename": "JET_Flavor_Response",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_InSitu_NonClosure_PreRec__1up": {
+              "basename": "JET_InSitu_NonClosure_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_InSitu_NonClosure_PreRec__1down": {
+              "basename": "JET_InSitu_NonClosure_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_PreRec__1up": {
+              "basename": "JET_JERUnc_Noise_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_PreRec__1down": {
+              "basename": "JET_JERUnc_Noise_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_PreRec_PseudoData__1up": {
+              "basename": "JET_JERUnc_Noise_PreRec",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_Noise_PreRec_PseudoData__1down": {
+              "basename": "JET_JERUnc_Noise_PreRec",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_DataVsMC_MC16__1up": {
+              "basename": "JET_JER_DataVsMC_MC16",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_DataVsMC_MC16__1down": {
+              "basename": "JET_JER_DataVsMC_MC16",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_DataVsMC_MC16_PseudoData__1up": {
+              "basename": "JET_JER_DataVsMC_MC16",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_DataVsMC_MC16_PseudoData__1down": {
+              "basename": "JET_JER_DataVsMC_MC16",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_1__1up": {
+              "basename": "JET_JER_EffectiveNP_1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_1__1down": {
+              "basename": "JET_JER_EffectiveNP_1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_10__1up": {
+              "basename": "JET_JER_EffectiveNP_10",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_10__1down": {
+              "basename": "JET_JER_EffectiveNP_10",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_10_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_10",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_10_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_10",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_11__1up": {
+              "basename": "JET_JER_EffectiveNP_11",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_11__1down": {
+              "basename": "JET_JER_EffectiveNP_11",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_11_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_11",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_11_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_11",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_12restTerm__1up": {
+              "basename": "JET_JER_EffectiveNP_12restTerm",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_12restTerm__1down": {
+              "basename": "JET_JER_EffectiveNP_12restTerm",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_12restTerm_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_12restTerm",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_12restTerm_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_12restTerm",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_1_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_1",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_1_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_1",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_2__1up": {
+              "basename": "JET_JER_EffectiveNP_2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_2__1down": {
+              "basename": "JET_JER_EffectiveNP_2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_2_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_2",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_2_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_2",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_3__1up": {
+              "basename": "JET_JER_EffectiveNP_3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_3__1down": {
+              "basename": "JET_JER_EffectiveNP_3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_3_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_3",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_3_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_3",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_4__1up": {
+              "basename": "JET_JER_EffectiveNP_4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_4__1down": {
+              "basename": "JET_JER_EffectiveNP_4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_4_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_4",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_4_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_4",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_5__1up": {
+              "basename": "JET_JER_EffectiveNP_5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_5__1down": {
+              "basename": "JET_JER_EffectiveNP_5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_5_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_5",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_5_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_5",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_6__1up": {
+              "basename": "JET_JER_EffectiveNP_6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_6__1down": {
+              "basename": "JET_JER_EffectiveNP_6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_6_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_6",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_6_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_6",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_7__1up": {
+              "basename": "JET_JER_EffectiveNP_7",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_7__1down": {
+              "basename": "JET_JER_EffectiveNP_7",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_7_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_7",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_7_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_7",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_8__1up": {
+              "basename": "JET_JER_EffectiveNP_8",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_8__1down": {
+              "basename": "JET_JER_EffectiveNP_8",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_8_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_8",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_8_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_8",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_9__1up": {
+              "basename": "JET_JER_EffectiveNP_9",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_9__1down": {
+              "basename": "JET_JER_EffectiveNP_9",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_EffectiveNP_9_PseudoData__1up": {
+              "basename": "JET_JER_EffectiveNP_9",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_EffectiveNP_9_PseudoData__1down": {
+              "basename": "JET_JER_EffectiveNP_9",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JESUnc_Noise_PreRec__1up": {
+              "basename": "JET_JESUnc_Noise_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_Noise_PreRec__1down": {
+              "basename": "JET_JESUnc_Noise_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_VertexingAlg_PreRec__1up": {
+              "basename": "JET_JESUnc_VertexingAlg_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_VertexingAlg_PreRec__1down": {
+              "basename": "JET_JESUnc_VertexingAlg_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_OffsetMu__1up": {
+              "basename": "JET_Pileup_OffsetMu",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_OffsetMu__1down": {
+              "basename": "JET_Pileup_OffsetMu",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_OffsetNPV__1up": {
+              "basename": "JET_Pileup_OffsetNPV",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_OffsetNPV__1down": {
+              "basename": "JET_Pileup_OffsetNPV",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_PtTerm__1up": {
+              "basename": "JET_Pileup_PtTerm",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_PtTerm__1down": {
+              "basename": "JET_Pileup_PtTerm",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_RhoTopology__1up": {
+              "basename": "JET_Pileup_RhoTopology",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Pileup_RhoTopology__1down": {
+              "basename": "JET_Pileup_RhoTopology",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_SingleParticle_HighPt__1up": {
+              "basename": "JET_SingleParticle_HighPt",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_SingleParticle_HighPt__1down": {
+              "basename": "JET_SingleParticle_HighPt",
+              "parameter": -1,
+              "pseudo_data": false
+            }
+          },
+          "source_numerics": {
+            "mev_to_gev": 0.001,
+            "rng_user_seed": 0,
+            "mc_phi_seed_multiplier": 200000.0,
+            "pseudo_data_phi_seed_multiplier": 123000.0,
+            "mc_zero_seed": 45583453,
+            "pseudo_data_zero_seed": 34545654
+          }
+        },
+        "LargeR": {
+          "jet_definition": "AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+          "recommendation": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config",
+            "bytes": 37343,
+            "sha256": "f41a67c82c8abb2c80d499b14091ba3d5a2270471b88f3f7967a783749865835"
+          },
+          "histogram_file": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root",
+            "bytes": 3219221,
+            "sha256": "eb28216e471b488fe3eef45f66345b3c433d6e3974a41df05e67f8c2adeead3e",
+            "objects": {
+              "EffectiveNP_Detector1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Detector2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Mixed4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling5_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling6_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Modelling7_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical5_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical6_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical7_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EffectiveNP_Statistical8_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "EtaIntercalibration_ModellingAndMethod_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "EtaIntercalibration_NonClosure_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "EtaIntercalibration_TotalStat_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "FlavorResponse_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "InSituProp_R4_EtaIntercalModellingAndMethod_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "InSituProp_R4_EtaIntercalStat_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "InSituProp_R4_FlavorComposition_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "InSituProp_R4_FlavorResponse_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "InSitu_NonClosure_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH1F",
+                "cycle": 1
+              },
+              "JERUnc_Noise_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JERUnc_mc20AF3vsmc20FS_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JERUnc_mc20UFOvsmc16LCTopo_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JERUnc_mc20vsmc21_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JERUnc_mc20vsmc23_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JERUnc_mc23vsmc23AF3_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_DataVsMC_R10_MC16_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_Nominal_R10_Both_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_closure_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP5_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEffNP6_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEtaIntMod_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesEtaIntStat_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesFlavComp_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesFlavResp_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_jesHighPt_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_mcgenerator_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_selection_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JER_dijet_R10_stat_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_Noise_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_VertexingAlg_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_mc20AF3vsmc20FS_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_mc20vsmc21_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_mc20vsmc23_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JESUnc_mc23vsmc23AF3_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMSUnc_Modelling_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3F",
+                "cycle": 1
+              },
+              "JMSUnc_Noise_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3F",
+                "cycle": 1
+              },
+              "JMSUnc_mc20AF3vsmc20FS_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMSUnc_mc20vsmc16_UFONonClosure_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3F",
+                "cycle": 1
+              },
+              "JMSUnc_mc20vsmc21_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3F",
+                "cycle": 1
+              },
+              "JMSUnc_mc20vsmc23_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3F",
+                "cycle": 1
+              },
+              "JMSUnc_mc23vsmc23AF3_MC23_PreRec_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_detector_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_modelling_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat10_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat5_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat6_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat7_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat8_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_FF_stat9_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_generator_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat4_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat5_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_stat6_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_tracking1_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_tracking2_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_tracking3_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Rtrk_ufoclosure_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_SmoothingChoice_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "JMS_Topology_QCD_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "TopologyUncertainty_V_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "TopologyUncertainty_top_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "ValidRange_JMS_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH3D",
+                "cycle": 1
+              },
+              "flavorCompGlu_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              },
+              "flavorCompLight_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2F",
+                "cycle": 1
+              }
+            }
+          },
+          "analysis_file": {
+            "path_resolver_name": "JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+            "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+            "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root",
+            "bytes": 12464,
+            "sha256": "9ab5d4aacdb1a7e8e6d0e9ff9509dbe38f70facf7ee8c131c3f73f0fa594ad8e",
+            "objects": {
+              "gluonFraction_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2D",
+                "cycle": 1
+              },
+              "gluonFractionError_AntiKt10UFOCSSKSoftDropBeta100Zcut10": {
+                "class": "TH2D",
+                "cycle": 1
+              }
+            }
+          },
+          "initialized": {
+            "main_affecting": [
+              "JET_EffectiveNP_R10_Detector1",
+              "JET_EffectiveNP_R10_Detector2",
+              "JET_EffectiveNP_R10_Mixed1",
+              "JET_EffectiveNP_R10_Mixed2",
+              "JET_EffectiveNP_R10_Mixed3",
+              "JET_EffectiveNP_R10_Mixed4",
+              "JET_EffectiveNP_R10_Modelling1",
+              "JET_EffectiveNP_R10_Modelling2",
+              "JET_EffectiveNP_R10_Modelling3",
+              "JET_EffectiveNP_R10_Modelling4",
+              "JET_EffectiveNP_R10_Modelling5",
+              "JET_EffectiveNP_R10_Modelling6",
+              "JET_EffectiveNP_R10_Modelling7",
+              "JET_EffectiveNP_R10_Statistical1",
+              "JET_EffectiveNP_R10_Statistical2",
+              "JET_EffectiveNP_R10_Statistical3",
+              "JET_EffectiveNP_R10_Statistical4",
+              "JET_EffectiveNP_R10_Statistical5",
+              "JET_EffectiveNP_R10_Statistical6",
+              "JET_EffectiveNP_R10_Statistical7",
+              "JET_EffectiveNP_R10_Statistical8",
+              "JET_EtaIntercalibration_ModellingAndMethod",
+              "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "JET_EtaIntercalibration_R10_TotalStat",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec",
+              "JET_JERUnc_mc20AF3vsmc20FS_MC23_R10_PreRec",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "JET_JERUnc_mc20vsmc21_MC23_R10_PreRec",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JERUnc_mc23vsmc23AF3_MC23_R10_PreRec",
+              "JET_JER_AllOthers",
+              "JET_JER_DataVsMC_R10_MC16",
+              "JET_JER_dijet_R10_closure",
+              "JET_JER_dijet_R10_jesEffNP1",
+              "JET_JER_dijet_R10_jesEffNP3",
+              "JET_JER_dijet_R10_jesEffNP4",
+              "JET_JER_dijet_R10_jesEtaIntMod",
+              "JET_JER_dijet_R10_jesFlavComp",
+              "JET_JER_dijet_R10_jesFlavResp",
+              "JET_JER_dijet_R10_mcgenerator",
+              "JET_JER_dijet_R10_selection",
+              "JET_JER_dijet_R10_stat",
+              "JET_JESUnc_Noise_R10_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_JESUnc_mc20AF3vsmc20FS_MC23_R10_PreRec",
+              "JET_JESUnc_mc20vsmc21_MC23_R10_PreRec",
+              "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JESUnc_mc23vsmc23AF3_MC23_R10_PreRec",
+              "JET_JMSUnc_Modelling_PreRec",
+              "JET_JMSUnc_Noise_PreRec",
+              "JET_JMSUnc_mc20AF3vsmc20FS_MC23_PreRec",
+              "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "JET_JMSUnc_mc20vsmc21_MC23_PreRec",
+              "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "JET_JMSUnc_mc23vsmc23AF3_MC23_PreRec",
+              "JET_JMS_FF_detector",
+              "JET_JMS_FF_modelling",
+              "JET_JMS_FF_stat1",
+              "JET_JMS_FF_stat10",
+              "JET_JMS_FF_stat2",
+              "JET_JMS_FF_stat3",
+              "JET_JMS_FF_stat4",
+              "JET_JMS_FF_stat5",
+              "JET_JMS_FF_stat6",
+              "JET_JMS_FF_stat7",
+              "JET_JMS_FF_stat8",
+              "JET_JMS_FF_stat9",
+              "JET_JMS_Rtrk_generator",
+              "JET_JMS_Rtrk_stat1",
+              "JET_JMS_Rtrk_stat2",
+              "JET_JMS_Rtrk_stat3",
+              "JET_JMS_Rtrk_stat4",
+              "JET_JMS_Rtrk_stat5",
+              "JET_JMS_Rtrk_stat6",
+              "JET_JMS_Rtrk_tracking1",
+              "JET_JMS_Rtrk_tracking2",
+              "JET_JMS_Rtrk_tracking3",
+              "JET_JMS_Rtrk_ufoclosure",
+              "JET_JMS_SmoothingChoice",
+              "JET_JMS_Topology_QCD",
+              "JET_LargeR_TopologyUncertainty_V",
+              "JET_LargeR_TopologyUncertainty_top"
+            ],
+            "main_recommended": [
+              "JET_EffectiveNP_R10_Detector1",
+              "JET_EffectiveNP_R10_Detector2",
+              "JET_EffectiveNP_R10_Mixed1",
+              "JET_EffectiveNP_R10_Mixed2",
+              "JET_EffectiveNP_R10_Mixed3",
+              "JET_EffectiveNP_R10_Mixed4",
+              "JET_EffectiveNP_R10_Modelling1",
+              "JET_EffectiveNP_R10_Modelling2",
+              "JET_EffectiveNP_R10_Modelling3",
+              "JET_EffectiveNP_R10_Modelling4",
+              "JET_EffectiveNP_R10_Modelling5",
+              "JET_EffectiveNP_R10_Modelling6",
+              "JET_EffectiveNP_R10_Modelling7",
+              "JET_EffectiveNP_R10_Statistical1",
+              "JET_EffectiveNP_R10_Statistical2",
+              "JET_EffectiveNP_R10_Statistical3",
+              "JET_EffectiveNP_R10_Statistical4",
+              "JET_EffectiveNP_R10_Statistical5",
+              "JET_EffectiveNP_R10_Statistical6",
+              "JET_EffectiveNP_R10_Statistical7",
+              "JET_EffectiveNP_R10_Statistical8",
+              "JET_EtaIntercalibration_ModellingAndMethod",
+              "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "JET_EtaIntercalibration_R10_TotalStat",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JER_AllOthers",
+              "JET_JER_DataVsMC_R10_MC16",
+              "JET_JER_dijet_R10_closure",
+              "JET_JER_dijet_R10_jesEffNP1",
+              "JET_JER_dijet_R10_jesEffNP3",
+              "JET_JER_dijet_R10_jesEffNP4",
+              "JET_JER_dijet_R10_jesEtaIntMod",
+              "JET_JER_dijet_R10_jesFlavComp",
+              "JET_JER_dijet_R10_jesFlavResp",
+              "JET_JER_dijet_R10_mcgenerator",
+              "JET_JER_dijet_R10_selection",
+              "JET_JER_dijet_R10_stat",
+              "JET_JESUnc_Noise_R10_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JMSUnc_Modelling_PreRec",
+              "JET_JMSUnc_Noise_PreRec",
+              "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "JET_JMS_FF_detector",
+              "JET_JMS_FF_modelling",
+              "JET_JMS_FF_stat1",
+              "JET_JMS_FF_stat10",
+              "JET_JMS_FF_stat2",
+              "JET_JMS_FF_stat3",
+              "JET_JMS_FF_stat4",
+              "JET_JMS_FF_stat5",
+              "JET_JMS_FF_stat6",
+              "JET_JMS_FF_stat7",
+              "JET_JMS_FF_stat8",
+              "JET_JMS_FF_stat9",
+              "JET_JMS_Rtrk_generator",
+              "JET_JMS_Rtrk_stat1",
+              "JET_JMS_Rtrk_stat2",
+              "JET_JMS_Rtrk_stat3",
+              "JET_JMS_Rtrk_stat4",
+              "JET_JMS_Rtrk_stat5",
+              "JET_JMS_Rtrk_stat6",
+              "JET_JMS_Rtrk_tracking1",
+              "JET_JMS_Rtrk_tracking2",
+              "JET_JMS_Rtrk_tracking3",
+              "JET_JMS_Rtrk_ufoclosure",
+              "JET_JMS_SmoothingChoice",
+              "JET_JMS_Topology_QCD",
+              "JET_LargeR_TopologyUncertainty_V",
+              "JET_LargeR_TopologyUncertainty_top"
+            ],
+            "pseudo_data_affecting": [
+              "JET_EffectiveNP_R10_Detector1",
+              "JET_EffectiveNP_R10_Detector2",
+              "JET_EffectiveNP_R10_Mixed1",
+              "JET_EffectiveNP_R10_Mixed2",
+              "JET_EffectiveNP_R10_Mixed3",
+              "JET_EffectiveNP_R10_Mixed4",
+              "JET_EffectiveNP_R10_Modelling1",
+              "JET_EffectiveNP_R10_Modelling2",
+              "JET_EffectiveNP_R10_Modelling3",
+              "JET_EffectiveNP_R10_Modelling4",
+              "JET_EffectiveNP_R10_Modelling5",
+              "JET_EffectiveNP_R10_Modelling6",
+              "JET_EffectiveNP_R10_Modelling7",
+              "JET_EffectiveNP_R10_Statistical1",
+              "JET_EffectiveNP_R10_Statistical2",
+              "JET_EffectiveNP_R10_Statistical3",
+              "JET_EffectiveNP_R10_Statistical4",
+              "JET_EffectiveNP_R10_Statistical5",
+              "JET_EffectiveNP_R10_Statistical6",
+              "JET_EffectiveNP_R10_Statistical7",
+              "JET_EffectiveNP_R10_Statistical8",
+              "JET_EtaIntercalibration_ModellingAndMethod",
+              "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "JET_EtaIntercalibration_R10_TotalStat",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20AF3vsmc20FS_MC23_R10_PreRec",
+              "JET_JERUnc_mc20AF3vsmc20FS_MC23_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20vsmc21_MC23_R10_PreRec",
+              "JET_JERUnc_mc20vsmc21_MC23_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc23vsmc23AF3_MC23_R10_PreRec",
+              "JET_JERUnc_mc23vsmc23AF3_MC23_R10_PreRec_PseudoData",
+              "JET_JER_AllOthers",
+              "JET_JER_AllOthers_PseudoData",
+              "JET_JER_DataVsMC_R10_MC16",
+              "JET_JER_DataVsMC_R10_MC16_PseudoData",
+              "JET_JER_dijet_R10_closure",
+              "JET_JER_dijet_R10_closure_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP1",
+              "JET_JER_dijet_R10_jesEffNP1_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP3",
+              "JET_JER_dijet_R10_jesEffNP3_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP4",
+              "JET_JER_dijet_R10_jesEffNP4_PseudoData",
+              "JET_JER_dijet_R10_jesEtaIntMod",
+              "JET_JER_dijet_R10_jesEtaIntMod_PseudoData",
+              "JET_JER_dijet_R10_jesFlavComp",
+              "JET_JER_dijet_R10_jesFlavComp_PseudoData",
+              "JET_JER_dijet_R10_jesFlavResp",
+              "JET_JER_dijet_R10_jesFlavResp_PseudoData",
+              "JET_JER_dijet_R10_mcgenerator",
+              "JET_JER_dijet_R10_mcgenerator_PseudoData",
+              "JET_JER_dijet_R10_selection",
+              "JET_JER_dijet_R10_selection_PseudoData",
+              "JET_JER_dijet_R10_stat",
+              "JET_JER_dijet_R10_stat_PseudoData",
+              "JET_JESUnc_Noise_R10_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_JESUnc_mc20AF3vsmc20FS_MC23_R10_PreRec",
+              "JET_JESUnc_mc20vsmc21_MC23_R10_PreRec",
+              "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JESUnc_mc23vsmc23AF3_MC23_R10_PreRec",
+              "JET_JMSUnc_Modelling_PreRec",
+              "JET_JMSUnc_Noise_PreRec",
+              "JET_JMSUnc_mc20AF3vsmc20FS_MC23_PreRec",
+              "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "JET_JMSUnc_mc20vsmc21_MC23_PreRec",
+              "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "JET_JMSUnc_mc23vsmc23AF3_MC23_PreRec",
+              "JET_JMS_FF_detector",
+              "JET_JMS_FF_modelling",
+              "JET_JMS_FF_stat1",
+              "JET_JMS_FF_stat10",
+              "JET_JMS_FF_stat2",
+              "JET_JMS_FF_stat3",
+              "JET_JMS_FF_stat4",
+              "JET_JMS_FF_stat5",
+              "JET_JMS_FF_stat6",
+              "JET_JMS_FF_stat7",
+              "JET_JMS_FF_stat8",
+              "JET_JMS_FF_stat9",
+              "JET_JMS_Rtrk_generator",
+              "JET_JMS_Rtrk_stat1",
+              "JET_JMS_Rtrk_stat2",
+              "JET_JMS_Rtrk_stat3",
+              "JET_JMS_Rtrk_stat4",
+              "JET_JMS_Rtrk_stat5",
+              "JET_JMS_Rtrk_stat6",
+              "JET_JMS_Rtrk_tracking1",
+              "JET_JMS_Rtrk_tracking2",
+              "JET_JMS_Rtrk_tracking3",
+              "JET_JMS_Rtrk_ufoclosure",
+              "JET_JMS_SmoothingChoice",
+              "JET_JMS_Topology_QCD",
+              "JET_LargeR_TopologyUncertainty_V",
+              "JET_LargeR_TopologyUncertainty_top"
+            ],
+            "pseudo_data_recommended": [
+              "JET_EffectiveNP_R10_Detector1",
+              "JET_EffectiveNP_R10_Detector2",
+              "JET_EffectiveNP_R10_Mixed1",
+              "JET_EffectiveNP_R10_Mixed2",
+              "JET_EffectiveNP_R10_Mixed3",
+              "JET_EffectiveNP_R10_Mixed4",
+              "JET_EffectiveNP_R10_Modelling1",
+              "JET_EffectiveNP_R10_Modelling2",
+              "JET_EffectiveNP_R10_Modelling3",
+              "JET_EffectiveNP_R10_Modelling4",
+              "JET_EffectiveNP_R10_Modelling5",
+              "JET_EffectiveNP_R10_Modelling6",
+              "JET_EffectiveNP_R10_Modelling7",
+              "JET_EffectiveNP_R10_Statistical1",
+              "JET_EffectiveNP_R10_Statistical2",
+              "JET_EffectiveNP_R10_Statistical3",
+              "JET_EffectiveNP_R10_Statistical4",
+              "JET_EffectiveNP_R10_Statistical5",
+              "JET_EffectiveNP_R10_Statistical6",
+              "JET_EffectiveNP_R10_Statistical7",
+              "JET_EffectiveNP_R10_Statistical8",
+              "JET_EtaIntercalibration_ModellingAndMethod",
+              "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "JET_EtaIntercalibration_R10_TotalStat",
+              "JET_Flavor_Composition",
+              "JET_Flavor_Response",
+              "JET_InSitu_NonClosure_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec",
+              "JET_JERUnc_Noise_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec_PseudoData",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec_PseudoData",
+              "JET_JER_AllOthers",
+              "JET_JER_AllOthers_PseudoData",
+              "JET_JER_DataVsMC_R10_MC16",
+              "JET_JER_DataVsMC_R10_MC16_PseudoData",
+              "JET_JER_dijet_R10_closure",
+              "JET_JER_dijet_R10_closure_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP1",
+              "JET_JER_dijet_R10_jesEffNP1_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP3",
+              "JET_JER_dijet_R10_jesEffNP3_PseudoData",
+              "JET_JER_dijet_R10_jesEffNP4",
+              "JET_JER_dijet_R10_jesEffNP4_PseudoData",
+              "JET_JER_dijet_R10_jesEtaIntMod",
+              "JET_JER_dijet_R10_jesEtaIntMod_PseudoData",
+              "JET_JER_dijet_R10_jesFlavComp",
+              "JET_JER_dijet_R10_jesFlavComp_PseudoData",
+              "JET_JER_dijet_R10_jesFlavResp",
+              "JET_JER_dijet_R10_jesFlavResp_PseudoData",
+              "JET_JER_dijet_R10_mcgenerator",
+              "JET_JER_dijet_R10_mcgenerator_PseudoData",
+              "JET_JER_dijet_R10_selection",
+              "JET_JER_dijet_R10_selection_PseudoData",
+              "JET_JER_dijet_R10_stat",
+              "JET_JER_dijet_R10_stat_PseudoData",
+              "JET_JESUnc_Noise_R10_PreRec",
+              "JET_JESUnc_VertexingAlg_PreRec",
+              "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "JET_JMSUnc_Modelling_PreRec",
+              "JET_JMSUnc_Noise_PreRec",
+              "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "JET_JMS_FF_detector",
+              "JET_JMS_FF_modelling",
+              "JET_JMS_FF_stat1",
+              "JET_JMS_FF_stat10",
+              "JET_JMS_FF_stat2",
+              "JET_JMS_FF_stat3",
+              "JET_JMS_FF_stat4",
+              "JET_JMS_FF_stat5",
+              "JET_JMS_FF_stat6",
+              "JET_JMS_FF_stat7",
+              "JET_JMS_FF_stat8",
+              "JET_JMS_FF_stat9",
+              "JET_JMS_Rtrk_generator",
+              "JET_JMS_Rtrk_stat1",
+              "JET_JMS_Rtrk_stat2",
+              "JET_JMS_Rtrk_stat3",
+              "JET_JMS_Rtrk_stat4",
+              "JET_JMS_Rtrk_stat5",
+              "JET_JMS_Rtrk_stat6",
+              "JET_JMS_Rtrk_tracking1",
+              "JET_JMS_Rtrk_tracking2",
+              "JET_JMS_Rtrk_tracking3",
+              "JET_JMS_Rtrk_ufoclosure",
+              "JET_JMS_SmoothingChoice",
+              "JET_JMS_Topology_QCD",
+              "JET_LargeR_TopologyUncertainty_V",
+              "JET_LargeR_TopologyUncertainty_top"
+            ]
+          },
+          "states": {
+            "JET_EffectiveNP_R10_Detector1__1up": {
+              "basename": "JET_EffectiveNP_R10_Detector1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Detector1__1down": {
+              "basename": "JET_EffectiveNP_R10_Detector1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Detector2__1up": {
+              "basename": "JET_EffectiveNP_R10_Detector2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Detector2__1down": {
+              "basename": "JET_EffectiveNP_R10_Detector2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed1__1up": {
+              "basename": "JET_EffectiveNP_R10_Mixed1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed1__1down": {
+              "basename": "JET_EffectiveNP_R10_Mixed1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed2__1up": {
+              "basename": "JET_EffectiveNP_R10_Mixed2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed2__1down": {
+              "basename": "JET_EffectiveNP_R10_Mixed2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed3__1up": {
+              "basename": "JET_EffectiveNP_R10_Mixed3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed3__1down": {
+              "basename": "JET_EffectiveNP_R10_Mixed3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed4__1up": {
+              "basename": "JET_EffectiveNP_R10_Mixed4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Mixed4__1down": {
+              "basename": "JET_EffectiveNP_R10_Mixed4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling1__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling1__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling2__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling2__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling3__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling3__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling4__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling4__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling5__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling5__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling6__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling6__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling7__1up": {
+              "basename": "JET_EffectiveNP_R10_Modelling7",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Modelling7__1down": {
+              "basename": "JET_EffectiveNP_R10_Modelling7",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical1__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical1__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical2__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical2__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical3__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical3__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical4__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical4__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical5__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical5__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical6__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical6__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical7__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical7",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical7__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical7",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical8__1up": {
+              "basename": "JET_EffectiveNP_R10_Statistical8",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EffectiveNP_R10_Statistical8__1down": {
+              "basename": "JET_EffectiveNP_R10_Statistical8",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_ModellingAndMethod__1up": {
+              "basename": "JET_EtaIntercalibration_ModellingAndMethod",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_ModellingAndMethod__1down": {
+              "basename": "JET_EtaIntercalibration_ModellingAndMethod",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_NonClosure_R10_PreRec__1up": {
+              "basename": "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_NonClosure_R10_PreRec__1down": {
+              "basename": "JET_EtaIntercalibration_NonClosure_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_R10_TotalStat__1up": {
+              "basename": "JET_EtaIntercalibration_R10_TotalStat",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_EtaIntercalibration_R10_TotalStat__1down": {
+              "basename": "JET_EtaIntercalibration_R10_TotalStat",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Composition__1up": {
+              "basename": "JET_Flavor_Composition",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Composition__1down": {
+              "basename": "JET_Flavor_Composition",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Response__1up": {
+              "basename": "JET_Flavor_Response",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_Flavor_Response__1down": {
+              "basename": "JET_Flavor_Response",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_InSitu_NonClosure_R10_PreRec__1up": {
+              "basename": "JET_InSitu_NonClosure_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_InSitu_NonClosure_R10_PreRec__1down": {
+              "basename": "JET_InSitu_NonClosure_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_R10_PreRec__1up": {
+              "basename": "JET_JERUnc_Noise_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_R10_PreRec__1down": {
+              "basename": "JET_JERUnc_Noise_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_Noise_R10_PreRec_PseudoData__1up": {
+              "basename": "JET_JERUnc_Noise_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_Noise_R10_PreRec_PseudoData__1down": {
+              "basename": "JET_JERUnc_Noise_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec__1up": {
+              "basename": "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec__1down": {
+              "basename": "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec_PseudoData__1up": {
+              "basename": "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec_PseudoData__1down": {
+              "basename": "JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec__1up": {
+              "basename": "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec__1down": {
+              "basename": "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec_PseudoData__1up": {
+              "basename": "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec_PseudoData__1down": {
+              "basename": "JET_JERUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_AllOthers__1up": {
+              "basename": "JET_JER_AllOthers",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_AllOthers__1down": {
+              "basename": "JET_JER_AllOthers",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_AllOthers_PseudoData__1up": {
+              "basename": "JET_JER_AllOthers",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_AllOthers_PseudoData__1down": {
+              "basename": "JET_JER_AllOthers",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_DataVsMC_R10_MC16__1up": {
+              "basename": "JET_JER_DataVsMC_R10_MC16",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_DataVsMC_R10_MC16__1down": {
+              "basename": "JET_JER_DataVsMC_R10_MC16",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_DataVsMC_R10_MC16_PseudoData__1up": {
+              "basename": "JET_JER_DataVsMC_R10_MC16",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_DataVsMC_R10_MC16_PseudoData__1down": {
+              "basename": "JET_JER_DataVsMC_R10_MC16",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_closure__1up": {
+              "basename": "JET_JER_dijet_R10_closure",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_closure__1down": {
+              "basename": "JET_JER_dijet_R10_closure",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_closure_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_closure",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_closure_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_closure",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP1__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP1__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP1_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP1",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP1_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP1",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP3__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP3__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP3_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP3",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP3_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP3",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP4__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP4__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEffNP4_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesEffNP4",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEffNP4_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesEffNP4",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEtaIntMod__1up": {
+              "basename": "JET_JER_dijet_R10_jesEtaIntMod",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEtaIntMod__1down": {
+              "basename": "JET_JER_dijet_R10_jesEtaIntMod",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesEtaIntMod_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesEtaIntMod",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesEtaIntMod_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesEtaIntMod",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesFlavComp__1up": {
+              "basename": "JET_JER_dijet_R10_jesFlavComp",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesFlavComp__1down": {
+              "basename": "JET_JER_dijet_R10_jesFlavComp",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesFlavComp_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesFlavComp",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesFlavComp_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesFlavComp",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesFlavResp__1up": {
+              "basename": "JET_JER_dijet_R10_jesFlavResp",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesFlavResp__1down": {
+              "basename": "JET_JER_dijet_R10_jesFlavResp",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_jesFlavResp_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_jesFlavResp",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_jesFlavResp_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_jesFlavResp",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_mcgenerator__1up": {
+              "basename": "JET_JER_dijet_R10_mcgenerator",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_mcgenerator__1down": {
+              "basename": "JET_JER_dijet_R10_mcgenerator",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_mcgenerator_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_mcgenerator",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_mcgenerator_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_mcgenerator",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_selection__1up": {
+              "basename": "JET_JER_dijet_R10_selection",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_selection__1down": {
+              "basename": "JET_JER_dijet_R10_selection",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_selection_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_selection",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_selection_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_selection",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_stat__1up": {
+              "basename": "JET_JER_dijet_R10_stat",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_stat__1down": {
+              "basename": "JET_JER_dijet_R10_stat",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JER_dijet_R10_stat_PseudoData__1up": {
+              "basename": "JET_JER_dijet_R10_stat",
+              "parameter": 1,
+              "pseudo_data": true
+            },
+            "JET_JER_dijet_R10_stat_PseudoData__1down": {
+              "basename": "JET_JER_dijet_R10_stat",
+              "parameter": -1,
+              "pseudo_data": true
+            },
+            "JET_JESUnc_Noise_R10_PreRec__1up": {
+              "basename": "JET_JESUnc_Noise_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_Noise_R10_PreRec__1down": {
+              "basename": "JET_JESUnc_Noise_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_VertexingAlg_PreRec__1up": {
+              "basename": "JET_JESUnc_VertexingAlg_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_VertexingAlg_PreRec__1down": {
+              "basename": "JET_JESUnc_VertexingAlg_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec__1up": {
+              "basename": "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec__1down": {
+              "basename": "JET_JESUnc_mc20vsmc23_MC23_R10_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_Modelling_PreRec__1up": {
+              "basename": "JET_JMSUnc_Modelling_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_Modelling_PreRec__1down": {
+              "basename": "JET_JMSUnc_Modelling_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_Noise_PreRec__1up": {
+              "basename": "JET_JMSUnc_Noise_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_Noise_PreRec__1down": {
+              "basename": "JET_JMSUnc_Noise_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec__1up": {
+              "basename": "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec__1down": {
+              "basename": "JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_mc20vsmc23_MC23_PreRec__1up": {
+              "basename": "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMSUnc_mc20vsmc23_MC23_PreRec__1down": {
+              "basename": "JET_JMSUnc_mc20vsmc23_MC23_PreRec",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_detector__1up": {
+              "basename": "JET_JMS_FF_detector",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_detector__1down": {
+              "basename": "JET_JMS_FF_detector",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_modelling__1up": {
+              "basename": "JET_JMS_FF_modelling",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_modelling__1down": {
+              "basename": "JET_JMS_FF_modelling",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat1__1up": {
+              "basename": "JET_JMS_FF_stat1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat1__1down": {
+              "basename": "JET_JMS_FF_stat1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat10__1up": {
+              "basename": "JET_JMS_FF_stat10",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat10__1down": {
+              "basename": "JET_JMS_FF_stat10",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat2__1up": {
+              "basename": "JET_JMS_FF_stat2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat2__1down": {
+              "basename": "JET_JMS_FF_stat2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat3__1up": {
+              "basename": "JET_JMS_FF_stat3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat3__1down": {
+              "basename": "JET_JMS_FF_stat3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat4__1up": {
+              "basename": "JET_JMS_FF_stat4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat4__1down": {
+              "basename": "JET_JMS_FF_stat4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat5__1up": {
+              "basename": "JET_JMS_FF_stat5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat5__1down": {
+              "basename": "JET_JMS_FF_stat5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat6__1up": {
+              "basename": "JET_JMS_FF_stat6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat6__1down": {
+              "basename": "JET_JMS_FF_stat6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat7__1up": {
+              "basename": "JET_JMS_FF_stat7",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat7__1down": {
+              "basename": "JET_JMS_FF_stat7",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat8__1up": {
+              "basename": "JET_JMS_FF_stat8",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat8__1down": {
+              "basename": "JET_JMS_FF_stat8",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat9__1up": {
+              "basename": "JET_JMS_FF_stat9",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_FF_stat9__1down": {
+              "basename": "JET_JMS_FF_stat9",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_generator__1up": {
+              "basename": "JET_JMS_Rtrk_generator",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_generator__1down": {
+              "basename": "JET_JMS_Rtrk_generator",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat1__1up": {
+              "basename": "JET_JMS_Rtrk_stat1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat1__1down": {
+              "basename": "JET_JMS_Rtrk_stat1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat2__1up": {
+              "basename": "JET_JMS_Rtrk_stat2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat2__1down": {
+              "basename": "JET_JMS_Rtrk_stat2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat3__1up": {
+              "basename": "JET_JMS_Rtrk_stat3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat3__1down": {
+              "basename": "JET_JMS_Rtrk_stat3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat4__1up": {
+              "basename": "JET_JMS_Rtrk_stat4",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat4__1down": {
+              "basename": "JET_JMS_Rtrk_stat4",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat5__1up": {
+              "basename": "JET_JMS_Rtrk_stat5",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat5__1down": {
+              "basename": "JET_JMS_Rtrk_stat5",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat6__1up": {
+              "basename": "JET_JMS_Rtrk_stat6",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_stat6__1down": {
+              "basename": "JET_JMS_Rtrk_stat6",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking1__1up": {
+              "basename": "JET_JMS_Rtrk_tracking1",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking1__1down": {
+              "basename": "JET_JMS_Rtrk_tracking1",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking2__1up": {
+              "basename": "JET_JMS_Rtrk_tracking2",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking2__1down": {
+              "basename": "JET_JMS_Rtrk_tracking2",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking3__1up": {
+              "basename": "JET_JMS_Rtrk_tracking3",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_tracking3__1down": {
+              "basename": "JET_JMS_Rtrk_tracking3",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_ufoclosure__1up": {
+              "basename": "JET_JMS_Rtrk_ufoclosure",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Rtrk_ufoclosure__1down": {
+              "basename": "JET_JMS_Rtrk_ufoclosure",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_SmoothingChoice__1up": {
+              "basename": "JET_JMS_SmoothingChoice",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_SmoothingChoice__1down": {
+              "basename": "JET_JMS_SmoothingChoice",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Topology_QCD__1up": {
+              "basename": "JET_JMS_Topology_QCD",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_JMS_Topology_QCD__1down": {
+              "basename": "JET_JMS_Topology_QCD",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_LargeR_TopologyUncertainty_V__1up": {
+              "basename": "JET_LargeR_TopologyUncertainty_V",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_LargeR_TopologyUncertainty_V__1down": {
+              "basename": "JET_LargeR_TopologyUncertainty_V",
+              "parameter": -1,
+              "pseudo_data": false
+            },
+            "JET_LargeR_TopologyUncertainty_top__1up": {
+              "basename": "JET_LargeR_TopologyUncertainty_top",
+              "parameter": 1,
+              "pseudo_data": false
+            },
+            "JET_LargeR_TopologyUncertainty_top__1down": {
+              "basename": "JET_LargeR_TopologyUncertainty_top",
+              "parameter": -1,
+              "pseudo_data": false
+            }
+          },
+          "source_numerics": {
+            "mev_to_gev": 0.001,
+            "rng_user_seed": 0,
+            "mc_phi_seed_multiplier": 200000.0,
+            "pseudo_data_phi_seed_multiplier": 123000.0,
+            "mc_zero_seed": 45583453,
+            "pseudo_data_zero_seed": 34545654
+          }
+        }
+      }
+    },
+    "small_gsc": {
+      "analysisbase_release": "25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "jet_definition": "AntiKt4EMPFlow",
+      "calibration_area": "00-04-83",
+      "calibration_sequence": "JetArea_Residual_EtaJES_GSC",
+      "sources_in_tenv_resolution_order": [
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "bytes": 3898,
+          "sha256": "30d6965c9a8d717334f9edca3bef95ef011d6775aa479cff437a56a40afcedb2"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "bytes": 1356,
+          "sha256": "ac2321fd5563fd2eb1d72e19c8cd1f838f3d9f8b6067cb3635b3008f91d1d27f"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "bytes": 16892,
+          "sha256": "c6ad90d31ab8e014906c0ce3df8864fd58b8c7a3a19d9ed79063f5203e4fd67b"
+        }
+      ],
+      "response_root_file": {
+        "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_GSC_calibrationFactors_240306.root",
+        "bytes": 462946,
+        "sha256": "a70cc4be01f8614fea901749879efe4b4276aeff74a9290f9340c9b89bdc72b0"
+      },
+      "histogram_load_order": [
+        "EM3",
+        "nTrk",
+        "Tile0",
+        "chargedFraction",
+        "trackWIDTH"
+      ],
+      "response_order": [
+        "chargedFraction",
+        "Tile0",
+        "EM3",
+        "nTrk",
+        "trackWIDTH"
+      ],
+      "response_caps": {
+        "EM3": 35,
+        "nTrk": 25,
+        "Tile0": 17,
+        "chargedFraction": 27,
+        "trackWIDTH": 25
+      },
+      "response_keys": {
+        "chargedFraction": [
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_0",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 0
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_1",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 1
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_2",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 2
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_3",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 3
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_4",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 4
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_5",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 5
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_6",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 6
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_7",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 7
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_8",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 8
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_9",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 9
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_10",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 10
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_11",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 11
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_12",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 12
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_13",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 13
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_14",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 14
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_15",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 15
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_16",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 16
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_17",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 17
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_18",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 18
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_19",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 19
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_20",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 20
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_21",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 21
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_22",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 22
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_23",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 23
+          },
+          {
+            "name": "AntiKt4EMPFlow_chargedFraction_interpolation_resp_eta_24",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 24
+          }
+        ],
+        "Tile0": [
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_0",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 0
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_1",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 1
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_2",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 2
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_3",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 3
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_4",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 4
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_5",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 5
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_6",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 6
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_7",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 7
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_8",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 8
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_9",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 9
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_10",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 10
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_11",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 11
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_12",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 12
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_13",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 13
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_14",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 14
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_15",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 15
+          },
+          {
+            "name": "AntiKt4EMPFlow_Tile0_interpolation_resp_eta_16",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 16
+          }
+        ],
+        "EM3": [
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_0",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 0
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_1",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 1
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_2",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 2
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_3",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 3
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_4",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 4
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_5",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 5
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_6",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 6
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_7",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 7
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_8",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 8
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_9",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 9
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_10",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 10
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_11",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 11
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_12",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 12
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_13",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 13
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_14",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 14
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_15",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 15
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_16",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 16
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_17",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 17
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_18",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 18
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_19",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 19
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_20",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 20
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_21",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 21
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_22",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 22
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_23",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 23
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_24",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 24
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_25",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 25
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_26",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 26
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_27",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 27
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_28",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 28
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_29",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 29
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_30",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 30
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_31",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 31
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_32",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 32
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_33",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 33
+          },
+          {
+            "name": "AntiKt4EMPFlow_EM3_interpolation_resp_eta_34",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 34
+          }
+        ],
+        "nTrk": [
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_0",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 0
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_1",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 1
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_2",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 2
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_3",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 3
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_4",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 4
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_5",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 5
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_6",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 6
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_7",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 7
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_8",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 8
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_9",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 9
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_10",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 10
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_11",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 11
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_12",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 12
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_13",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 13
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_14",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 14
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_15",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 15
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_16",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 16
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_17",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 17
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_18",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 18
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_19",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 19
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_20",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 20
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_21",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 21
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_22",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 22
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_23",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 23
+          },
+          {
+            "name": "AntiKt4EMPFlow_nTrk_interpolation_resp_eta_24",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 24
+          }
+        ],
+        "trackWIDTH": [
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_0",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 0
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_1",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 1
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_2",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 2
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_3",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 3
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_4",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 4
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_5",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 5
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_6",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 6
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_7",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 7
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_8",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 8
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_9",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 9
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_10",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 10
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_11",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 11
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_12",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 12
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_13",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 13
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_14",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 14
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_15",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 15
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_16",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 16
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_17",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 17
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_18",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 18
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_19",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 19
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_20",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 20
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_21",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 21
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_22",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 22
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_23",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 23
+          },
+          {
+            "name": "AntiKt4EMPFlow_trackWIDTH_interpolation_resp_eta_24",
+            "cycle": 1,
+            "class": "TH2F",
+            "eta_index": 24
+          }
+        ]
+      },
+      "resolved_settings": {
+        "caloBasedGSC": false,
+        "GSCDepth": "trackWIDTH",
+        "GSCStartingScale": "JetEtaJESScaleMomentum",
+        "TurnOffTrackCorrections": false,
+        "nTrkwTrk4PFlow": true
+      },
+      "output_scale": "JetGSCScaleMomentum",
+      "event_inputs": {
+        "moment_vertex_index": "Use EventInfo.PVIndex when available, else the first PriVtx index or zero. Invalid nonzero index resets to zero when PrimaryVertices is present. A missing PrimaryVertices container returns before index validation.",
+        "missing_event_info": "Original calibrator uses the default vertex index zero."
+      },
+      "source_contract": {
+        "gather": "Require all three per-vertex inputs and four sampling slots before native evaluation. Preserve the checked index and report missing data or out-of-range array accesses.",
+        "active_modes": "Run charged fraction, Tile0, EM3, track count, and track width. The chosen depth and properties disable punch-through, track fade-out, and calo-only moments.",
+        "response": "A missing per-family eta bin or a nonphysical moment returns unity. Tile0 treats zero as a valid moment. Look up subsequent factors at updated pT and clamp each coordinate 1e-6 into its first/last histogram bins.",
+        "precision": "Use binary32 input moments and sampling-fraction arithmetic, binary64 response and cumulative scale, and binary32 p4 writes."
+      },
+      "acceptance": "Compare [pt, eta, phi, m] to JetGSCScaleMomentum with terminal eta-family cutoffs, zero/negative moments, and exact TH2 bin-boundary probes."
+    },
+    "small_eta_jes": {
+      "jet_definition": "AntiKt4EMPFlow",
+      "sources_in_resolution_order": [
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_CalibConfig_ResPU_EtaJES_GSC_241208_InSitu.config",
+          "bytes": 3898,
+          "sha256": "30d6965c9a8d717334f9edca3bef95ef011d6775aa479cff437a56a40afcedb2"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_ResidualPileUp_20240205.config",
+          "bytes": 1356,
+          "sha256": "ac2321fd5563fd2eb1d72e19c8cd1f838f3d9f8b6067cb3635b3008f91d1d27f"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_constants.config",
+          "bytes": 16892,
+          "sha256": "c6ad90d31ab8e014906c0ce3df8864fd58b8c7a3a19d9ed79063f5203e4fd67b"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt4EMPFlow_MC23a_PreRecR22_Phase2_JES_calibrationFactors.root",
+          "bytes": 8032646,
+          "sha256": "479df7a2112758361826da783a3f02ac05f198e9f71495e2a266fcbaffd68544"
+        }
+      ],
+      "response_list": "etaJes",
+      "ordered_histograms": [
+        "calibFactors_etabin_0",
+        "calibFactors_etabin_1",
+        "calibFactors_etabin_2",
+        "calibFactors_etabin_3",
+        "calibFactors_etabin_4",
+        "calibFactors_etabin_5",
+        "calibFactors_etabin_6",
+        "calibFactors_etabin_7",
+        "calibFactors_etabin_8",
+        "calibFactors_etabin_9",
+        "calibFactors_etabin_10",
+        "calibFactors_etabin_11",
+        "calibFactors_etabin_12",
+        "calibFactors_etabin_13",
+        "calibFactors_etabin_14",
+        "calibFactors_etabin_15",
+        "calibFactors_etabin_16",
+        "calibFactors_etabin_17",
+        "calibFactors_etabin_18",
+        "calibFactors_etabin_19",
+        "calibFactors_etabin_20",
+        "calibFactors_etabin_21",
+        "calibFactors_etabin_22",
+        "calibFactors_etabin_23",
+        "calibFactors_etabin_24",
+        "calibFactors_etabin_25",
+        "calibFactors_etabin_26",
+        "calibFactors_etabin_27",
+        "calibFactors_etabin_28",
+        "calibFactors_etabin_29",
+        "calibFactors_etabin_30",
+        "calibFactors_etabin_31",
+        "calibFactors_etabin_32",
+        "calibFactors_etabin_33",
+        "calibFactors_etabin_34",
+        "calibFactors_etabin_35",
+        "calibFactors_etabin_36",
+        "calibFactors_etabin_37",
+        "calibFactors_etabin_38",
+        "calibFactors_etabin_39",
+        "calibFactors_etabin_40",
+        "calibFactors_etabin_41",
+        "calibFactors_etabin_42",
+        "calibFactors_etabin_43",
+        "calibFactors_etabin_44",
+        "calibFactors_etabin_45",
+        "calibFactors_etabin_46",
+        "calibFactors_etabin_47",
+        "calibFactors_etabin_48",
+        "calibFactors_etabin_49",
+        "calibFactors_etabin_50",
+        "calibFactors_etabin_51",
+        "calibFactors_etabin_52",
+        "calibFactors_etabin_53",
+        "calibFactors_etabin_54",
+        "calibFactors_etabin_55",
+        "calibFactors_etabin_56",
+        "calibFactors_etabin_57",
+        "calibFactors_etabin_58",
+        "calibFactors_etabin_59",
+        "calibFactors_etabin_60",
+        "calibFactors_etabin_61",
+        "calibFactors_etabin_62",
+        "calibFactors_etabin_63",
+        "calibFactors_etabin_64",
+        "calibFactors_etabin_65",
+        "calibFactors_etabin_66",
+        "calibFactors_etabin_67",
+        "calibFactors_etabin_68",
+        "calibFactors_etabin_69",
+        "calibFactors_etabin_70",
+        "calibFactors_etabin_71",
+        "calibFactors_etabin_72",
+        "calibFactors_etabin_73",
+        "calibFactors_etabin_74",
+        "calibFactors_etabin_75",
+        "calibFactors_etabin_76",
+        "calibFactors_etabin_77",
+        "calibFactors_etabin_78",
+        "calibFactors_etabin_79",
+        "calibFactors_etabin_80",
+        "calibFactors_etabin_81",
+        "calibFactors_etabin_82",
+        "calibFactors_etabin_83",
+        "calibFactors_etabin_84",
+        "calibFactors_etabin_85",
+        "calibFactors_etabin_86",
+        "calibFactors_etabin_87",
+        "calibFactors_etabin_88",
+        "calibFactors_etabin_89"
+      ],
+      "starting_scale": "JetPileupScaleMomentum",
+      "source": "Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+      "active_branches": {
+        "isSpline": true,
+        "lowPtExtrap": 1,
+        "applyMassCorrection": false,
+        "freeze_at_high_energy": true
+      }
+    },
+    "large_eta_jes": {
+      "jet_definition": "AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+      "sources_in_resolution_order": [
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+          "bytes": 3624,
+          "sha256": "ef72112d0f35948437be8994ba03c38d494a2a1ebfc3f54c98cf1156fe1c60ba"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+          "bytes": 14026,
+          "sha256": "219251cbfc1fa06df0c481ccdeae4df5297943b1ef1085866debf47664c8e8f0"
+        },
+        {
+          "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+          "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_calibrationFactors.root",
+          "bytes": 5400489,
+          "sha256": "df98b2124c8868785e1b7deb0052a943abd7196bc219efc60a07022ece1a8043"
+        }
+      ],
+      "response_list": "etaJes",
+      "ordered_histograms": [
+        "calibFactors_etabin_0",
+        "calibFactors_etabin_1",
+        "calibFactors_etabin_2",
+        "calibFactors_etabin_3",
+        "calibFactors_etabin_4",
+        "calibFactors_etabin_5",
+        "calibFactors_etabin_6",
+        "calibFactors_etabin_7",
+        "calibFactors_etabin_8",
+        "calibFactors_etabin_9",
+        "calibFactors_etabin_10",
+        "calibFactors_etabin_11",
+        "calibFactors_etabin_12",
+        "calibFactors_etabin_13",
+        "calibFactors_etabin_14",
+        "calibFactors_etabin_15",
+        "calibFactors_etabin_16",
+        "calibFactors_etabin_17",
+        "calibFactors_etabin_18",
+        "calibFactors_etabin_19",
+        "calibFactors_etabin_20",
+        "calibFactors_etabin_21",
+        "calibFactors_etabin_22",
+        "calibFactors_etabin_23",
+        "calibFactors_etabin_24",
+        "calibFactors_etabin_25",
+        "calibFactors_etabin_26",
+        "calibFactors_etabin_27",
+        "calibFactors_etabin_28",
+        "calibFactors_etabin_29",
+        "calibFactors_etabin_30",
+        "calibFactors_etabin_31",
+        "calibFactors_etabin_32",
+        "calibFactors_etabin_33",
+        "calibFactors_etabin_34",
+        "calibFactors_etabin_35",
+        "calibFactors_etabin_36",
+        "calibFactors_etabin_37",
+        "calibFactors_etabin_38",
+        "calibFactors_etabin_39",
+        "calibFactors_etabin_40",
+        "calibFactors_etabin_41",
+        "calibFactors_etabin_42",
+        "calibFactors_etabin_43",
+        "calibFactors_etabin_44",
+        "calibFactors_etabin_45",
+        "calibFactors_etabin_46",
+        "calibFactors_etabin_47",
+        "calibFactors_etabin_48",
+        "calibFactors_etabin_49",
+        "calibFactors_etabin_50",
+        "calibFactors_etabin_51",
+        "calibFactors_etabin_52",
+        "calibFactors_etabin_53",
+        "calibFactors_etabin_54",
+        "calibFactors_etabin_55",
+        "calibFactors_etabin_56",
+        "calibFactors_etabin_57",
+        "calibFactors_etabin_58",
+        "calibFactors_etabin_59"
+      ],
+      "starting_scale": "JetConstitScaleMomentum",
+      "source": "Reconstruction/Jet/JetCalibTools/Root/EtaJESCorrection.cxx",
+      "active_branches": {
+        "isSpline": true,
+        "lowPtExtrap": 1,
+        "applyMassCorrection": false,
+        "freeze_at_high_energy": false
+      }
+    },
+    "large_jms": {
+      "analysisbase_release": "25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "jet_definition": "AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+      "calibration_area": "00-04-83",
+      "calibration_sequence": "EtaJES_JMS",
+      "resolved_settings": {
+        "JMSStartingScale": "JetEtaJESScaleMomentum",
+        "JMSOutScale": "JetJMSScaleMomentum",
+        "MinpT": 180,
+        "pTfixed": false,
+        "MassCalibrationIs3D": true,
+        "JMSBinningParam": "e_LOGmOe_eta",
+        "OnlyCombination": false,
+        "Combination": false,
+        "TrackAssistedJetMassCorr": false,
+        "MassCalibrationFile": "JetCalibTools/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root"
+      },
+      "source_constants": {
+        "axis_edge_offset": {
+          "value": 1e-06,
+          "source": "JMSCorrection.cxx:307-314"
+        },
+        "mev_per_gev": {
+          "value": 1000.0,
+          "source": "JetCalibrationStep.cxx:13"
+        }
+      },
+      "global_tenv": {
+        "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config",
+        "bytes": 3624,
+        "sha256": "ef72112d0f35948437be8994ba03c38d494a2a1ebfc3f54c98cf1156fe1c60ba"
+      },
+      "etajes_local_tenv": {
+        "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JES_constants.config",
+        "bytes": 14026,
+        "sha256": "219251cbfc1fa06df0c481ccdeae4df5297943b1ef1085866debf47664c8e8f0"
+      },
+      "response_root_file": {
+        "path_resolver_name": "JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetCalibTools/CalibArea-00-04-83/CalibrationFactors/AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMSmCalo_calibFactors.root",
+        "bytes": 206565,
+        "sha256": "2bf55b85f3d7223cbacf0c11889113c359b7fca08eb92630e449706888f5c2f6"
+      },
+      "response_root_object": {
+        "key": "AntiKt10UFOCSSKSoftDropBeta100Zcut10_JMS_e_LOGmOe_eta",
+        "cycle": 1,
+        "class": "TH3F",
+        "coordinates": [
+          "energy_GeV",
+          "log_mass_over_energy",
+          "abs_detector_eta"
+        ]
+      }
+    },
+    "large_jmr": {
+      "analysisbase_release": "25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "mc_type": "MC23",
+      "model": "Full",
+      "mass_definition": "UFO",
+      "resolved_settings": {
+        "UncertaintyRelease": "rel22_Summer2025_PreRec",
+        "EtaRange": 2,
+        "MaxMass": 600000,
+        "MaxPt": 5000000,
+        "TruthJetColl": "AntiKt10TruthSoftDropBeta100Zcut10Jets",
+        "TruthLabelAccessor": "R10TruthLabel_R21Precision_2022v1",
+        "UncertaintyRootFile": "rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "UFOResponseMap": "ResponseMaps/QCD_Calo_AvgMassResponse_vs_recopt_vs_truthm_smoothed_rebinned",
+        "doGaussianSmearing": false
+      },
+      "source_constants": {
+        "max_match_delta_r": {
+          "value": 0.75,
+          "source": "FFJetSmearingTool.cxx:500-508"
+        },
+        "mev_to_gev": {
+          "value": 0.001,
+          "source": "FFJetSmearingTool.h:210",
+          "type": "float"
+        },
+        "axis_edge_offset": {
+          "value": 1e-06,
+          "source": "FFJetSmearingTool.cxx:978-984"
+        },
+        "minimum_shift": {
+          "value": 0.0001,
+          "source": "FFJetSmearingTool.cxx:827"
+        },
+        "nominal_scale": {
+          "value": 1.0,
+          "source": "FFJetSmearingTool.cxx:765"
+        },
+        "nominal_resolution": {
+          "value": 1.0,
+          "source": "FFJetSmearingTool.cxx:765"
+        },
+        "zero_response_fallback": {
+          "value": 1.0,
+          "source": "FFJetSmearingTool.cxx:760"
+        }
+      },
+      "truth_topology_source": "ParticleJetTools/LargeRJetLabelEnum.h and FFJetSmearingTool.cxx:525-549",
+      "config_tenv": {
+        "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config",
+        "bytes": 9453,
+        "sha256": "450e87b58de96d9f1badf66611f37440c3d01e3daff06c843ca1725c149fe1ef"
+      },
+      "uncertainty_root_file": {
+        "path_resolver_name": "JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "real_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root",
+        "bytes": 3129772,
+        "sha256": "1c69e73fc1b1fff99440f468d2e8a69cf71836e02da7a4f2b4a8370f0fad3304"
+      },
+      "response_root_object": {
+        "key": "ResponseMaps/QCD_Calo_AvgMassResponse_vs_recopt_vs_truthm_smoothed_rebinned",
+        "cycle": 1,
+        "class": "TH2F",
+        "coordinates": [
+          "reco_pt_GeV",
+          "matched_truth_mass_GeV"
+        ]
+      },
+      "components": [
+        {
+          "config_prefix": "JMRComponent.1.",
+          "name": "JET_JMRUnc_MCData",
+          "raw_name": "JET_JMRUnc_MCData",
+          "states": {
+            "JET_JMRUnc_MCData__1up": 1,
+            "JET_JMRUnc_MCData__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_Nom_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.2.",
+          "name": "JET_JMRUnc_Stat",
+          "raw_name": "JET_JMRUnc_Stat",
+          "states": {
+            "JET_JMRUnc_Stat__1up": 1,
+            "JET_JMRUnc_Stat__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_Stat_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.3.",
+          "name": "JET_JMRUnc_Detector",
+          "raw_name": "JET_JMRUnc_Detector",
+          "states": {
+            "JET_JMRUnc_Detector__1up": 1,
+            "JET_JMRUnc_Detector__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_Det_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.4.",
+          "name": "JET_JMRUnc_MCisr",
+          "raw_name": "JET_JMRUnc_MCisr",
+          "states": {
+            "JET_JMRUnc_MCisr__1up": 1,
+            "JET_JMRUnc_MCisr__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCisr_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.5.",
+          "name": "JET_JMRUnc_MCfsr",
+          "raw_name": "JET_JMRUnc_MCfsr",
+          "states": {
+            "JET_JMRUnc_MCfsr__1up": 1,
+            "JET_JMRUnc_MCfsr__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCfsr_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.6.",
+          "name": "JET_JMRUnc_MCps",
+          "raw_name": "JET_JMRUnc_MCps",
+          "states": {
+            "JET_JMRUnc_MCps__1up": 1,
+            "JET_JMRUnc_MCps__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCps_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.7.",
+          "name": "JET_JMRUnc_MCcr",
+          "raw_name": "JET_JMRUnc_MCcr",
+          "states": {
+            "JET_JMRUnc_MCcr__1up": 1,
+            "JET_JMRUnc_MCcr__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCcr_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.8.",
+          "name": "JET_JMRUnc_MCrecoil",
+          "raw_name": "JET_JMRUnc_MCrecoil",
+          "states": {
+            "JET_JMRUnc_MCrecoil__1up": 1,
+            "JET_JMRUnc_MCrecoil__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCrecoil_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.9.",
+          "name": "JET_JMRUnc_MCpthard",
+          "raw_name": "JET_JMRUnc_MCpthard",
+          "states": {
+            "JET_JMRUnc_MCpthard__1up": 1,
+            "JET_JMRUnc_MCpthard__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_FF_MCpthard_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.10.",
+          "name": "JET_JMRUnc_OutsideCalib",
+          "raw_name": "JET_JMRUnc_OutsideCalib",
+          "states": {
+            "JET_JMRUnc_OutsideCalib__1up": 1,
+            "JET_JMRUnc_OutsideCalib__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_UncertaintiesOutsideCalibratedRegion_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.11.",
+          "name": "JET_JMRUnc_Smoothing",
+          "raw_name": "JET_JMRUnc_Smoothing",
+          "states": {
+            "JET_JMRUnc_Smoothing__1up": 1,
+            "JET_JMRUnc_Smoothing__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "V, Top, H",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_Smoothing_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.12.",
+          "name": "JET_JMRUnc_TopologyQCD",
+          "raw_name": "JET_JMRUnc_TopologyQCD",
+          "states": {
+            "JET_JMRUnc_TopologyQCD__1up": 1,
+            "JET_JMRUnc_TopologyQCD__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "no_match, QCD",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMR_Topology_QCD_AntiKt10UFOCSSKSoftDropBeta100Zcut10",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.13.",
+          "name": "JET_JMRUnc_mc20vsmc21_MC23_PreRec",
+          "raw_name": "JET_JMRUnc_mc20vsmc21_MCTYPE_PreRec",
+          "states": {
+            "JET_JMRUnc_mc20vsmc21_MC23_PreRec__1up": 1,
+            "JET_JMRUnc_mc20vsmc21_MC23_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "eLOGmOeAbsEta",
+          "coordinates": [
+            "energy_GeV",
+            "log_mass_over_energy",
+            "abs_eta"
+          ],
+          "histogram": {
+            "key": "JMRUnc_mc20vsmc21_MC23_PreRec",
+            "cycle": 1,
+            "class": "TH3F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.14.",
+          "name": "JET_JMRUnc_mc20vsmc23_MC23_PreRec",
+          "raw_name": "JET_JMRUnc_mc20vsmc23_MCTYPE_PreRec",
+          "states": {
+            "JET_JMRUnc_mc20vsmc23_MC23_PreRec__1up": 1,
+            "JET_JMRUnc_mc20vsmc23_MC23_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "eLOGmOeAbsEta",
+          "coordinates": [
+            "energy_GeV",
+            "log_mass_over_energy",
+            "abs_eta"
+          ],
+          "histogram": {
+            "key": "JMRUnc_mc20vsmc23_MC23_PreRec",
+            "cycle": 1,
+            "class": "TH3F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.15.",
+          "name": "JET_JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec",
+          "raw_name": "JET_JMRUnc_mc20FullSimvsmc20AF3_MCTYPE_PreRec",
+          "states": {
+            "JET_JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec__1up": 1,
+            "JET_JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMRUnc_mc20FullSimvsmc20AF3_MC23_PreRec",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.16.",
+          "name": "JET_JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec",
+          "raw_name": "JET_JMRUnc_mc23FullSimvsmc23AF3_MCTYPE_PreRec",
+          "states": {
+            "JET_JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec__1up": 1,
+            "JET_JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "PtAbsMass",
+          "coordinates": [
+            "pt_GeV_float",
+            "mass_GeV_float"
+          ],
+          "histogram": {
+            "key": "JMRUnc_mc23FullSimvsmc23AF3_MC23_PreRec",
+            "cycle": 1,
+            "class": "TH2F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.17.",
+          "name": "JET_JMRUnc_Noise_PreRec",
+          "raw_name": "JET_JMRUnc_Noise_PreRec",
+          "states": {
+            "JET_JMRUnc_Noise_PreRec__1up": 1,
+            "JET_JMRUnc_Noise_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "eLOGmOeAbsEta",
+          "coordinates": [
+            "energy_GeV",
+            "log_mass_over_energy",
+            "abs_eta"
+          ],
+          "histogram": {
+            "key": "JMRUnc_Noise_PreRec",
+            "cycle": 1,
+            "class": "TH3F"
+          }
+        },
+        {
+          "config_prefix": "JMRComponent.18.",
+          "name": "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec",
+          "raw_name": "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec",
+          "states": {
+            "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec__1up": 1,
+            "JET_JMRUnc_mc20UFOvsmc16UFO_PreRec__1down": -1
+          },
+          "mass_definition": "UFO",
+          "topology": "All",
+          "parameterization": "eLOGmOeAbsEta",
+          "coordinates": [
+            "energy_GeV",
+            "log_mass_over_energy",
+            "abs_eta"
+          ],
+          "histogram": {
+            "key": "JMRUnc_mc20UFOvsmc16UFO_PreRec",
+            "cycle": 1,
+            "class": "TH3F"
+          }
+        }
+      ]
+    },
+    "small_nnjvt": {
+      "analysisbase_release": "25.2.117",
+      "athena_commit": "6ce3f7ae7c41dd9eaec170c3c349df15faef7e5c",
+      "correctionlib_commit": "3dcfa20ec01fb40c4d5fec58383785519dec1c00",
+      "lwtnn_commit": "7056a1524b07d97d5376f72c20030f831c0dffff",
+      "working_point": "FixedEffPt",
+      "systematic": "JET_NNJvtEfficiency",
+      "model_kind": "lwt::generic::FastGraph<double>",
+      "model_inputs": [
+        "Rpt",
+        "JVFCorr",
+        "ptbin",
+        "etabin"
+      ],
+      "sources": {
+        "network": {
+          "logical_path": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Network.graph.Offline.Nonprompt_All_MaxWeight.json",
+          "sha256": "60abc79f5e724483f61967cd5bb2083c2c71255a62e6813f387c1d523dabecdb",
+          "bytes": 5916
+        },
+        "cuts": {
+          "logical_path": "JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetPileupTag/NNJvt/2022-03-22/NNJVT.Cuts.FixedEffPt.Offline.Nonprompt_All_MaxW.json",
+          "sha256": "a29154427f1da0c33095a587fcb2d110e63203713d0f39a4bc54a71f680f2e56",
+          "bytes": 666
+        },
+        "scale_factors": {
+          "logical_path": "JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+          "resolved_path": "/cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetJvtEfficiency/May2024/NNJvtSFFile_Run3_EMPFlow.root",
+          "sha256": "732a52c13ae0dd9a51de3e3f53b10150e1426a4dddb52e99e3884770377cf10b",
+          "bytes": 14080
+        }
+      },
+      "source_symbols": {
+        "update": "JetPileupTag::JetVertexNNTagger",
+        "selection": "CP::NNJvtSelectionTool",
+        "scale_factor": "CP::NNJvtEfficiencyTool",
+        "event_truth_labels": "JetPileupLabelingTool"
+      },
+      "histogram_objects": [
+        "JvtFixedEffPt",
+        "EffFixedEffPt"
+      ],
+      "histogram_children": [
+        "in_range_bin",
+        "sf_content",
+        "sf_error",
+        "eff_content",
+        "eff_error"
+      ],
+      "outputs": {
+        "small_nnjvt_update": [
+          "score",
+          "rpt",
+          "decorator_pass",
+          "status"
+        ],
+        "small_nnjvt_select": [
+          "pass",
+          "status"
+        ],
+        "small_nnjvt_sf": [
+          "sf",
+          "status",
+          "hist_weight"
+        ]
+      },
+      "status_codes": {
+        "-1": "error: abort before writing the original decoration",
+        "0": "skipped: no new NNJvt decoration, or SF -1 without a new validity flag",
+        "1": "ok",
+        "2": "scale factor out of validity: write SF -1 and a false validity flag"
+      },
+      "status_notes": {
+        "update": "On a skip use inherited score availability/value for selection; ignore placeholder outputs.",
+        "selection": "Write the successful pass result through the framework as_char accessor.",
+        "scale_factor": "Histogram weight is the raw SF if valid, otherwise 1. A status of error aborts."
+      }
+    }
+  },
+  "packed_eta_jes": {
+    "encoding": "base64-ieee754-binary32-le-v1",
+    "canonical_payload": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+      "bytes": 160837477,
+      "sha256": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+    },
+    "packing_receipt": "packing.json"
+  }
+}

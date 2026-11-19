@@ -1,0 +1,2192 @@
+{
+  "schema": 1,
+  "qualification_specification": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/contracts/final-shipment.json",
+  "qualification_output": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001",
+  "wheel_sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+  "artifacts": [
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/SHA256SUMS",
+      "destination": "delivery/SHA256SUMS",
+      "bytes": 299,
+      "sha256": "d65e5a67074bf098f265fff473e77e6c1ffcbec09d404f2a289d5fbb76ce19fe"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/bundle.json",
+      "destination": "delivery/bundle.json",
+      "bytes": 4106,
+      "sha256": "97e609ff294d738c16e6999eeb4a58b2d9a482e764b47f6d2fb7d864c3eff473"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+      "destination": "delivery/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+      "bytes": 36078219,
+      "sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/jets_demo.py",
+      "destination": "delivery/jets_demo.py",
+      "bytes": 31776,
+      "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/acceptance.sha256",
+      "destination": "evidence/final/B-combined/acceptance.sha256",
+      "bytes": 1497,
+      "sha256": "7f914376a047bb08c3922b9f49af1914d8a900f1df28486dcbdd09c6bcc4f2f3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/command.txt",
+      "destination": "evidence/final/B-combined/command.txt",
+      "bytes": 403,
+      "sha256": "968a9c60391d8bf898e945af25b33bd625f57315a7703647b3cd2e0792bbb5f7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/exit-code",
+      "destination": "evidence/final/B-combined/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/framework-trace.txt",
+      "destination": "evidence/final/B-combined/framework-trace.txt",
+      "bytes": 3238,
+      "sha256": "747082cf17b660af7646b26d3a5dbb368d7c3e4172c04eb8e05663a2e84d8d23"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/histograms.npz",
+      "destination": "evidence/final/B-combined/histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/initialized-tools.tsv",
+      "destination": "evidence/final/B-combined/initialized-tools.tsv",
+      "bytes": 63777,
+      "sha256": "1aca5d60991103f20a57c8a5254eccc94941bf38c1c33c41cf29dffd44d7a547"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/input.stat",
+      "destination": "evidence/final/B-combined/input.stat",
+      "bytes": 251,
+      "sha256": "2b31b48f0b5bc74450512e70a71daa51b6ca794a7a025002bfee3cc49e3f7804"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/job-exit-code",
+      "destination": "evidence/final/B-combined/job-exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/observer-comparison.json",
+      "destination": "evidence/final/B-combined/observer-comparison.json",
+      "bytes": 3064287,
+      "sha256": "650e73979a519609b441ad4473e63b3e072f5f56deca0f13545c221c1839d010"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/process-library-maps.txt",
+      "destination": "evidence/final/B-combined/process-library-maps.txt",
+      "bytes": 256964,
+      "sha256": "072e1db173d0f8773b59b321187797ad85609478c2cecddc2c12378dbd768626"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/process-verification.json",
+      "destination": "evidence/final/B-combined/process-verification.json",
+      "bytes": 124,
+      "sha256": "82ecdb3e5110bdca09a3c0fc8066bf2f6b0582ec925c4d28725f625cfdc0fecc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/reference-coverage.json",
+      "destination": "evidence/final/B-combined/reference-coverage.json",
+      "bytes": 2501,
+      "sha256": "fb1d941fecc1b09346779f7b0dcc35b22f1c1d81a4da6c5859d356eee410a320"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-combined/runtime-inputs.sha256",
+      "destination": "evidence/final/B-combined/runtime-inputs.sha256",
+      "bytes": 2021,
+      "sha256": "9daf460a185b0316434011de4948a17f37d27f2c769e566e3b79102239f02db5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-full/framework.json",
+      "destination": "evidence/final/B-large/01-full/framework.json",
+      "bytes": 28506,
+      "sha256": "cebd6d6f025446dd9e95b14c18aab3f3d5a2ba5c38256063739cc1f48653bce5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-full/framework.log",
+      "destination": "evidence/final/B-large/01-full/framework.log",
+      "bytes": 52167,
+      "sha256": "4a754a97abfc197659f23ea0c1a393489005cf35d7082c5267bc00de65eaa5cf"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-full/histogram.json",
+      "destination": "evidence/final/B-large/01-full/histogram.json",
+      "bytes": 5951,
+      "sha256": "5d5d8a3a532662f4059d4dcdd0fd3b59d3a7ed2ded19ab80b2704c58e4330885"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/framework.json",
+      "destination": "evidence/final/B-large/01-nominal/framework.json",
+      "bytes": 28538,
+      "sha256": "4568e37a630c9b21277faea0b16697ada329c98f321c839e19de66c38084c835"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/framework.log",
+      "destination": "evidence/final/B-large/01-nominal/framework.log",
+      "bytes": 36595,
+      "sha256": "ee6eed35e2f8dd8f8327269a4a8488bbf8de48a3766bc47f4eceb6fa265bf00e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/histogram.json",
+      "destination": "evidence/final/B-large/01-nominal/histogram.json",
+      "bytes": 4158,
+      "sha256": "c7310b48bc468df335c6659b6b06d107f3aff558b03f7d1ff1146aeeeb6ed212"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-stored/framework.json",
+      "destination": "evidence/final/B-large/01-stored/framework.json",
+      "bytes": 22262,
+      "sha256": "0f346e7fa37dd5357fc0d82b0e32aabe59fbc16cab4c50f34990137e55cea997"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-stored/framework.log",
+      "destination": "evidence/final/B-large/01-stored/framework.log",
+      "bytes": 7130,
+      "sha256": "d256f6dc2c83d41e98a3bb38826901469fa96a7008eaa2051f09fa14b46baeb8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-stored/histogram.json",
+      "destination": "evidence/final/B-large/01-stored/histogram.json",
+      "bytes": 4166,
+      "sha256": "7018b92d23a990f8d9453ba51644042080eb5ca217ebf3b07abbbcdd6e843610"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large-pilot.exit",
+      "destination": "evidence/final/B-large/pilot.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/provenance.json",
+      "destination": "evidence/final/B-large/provenance.json",
+      "bytes": 2899,
+      "sha256": "84ae4a6712a5a3b717d4416aa8c803b6b2f91398fd33765f4687c45e89f66641"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/summary.json",
+      "destination": "evidence/final/B-large/summary.json",
+      "bytes": 103586,
+      "sha256": "298fd0ff19442b93d8392ef766785281a8e55ed792aacae29bc7e7e649c7c692"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-full/framework.json",
+      "destination": "evidence/final/B-small/01-full/framework.json",
+      "bytes": 30990,
+      "sha256": "b58de1d85415bffb70d2818c76bf868a8f5e1d68bfc890a4c7fb3550c51a1632"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-full/framework.log",
+      "destination": "evidence/final/B-small/01-full/framework.log",
+      "bytes": 33658,
+      "sha256": "6a25f688a8c1d125442006918861adfb8f23b22d6de3e3cf55317cf3ec7d7348"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-full/histogram.json",
+      "destination": "evidence/final/B-small/01-full/histogram.json",
+      "bytes": 5951,
+      "sha256": "5835c35beca4494dab90078a7dea6007480447896200eb90bb3a848da2424038"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-nominal/framework.json",
+      "destination": "evidence/final/B-small/01-nominal/framework.json",
+      "bytes": 30605,
+      "sha256": "b0c2942243355fa43d45c2b93d3ba6b6e421b56562b8d3b72c7950be2f6e0512"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-nominal/framework.log",
+      "destination": "evidence/final/B-small/01-nominal/framework.log",
+      "bytes": 25262,
+      "sha256": "412429215ab8a11801442984807dc702045850c75542567b88e6e84ad027f04a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-nominal/histogram.json",
+      "destination": "evidence/final/B-small/01-nominal/histogram.json",
+      "bytes": 4156,
+      "sha256": "82cc5e574e806e7bb278f9c6fd89bf10df98b88a0fc5f424bab65c0c53dd7fd7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-stored/framework.json",
+      "destination": "evidence/final/B-small/01-stored/framework.json",
+      "bytes": 23234,
+      "sha256": "80db17e0f24efd13d831df02fd9f4d13f19a873b4525ca4865f3413a0dcdfdad"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-stored/framework.log",
+      "destination": "evidence/final/B-small/01-stored/framework.log",
+      "bytes": 7130,
+      "sha256": "b49eeb7bb8c3d9c4bd1bb8e88da034c06aab13a5860992992e433970f09e9105"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/01-stored/histogram.json",
+      "destination": "evidence/final/B-small/01-stored/histogram.json",
+      "bytes": 4154,
+      "sha256": "e5cb4ccd9995ffb1eace369cd323bb595edaf4184af9bd41c4a3cf8f539a88bd"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small-pilot.exit",
+      "destination": "evidence/final/B-small/pilot.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/provenance.json",
+      "destination": "evidence/final/B-small/provenance.json",
+      "bytes": 2899,
+      "sha256": "32203bf7d13b4e9318317660028756f8aa9f6d6256b6e0c9a15f5f9c19cda5fa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-small/summary.json",
+      "destination": "evidence/final/B-small/summary.json",
+      "bytes": 109869,
+      "sha256": "245c7a3afdf4c74b7e54c6a573f86ec7eaf24f24ec45c3be266a14bc67480aa5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/command.txt",
+      "destination": "evidence/final/C-both/command.txt",
+      "bytes": 1492,
+      "sha256": "b34283323f5b872b93066c84320e1ce62b214ea7e49e486aa5fa39918e229111"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/compare.log",
+      "destination": "evidence/final/C-both/compare.log",
+      "bytes": 43,
+      "sha256": "4a371ebef4aad9584fed10fc0875ee9fd61b306a349a0b1f859af36fce85a576"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/comparison.json",
+      "destination": "evidence/final/C-both/comparison.json",
+      "bytes": 1477730,
+      "sha256": "f6c9d5d4953baf15df319f407f9e2522d5fdade27c4064f1963bd7d5500040b3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/comparison.time",
+      "destination": "evidence/final/C-both/comparison.time",
+      "bytes": 42,
+      "sha256": "9d6213af03054127368c51b2ebd52795249db7bb51e2ee458f030e69b8ca04c4"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/diagnostic-environment.txt",
+      "destination": "evidence/final/C-both/diagnostic-environment.txt",
+      "bytes": 158,
+      "sha256": "247d403b76ba8ed672eed6ca122a9842baf1f7feb4d43c98bd2e63f2224f86cb"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/exit-code",
+      "destination": "evidence/final/C-both/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/inputs.sha256",
+      "destination": "evidence/final/C-both/inputs.sha256",
+      "bytes": 990,
+      "sha256": "6a365b31d48365b70be9bc2f61bcec175b3f6d6c5cd7198da1f25d6b4a716739"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/observer-aliases.json",
+      "destination": "evidence/final/C-both/observer-aliases.json",
+      "bytes": 326809,
+      "sha256": "c149a71b5a9ed407ce3b0da3ce5e93365576f934fcb60f855043ae93ad942557"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/revision",
+      "destination": "evidence/final/C-both/revision",
+      "bytes": 41,
+      "sha256": "2f342008801222a175138c3bb6a213271f862497a7f53853c1d9dad045631fd6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/command.txt",
+      "destination": "evidence/final/C-large/command.txt",
+      "bytes": 1106,
+      "sha256": "b1571f3dee8ab133003575a5e4abc4e41b099574e3b984d4d1ab8035ab4387b3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/compare.log",
+      "destination": "evidence/final/C-large/compare.log",
+      "bytes": 43,
+      "sha256": "4a371ebef4aad9584fed10fc0875ee9fd61b306a349a0b1f859af36fce85a576"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/comparison.json",
+      "destination": "evidence/final/C-large/comparison.json",
+      "bytes": 1004765,
+      "sha256": "dd32f4c0e66a41e605dfe016aac3506cccac4c6bc249c2a5a0ccb428ac3a1b1a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/comparison.time",
+      "destination": "evidence/final/C-large/comparison.time",
+      "bytes": 44,
+      "sha256": "d360ce8969216f4b11451740d6afbbdce56c1a25d61c2ab2ef4e22c0d72892e7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/diagnostic-environment.txt",
+      "destination": "evidence/final/C-large/diagnostic-environment.txt",
+      "bytes": 158,
+      "sha256": "247d403b76ba8ed672eed6ca122a9842baf1f7feb4d43c98bd2e63f2224f86cb"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/exit-code",
+      "destination": "evidence/final/C-large/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/inputs.sha256",
+      "destination": "evidence/final/C-large/inputs.sha256",
+      "bytes": 952,
+      "sha256": "2e794c01facc820f7ce0b95f6cd78c622ee50dac6349a7f9c9eb194e76999973"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-large/revision",
+      "destination": "evidence/final/C-large/revision",
+      "bytes": 41,
+      "sha256": "84186e538e76def96295c9b27d18d9ef09e808de3975c9063bc516657c10526b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/command.txt",
+      "destination": "evidence/final/C-small/command.txt",
+      "bytes": 1137,
+      "sha256": "ec281ea99597c03432497f3e0c564caa02665f62458676498f79f7cb191ee822"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/compare.log",
+      "destination": "evidence/final/C-small/compare.log",
+      "bytes": 43,
+      "sha256": "4a371ebef4aad9584fed10fc0875ee9fd61b306a349a0b1f859af36fce85a576"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/comparison.json",
+      "destination": "evidence/final/C-small/comparison.json",
+      "bytes": 472971,
+      "sha256": "d8d8e4c8d662e5f73f2b13ed2c90ede54c6767966f326bb0b391a20c69f302b1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/comparison.time",
+      "destination": "evidence/final/C-small/comparison.time",
+      "bytes": 44,
+      "sha256": "8f4410be08471e4a313dee5fdf32ef539cd36fe97b46193fd637b921862e4401"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/diagnostic-environment.txt",
+      "destination": "evidence/final/C-small/diagnostic-environment.txt",
+      "bytes": 158,
+      "sha256": "247d403b76ba8ed672eed6ca122a9842baf1f7feb4d43c98bd2e63f2224f86cb"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/exit-code",
+      "destination": "evidence/final/C-small/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/inputs.sha256",
+      "destination": "evidence/final/C-small/inputs.sha256",
+      "bytes": 952,
+      "sha256": "e8871d6b0bd10c1c105ee303d19d3091b664039eea2f295ccee45f9703d57cb5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-small/revision",
+      "destination": "evidence/final/C-small/revision",
+      "bytes": 41,
+      "sha256": "84186e538e76def96295c9b27d18d9ef09e808de3975c9063bc516657c10526b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-16.argv.json",
+      "destination": "evidence/final/chunk-order/chunk-16.argv.json",
+      "bytes": 588,
+      "sha256": "c2f18aa38403d61af795d063138d601b9dc15475063184164067593041e71f77"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-16.exit",
+      "destination": "evidence/final/chunk-order/chunk-16.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-16.log",
+      "destination": "evidence/final/chunk-order/chunk-16.log",
+      "bytes": 12638,
+      "sha256": "dd4764df00d1ea0d7141d62da621d2f1305a84e905ef11ed030fff6142ab801c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-16.npz",
+      "destination": "evidence/final/chunk-order/chunk-16.npz",
+      "bytes": 173712,
+      "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-32.argv.json",
+      "destination": "evidence/final/chunk-order/chunk-32.argv.json",
+      "bytes": 588,
+      "sha256": "fc27b88eb861eb92b7315d1c4b4c8ca5e04823ecde4bbda579459ed02b609e54"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-32.exit",
+      "destination": "evidence/final/chunk-order/chunk-32.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-32.log",
+      "destination": "evidence/final/chunk-order/chunk-32.log",
+      "bytes": 12638,
+      "sha256": "ff0aeccf3f78c02a62ef0c594326a0a8f4a8b09ebadaadbcf6873b02b8e5a423"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-32.npz",
+      "destination": "evidence/final/chunk-order/chunk-32.npz",
+      "bytes": 173712,
+      "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-7.argv.json",
+      "destination": "evidence/final/chunk-order/chunk-7.argv.json",
+      "bytes": 586,
+      "sha256": "cd7fd7a520245b6f5d62dcffc5ba118e048b74b308dd36ff207fec6753f4c2ef"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-7.exit",
+      "destination": "evidence/final/chunk-order/chunk-7.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-7.log",
+      "destination": "evidence/final/chunk-order/chunk-7.log",
+      "bytes": 12637,
+      "sha256": "ac964c18acd0021bf326307519d8bd433c88b77b7374422f055801ff1f16bdc1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/chunk-7.npz",
+      "destination": "evidence/final/chunk-order/chunk-7.npz",
+      "bytes": 173712,
+      "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-native-libraries.json",
+      "destination": "evidence/final/chunk-order/evaluator-native-libraries.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-order.argv.json",
+      "destination": "evidence/final/chunk-order/evaluator-order.argv.json",
+      "bytes": 716,
+      "sha256": "f39b700f9d125dff275c47aac18d42874e55b529ab82bfa35cac6b90820ff210"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-order.exit",
+      "destination": "evidence/final/chunk-order/evaluator-order.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-order.json",
+      "destination": "evidence/final/chunk-order/evaluator-order.json",
+      "bytes": 1335659,
+      "sha256": "1bd959ac4c5c1b46ca6ca3c49bd6d481b43bdc0b2e816b27f5a1daa894fc31df"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/evaluator-order.log",
+      "destination": "evidence/final/chunk-order/evaluator-order.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/chunk-order/summary.json",
+      "destination": "evidence/final/chunk-order/summary.json",
+      "bytes": 2338,
+      "sha256": "0a464c77b3f02bba4abde4a599c4e14d32d5a03366830ff6050697eb37735e03"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/command.txt",
+      "destination": "evidence/final/controller/00-preflight/command.txt",
+      "bytes": 466,
+      "sha256": "4dfd6e06618e6264fd06fa49fc195900734518744e2ed584b106c9fd773cf72d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/cpu",
+      "destination": "evidence/final/controller/00-preflight/cpu",
+      "bytes": 2,
+      "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/ended.utc",
+      "destination": "evidence/final/controller/00-preflight/ended.utc",
+      "bytes": 31,
+      "sha256": "fa5a5b31a98666128cec567c596bc34327d0db32e9b6ee22afe2d291804d3b55"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/exit-code",
+      "destination": "evidence/final/controller/00-preflight/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/stage.log",
+      "destination": "evidence/final/controller/00-preflight/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/00-preflight/started.utc",
+      "destination": "evidence/final/controller/00-preflight/started.utc",
+      "bytes": 31,
+      "sha256": "86240bd259b741907ab8a66666445e9a47c25b4d58e4a7de902124e7812b2499"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/command.txt",
+      "destination": "evidence/final/controller/01-native-record/command.txt",
+      "bytes": 273,
+      "sha256": "703f40da3257dcf80f74bb6d5fa48bf08f95a61ea92b3b6074a45faa0c01dad8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/cpu",
+      "destination": "evidence/final/controller/01-native-record/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/ended.utc",
+      "destination": "evidence/final/controller/01-native-record/ended.utc",
+      "bytes": 31,
+      "sha256": "1fde51a0df2f6a1f8647b7f68187b3a4adcc551dd33fa2e0f584c7a48ac8ad54"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/exit-code",
+      "destination": "evidence/final/controller/01-native-record/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/stage.log",
+      "destination": "evidence/final/controller/01-native-record/stage.log",
+      "bytes": 60,
+      "sha256": "89017fa04d7ccc1a46f49e5f1be5408c9cb125d083102a9dfab3363b6280ebf2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/01-native-record/started.utc",
+      "destination": "evidence/final/controller/01-native-record/started.utc",
+      "bytes": 31,
+      "sha256": "c1ab940cd146b00cb0d343fdc617e766154c392fd5513911cd66abc8e91ca107"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/command.txt",
+      "destination": "evidence/final/controller/02-native-decode/command.txt",
+      "bytes": 371,
+      "sha256": "124dbfa38238d4e2ed3de843b7422c2311b5511cc8945e423409f35850d10af3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/cpu",
+      "destination": "evidence/final/controller/02-native-decode/cpu",
+      "bytes": 2,
+      "sha256": "f0b5c2c2211c8d67ed15e75e656c7862d086e9245420892a7de62cd9ec582a06"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/ended.utc",
+      "destination": "evidence/final/controller/02-native-decode/ended.utc",
+      "bytes": 31,
+      "sha256": "c4d4b615b32529a625ba0becce64bff3a86581006ea565a264c156c0da69e362"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/exit-code",
+      "destination": "evidence/final/controller/02-native-decode/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/stage.log",
+      "destination": "evidence/final/controller/02-native-decode/stage.log",
+      "bytes": 165,
+      "sha256": "50fe2789eb8aef387b552ea7dd4d078cced36323a221b20ed17dbaed483f7804"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02-native-decode/started.utc",
+      "destination": "evidence/final/controller/02-native-decode/started.utc",
+      "bytes": 31,
+      "sha256": "589eafda1b3ee2fc28922dff33649544bd4888cde1b94957677bc3bce6ab4437"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/command.txt",
+      "destination": "evidence/final/controller/02b-native-unprofiled/command.txt",
+      "bytes": 352,
+      "sha256": "244212ee1f659a3ba03b8189bc30cd9e1d9f6b97d459cfdafa7bd9b44ab340b5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/cpu",
+      "destination": "evidence/final/controller/02b-native-unprofiled/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/ended.utc",
+      "destination": "evidence/final/controller/02b-native-unprofiled/ended.utc",
+      "bytes": 31,
+      "sha256": "6bcd46d9ac07d7e8afdaa88477f3ac5a8ea0e5d34750bc3940ad01228ef36bdc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/exit-code",
+      "destination": "evidence/final/controller/02b-native-unprofiled/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/stage.log",
+      "destination": "evidence/final/controller/02b-native-unprofiled/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/02b-native-unprofiled/started.utc",
+      "destination": "evidence/final/controller/02b-native-unprofiled/started.utc",
+      "bytes": 31,
+      "sha256": "8b5ed1fbce752fca00e85e06e01042b2680e9890c671b4545ee8b79d9de1fd54"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/command.txt",
+      "destination": "evidence/final/controller/03-final-phases/command.txt",
+      "bytes": 1035,
+      "sha256": "7b56adffeebfe71bda9008436993aff96b67e256999601e58258f508d745d85e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/cpu",
+      "destination": "evidence/final/controller/03-final-phases/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/ended.utc",
+      "destination": "evidence/final/controller/03-final-phases/ended.utc",
+      "bytes": 31,
+      "sha256": "284e617af0246d02f223af74499fe4668094641d913bbcd2c2f3cc8c41e93112"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/exit-code",
+      "destination": "evidence/final/controller/03-final-phases/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/stage.log",
+      "destination": "evidence/final/controller/03-final-phases/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03-final-phases/started.utc",
+      "destination": "evidence/final/controller/03-final-phases/started.utc",
+      "bytes": 31,
+      "sha256": "6bbe3235de56635c7999bcc0b773457aec0cc3ccef30c9a0a600c27521c23f46"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/command.txt",
+      "destination": "evidence/final/controller/03b-python-profile/command.txt",
+      "bytes": 807,
+      "sha256": "ea1b1bf6b153b8c973173831763dbf4b03bf78f041bb16f7cb08b2bdfaa00251"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/cpu",
+      "destination": "evidence/final/controller/03b-python-profile/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/ended.utc",
+      "destination": "evidence/final/controller/03b-python-profile/ended.utc",
+      "bytes": 31,
+      "sha256": "64c52d1a3a7d4b6c837627efeda1c1199f212159ecbfff1baa11f9b199d7ad25"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/exit-code",
+      "destination": "evidence/final/controller/03b-python-profile/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/stage.log",
+      "destination": "evidence/final/controller/03b-python-profile/stage.log",
+      "bytes": 167,
+      "sha256": "862273f2cd8fba505edcb06e1cbcad71a3cfc2c6ac26d56cdf6e0a7aa708503c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/03b-python-profile/started.utc",
+      "destination": "evidence/final/controller/03b-python-profile/started.utc",
+      "bytes": 31,
+      "sha256": "3186e78fd428764f48c1f52727614a3761d5881526385328653a87030a1f7d91"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/command.txt",
+      "destination": "evidence/final/controller/04-chunk-order/command.txt",
+      "bytes": 657,
+      "sha256": "155d1fb9b763188baa0451dfe92c14d1f5a73c24b72811cc1804a84912d15ced"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/cpu",
+      "destination": "evidence/final/controller/04-chunk-order/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/ended.utc",
+      "destination": "evidence/final/controller/04-chunk-order/ended.utc",
+      "bytes": 31,
+      "sha256": "b48c880f2e3af79c6965d755c2022e6a90a6ffc4e1e47b6e0ac1e21ce6a6f9cd"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/exit-code",
+      "destination": "evidence/final/controller/04-chunk-order/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/stage.log",
+      "destination": "evidence/final/controller/04-chunk-order/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/04-chunk-order/started.utc",
+      "destination": "evidence/final/controller/04-chunk-order/started.utc",
+      "bytes": 31,
+      "sha256": "bbcecbc4c789afc5b191ef9d5f07f52c808e11d44de3e7901b2366409832fc44"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/command.txt",
+      "destination": "evidence/final/controller/05-combined-objects/command.txt",
+      "bytes": 266,
+      "sha256": "842766be01127a647dca1b7077737ae6f9ba0188fe6f0a38225be80932685367"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/cpu",
+      "destination": "evidence/final/controller/05-combined-objects/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/ended.utc",
+      "destination": "evidence/final/controller/05-combined-objects/ended.utc",
+      "bytes": 31,
+      "sha256": "a771e1bf8e25fb2b895f1d22e5a77ded35024f13147e25b593a81b177bfcffd9"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/exit-code",
+      "destination": "evidence/final/controller/05-combined-objects/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/stage.log",
+      "destination": "evidence/final/controller/05-combined-objects/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/05-combined-objects/started.utc",
+      "destination": "evidence/final/controller/05-combined-objects/started.utc",
+      "bytes": 31,
+      "sha256": "d6eb925e95807e5fb3e5bb58633c1470d083b182a56033b48d601c24588a6b23"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/command.txt",
+      "destination": "evidence/final/controller/06-combined-framework/command.txt",
+      "bytes": 268,
+      "sha256": "04360ea0500dc113f71d8cb3df17bbb45743089f531d2c95f69fba51020e6af0"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/cpu",
+      "destination": "evidence/final/controller/06-combined-framework/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/ended.utc",
+      "destination": "evidence/final/controller/06-combined-framework/ended.utc",
+      "bytes": 31,
+      "sha256": "41724c3f48ba654381ec90a9591f339080839d445e0d7fecf745cf6cce2ca9b8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/exit-code",
+      "destination": "evidence/final/controller/06-combined-framework/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/stage.log",
+      "destination": "evidence/final/controller/06-combined-framework/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/06-combined-framework/started.utc",
+      "destination": "evidence/final/controller/06-combined-framework/started.utc",
+      "bytes": 31,
+      "sha256": "5999c0d5041c571e3a61859db9a99684736a50e18530cc1fe01c410231fbec69"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/command.txt",
+      "destination": "evidence/final/controller/07-shipped-combined/command.txt",
+      "bytes": 266,
+      "sha256": "3a2ea6bf62411ea7801e4662fa53dbbca1bd6894499e0f748efe4da0e1d56494"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/cpu",
+      "destination": "evidence/final/controller/07-shipped-combined/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/ended.utc",
+      "destination": "evidence/final/controller/07-shipped-combined/ended.utc",
+      "bytes": 31,
+      "sha256": "959d6c1eaa9514120ccb9d74b03c8c2c15214b7dbf090d52c40c7f5a08b17087"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/exit-code",
+      "destination": "evidence/final/controller/07-shipped-combined/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/stage.log",
+      "destination": "evidence/final/controller/07-shipped-combined/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/07-shipped-combined/started.utc",
+      "destination": "evidence/final/controller/07-shipped-combined/started.utc",
+      "bytes": 31,
+      "sha256": "7c09de93920ed8f63e4fb17ccd481c0e246e8c3460088307de9c700d34aab67d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/command.txt",
+      "destination": "evidence/final/controller/08-shipped-small/command.txt",
+      "bytes": 267,
+      "sha256": "779593cc063541857618f01e4f84dbfee264cf31f3ccf2651f966f5ddbc23b92"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/cpu",
+      "destination": "evidence/final/controller/08-shipped-small/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/ended.utc",
+      "destination": "evidence/final/controller/08-shipped-small/ended.utc",
+      "bytes": 31,
+      "sha256": "e0fa06113c1070ca74acb3f8ead15a3d9d80595349c3c25439642a1c9e5444bb"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/exit-code",
+      "destination": "evidence/final/controller/08-shipped-small/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/stage.log",
+      "destination": "evidence/final/controller/08-shipped-small/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/08-shipped-small/started.utc",
+      "destination": "evidence/final/controller/08-shipped-small/started.utc",
+      "bytes": 31,
+      "sha256": "5d7da7507dfe5421451906406d2037b8e9f6a24e6829f765fb7aca5dbc1a1f9e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/command.txt",
+      "destination": "evidence/final/controller/09-shipped-large/command.txt",
+      "bytes": 267,
+      "sha256": "4b318b66e0e3a25f38f322c9d41fd4f541fcf85db50d7f71e075840be70fa0c2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/cpu",
+      "destination": "evidence/final/controller/09-shipped-large/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/ended.utc",
+      "destination": "evidence/final/controller/09-shipped-large/ended.utc",
+      "bytes": 31,
+      "sha256": "f0f71f3a698477d5b09f14a3e9d4b840c2bb97b3d2e075f6575765b34037f37f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/exit-code",
+      "destination": "evidence/final/controller/09-shipped-large/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/stage.log",
+      "destination": "evidence/final/controller/09-shipped-large/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/09-shipped-large/started.utc",
+      "destination": "evidence/final/controller/09-shipped-large/started.utc",
+      "bytes": 31,
+      "sha256": "69b1271ab489ba16181f3ba826239a060e12099797d2977bec6f9ac8cb25892e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/command.txt",
+      "destination": "evidence/final/controller/10-small-objects/command.txt",
+      "bytes": 267,
+      "sha256": "4684f72cf4dcc46c49770d2496efa13fe73e8893c5009865cf65d248c043e6ca"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/cpu",
+      "destination": "evidence/final/controller/10-small-objects/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/ended.utc",
+      "destination": "evidence/final/controller/10-small-objects/ended.utc",
+      "bytes": 31,
+      "sha256": "c6e633643404509ceb8a65d0ca69e544a46f09c4fefa056ebe5a1c757910ed33"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/exit-code",
+      "destination": "evidence/final/controller/10-small-objects/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/stage.log",
+      "destination": "evidence/final/controller/10-small-objects/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/10-small-objects/started.utc",
+      "destination": "evidence/final/controller/10-small-objects/started.utc",
+      "bytes": 31,
+      "sha256": "7fdbddfa47e098b9e38af3325326a6dfef0173d9719e8b4cc2dc44f48def1619"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/command.txt",
+      "destination": "evidence/final/controller/11-large-objects/command.txt",
+      "bytes": 267,
+      "sha256": "c96f7e801aa28ba856d40fda84acdd6f6fe9d26165f20a403e543e5620b102bc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/cpu",
+      "destination": "evidence/final/controller/11-large-objects/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/ended.utc",
+      "destination": "evidence/final/controller/11-large-objects/ended.utc",
+      "bytes": 31,
+      "sha256": "98961822dc44c6961081dee89b05f4b770b385799272c6c699c9b794028be5ef"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/exit-code",
+      "destination": "evidence/final/controller/11-large-objects/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/stage.log",
+      "destination": "evidence/final/controller/11-large-objects/stage.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/11-large-objects/started.utc",
+      "destination": "evidence/final/controller/11-large-objects/started.utc",
+      "bytes": 31,
+      "sha256": "5978651049f32bdc59e03159b8f4a97ef6a30dd346882233c8ac8aebb7f33212"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/command.txt",
+      "destination": "evidence/final/controller/12-small-framework/command.txt",
+      "bytes": 269,
+      "sha256": "a062468ad103a71fe06a0e0d64cdcdd6bc01c02657f50302dbadf5033c5436d9"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/cpu",
+      "destination": "evidence/final/controller/12-small-framework/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/ended.utc",
+      "destination": "evidence/final/controller/12-small-framework/ended.utc",
+      "bytes": 31,
+      "sha256": "906e702d5c9b961cf589fedb80953146cb53e339801643e09eb6942d08b90302"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/exit-code",
+      "destination": "evidence/final/controller/12-small-framework/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/stage.log",
+      "destination": "evidence/final/controller/12-small-framework/stage.log",
+      "bytes": 80,
+      "sha256": "bee3cc20257bf4e91b9e6e0ab784cc35d1adcdec1f2eed494d9e48cb6c1e4d01"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/12-small-framework/started.utc",
+      "destination": "evidence/final/controller/12-small-framework/started.utc",
+      "bytes": 31,
+      "sha256": "d67be9a20e0631e0bb0112f828e44b77e1f4a2d21b74c611667e0d5e9c445947"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/command.txt",
+      "destination": "evidence/final/controller/13-large-framework/command.txt",
+      "bytes": 269,
+      "sha256": "3be9332484d02fef819107618d6425052eb2056b11a77ec5af2cbc466c6d2e32"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/cpu",
+      "destination": "evidence/final/controller/13-large-framework/cpu",
+      "bytes": 2,
+      "sha256": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/ended.utc",
+      "destination": "evidence/final/controller/13-large-framework/ended.utc",
+      "bytes": 31,
+      "sha256": "04e54cb8bf95252b836518a205f95399e4a3dc7706b01dcb5634edc62b04361e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/exit-code",
+      "destination": "evidence/final/controller/13-large-framework/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/stage.log",
+      "destination": "evidence/final/controller/13-large-framework/stage.log",
+      "bytes": 79,
+      "sha256": "aae318c5cc38f7f8b7986f9c47d27f3284e416f6d99c8545809212d5a09c57dc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/13-large-framework/started.utc",
+      "destination": "evidence/final/controller/13-large-framework/started.utc",
+      "bytes": 31,
+      "sha256": "e3b4e39c617cfa775f5faf65feb00dfad5b1e7560bfd20a333e6c276f0f87c26"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/controller.sha256",
+      "destination": "evidence/final/controller/controller.sha256",
+      "bytes": 157,
+      "sha256": "cd4e9a9e5fdbd17eff46ce08984ae9ef765bb18a597049381d14333e34bce148"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/ended.utc",
+      "destination": "evidence/final/controller/ended.utc",
+      "bytes": 31,
+      "sha256": "fe531c1a9f34c42279b6e112ff135e58ce48fe35eca62f4518df0fb2e9df75ba"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/exit-code",
+      "destination": "evidence/final/controller/exit-code",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/resolved.json",
+      "destination": "evidence/final/controller/resolved.json",
+      "bytes": 4696,
+      "sha256": "d3155befc1ca8d51a037a944a89ed9b0ea7abecd76102c5a4b21a307b7568e0e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/specification.json",
+      "destination": "evidence/final/controller/specification.json",
+      "bytes": 1179,
+      "sha256": "d0593712adc4d8692c159b68e8d1e5ced58d461d453914e2fe564b86caa1aa55"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/specification.sha256",
+      "destination": "evidence/final/controller/specification.sha256",
+      "bytes": 188,
+      "sha256": "4da90944f28ca7a68ce042b8e63bc4cd386238889443b4725ba2b107bcb8e4a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/stages.tsv",
+      "destination": "evidence/final/controller/stages.tsv",
+      "bytes": 5039,
+      "sha256": "0092848b8d565e553b8f3043087344242cad023251be9d2288b77137bd2ac291"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/qualify-selected-001/steps/started.utc",
+      "destination": "evidence/final/controller/started.utc",
+      "bytes": 31,
+      "sha256": "a83a28aedf1c9d3dbb6ccd46b97fba5099856fb9c9390302667904320e6c224e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/distributions/distributions.npz",
+      "destination": "evidence/final/distributions.npz",
+      "bytes": 3410436,
+      "sha256": "15f50f4c14443a2fd56255547beb7eb78a66e5d0daa00bfc468d8c08c39babc6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/histogram.npz",
+      "destination": "evidence/final/installed-histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/C-both/distributions/metadata.json",
+      "destination": "evidence/final/metadata.json",
+      "bytes": 621245,
+      "sha256": "cb1aae8642a601760898d2d38db4ac59576911c4a8e5382c51fb02c93cff402e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/application.json",
+      "destination": "evidence/final/native-unprofiled/application.json",
+      "bytes": 6010,
+      "sha256": "dd66a5f636ef2bfe96fdd82ceba2f85c96efb7c4bdbebef8f6c032331d17a735"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/application.log",
+      "destination": "evidence/final/native-unprofiled/application.log",
+      "bytes": 13271,
+      "sha256": "5b15c1652421253c9a83785bf48606db0e2fb2012487589b4a41875e254735ae"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/command.json",
+      "destination": "evidence/final/native-unprofiled/command.json",
+      "bytes": 1016,
+      "sha256": "7868c7afcb8d8325f4d81d20add6559b69f161b7442317fd2c56026998157f39"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/diagnostic.json",
+      "destination": "evidence/final/native-unprofiled/diagnostic.json",
+      "bytes": 4239,
+      "sha256": "b941bcfa5eba431191dc604ac2fa17ae341092f5db5055d83e756accc3c0b737"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/histogram.npz",
+      "destination": "evidence/final/native-unprofiled/histogram.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-unprofiled/library-maps.json",
+      "destination": "evidence/final/native-unprofiled/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/application.log",
+      "destination": "evidence/final/native/application.log",
+      "bytes": 13268,
+      "sha256": "328502e459e7d56a11e42ba37de90375ba92323c975d1b451e9af74efdfb732c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/buildids.txt",
+      "destination": "evidence/final/native/buildids.txt",
+      "bytes": 2658,
+      "sha256": "ff4b3d0e1fa1c5c514f94dd5c6a5dc90e0c663e4379bbdb024c04564dbdc3bc7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/command.json",
+      "destination": "evidence/final/native/command.json",
+      "bytes": 858,
+      "sha256": "81c669bb0e76914fe0a0a163f685bfcba55acf4689838eb54e1767ca1f039ba2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/header.txt",
+      "destination": "evidence/final/native/header.txt",
+      "bytes": 2582,
+      "sha256": "f774cfc3ea978845912a9f1d2d2fd7f0647e37d715b2b6c767cded92d615fae1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/inclusive.tsv",
+      "destination": "evidence/final/native/inclusive.tsv",
+      "bytes": 235514,
+      "sha256": "8d7486f116747abdf419ac4a7ac2cc99392cc21340c6ed1c24c461529e94bae8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/library-maps.json",
+      "destination": "evidence/final/native/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/machine.json",
+      "destination": "evidence/final/native/machine.json",
+      "bytes": 543,
+      "sha256": "05e578dd79f161a2aaa100a6c265cf268ce53ce6c72b81fa43afc19e0fb66156"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/owners.tsv",
+      "destination": "evidence/final/native/owners.tsv",
+      "bytes": 1331,
+      "sha256": "7aac1ab62ac54830fb8934eeddc5315a8f1037f2837a91a71a9bc3d36b4f2a7a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/perf.log",
+      "destination": "evidence/final/native/perf.log",
+      "bytes": 234,
+      "sha256": "3c57c22d725e393195d55f639639e02d3db7ad6c3e1e9bbb550faeac79278ad8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/postprocess.log",
+      "destination": "evidence/final/native/postprocess.log",
+      "bytes": 11868,
+      "sha256": "62cfc7a78774f3e1122efb9d3ca44092f46b755f87e68cc48273ebb7e755cdd4"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/process.json",
+      "destination": "evidence/final/native/process.json",
+      "bytes": 46848,
+      "sha256": "ce8eae191e6ef3c4e42052f5f1ecfc6b31ddb9045a53e26de737fcfc33cf9173"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/provider-elf-sections.txt",
+      "destination": "evidence/final/native/provider-elf-sections.txt",
+      "bytes": 4866,
+      "sha256": "a47b17f889aefc26a417261282195f409c633e30e306407077f9f2be7b36cef6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/recording.json",
+      "destination": "evidence/final/native/recording.json",
+      "bytes": 12356,
+      "sha256": "35acec536ecc8865939148a3703e234fd5d0eb3bd12e5872c05e16c871b042fb"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/self.tsv",
+      "destination": "evidence/final/native/self.tsv",
+      "bytes": 124980,
+      "sha256": "ff13f0c38a717d3ec13532dfa614518bf303b8fcb598cfb6c809b9dd8c5539d9"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/summary.json",
+      "destination": "evidence/final/native/summary.json",
+      "bytes": 1390076,
+      "sha256": "d19d28d687a0c27278209d95733f98c6149c599dfacf8e51a8c8870a7b2ddb62"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/within_owner_inclusive.tsv",
+      "destination": "evidence/final/native/within_owner_inclusive.tsv",
+      "bytes": 365898,
+      "sha256": "b724ca8c195958cd18dc2daba910fdab1adbaa09f9f6aa75966f96e50679cc56"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile-decoded/within_owner_self.tsv",
+      "destination": "evidence/final/native/within_owner_self.tsv",
+      "bytes": 180324,
+      "sha256": "cf8eb36a96d9b9ec90e8951c4f1df7436949ede69fbc32fbfc1a804bd7f8f68e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/command.json",
+      "destination": "evidence/final/phases/both/command.json",
+      "bytes": 1141,
+      "sha256": "36fa1ed955efd89f4520f1e43af66fa304c66123b9271ada9d7f0370f23cae7f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/histogram-comparison.json",
+      "destination": "evidence/final/phases/both/histogram-comparison.json",
+      "bytes": 503,
+      "sha256": "a75c5e118bb72353058863708a2e53805de0590f06a4ba37b5a9b0e43234d9e8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/histograms.npz",
+      "destination": "evidence/final/phases/both/histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/library-maps.json",
+      "destination": "evidence/final/phases/both/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/phase-worker.json",
+      "destination": "evidence/final/phases/both/phase-worker.json",
+      "bytes": 202095,
+      "sha256": "8a22c58e102fd80ef5d933b862d1ed33c8d48d28e5757013c8395461404b8852"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/summary.json",
+      "destination": "evidence/final/phases/both/summary.json",
+      "bytes": 183976,
+      "sha256": "3cb3f9ed68f387badd08527dff774c5610873b40071b1ea651a90daac4b3fcea"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/visible.json",
+      "destination": "evidence/final/phases/both/visible.json",
+      "bytes": 6244,
+      "sha256": "b03090fdc60453a0c8f7e935b4871420e75caa4de9312328ad11c282287ebc91"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/both/visible.log",
+      "destination": "evidence/final/phases/both/visible.log",
+      "bytes": 12603,
+      "sha256": "d4bfdfc33aa7b609b30b098aaaa12ad3e3e4934f8e25c6f8ef8bbee7ffd225a8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/command.json",
+      "destination": "evidence/final/phases/large/command.json",
+      "bytes": 1200,
+      "sha256": "a334cc9cf8c6b0134f87db4417f9cdeb029aa534db59fc85fba027dcf7bca5c8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/histogram-comparison.json",
+      "destination": "evidence/final/phases/large/histogram-comparison.json",
+      "bytes": 414,
+      "sha256": "747523545a8e8c8e83750b0046beab3f73378ea66b0bfad42862c6698f8a18de"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/histograms.npz",
+      "destination": "evidence/final/phases/large/histograms.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/library-maps.json",
+      "destination": "evidence/final/phases/large/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/phase-worker.json",
+      "destination": "evidence/final/phases/large/phase-worker.json",
+      "bytes": 29205,
+      "sha256": "a6f5d45cdf88a7e90aaef920ff4d7318a757c6e29c102341ba9ddec810eaaf01"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/summary.json",
+      "destination": "evidence/final/phases/large/summary.json",
+      "bytes": 12022,
+      "sha256": "a829cb5a62ea894327eaecb22160c9a3303e21580ebd145fbb40826c2ef7d1c6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/visible.json",
+      "destination": "evidence/final/phases/large/visible.json",
+      "bytes": 6284,
+      "sha256": "d6def1096e0e8c1bba4ddf28c641930c6fba81b67be4bd3e01983be7e8d54e5c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/large/visible.log",
+      "destination": "evidence/final/phases/large/visible.log",
+      "bytes": 8411,
+      "sha256": "21b8f2ff4616c83cf34cb5efa1f3dcbad24cdee4797d65ce0d2c8dd45946f600"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/provenance.json",
+      "destination": "evidence/final/phases/provenance.json",
+      "bytes": 11364,
+      "sha256": "d1bb76856dd2405e1ff1950c198b475ba88ae532302f33f45489f6c8f066d925"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/command.json",
+      "destination": "evidence/final/phases/small/command.json",
+      "bytes": 1200,
+      "sha256": "c774ccfef64afaa89d9c1bc315472355a014bf98eb180d370721f660eca9c099"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/histogram-comparison.json",
+      "destination": "evidence/final/phases/small/histogram-comparison.json",
+      "bytes": 413,
+      "sha256": "f953a1434f810c1857dc78372f9757df86686e6c8ea27d680709268ccece6f81"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/histograms.npz",
+      "destination": "evidence/final/phases/small/histograms.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/library-maps.json",
+      "destination": "evidence/final/phases/small/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/phase-worker.json",
+      "destination": "evidence/final/phases/small/phase-worker.json",
+      "bytes": 164858,
+      "sha256": "d29f18ffd18b35c3e39c5b2ddbe6c6ee0545270e476c578a3491ed85bf794557"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/summary.json",
+      "destination": "evidence/final/phases/small/summary.json",
+      "bytes": 158567,
+      "sha256": "e2a7489dd672f90cc951d338d02156770cefb10c88a2a3c51587744d22a0001d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/visible.json",
+      "destination": "evidence/final/phases/small/visible.json",
+      "bytes": 6286,
+      "sha256": "82b644ff6d4b9331c4c46e280a05b32ae4dd85e07c5836073bc15ea0c93a1d7c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/visible.log",
+      "destination": "evidence/final/phases/small/visible.log",
+      "bytes": 4889,
+      "sha256": "63bc5f9333920ec3bfa6c9924e079f25d6c3504ce7b1156dc012745dfc4b4e62"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/summary.json",
+      "destination": "evidence/final/phases/summary.json",
+      "bytes": 382091,
+      "sha256": "b367e7fe065a1a8eb94ef4f58b312e115933e8ef3045b7400be29720d9c4638a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/command.json",
+      "destination": "evidence/final/python-profile/command.json",
+      "bytes": 635,
+      "sha256": "f107675f2725cf99f5eb93ec1e51e02fd1f3a7e1880303fe11cc98719156c1e5"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/histogram-comparison.json",
+      "destination": "evidence/final/python-profile/histogram-comparison.json",
+      "bytes": 326,
+      "sha256": "89ac67e291e6b7d14cdc1ee1636623eca685d36168e86862bd9f74ccbf09e8c0"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/histograms.npz",
+      "destination": "evidence/final/python-profile/histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/library-maps.json",
+      "destination": "evidence/final/python-profile/library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/provenance.json",
+      "destination": "evidence/final/python-profile/provenance.json",
+      "bytes": 8523,
+      "sha256": "52e2c16b31d74978e5e9f0b163c398e78dc15b3f9f43955376131bf82cd61e29"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/summary.json",
+      "destination": "evidence/final/python-profile/summary.json",
+      "bytes": 51157,
+      "sha256": "983b17e9546a1be5b219273c689d3a090694c4eaeddd3d7e26ea1b5b087c29c4"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/summary.txt",
+      "destination": "evidence/final/python-profile/summary.txt",
+      "bytes": 24549,
+      "sha256": "38f255391c6c6d60d0c91d0be040fb6cbdd6a67590c6d3c2b52e45a432092e1d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/visible.json",
+      "destination": "evidence/final/python-profile/visible.json",
+      "bytes": 6182,
+      "sha256": "120fad63172f6ebe3d3ce094c078f189e7a6629051bd5e6d9540ed65f84a8724"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/python-profile/visible.log",
+      "destination": "evidence/final/python-profile/visible.log",
+      "bytes": 12606,
+      "sha256": "70f61fa0e7830c4005e55f285b4cc4eada90205e6dd720218e6dd5eeeee64a12"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/full-ntuple.json",
+      "destination": "evidence/final/recovered-large/full-ntuple.json",
+      "bytes": 326526,
+      "sha256": "76c9652e6d05d474cf3abbe15b4434e4eaf51e6a91b88c0d2646b43d11b43611"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/full.npz",
+      "destination": "evidence/final/recovered-large/full.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/nominal.npz",
+      "destination": "evidence/final/recovered-large/nominal.npz",
+      "bytes": 1940,
+      "sha256": "d0477dc3ebea1ee6b7984e8281ac5e0f057f0c5bb86bce44db192566c1c6ceb4"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/recovery.json",
+      "destination": "evidence/final/recovered-large/recovery.json",
+      "bytes": 6618,
+      "sha256": "10140e89062497f3480b40a564c82e0ee6d983631ad1f9b4ae1618069851476f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-large/stored.npz",
+      "destination": "evidence/final/recovered-large/stored.npz",
+      "bytes": 1940,
+      "sha256": "760ebd096dbf65c76b1448058426a166359f0ce687e86b18495592096f4e7d43"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/full-ntuple.json",
+      "destination": "evidence/final/recovered-small/full-ntuple.json",
+      "bytes": 176820,
+      "sha256": "9a9bf74e7649c10e91dccb7c57c2caed7f4b2fb44bdd8c6aaff4562facd7732a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/full.npz",
+      "destination": "evidence/final/recovered-small/full.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/nominal.npz",
+      "destination": "evidence/final/recovered-small/nominal.npz",
+      "bytes": 1940,
+      "sha256": "0c07da80e228e961e806b00c7ba981c43cc53c3b6c039cf4fdb8c5fedae16132"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/recovery.json",
+      "destination": "evidence/final/recovered-small/recovery.json",
+      "bytes": 8083,
+      "sha256": "833653e2f10eb0f18fe845d666ef0f8c73b5ca58da923c6a7cd51eb1ccfb5212"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recovered-small/stored.npz",
+      "destination": "evidence/final/recovered-small/stored.npz",
+      "bytes": 1940,
+      "sha256": "f5a95435b0def3cf241b82adbe5b7c9fcf949ad5962940c472140d18ac7cc142"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/comparison.json",
+      "destination": "evidence/final/shipped-both/comparison.json",
+      "bytes": 2512,
+      "sha256": "1b9f84c3a90d44012fb26dc8879cdc2f6afaf3f067e1aa575999128110f616ee"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-canonical-full-library-maps.json",
+      "destination": "evidence/final/shipped-both/pip-canonical-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-canonical-full.argv.json",
+      "destination": "evidence/final/shipped-both/pip-canonical-full.argv.json",
+      "bytes": 644,
+      "sha256": "b343f7e4673a8251e7d9379b116d9b7f86b8b18ae945c9d0832bbda14c6ab52c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-canonical-full.exit",
+      "destination": "evidence/final/shipped-both/pip-canonical-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-canonical-full.log",
+      "destination": "evidence/final/shipped-both/pip-canonical-full.log",
+      "bytes": 12607,
+      "sha256": "25c47119961902d6d5df8563c999a01ac1ae6cba419006d515e9fb0809845280"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-canonical-full.npz",
+      "destination": "evidence/final/shipped-both/pip-canonical-full.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-both/pip-indexed-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-both/pip-indexed-full.argv.json",
+      "bytes": 602,
+      "sha256": "85233243b0b7b0671064d1004a28916f748b4dd3bee893c5866a297c6a12e34a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-full.exit",
+      "destination": "evidence/final/shipped-both/pip-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-full.log",
+      "destination": "evidence/final/shipped-both/pip-indexed-full.log",
+      "bytes": 12680,
+      "sha256": "97682385cca7f5e16db95acaa7a80833bfd84176406538b29eabc654f2bc883a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-full.npz",
+      "destination": "evidence/final/shipped-both/pip-indexed-full.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal-library-maps.json",
+      "destination": "evidence/final/shipped-both/pip-indexed-nominal-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal.argv.json",
+      "destination": "evidence/final/shipped-both/pip-indexed-nominal.argv.json",
+      "bytes": 608,
+      "sha256": "34ec6fd383f06f02f44857d0d072dcbe3787706c4996a476f19fcde6172a665a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal.exit",
+      "destination": "evidence/final/shipped-both/pip-indexed-nominal.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal.log",
+      "destination": "evidence/final/shipped-both/pip-indexed-nominal.log",
+      "bytes": 718,
+      "sha256": "68f41e552ba617e750180bbe749d38445a90ee537bbf2432016815479f5a8fda"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-indexed-nominal.npz",
+      "destination": "evidence/final/shipped-both/pip-indexed-nominal.npz",
+      "bytes": 3236,
+      "sha256": "015313dd136098c00dffd5d7b285ce280e7fd69f3e4938f3f88e00367e35ee0a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-selected-default-full-library-maps.json",
+      "destination": "evidence/final/shipped-both/pip-selected-default-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-selected-default-full.argv.json",
+      "destination": "evidence/final/shipped-both/pip-selected-default-full.argv.json",
+      "bytes": 588,
+      "sha256": "58dd481d595847df021fc501a86b8de59086632ef094d46d4bd30b9c901da81f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-selected-default-full.exit",
+      "destination": "evidence/final/shipped-both/pip-selected-default-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-selected-default-full.log",
+      "destination": "evidence/final/shipped-both/pip-selected-default-full.log",
+      "bytes": 12689,
+      "sha256": "9139bd61da30c4fbf63e339895687034b04f9d07b4cbf2f0482b81cfa066284c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/pip-selected-default-full.npz",
+      "destination": "evidence/final/shipped-both/pip-selected-default-full.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/uv-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-both/uv-indexed-full-library-maps.json",
+      "bytes": 3653,
+      "sha256": "0c871b284f37ab94b2af8d41f46ce4e7a199a2d93e8aafb5ff588e5b9a5da922"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/uv-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-both/uv-indexed-full.argv.json",
+      "bytes": 881,
+      "sha256": "3d505d961c1333a35c824c4532b574aad1238fa123596e0947c1569a082e0a0e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/uv-indexed-full.exit",
+      "destination": "evidence/final/shipped-both/uv-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/uv-indexed-full.log",
+      "destination": "evidence/final/shipped-both/uv-indexed-full.log",
+      "bytes": 12797,
+      "sha256": "03b220b3999bfad5bf9e3305fad91829521cc2254f8d3039ce93e761baa29a2b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-both/uv-indexed-full.npz",
+      "destination": "evidence/final/shipped-both/uv-indexed-full.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/comparison.json",
+      "destination": "evidence/final/shipped-large/comparison.json",
+      "bytes": 2962,
+      "sha256": "8c5b3b0efd2679810dc85c7971bb01f87cb7903af986b4efc7d269eb2697950b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-canonical-full-library-maps.json",
+      "destination": "evidence/final/shipped-large/pip-canonical-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-canonical-full.argv.json",
+      "destination": "evidence/final/shipped-large/pip-canonical-full.argv.json",
+      "bytes": 646,
+      "sha256": "fe440e3aa5ad50842a9b5fc9915e8ad95b23acbcc70ef7c81631296c38e2218b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-canonical-full.exit",
+      "destination": "evidence/final/shipped-large/pip-canonical-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-canonical-full.log",
+      "destination": "evidence/final/shipped-large/pip-canonical-full.log",
+      "bytes": 8358,
+      "sha256": "96f875b067ae2c8037dfa5c950b36e43cd02fdc0cbf846e44f2e137e83a47271"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-canonical-full.npz",
+      "destination": "evidence/final/shipped-large/pip-canonical-full.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-large/pip-indexed-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-large/pip-indexed-full.argv.json",
+      "bytes": 604,
+      "sha256": "0965cb2722b1eec2b71a60597c34402e8d6d11d14602b11e5208a3737144233c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-full.exit",
+      "destination": "evidence/final/shipped-large/pip-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-full.log",
+      "destination": "evidence/final/shipped-large/pip-indexed-full.log",
+      "bytes": 8488,
+      "sha256": "671df104182f598c879b595d523e06d16dad6e9783e3dfe8a737ed09e1cb5f74"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-full.npz",
+      "destination": "evidence/final/shipped-large/pip-indexed-full.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal-library-maps.json",
+      "destination": "evidence/final/shipped-large/pip-indexed-nominal-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal.argv.json",
+      "destination": "evidence/final/shipped-large/pip-indexed-nominal.argv.json",
+      "bytes": 610,
+      "sha256": "2fa4c4cd7eb36d757473a7fbba0ab02c37f0ed422449f1da4f5a03dd48c6dca8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal.exit",
+      "destination": "evidence/final/shipped-large/pip-indexed-nominal.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal.log",
+      "destination": "evidence/final/shipped-large/pip-indexed-nominal.log",
+      "bytes": 745,
+      "sha256": "d695dd7cfc2662eb965ced197906abe8c2593ba7cb9df190ac64deb52322d0e6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-indexed-nominal.npz",
+      "destination": "evidence/final/shipped-large/pip-indexed-nominal.npz",
+      "bytes": 1940,
+      "sha256": "d0477dc3ebea1ee6b7984e8281ac5e0f057f0c5bb86bce44db192566c1c6ceb4"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-selected-default-full-library-maps.json",
+      "destination": "evidence/final/shipped-large/pip-selected-default-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-selected-default-full.argv.json",
+      "destination": "evidence/final/shipped-large/pip-selected-default-full.argv.json",
+      "bytes": 590,
+      "sha256": "599dd0e8506eee701d1cbeb6b72837a1783de99aab3a26d32276069731229add"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-selected-default-full.exit",
+      "destination": "evidence/final/shipped-large/pip-selected-default-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-selected-default-full.log",
+      "destination": "evidence/final/shipped-large/pip-selected-default-full.log",
+      "bytes": 8497,
+      "sha256": "b7ddf8a8c4ccfe7e8e5fbbdf8b2d8f7fd09fd5ede6a1b8ea71d83a1b5dda5016"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/pip-selected-default-full.npz",
+      "destination": "evidence/final/shipped-large/pip-selected-default-full.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/uv-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-large/uv-indexed-full-library-maps.json",
+      "bytes": 3653,
+      "sha256": "0c871b284f37ab94b2af8d41f46ce4e7a199a2d93e8aafb5ff588e5b9a5da922"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/uv-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-large/uv-indexed-full.argv.json",
+      "bytes": 883,
+      "sha256": "8123da929d2c6bb8f49b5cf9587eada00933a0f09f7e9b522625b5f184edd840"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/uv-indexed-full.exit",
+      "destination": "evidence/final/shipped-large/uv-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/uv-indexed-full.log",
+      "destination": "evidence/final/shipped-large/uv-indexed-full.log",
+      "bytes": 8605,
+      "sha256": "15e8079a93d0fe17372c1195ef5802f0c6172addba9b97187955da604b043997"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-large/uv-indexed-full.npz",
+      "destination": "evidence/final/shipped-large/uv-indexed-full.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/comparison.json",
+      "destination": "evidence/final/shipped-small/comparison.json",
+      "bytes": 2962,
+      "sha256": "258c52b93632f709b4c0e06c8fb8db6c406140a64b18123c384cf6509137252e"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-canonical-full-library-maps.json",
+      "destination": "evidence/final/shipped-small/pip-canonical-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-canonical-full.argv.json",
+      "destination": "evidence/final/shipped-small/pip-canonical-full.argv.json",
+      "bytes": 646,
+      "sha256": "d63cdebd67f5101f1b1d0705d6f80aa81cbf17782e3add5b3eb07073c1046205"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-canonical-full.exit",
+      "destination": "evidence/final/shipped-small/pip-canonical-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-canonical-full.log",
+      "destination": "evidence/final/shipped-small/pip-canonical-full.log",
+      "bytes": 4761,
+      "sha256": "94bd17312a8ede66977fe13697ac774ac33b6fe78f17893f8d3c192da3979733"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-canonical-full.npz",
+      "destination": "evidence/final/shipped-small/pip-canonical-full.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-small/pip-indexed-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-small/pip-indexed-full.argv.json",
+      "bytes": 604,
+      "sha256": "0053223ceb0a210f4440261f3b0d7ce1dc758379232568235b0e31e46e44c3d7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-full.exit",
+      "destination": "evidence/final/shipped-small/pip-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-full.log",
+      "destination": "evidence/final/shipped-small/pip-indexed-full.log",
+      "bytes": 4966,
+      "sha256": "4a12379176f20311c290923216642762e2c4fe37421062343cb73fd84839e292"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-full.npz",
+      "destination": "evidence/final/shipped-small/pip-indexed-full.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-nominal-library-maps.json",
+      "destination": "evidence/final/shipped-small/pip-indexed-nominal-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-nominal.argv.json",
+      "destination": "evidence/final/shipped-small/pip-indexed-nominal.argv.json",
+      "bytes": 610,
+      "sha256": "c9e1db76b9967355236e533093fa0665810f1ae9a64fd9e634044673c50a8f62"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-nominal.exit",
+      "destination": "evidence/final/shipped-small/pip-indexed-nominal.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-nominal.log",
+      "destination": "evidence/final/shipped-small/pip-indexed-nominal.log",
+      "bytes": 750,
+      "sha256": "f2e93e985f5f580f14ccd5225234dcfe59872706a8d024404574a57533a665ee"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-indexed-nominal.npz",
+      "destination": "evidence/final/shipped-small/pip-indexed-nominal.npz",
+      "bytes": 1940,
+      "sha256": "0c07da80e228e961e806b00c7ba981c43cc53c3b6c039cf4fdb8c5fedae16132"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-selected-default-full-library-maps.json",
+      "destination": "evidence/final/shipped-small/pip-selected-default-full-library-maps.json",
+      "bytes": 2993,
+      "sha256": "814445c3b71f42d0b46cb4b23b10fcf1546d86028ea5312758d89666bf23529d"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-selected-default-full.argv.json",
+      "destination": "evidence/final/shipped-small/pip-selected-default-full.argv.json",
+      "bytes": 590,
+      "sha256": "a251ceb57d6cb79c95b52bccbfb2713c97b1a5c454353b53b89264747c78d3db"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-selected-default-full.exit",
+      "destination": "evidence/final/shipped-small/pip-selected-default-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-selected-default-full.log",
+      "destination": "evidence/final/shipped-small/pip-selected-default-full.log",
+      "bytes": 4975,
+      "sha256": "48a05f47dcd45f5b71be161dd41c829bdef633f13957106aab8cecd66d663f6c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/pip-selected-default-full.npz",
+      "destination": "evidence/final/shipped-small/pip-selected-default-full.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/uv-indexed-full-library-maps.json",
+      "destination": "evidence/final/shipped-small/uv-indexed-full-library-maps.json",
+      "bytes": 3653,
+      "sha256": "0c871b284f37ab94b2af8d41f46ce4e7a199a2d93e8aafb5ff588e5b9a5da922"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/uv-indexed-full.argv.json",
+      "destination": "evidence/final/shipped-small/uv-indexed-full.argv.json",
+      "bytes": 883,
+      "sha256": "08a5c45982fb37481b0bdc73aa9593722b1896bd376d8b912453d19583230a80"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/uv-indexed-full.exit",
+      "destination": "evidence/final/shipped-small/uv-indexed-full.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/uv-indexed-full.log",
+      "destination": "evidence/final/shipped-small/uv-indexed-full.log",
+      "bytes": 5083,
+      "sha256": "7fe249b69bd29f5e446c2a880596faf83b28af7cf1d1d42cfed1b879e1dd1fd8"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/shipped-small/uv-indexed-full.npz",
+      "destination": "evidence/final/shipped-small/uv-indexed-full.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+      "destination": "evidence/final/source/calibration-provenance.json",
+      "bytes": 175116,
+      "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/installations.json",
+      "destination": "evidence/final/source/installations.json",
+      "bytes": 1238,
+      "sha256": "08271c6a4ab80546b7563ef1aacf4cb34e802ff5d725734135a17300ce046ca2"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-input.json",
+      "destination": "evidence/final/source/jets-input.json",
+      "bytes": 964,
+      "sha256": "81f90f4405cc18744b2e9937aeea02cdff3c95a846f72e4a0519d0ad41c8ceee"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-partition-001/manifest.json",
+      "destination": "evidence/final/source/partition.json",
+      "bytes": 5896,
+      "sha256": "c8c2805a0eee5badb32ea2222d95ebccb53c5d2ac42916bf4133b10d61b680c7"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json",
+      "destination": "evidence/final/source/payload-index.json",
+      "bytes": 687,
+      "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/contracts/final-shipment.json",
+      "destination": "evidence/final/source/qualification-specification.json",
+      "bytes": 1179,
+      "sha256": "d0593712adc4d8692c159b68e8d1e5ced58d461d453914e2fe564b86caa1aa55"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/benchmark-pilot-combined-002/01-full/histograms.npz",
+      "destination": "evidence/final/source/stock-both-32/histograms.npz",
+      "bytes": 173712,
+      "sha256": "e67f40dafad24276d7fc2b73126f0847ebc3e52f13598d568565904afeb8a2d3"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/benchmark-pilot-combined-002/provenance.json",
+      "destination": "evidence/final/source/stock-both-32/provenance.json",
+      "bytes": 4777,
+      "sha256": "129e8ba4ca30f47a8f3a14e8dacba9b8d65c36d8580a13e42814adfe8e38337a"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/framework.json",
+      "destination": "evidence/final/source/stock-both/framework.json",
+      "bytes": 29786,
+      "sha256": "eaff052e882c1c8f501ccd3a4bf3af3457ff5fd80e93030f486ddf2f4ea14c5c"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histogram.json",
+      "destination": "evidence/final/source/stock-both/histogram.json",
+      "bytes": 5021,
+      "sha256": "1c74c41180c00d5956e545b3115c4c0e7e6ad0adb9f6b590762315f69f791546"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/01-full/histograms.npz",
+      "destination": "evidence/final/source/stock-both/histograms.npz",
+      "bytes": 173712,
+      "sha256": "59ca1efb391da360440c8f53093266da653e5d1dd477df308023dc8c304da981"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-combined-002/provenance.json",
+      "destination": "evidence/final/source/stock-both/provenance.json",
+      "bytes": 4994,
+      "sha256": "c2aa5ebeadd9d658ac7173b05e520ab1d37b787441bed560bc221488e0ca847f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/framework.json",
+      "destination": "evidence/final/source/stock-large/framework.json",
+      "bytes": 28219,
+      "sha256": "b2e6950a2853a33215e9df5ac114e1b3df3d175c9607c4465a95aa6d3e5742bc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histogram.json",
+      "destination": "evidence/final/source/stock-large/histogram.json",
+      "bytes": 6041,
+      "sha256": "f7de7485dde4d958355fb809015d15fe47d58cc84629308f5c5121a888306adf"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+      "destination": "evidence/final/source/stock-large/histograms.npz",
+      "bytes": 114644,
+      "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/provenance.json",
+      "destination": "evidence/final/source/stock-large/provenance.json",
+      "bytes": 4991,
+      "sha256": "4b91a9b72365bcfc370bc2fee2e2b7c031ba6619b8413de3ceebf1716eaa61bc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/command.txt",
+      "destination": "evidence/final/source/stock-observer/command.txt",
+      "bytes": 400,
+      "sha256": "564596362d4b58f9a41b295c6d06903102f294510d8cb175f3cab73bb5793582"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/exit-code.txt",
+      "destination": "evidence/final/source/stock-observer/exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/initialized-tools.tsv",
+      "destination": "evidence/final/source/stock-observer/initialized-tools.tsv",
+      "bytes": 63777,
+      "sha256": "1aca5d60991103f20a57c8a5254eccc94941bf38c1c33c41cf29dffd44d7a547"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/input.sha256",
+      "destination": "evidence/final/source/stock-observer/input.sha256",
+      "bytes": 307,
+      "sha256": "74de671137d1e50ae35e5a4d4e31cd8528be4d22be538e82c18eebbde0521da6"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/process-status.txt",
+      "destination": "evidence/final/source/stock-observer/process-status.txt",
+      "bytes": 1472,
+      "sha256": "85492fa0995903d8edf8a4f7a876cbbd332165cec59f08a003b6b88e4b330277"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/reference.sha256",
+      "destination": "evidence/final/source/stock-observer/reference.sha256",
+      "bytes": 114,
+      "sha256": "a7851aed0929c41ad3ccf2f1785f15633855038330fc97fa42255b79575ec8bc"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-clean-001/verification.json",
+      "destination": "evidence/final/source/stock-observer/verification.json",
+      "bytes": 2501,
+      "sha256": "fb1d941fecc1b09346779f7b0dcc35b22f1c1d81a4da6c5859d356eee410a320"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/framework.json",
+      "destination": "evidence/final/source/stock-small/framework.json",
+      "bytes": 30323,
+      "sha256": "2c014c065211ea7c9db8c897f464e0b3703519e3ec4c19e83ff9d4655292cfdd"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histogram.json",
+      "destination": "evidence/final/source/stock-small/histogram.json",
+      "bytes": 6046,
+      "sha256": "328daeaccbe8e508eb78ad0545cd4182ea0d38552c612fdbd7132718ccd89b3f"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+      "destination": "evidence/final/source/stock-small/histograms.npz",
+      "bytes": 59712,
+      "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+    },
+    {
+      "source": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/provenance.json",
+      "destination": "evidence/final/source/stock-small/provenance.json",
+      "bytes": 4991,
+      "sha256": "bdc979756e50108b5e10d7e1191a5f4f3584d129b2642be789bce38c8acc5a37"
+    }
+  ]
+}

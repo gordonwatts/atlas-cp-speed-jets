@@ -1,0 +1,67 @@
+{
+  "scopes": [
+    "large"
+  ],
+  "all_histograms_exact": true,
+  "matched_physical_branches": {
+    "large": "5cc1a50d65556b13cc234295f28ec9b4b75a869c3b503cfc10c53da60b9ee9fc"
+  },
+  "results": {
+    "large": {
+      "arms": {
+        "control": {
+          "wall": {
+            "warmup_s": 2.784260881,
+            "retained": [
+              2.781382232,
+              2.813141195,
+              2.819210413
+            ],
+            "mean_s": 2.8045779466666665,
+            "sample_sd_s": 0.02031599704557826,
+            "sample_cv": 0.00724386964167799,
+            "max_median_deviation": 0.011289501947661798,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            2.758361,
+            2.786733,
+            2.7966349999999998
+          ],
+          "mean_cpu_s": 2.7805763333333333,
+          "sample_sd_cpu_s": 0.019865879727143532
+        },
+        "borrow": {
+          "wall": {
+            "warmup_s": 2.840932953,
+            "retained": [
+              2.914484103,
+              2.901241832,
+              2.904459665
+            ],
+            "mean_s": 2.9067285333333333,
+            "sample_sd_s": 0.0069065373339221615,
+            "sample_cv": 0.002376051720936592,
+            "max_median_deviation": 0.003451395149603449,
+            "pass": true
+          },
+          "retained_cpu_s": [
+            2.884851,
+            2.8694960000000003,
+            2.875466
+          ],
+          "mean_cpu_s": 2.8766043333333333,
+          "sample_sd_cpu_s": 0.007740533465681174
+        }
+      },
+      "same_round_wall_ratios": [
+        0.9543308982666975,
+        0.9696334734911543,
+        0.9706488428717773
+      ],
+      "control_over_borrow": 0.9648571975348781,
+      "qualified_for_spread": true
+    }
+  },
+  "all_series_within_spread": true
+}

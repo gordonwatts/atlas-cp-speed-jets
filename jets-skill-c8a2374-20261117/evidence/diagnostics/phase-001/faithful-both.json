@@ -1,0 +1,141 @@
+{
+  "argv": [
+    "tools/profile_columnar.py",
+    "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/phase-001/faithful-both.npz",
+    "--provider",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/complete-005/libjets.so",
+    "--payload",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/complete-005/payload/jets.json",
+    "--mode",
+    "full",
+    "--scope",
+    "both",
+    "-e",
+    "2000",
+    "--chunk",
+    "1000"
+  ],
+  "process": {
+    "threads": 1,
+    "cpu": 3
+  },
+  "main_wall_ns": 10062385680,
+  "main_cpu_ns": 9946648795,
+  "observations": {
+    "load_provider_and_payload": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 3770274036,
+      "cpu_ns": 3657885804
+    },
+    "input_tree_arrays": {
+      "calls": 2,
+      "rows": 0,
+      "wall_ns": 203075279,
+      "cpu_ns": 203080801
+    },
+    "jet_event_inputs": {
+      "calls": 2,
+      "rows": 2000,
+      "wall_ns": 396064,
+      "cpu_ns": 394885
+    },
+    "jet_pileup_truth": {
+      "calls": 4,
+      "rows": 22066,
+      "wall_ns": 12389873,
+      "cpu_ns": 12390703
+    },
+    "small_pileup": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 1127883,
+      "cpu_ns": 1127755
+    },
+    "small_eta_jes": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 5693904,
+      "cpu_ns": 5695605
+    },
+    "small_gsc": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 10867895,
+      "cpu_ns": 10864324
+    },
+    "small_uncertainty": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 4551421901,
+      "cpu_ns": 4550118860
+    },
+    "small_nnjvt_update": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 308457843,
+      "cpu_ns": 308550379
+    },
+    "small_nnjvt_select": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 49116335,
+      "cpu_ns": 49165802
+    },
+    "small_nnjvt_sf": {
+      "calls": 238,
+      "rows": 2368814,
+      "wall_ns": 83788753,
+      "cpu_ns": 83853640
+    },
+    "jet_event_sf": {
+      "calls": 238,
+      "rows": 238000,
+      "wall_ns": 9541847,
+      "cpu_ns": 9552629
+    },
+    "histogram_fill": {
+      "calls": 676,
+      "rows": 0,
+      "wall_ns": 47630361,
+      "cpu_ns": 47728328
+    },
+    "large_eta_jes": {
+      "calls": 2,
+      "rows": 2160,
+      "wall_ns": 919830,
+      "cpu_ns": 919516
+    },
+    "large_jms": {
+      "calls": 2,
+      "rows": 2160,
+      "wall_ns": 545021,
+      "cpu_ns": 545286
+    },
+    "large_uncertainty": {
+      "calls": 366,
+      "rows": 395280,
+      "wall_ns": 637317854,
+      "cpu_ns": 637351539
+    },
+    "large_selection": {
+      "calls": 438,
+      "rows": 473040,
+      "wall_ns": 25140118,
+      "cpu_ns": 25164106
+    },
+    "large_jmr": {
+      "calls": 72,
+      "rows": 77760,
+      "wall_ns": 29197637,
+      "cpu_ns": 29208972
+    },
+    "write_npz": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 540857,
+      "cpu_ns": 541014
+    }
+  }
+}

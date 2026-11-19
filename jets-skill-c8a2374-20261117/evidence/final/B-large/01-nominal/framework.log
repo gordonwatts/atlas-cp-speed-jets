@@ -1,0 +1,306 @@
+Py:CPBaseRunner      INFO EventLoopCPRunScript initialized
+Py:CPBaseRunner      INFO Initialized input files: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1']
+Py:CPBaseRunner      INFO Found YAML config at: /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/config/jets-a-large.yaml
+Py:CPBaseRunner      INFO Setting up configuration based on YAML config:
+xAOD::Init                INFO    Environment initialised for data access
+Py:CPBaseRunner      INFO Adding files to the sample handler
+Py:CPBaseRunner      INFO =========================================================================
+Py:CPBaseRunner      INFO ====================FLAG CONFIGURATION====================
+Py:CPBaseRunner      INFO =========================================================================
+Py:CPBaseRunner      INFO     Input files:     ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1']
+Py:AutoConfigFlags    INFO Obtaining metadata of auto-configuration by peeking into '/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1'
+Py:MetaReader        INFO Current mode used: lite
+Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1']
+Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+Py:CPBaseRunner      INFO     isMC:            True
+Py:CPBaseRunner      INFO     RunNumber:       [410000]
+Py:CPBaseRunner      INFO     MCCampaign:      Campaign.MC23a
+Py:AutoConfigFlags    INFO Looking into the file in 'peeker' mode as the configuration requires more details: generators 
+Py:MetaReader        INFO Current mode used: peeker
+Py:MetaReader        INFO Current filenames: ['/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1']
+Py:MetaReader        INFO MetaReader is called with the parameter "unique_tag_info_values" set to True. This is a workaround to remove all duplicate values from "/TagInfo" key
+Py:CPBaseRunner      INFO     GeneratorInfo:   {'Powheg': '2_r3631', 'Pythia8': '308', 'EvtGen': '2.1.1'}
+Py:CPBaseRunner      INFO     MaxEvents:       20000
+Py:CPBaseRunner      INFO     SkipEvents:      0
+Py:CPBaseRunner      INFO =========================================================================
+Py:CPBaseRunner      INFO Configuring algorithms based on YAML file
+Py:CPBaseRunner      INFO Configuring common services
+Py:getRun3NavigationContainerFromInput    INFO Returning HLTNav_Summary_DAODSlimmed as the Run 3 trigger navigation collection to read in this job.
+Py:CPBaseRunner      INFO Configuring algorithms
+Py:GeoModelConfigFlags    INFO Deducing LHC Run period from the geometry tag name "ATLAS-R3S-2021-03-02-00" as database access is not available in analysis releases
+Py:GeoModelConfigFlags    INFO Using LHC Run period "RUN3"
+Package.EventLoop        INFO    created submission directory /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/workDir-2026-11-18-0506-5f69
+Package.EventLoop        INFO    created sym-link at: /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/workDir
+Package.EventLoop        INFO    submitting job in /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/workDir-2026-11-18-0506-5f69
+Package.EventLoop        INFO    Running sample: reference
+Package.EventLoop        INFO    xAODInput = 1
+Package.EventLoop        INFO    calling firstInitialize on all modules
+Package.EventLoop        INFO    calling preFileInitialize on all modules
+Package.EventLoop        INFO    Opening file file:///cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1
+Package.xAOD::Event      INFO    Using aux mode kClassAccess for file /cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1
+ELModule.DirectInputMo...INFO    Opened input file: file:///cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1
+seq1_JetPileupLabelAlg...INFO    Initializing seq1_JetPileupLabelAlg_LargeR.decorator
+seq1_JetPileupLabelAlg...INFO    Parameters for seq1_JetPileupLabelAlg_LargeR.decorator :
+seq1_JetPileupLabelAlg...INFO    HS Truth Jet Container:           AntiKt4TruthDressedWZJets
+seq1_JetPileupLabelAlg...INFO    Name of isHS Label Decoration:    isJvtHS
+seq1_JetPileupLabelAlg...INFO    Name of isPU Label Decoration:    isJvtPU
+ToolSvc.JetCalibTool_A...INFO    Initializing ToolSvc.JetCalibTool_AntiKt10UFOCSSKSoftDropBeta100Zcut10 to calibrate AntiKt10UFOCSSKSoftDropBeta100Zcut10Jets
+ToolSvc.JetCalibTool_A...INFO    Reading global JES settings from: JetCalibTools/CalibArea-00-04-83/CalibrationConfigs/JES_MC20PreRecommendation_R10_UFO_CSSK_SoftDrop_JMS_R21Insitu_26Nov2024.config
+ToolSvc.JetCalibTool_A...INFO      Calibration sequence: EtaJES_JMS
+ToolSvc.JetCalibTool_A...INFO    Have loaded metadata mcDSID:601229, generatorsInfo: Powheg(v.2_r3631)+Pythia8(v.308)+EvtGen(v.2.1.1), mcCampaign: MC23, simFlavour: FullG4_QS
+ToolSvc.JetCalibTool_A...INFO    Have loaded metadata mcDSID:601229, generatorsInfo: Powheg(v.2_r3631)+Pythia8(v.308)+EvtGen(v.2.1.1), mcCampaign: MC23, simFlavour: FullG4_QS
+ToolSvc.JetCalibTool_A...INFO    Initializing the JMS Calibration tool
+seq1_JetUncertaintiesA...INFO    Preparing to initialize the JetUncertaintiesTool named seq1_JetUncertaintiesAlg_LargeR.uncertaintiesTool
+seq1_JetUncertaintiesA...INFO    ================================================
+seq1_JetUncertaintiesA...INFO      Initializing the JetUncertaintiesTool named seq1_JetUncertaintiesAlg_LargeR.uncertaintiesTool
+seq1_JetUncertaintiesA...INFO      Path is: ""
+seq1_JetUncertaintiesA...INFO      CalibArea is: "CalibArea-08"
+seq1_JetUncertaintiesA...INFO      IsData is: "false"
+seq1_JetUncertaintiesA...INFO      Configuration file: "rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config
+seq1_JetUncertaintiesA...INFO      Uncertainty release: rel22_Summer2025_PreRec
+seq1_JetUncertaintiesA...INFO      Jet definition: AntiKt10UFOCSSKSoftDropBeta100Zcut10
+seq1_JetUncertaintiesA...INFO      MC type: MC23
+seq1_JetUncertaintiesA...INFO      UncertaintyFile: "rel22/Summer2025_PreRec/R10_AllComponents.root"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root
+seq1_JetUncertaintiesA...INFO      AnalysisFile: "analysisInputs/UnknownFlavourCompR10.root"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root
+seq1_JetUncertaintiesA...INFO      FileValidHistogram: ValidRange_JMS (PtAbsMassEta) [Calo]
+seq1_JetUncertaintiesA...INFO      NominalPtResData: "JER_Nominal_R10_Both,PtAbsEta,OnlyX"
+seq1_JetUncertaintiesA...INFO      NominalPtResMC: "JER_Nominal_R10_Both,PtAbsEta,OnlyX"
+seq1_JetUncertaintiesA...INFO      ResolutionSmearOnlyMC: "false"
+seq1_JetUncertaintiesA...INFO    
+seq1_JetUncertaintiesA...INFO           JES uncert. comp.                        : Description
+seq1_JetUncertaintiesA...INFO           -----------------                         ------------
+seq1_JetUncertaintiesA...INFO        1. JET_EtaIntercalibration_ModellingAndMethod : Eta intercalibration: MC generator modelling and method uncertainty
+seq1_JetUncertaintiesA...INFO        2. JET_EtaIntercalibration_R10_TotalStat    : Eta intercalibration: statistical uncertainty
+seq1_JetUncertaintiesA...INFO        3. JET_Flavor_Composition                   : Flavor composition uncertainty
+seq1_JetUncertaintiesA...INFO        4. JET_Flavor_Response                      : Flavor response uncertainty (dominated by gluon response)
+seq1_JetUncertaintiesA...INFO        5. JET_JER_AllOthers                        : 
+seq1_JetUncertaintiesA...INFO        6. JET_EffectiveNP_R10_Statistical1         : Effective JES Uncertainty Statistical Component 1
+seq1_JetUncertaintiesA...INFO        7. JET_EffectiveNP_R10_Statistical2         : Effective JES Uncertainty Statistical Component 2
+seq1_JetUncertaintiesA...INFO        8. JET_EffectiveNP_R10_Statistical3         : Effective JES Uncertainty Statistical Component 3
+seq1_JetUncertaintiesA...INFO        9. JET_EffectiveNP_R10_Statistical4         : Effective JES Uncertainty Statistical Component 4
+seq1_JetUncertaintiesA...INFO       10. JET_EffectiveNP_R10_Statistical5         : Effective JES Uncertainty Statistical Component 5
+seq1_JetUncertaintiesA...INFO       11. JET_EffectiveNP_R10_Statistical6         : Effective JES Uncertainty Statistical Component 6
+seq1_JetUncertaintiesA...INFO       12. JET_EffectiveNP_R10_Statistical7         : Effective JES Uncertainty Statistical Component 7
+seq1_JetUncertaintiesA...INFO       13. JET_EffectiveNP_R10_Statistical8         : Effective JES Uncertainty Statistical Component 8
+seq1_JetUncertaintiesA...INFO       14. JET_EffectiveNP_R10_Modelling1           : Effective JES Uncertainty Modelling Component 1
+seq1_JetUncertaintiesA...INFO       15. JET_EffectiveNP_R10_Modelling2           : Effective JES Uncertainty Modelling Component 2
+seq1_JetUncertaintiesA...INFO       16. JET_EffectiveNP_R10_Modelling3           : Effective JES Uncertainty Modelling Component 3
+seq1_JetUncertaintiesA...INFO       17. JET_EffectiveNP_R10_Modelling4           : Effective JES Uncertainty Modelling Component 4
+seq1_JetUncertaintiesA...INFO       18. JET_EffectiveNP_R10_Modelling5           : Effective JES Uncertainty Modelling Component 5
+seq1_JetUncertaintiesA...INFO       19. JET_EffectiveNP_R10_Modelling6           : Effective JES Uncertainty Modelling Component 6
+seq1_JetUncertaintiesA...INFO       20. JET_EffectiveNP_R10_Modelling7           : Effective JES Uncertainty Modelling Component 7
+seq1_JetUncertaintiesA...INFO       21. JET_EffectiveNP_R10_Detector1            : Effective JES Uncertainty Detector Component 1
+seq1_JetUncertaintiesA...INFO       22. JET_EffectiveNP_R10_Detector2            : Effective JES Uncertainty Detector Component 2
+seq1_JetUncertaintiesA...INFO       23. JET_EffectiveNP_R10_Mixed1               : Effective JES Uncertainty Mixed Component 1
+seq1_JetUncertaintiesA...INFO       24. JET_EffectiveNP_R10_Mixed2               : Effective JES Uncertainty Mixed Component 2
+seq1_JetUncertaintiesA...INFO       25. JET_EffectiveNP_R10_Mixed3               : Effective JES Uncertainty Mixed Component 3
+seq1_JetUncertaintiesA...INFO       26. JET_EffectiveNP_R10_Mixed4               : Effective JES Uncertainty Mixed Component 4
+seq1_JetUncertaintiesA...INFO       27. JET_LargeR_TopologyUncertainty_V         : Topology Uncertainty for W/Z bosons
+seq1_JetUncertaintiesA...INFO       28. JET_LargeR_TopologyUncertainty_top       : Topology uncertainty for top quarks
+seq1_JetUncertaintiesA...INFO       29. JET_EtaIntercalibration_NonClosure_R10_PreRec : Eta intercalibration non-closure uncertainty wrt rel22, early Run3
+seq1_JetUncertaintiesA...INFO       30. JET_InSitu_NonClosure_R10_PreRec         : InSitu non-closure uncertainty derived in G+jet rel22, early Run3 
+seq1_JetUncertaintiesA...INFO       31. JET_JESUnc_Noise_R10_PreRec              : Pre recommendation systematics for R22. Comparison of different noise threshold setting
+seq1_JetUncertaintiesA...INFO       32. JET_JESUnc_VertexingAlg_PreRec           : Pre recommendation systematics for R22. Taken from Small R
+seq1_JetUncertaintiesA...INFO       33. JET_JESUnc_mc20vsmc21_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc21
+seq1_JetUncertaintiesA...INFO       34. JET_JESUnc_mc20vsmc23_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc23
+seq1_JetUncertaintiesA...INFO       35. JET_JESUnc_mc20AF3vsmc20FS_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of mc20 AF3 and Full Sim
+seq1_JetUncertaintiesA...INFO       36. JET_JESUnc_mc23vsmc23AF3_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of mc23 AF3 and Full Sim
+seq1_JetUncertaintiesA...INFO       37. JET_JER_DataVsMC_R10_MC16                : NP covering when JER(data) < JER(MC), R10
+seq1_JetUncertaintiesA...INFO       38. JET_JER_dijet_R10_closure                : Dijet JER evaluation, closure, R10
+seq1_JetUncertaintiesA...INFO       39. JET_JER_dijet_R10_selection              : Dijet JER evaluation, event selection, R10
+seq1_JetUncertaintiesA...INFO       40. JET_JER_dijet_R10_jesEffNP1              : Dijet JER evaluation, propagation of JES global reduction NP1, R10
+seq1_JetUncertaintiesA...INFO       41. JET_JER_dijet_R10_jesEffNP3              : Dijet JER evaluation, propagation of JES global reduction NP3, R10
+seq1_JetUncertaintiesA...INFO       42. JET_JER_dijet_R10_jesEffNP4              : Dijet JER evaluation, propagation of JES global reduction NP4, R10
+seq1_JetUncertaintiesA...INFO       43. JET_JER_dijet_R10_jesEtaIntMod           : Dijet JER evaluation, propagation of JES eta intercalibration modelling NP, R10
+seq1_JetUncertaintiesA...INFO       44. JET_JER_dijet_R10_jesFlavComp            : Dijet JER evaluation, propagation of JES flavour composition, R10
+seq1_JetUncertaintiesA...INFO       45. JET_JER_dijet_R10_jesFlavResp            : Dijet JER evaluation, propagation of JES flavour response, R10
+seq1_JetUncertaintiesA...INFO       46. JET_JER_dijet_R10_mcgenerator            : Dijet JER evaluation, MC generator difference, R10
+seq1_JetUncertaintiesA...INFO       47. JET_JER_dijet_R10_stat                   : Dijet JER evaluation, statistical NP, R10
+seq1_JetUncertaintiesA...INFO       48. JET_JERUnc_mc20vsmc21_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc21
+seq1_JetUncertaintiesA...INFO       49. JET_JERUnc_mc20vsmc23_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc23
+seq1_JetUncertaintiesA...INFO       50. JET_JERUnc_Noise_R10_PreRec              : Pre recommendation systematics for JER R22. Comparison of different noise threshold setting
+seq1_JetUncertaintiesA...INFO       51. JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC20 UFOCSSKSD and MC16LCTopoTrimmed jets
+seq1_JetUncertaintiesA...INFO       52. JET_JERUnc_mc20AF3vsmc20FS_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC20 AF3 and Full Sim jets
+seq1_JetUncertaintiesA...INFO       53. JET_JERUnc_mc23vsmc23AF3_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC23 AF3 and Full Sim jets
+seq1_JetUncertaintiesA...INFO       54. JET_JMS_FF_detector                      : 
+seq1_JetUncertaintiesA...INFO       55. JET_JMS_FF_modelling                     : 
+seq1_JetUncertaintiesA...INFO       56. JET_JMS_FF_stat10                        : 
+seq1_JetUncertaintiesA...INFO       57. JET_JMS_FF_stat1                         : 
+seq1_JetUncertaintiesA...INFO       58. JET_JMS_FF_stat2                         : 
+seq1_JetUncertaintiesA...INFO       59. JET_JMS_FF_stat3                         : 
+seq1_JetUncertaintiesA...INFO       60. JET_JMS_FF_stat4                         : 
+seq1_JetUncertaintiesA...INFO       61. JET_JMS_FF_stat5                         : 
+seq1_JetUncertaintiesA...INFO       62. JET_JMS_FF_stat6                         : 
+seq1_JetUncertaintiesA...INFO       63. JET_JMS_FF_stat7                         : 
+seq1_JetUncertaintiesA...INFO       64. JET_JMS_FF_stat8                         : 
+seq1_JetUncertaintiesA...INFO       65. JET_JMS_FF_stat9                         : 
+seq1_JetUncertaintiesA...INFO       66. JET_JMS_Rtrk_generator                   : 
+seq1_JetUncertaintiesA...INFO       67. JET_JMS_Rtrk_stat1                       : 
+seq1_JetUncertaintiesA...INFO       68. JET_JMS_Rtrk_stat2                       : 
+seq1_JetUncertaintiesA...INFO       69. JET_JMS_Rtrk_stat3                       : 
+seq1_JetUncertaintiesA...INFO       70. JET_JMS_Rtrk_stat4                       : 
+seq1_JetUncertaintiesA...INFO       71. JET_JMS_Rtrk_stat5                       : 
+seq1_JetUncertaintiesA...INFO       72. JET_JMS_Rtrk_stat6                       : 
+seq1_JetUncertaintiesA...INFO       73. JET_JMS_Rtrk_tracking1                   : 
+seq1_JetUncertaintiesA...INFO       74. JET_JMS_Rtrk_tracking2                   : 
+seq1_JetUncertaintiesA...INFO       75. JET_JMS_Rtrk_tracking3                   : 
+seq1_JetUncertaintiesA...INFO       76. JET_JMS_Rtrk_ufoclosure                  : 
+seq1_JetUncertaintiesA...INFO       77. JET_JMS_SmoothingChoice                  : 
+seq1_JetUncertaintiesA...INFO       78. JET_JMS_Topology_QCD                     : 
+seq1_JetUncertaintiesA...INFO       79. JET_JMSUnc_mc20vsmc21_MC23_PreRec        : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20vs21
+seq1_JetUncertaintiesA...INFO       80. JET_JMSUnc_mc20vsmc23_MC23_PreRec        : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20vs23
+seq1_JetUncertaintiesA...INFO       81. JET_JMSUnc_Noise_PreRec                  : Pre recommendation systematics for R22. Comparison of different topocluster noise threshold setting.
+seq1_JetUncertaintiesA...INFO       82. JET_JMSUnc_Modelling_PreRec              : Pre recommendation systematics for R22. Non closure of MC20(Pythia) vs MC20 Herwig
+seq1_JetUncertaintiesA...INFO       83. JET_JMSUnc_mc20AF3vsmc20FS_MC23_PreRec   : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20 AF3 vs Full Sim
+seq1_JetUncertaintiesA...INFO       84. JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20 UFO vs mc16 UFO
+seq1_JetUncertaintiesA...INFO       85. JET_JMSUnc_mc23vsmc23AF3_MC23_PreRec     : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc23 AF3 vs Full Sim
+seq1_JetUncertaintiesA...INFO       Found and read in 93 individual components into 85 component groups of which 76 are recommended
+seq1_JetUncertaintiesA...INFO    ================================================
+seq1_JetUncertaintiesA...INFO    Preparing to initialize the JetUncertaintiesTool named seq1_JetUncertaintiesAlg_LargeR.uncertaintiesToolPD
+seq1_JetUncertaintiesA...INFO    ================================================
+seq1_JetUncertaintiesA...INFO      Initializing the JetUncertaintiesTool named seq1_JetUncertaintiesAlg_LargeR.uncertaintiesToolPD
+seq1_JetUncertaintiesA...INFO      Path is: ""
+seq1_JetUncertaintiesA...INFO      CalibArea is: "CalibArea-08"
+seq1_JetUncertaintiesA...INFO      IsData is: "true"
+seq1_JetUncertaintiesA...INFO      Configuration file: "rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_CategoryJES_FullJER_FullJMS.config
+seq1_JetUncertaintiesA...INFO      Uncertainty release: rel22_Summer2025_PreRec
+seq1_JetUncertaintiesA...INFO      Jet definition: AntiKt10UFOCSSKSoftDropBeta100Zcut10
+seq1_JetUncertaintiesA...INFO      MC type: MC23
+seq1_JetUncertaintiesA...INFO      UncertaintyFile: "rel22/Summer2025_PreRec/R10_AllComponents.root"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_AllComponents.root
+seq1_JetUncertaintiesA...INFO      AnalysisFile: "analysisInputs/UnknownFlavourCompR10.root"
+seq1_JetUncertaintiesA...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/analysisInputs/UnknownFlavourCompR10.root
+seq1_JetUncertaintiesA...INFO      FileValidHistogram: ValidRange_JMS (PtAbsMassEta) [Calo]
+seq1_JetUncertaintiesA...INFO      NominalPtResData: "JER_Nominal_R10_Both,PtAbsEta,OnlyX"
+seq1_JetUncertaintiesA...INFO      NominalPtResMC: "JER_Nominal_R10_Both,PtAbsEta,OnlyX"
+seq1_JetUncertaintiesA...INFO      ResolutionSmearOnlyMC: "false"
+seq1_JetUncertaintiesA...INFO    
+seq1_JetUncertaintiesA...INFO           JES uncert. comp.                        : Description
+seq1_JetUncertaintiesA...INFO           -----------------                         ------------
+seq1_JetUncertaintiesA...INFO        1. JET_EtaIntercalibration_ModellingAndMethod : Eta intercalibration: MC generator modelling and method uncertainty
+seq1_JetUncertaintiesA...INFO        2. JET_EtaIntercalibration_R10_TotalStat    : Eta intercalibration: statistical uncertainty
+seq1_JetUncertaintiesA...INFO        3. JET_Flavor_Composition                   : Flavor composition uncertainty
+seq1_JetUncertaintiesA...INFO        4. JET_Flavor_Response                      : Flavor response uncertainty (dominated by gluon response)
+seq1_JetUncertaintiesA...INFO        5. JET_JER_AllOthers                        : 
+seq1_JetUncertaintiesA...INFO        6. JET_EffectiveNP_R10_Statistical1         : Effective JES Uncertainty Statistical Component 1
+seq1_JetUncertaintiesA...INFO        7. JET_EffectiveNP_R10_Statistical2         : Effective JES Uncertainty Statistical Component 2
+seq1_JetUncertaintiesA...INFO        8. JET_EffectiveNP_R10_Statistical3         : Effective JES Uncertainty Statistical Component 3
+seq1_JetUncertaintiesA...INFO        9. JET_EffectiveNP_R10_Statistical4         : Effective JES Uncertainty Statistical Component 4
+seq1_JetUncertaintiesA...INFO       10. JET_EffectiveNP_R10_Statistical5         : Effective JES Uncertainty Statistical Component 5
+seq1_JetUncertaintiesA...INFO       11. JET_EffectiveNP_R10_Statistical6         : Effective JES Uncertainty Statistical Component 6
+seq1_JetUncertaintiesA...INFO       12. JET_EffectiveNP_R10_Statistical7         : Effective JES Uncertainty Statistical Component 7
+seq1_JetUncertaintiesA...INFO       13. JET_EffectiveNP_R10_Statistical8         : Effective JES Uncertainty Statistical Component 8
+seq1_JetUncertaintiesA...INFO       14. JET_EffectiveNP_R10_Modelling1           : Effective JES Uncertainty Modelling Component 1
+seq1_JetUncertaintiesA...INFO       15. JET_EffectiveNP_R10_Modelling2           : Effective JES Uncertainty Modelling Component 2
+seq1_JetUncertaintiesA...INFO       16. JET_EffectiveNP_R10_Modelling3           : Effective JES Uncertainty Modelling Component 3
+seq1_JetUncertaintiesA...INFO       17. JET_EffectiveNP_R10_Modelling4           : Effective JES Uncertainty Modelling Component 4
+seq1_JetUncertaintiesA...INFO       18. JET_EffectiveNP_R10_Modelling5           : Effective JES Uncertainty Modelling Component 5
+seq1_JetUncertaintiesA...INFO       19. JET_EffectiveNP_R10_Modelling6           : Effective JES Uncertainty Modelling Component 6
+seq1_JetUncertaintiesA...INFO       20. JET_EffectiveNP_R10_Modelling7           : Effective JES Uncertainty Modelling Component 7
+seq1_JetUncertaintiesA...INFO       21. JET_EffectiveNP_R10_Detector1            : Effective JES Uncertainty Detector Component 1
+seq1_JetUncertaintiesA...INFO       22. JET_EffectiveNP_R10_Detector2            : Effective JES Uncertainty Detector Component 2
+seq1_JetUncertaintiesA...INFO       23. JET_EffectiveNP_R10_Mixed1               : Effective JES Uncertainty Mixed Component 1
+seq1_JetUncertaintiesA...INFO       24. JET_EffectiveNP_R10_Mixed2               : Effective JES Uncertainty Mixed Component 2
+seq1_JetUncertaintiesA...INFO       25. JET_EffectiveNP_R10_Mixed3               : Effective JES Uncertainty Mixed Component 3
+seq1_JetUncertaintiesA...INFO       26. JET_EffectiveNP_R10_Mixed4               : Effective JES Uncertainty Mixed Component 4
+seq1_JetUncertaintiesA...INFO       27. JET_LargeR_TopologyUncertainty_V         : Topology Uncertainty for W/Z bosons
+seq1_JetUncertaintiesA...INFO       28. JET_LargeR_TopologyUncertainty_top       : Topology uncertainty for top quarks
+seq1_JetUncertaintiesA...INFO       29. JET_EtaIntercalibration_NonClosure_R10_PreRec : Eta intercalibration non-closure uncertainty wrt rel22, early Run3
+seq1_JetUncertaintiesA...INFO       30. JET_InSitu_NonClosure_R10_PreRec         : InSitu non-closure uncertainty derived in G+jet rel22, early Run3 
+seq1_JetUncertaintiesA...INFO       31. JET_JESUnc_Noise_R10_PreRec              : Pre recommendation systematics for R22. Comparison of different noise threshold setting
+seq1_JetUncertaintiesA...INFO       32. JET_JESUnc_VertexingAlg_PreRec           : Pre recommendation systematics for R22. Taken from Small R
+seq1_JetUncertaintiesA...INFO       33. JET_JESUnc_mc20vsmc21_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc21
+seq1_JetUncertaintiesA...INFO       34. JET_JESUnc_mc20vsmc23_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc23
+seq1_JetUncertaintiesA...INFO       35. JET_JESUnc_mc20AF3vsmc20FS_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of mc20 AF3 and Full Sim
+seq1_JetUncertaintiesA...INFO       36. JET_JESUnc_mc23vsmc23AF3_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of mc23 AF3 and Full Sim
+seq1_JetUncertaintiesA...INFO       37. JET_JER_DataVsMC_R10_MC16                : NP covering when JER(data) < JER(MC), R10
+seq1_JetUncertaintiesA...INFO       38. JET_JER_dijet_R10_closure                : Dijet JER evaluation, closure, R10
+seq1_JetUncertaintiesA...INFO       39. JET_JER_dijet_R10_selection              : Dijet JER evaluation, event selection, R10
+seq1_JetUncertaintiesA...INFO       40. JET_JER_dijet_R10_jesEffNP1              : Dijet JER evaluation, propagation of JES global reduction NP1, R10
+seq1_JetUncertaintiesA...INFO       41. JET_JER_dijet_R10_jesEffNP3              : Dijet JER evaluation, propagation of JES global reduction NP3, R10
+seq1_JetUncertaintiesA...INFO       42. JET_JER_dijet_R10_jesEffNP4              : Dijet JER evaluation, propagation of JES global reduction NP4, R10
+seq1_JetUncertaintiesA...INFO       43. JET_JER_dijet_R10_jesEtaIntMod           : Dijet JER evaluation, propagation of JES eta intercalibration modelling NP, R10
+seq1_JetUncertaintiesA...INFO       44. JET_JER_dijet_R10_jesFlavComp            : Dijet JER evaluation, propagation of JES flavour composition, R10
+seq1_JetUncertaintiesA...INFO       45. JET_JER_dijet_R10_jesFlavResp            : Dijet JER evaluation, propagation of JES flavour response, R10
+seq1_JetUncertaintiesA...INFO       46. JET_JER_dijet_R10_mcgenerator            : Dijet JER evaluation, MC generator difference, R10
+seq1_JetUncertaintiesA...INFO       47. JET_JER_dijet_R10_stat                   : Dijet JER evaluation, statistical NP, R10
+seq1_JetUncertaintiesA...INFO       48. JET_JERUnc_mc20vsmc21_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc21
+seq1_JetUncertaintiesA...INFO       49. JET_JERUnc_mc20vsmc23_MC23_R10_PreRec    : Pre recommendation systematics for R22. Comparison of mc20 and mc23
+seq1_JetUncertaintiesA...INFO       50. JET_JERUnc_Noise_R10_PreRec              : Pre recommendation systematics for JER R22. Comparison of different noise threshold setting
+seq1_JetUncertaintiesA...INFO       51. JET_JERUnc_mc20UFOvsmc16LCTopo_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC20 UFOCSSKSD and MC16LCTopoTrimmed jets
+seq1_JetUncertaintiesA...INFO       52. JET_JERUnc_mc20AF3vsmc20FS_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC20 AF3 and Full Sim jets
+seq1_JetUncertaintiesA...INFO       53. JET_JERUnc_mc23vsmc23AF3_MC23_R10_PreRec : Pre recommendation systematics for R22. Comparison of MC23 AF3 and Full Sim jets
+seq1_JetUncertaintiesA...INFO       54. JET_JMS_FF_detector                      : 
+seq1_JetUncertaintiesA...INFO       55. JET_JMS_FF_modelling                     : 
+seq1_JetUncertaintiesA...INFO       56. JET_JMS_FF_stat10                        : 
+seq1_JetUncertaintiesA...INFO       57. JET_JMS_FF_stat1                         : 
+seq1_JetUncertaintiesA...INFO       58. JET_JMS_FF_stat2                         : 
+seq1_JetUncertaintiesA...INFO       59. JET_JMS_FF_stat3                         : 
+seq1_JetUncertaintiesA...INFO       60. JET_JMS_FF_stat4                         : 
+seq1_JetUncertaintiesA...INFO       61. JET_JMS_FF_stat5                         : 
+seq1_JetUncertaintiesA...INFO       62. JET_JMS_FF_stat6                         : 
+seq1_JetUncertaintiesA...INFO       63. JET_JMS_FF_stat7                         : 
+seq1_JetUncertaintiesA...INFO       64. JET_JMS_FF_stat8                         : 
+seq1_JetUncertaintiesA...INFO       65. JET_JMS_FF_stat9                         : 
+seq1_JetUncertaintiesA...INFO       66. JET_JMS_Rtrk_generator                   : 
+seq1_JetUncertaintiesA...INFO       67. JET_JMS_Rtrk_stat1                       : 
+seq1_JetUncertaintiesA...INFO       68. JET_JMS_Rtrk_stat2                       : 
+seq1_JetUncertaintiesA...INFO       69. JET_JMS_Rtrk_stat3                       : 
+seq1_JetUncertaintiesA...INFO       70. JET_JMS_Rtrk_stat4                       : 
+seq1_JetUncertaintiesA...INFO       71. JET_JMS_Rtrk_stat5                       : 
+seq1_JetUncertaintiesA...INFO       72. JET_JMS_Rtrk_stat6                       : 
+seq1_JetUncertaintiesA...INFO       73. JET_JMS_Rtrk_tracking1                   : 
+seq1_JetUncertaintiesA...INFO       74. JET_JMS_Rtrk_tracking2                   : 
+seq1_JetUncertaintiesA...INFO       75. JET_JMS_Rtrk_tracking3                   : 
+seq1_JetUncertaintiesA...INFO       76. JET_JMS_Rtrk_ufoclosure                  : 
+seq1_JetUncertaintiesA...INFO       77. JET_JMS_SmoothingChoice                  : 
+seq1_JetUncertaintiesA...INFO       78. JET_JMS_Topology_QCD                     : 
+seq1_JetUncertaintiesA...INFO       79. JET_JMSUnc_mc20vsmc21_MC23_PreRec        : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20vs21
+seq1_JetUncertaintiesA...INFO       80. JET_JMSUnc_mc20vsmc23_MC23_PreRec        : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20vs23
+seq1_JetUncertaintiesA...INFO       81. JET_JMSUnc_Noise_PreRec                  : Pre recommendation systematics for R22. Comparison of different topocluster noise threshold setting.
+seq1_JetUncertaintiesA...INFO       82. JET_JMSUnc_Modelling_PreRec              : Pre recommendation systematics for R22. Non closure of MC20(Pythia) vs MC20 Herwig
+seq1_JetUncertaintiesA...INFO       83. JET_JMSUnc_mc20AF3vsmc20FS_MC23_PreRec   : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20 AF3 vs Full Sim
+seq1_JetUncertaintiesA...INFO       84. JET_JMSUnc_mc20vsmc16_UFONonClosure_PreRec : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc20 UFO vs mc16 UFO
+seq1_JetUncertaintiesA...INFO       85. JET_JMSUnc_mc23vsmc23AF3_MC23_PreRec     : Pre recommendation systematics for R22. JMS non closure uncertainty: comparison mc23 AF3 vs Full Sim
+seq1_JetUncertaintiesA...INFO       Found and read in 93 individual components into 85 component groups of which 91 are recommended
+seq1_JetUncertaintiesA...INFO    ================================================
+seq1_JetFFSmearingAlg_...INFO    Preparing to initialize the FFJetSmearingTool named seq1_JetFFSmearingAlg_LargeR.FFSmearingTool
+seq1_JetFFSmearingAlg_...INFO    ================================================
+seq1_JetFFSmearingAlg_...INFO      Initializing the FFJetSmearingTool named seq1_JetFFSmearingAlg_LargeR.FFSmearingTool
+seq1_JetFFSmearingAlg_...INFO      Configuration file: rel22/Summer2025_PreRec/R10_FullJMR.config
+seq1_JetFFSmearingAlg_...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_FullJMR.config
+seq1_JetFFSmearingAlg_...INFO      Uncertainty release: rel22_Summer2025_PreRec
+seq1_JetFFSmearingAlg_...INFO      Truth Jet Collection: AntiKt10TruthSoftDropBeta100Zcut10Jets
+seq1_JetFFSmearingAlg_...INFO      Truth Label Accessor: R10TruthLabel_R21Precision_2022v1
+seq1_JetFFSmearingAlg_...INFO      Supported MC types: MC20,MC21,MC23,MC20AF3,MC23AF3
+seq1_JetFFSmearingAlg_...INFO        You are running with MC type: MC23
+seq1_JetFFSmearingAlg_...INFO      EtaRange : Abs(eta) < 2
+seq1_JetFFSmearingAlg_...INFO      MaxMass : jet_mass < 600000
+seq1_JetFFSmearingAlg_...INFO      MaxPt : jet_pt < 5e+06
+seq1_JetFFSmearingAlg_...INFO      UncertaintyFile: rel22/Summer2025_PreRec/R10_JMR_AllComponents.root
+seq1_JetFFSmearingAlg_...INFO        Location: /cvmfs/atlas.cern.ch/repo/sw/database/GroupData/JetUncertainties/CalibArea-08/rel22/Summer2025_PreRec/R10_JMR_AllComponents.root
+seq1_JetFFSmearingAlg_...INFO      doGaussianSmearing: 0
+seq1_JetFFSmearingAlg_...INFO        ResponseMap: ResponseMaps/QCD_Calo_AvgMassResponse_vs_recopt_vs_truthm_smoothed_rebinned
+Package.EventLoop        INFO    Processing events 0-20000 in file file:///cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1
+Package.EventLoop        INFO    Processed 10000 events
+Package.EventLoop        INFO    Processed 20000 events
+ELModule.DirectInputMo...INFO    Reached maximum number of events, stopping.
+SystematicsSvc           INFO    no systematics were run.
+seq1_SystematicsPrinter  INFO    Systematics regex '' matched:
+seq1_SystematicsPrinter  INFO      ''
+seq1_OnlyWeightSystema...INFO    systematics regex '^(GEN_|EL_EFF_|MUON_EFF_|PH_EFF_|TAUS_TRUEHADTAU_EFF_|FT_EFF_|JET_.*JvtEfficiency_|PRW_).*' did not match any systematics
+ELModule.LeakCheckModule INFO    Memory increase/change during the job:
+ELModule.LeakCheckModule INFO      - resident: 0.080404 kB/event (1608 kB total)
+ELModule.LeakCheckModule INFO      - virtual : 0 kB/event (0 kB total)
+Real time 0:00:04, CP time 4.120
+Package.EventLoop        INFO    worker finished successfully
+Package.EventLoop        INFO    done
+Package.EventLoop        INFO    done
+Package.EventLoop        INFO    done
+Py:CPBaseRunner      INFO Moving the analysis root file and the hist file to the top level.
+Py:CPBaseRunner      INFO Moving /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/workDir-2026-11-18-0506-5f69/data-ANALYSIS/reference.root to /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/reference.root
+Py:CPBaseRunner      INFO Moving /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/workDir-2026-11-18-0506-5f69/hist-reference.root to /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/B-large/01-nominal/hist-reference.root

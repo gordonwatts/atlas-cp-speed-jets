@@ -1,0 +1,14 @@
+{
+  "base": "01d88b78f01257d960b10c31c827a42cd2888f30",
+  "timing_commit": "0b06f13f140db0c34c73bfe0676cd429849ff72c",
+  "changed_paths": [
+    "tools/benchmark_campaign.py",
+    "tools/qualify_shipment.py",
+    "tools/reference/benchmark.py",
+    "tools/reference/check_startup_library_sampling.py"
+  ],
+  "file": "production-timing.patch",
+  "bytes": 8000,
+  "sha256": "dcd75f718a5e2969e9ad9ca70f7215737fe2b303e26ce0cd513731b52459b0a1",
+  "applies_to": "jet-conversion-source.zip"
+}

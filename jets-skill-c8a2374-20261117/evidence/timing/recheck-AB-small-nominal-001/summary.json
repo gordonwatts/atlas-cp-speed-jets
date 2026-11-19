@@ -1,0 +1,94 @@
+{
+  "comparison": {
+    "name": "B_over_A_framework",
+    "quality": {
+      "A": {
+        "framework": {
+          "max_median_deviation": 0.07970853692533665,
+          "mean_s": 11.228332662666666,
+          "pass": false,
+          "retained": [
+            10.737532279,
+            11.03398159,
+            11.913484119
+          ],
+          "sample_cv": 0.054468650985225395,
+          "sample_sd_s": 0.6115921329487972,
+          "warmup_s": 11.632691781
+        }
+      },
+      "B": {
+        "framework": {
+          "max_median_deviation": 0.046730810337554426,
+          "mean_s": 11.69013843,
+          "pass": true,
+          "retained": [
+            11.267969816,
+            11.982101401,
+            11.820344073
+          ],
+          "sample_cv": 0.0320310786131779,
+          "sample_sd_s": 0.37444774305026207,
+          "warmup_s": 11.216074204
+        }
+      }
+    },
+    "quality_pass": false,
+    "ratio_of_retained_means": 1.0411286146578824,
+    "ratio_qualified": false,
+    "retained_pairs_straddle": false,
+    "same_round_ratios": [
+      1.0494003205966986,
+      1.0859272605511026,
+      0.9921819641450265
+    ],
+    "threshold": 1.2,
+    "threshold_kind": "framework budget",
+    "threshold_pass": null
+  },
+  "completed": 10,
+  "planned": 10,
+  "progress": {
+    "00-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/00-small-nominal-A/attempt-001",
+    "00-small-nominal-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/00-small-nominal-B/attempt-001",
+    "01-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/01-small-nominal-A/attempt-001",
+    "01-small-nominal-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/01-small-nominal-B/attempt-001",
+    "02-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/02-small-nominal-A/attempt-001",
+    "02-small-nominal-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/02-small-nominal-B/attempt-001",
+    "03-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/03-small-nominal-A/attempt-001",
+    "03-small-nominal-B": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/03-small-nominal-B/attempt-001",
+    "anchor-00-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/anchor-00-small-nominal-A/attempt-001",
+    "anchor-04-small-nominal-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AB-small-nominal-001/anchor-04-small-nominal-A/attempt-001"
+  },
+  "quality_pass": false,
+  "ratio_qualified": false,
+  "stock_anchor_drift": {
+    "framework": {
+      "max_median_deviation": 0.021563301248901195,
+      "pass": true,
+      "retained_stock_median_s": 11.03398159,
+      "wall_s": [
+        11.271910659,
+        11.248839255
+      ]
+    },
+    "histogram": {
+      "max_median_deviation": 0.023910510602620123,
+      "pass": true,
+      "retained_stock_median_s": 0.287997112,
+      "wall_s": [
+        0.28827323,
+        0.281110954
+      ]
+    },
+    "total": {
+      "max_median_deviation": 0.02103918345632657,
+      "pass": true,
+      "retained_stock_median_s": 11.321978702,
+      "wall_s": [
+        11.560183889,
+        11.529950209
+      ]
+    }
+  }
+}

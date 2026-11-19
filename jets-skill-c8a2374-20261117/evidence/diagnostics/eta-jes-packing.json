@@ -1,0 +1,3478 @@
+{
+  "encoding": "base64-ieee754-binary32-le-v1",
+  "canonical": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+    "bytes": 160837477,
+    "sha256": "b723ef7efdb19c33731295c51cc34716ea375a6fcbe5ec85d85ea8e28dbc3db8"
+  },
+  "packed": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/eta-jes-packed-001/jets.json",
+    "bytes": 75847478,
+    "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+  },
+  "canonical_provenance": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/provenance.json",
+    "sha256": "37890594867c0ad3d9f6acd55d4407664eb8c26387eb9986beacbce5e16c79f6",
+    "inherited_payload_sha256": "795df3b70be115f200d7d62440966327c5a0b5b80a9de04a2f56b84dd493abb8"
+  },
+  "common_utf8_segments_sha256": "1da11c79b33f0796fdb384faf15b4133b14b1982c30550cc7b6d545ab5bf6848",
+  "untouched": "All original bytes outside the listed TH1F content values",
+  "geometry_coefficients_sumw2": "Retained in the original UTF-8 bytes",
+  "response_cells": 6300300,
+  "preserved_non_TH1F": {
+    "small_eta_jes": [],
+    "large_eta_jes": []
+  },
+  "tables": [
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "28efde4fe6f0ead3a0c8db51943203329685c1ef3483a69cad22a9cca83ad0aa",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 0,
+      "name": "calibFactors_etabin_0",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 740253,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        30092267,
+        30832520
+      ],
+      "packed_content_byte_span": [
+        30092267,
+        30305679
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "d33aca8b817813900dc055f4b70b11eb3c8fb28abff21f28e699eaf56c61afcc",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 1,
+      "name": "calibFactors_etabin_1",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 742679,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        30832739,
+        31575418
+      ],
+      "packed_content_byte_span": [
+        30305898,
+        30519310
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "c451050e2c85fad509bba25ce940f791a65f7ab639ddec7778c5f11f71774ae6",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 2,
+      "name": "calibFactors_etabin_2",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 738610,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        31575638,
+        32314248
+      ],
+      "packed_content_byte_span": [
+        30519530,
+        30732942
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "54fe7e6cd0033e1d0a25f19146da5f3a3fcf79750c0c13a682deb2dd1192ee63",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 3,
+      "name": "calibFactors_etabin_3",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 740887,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        32314466,
+        33055353
+      ],
+      "packed_content_byte_span": [
+        30733160,
+        30946572
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "33e882163f4d024050c2539ea826af698f2c56fb426933a69d6ba137c2ad0971",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 4,
+      "name": "calibFactors_etabin_4",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 745327,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        33055560,
+        33800887
+      ],
+      "packed_content_byte_span": [
+        30946779,
+        31160191
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "c3f30eaeb9a36661fd89ca0c7117b7875910418d17c34997fe67a1a98c698e4d",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 5,
+      "name": "calibFactors_etabin_5",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 746021,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        33801094,
+        34547115
+      ],
+      "packed_content_byte_span": [
+        31160398,
+        31373810
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "03d71eb4341969f87cea3cd1ce0131fa2a851bbbaf2f4b639d1854347546ac95",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 6,
+      "name": "calibFactors_etabin_6",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 750236,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        34547321,
+        35297557
+      ],
+      "packed_content_byte_span": [
+        31374016,
+        31587428
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "71ff9ab5e21b9c15da479330c020c5162624c23af999749f19fa64308f4ad111",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 7,
+      "name": "calibFactors_etabin_7",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 749117,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        35297778,
+        36046895
+      ],
+      "packed_content_byte_span": [
+        31587649,
+        31801061
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "20bd07346f40bd6ef9346369ac7fd483b6ef461b586df956cacec67d1da775f0",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 8,
+      "name": "calibFactors_etabin_8",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 749749,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        36047110,
+        36796859
+      ],
+      "packed_content_byte_span": [
+        31801276,
+        32014688
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "4d1094d733063191be83e757ab286265bb3317b42c410b5b3749d1f8d8fab751",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 9,
+      "name": "calibFactors_etabin_9",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 751474,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        36797075,
+        37548549
+      ],
+      "packed_content_byte_span": [
+        32014904,
+        32228316
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "1d26001deb60d642fb21a4f6dce3988494dbda3c412d0be82f34b07b17c35941",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 10,
+      "name": "calibFactors_etabin_10",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753667,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        37548766,
+        38302433
+      ],
+      "packed_content_byte_span": [
+        32228533,
+        32441945
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "cf93b6f6d0b65f7dc1e6d9cae561194a96f576912fe1fecac87aebcb36684321",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 11,
+      "name": "calibFactors_etabin_11",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 757243,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        38302653,
+        39059896
+      ],
+      "packed_content_byte_span": [
+        32442165,
+        32655577
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "d114889df56d335781b3c09596e0b106631634893ccb320854c2301aa5763814",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 12,
+      "name": "calibFactors_etabin_12",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 758319,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        39060111,
+        39818430
+      ],
+      "packed_content_byte_span": [
+        32655792,
+        32869204
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "0b0b763c4039d8c19c48ea11492ee74e959d130508b17d45cca4cbd973fa5a65",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 13,
+      "name": "calibFactors_etabin_13",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 756663,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        39818645,
+        40575308
+      ],
+      "packed_content_byte_span": [
+        32869419,
+        33082831
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "6ea3c62e7c5d2bb0ea8a64bb3ac6506f9a7ff14ebcf7c00209f9ed2624836780",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 14,
+      "name": "calibFactors_etabin_14",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754564,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        40575529,
+        41330093
+      ],
+      "packed_content_byte_span": [
+        33083052,
+        33296464
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "2a4d397f83ad39ec7b7f4bb6e6e5970c33e122d04cffec24fd20468781549dbc",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 15,
+      "name": "calibFactors_etabin_15",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754667,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        41330317,
+        42084984
+      ],
+      "packed_content_byte_span": [
+        33296688,
+        33510100
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "8ac37df28240350c273fdf5fbd34c7289cb6320828d93d98b99c4e98f10f42ff",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 16,
+      "name": "calibFactors_etabin_16",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 755153,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        42085196,
+        42840349
+      ],
+      "packed_content_byte_span": [
+        33510312,
+        33723724
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "74f86fba17845b4564391a0d4f64c1e91fd40c40349d416bb87c255fec64e67f",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 17,
+      "name": "calibFactors_etabin_17",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754462,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        42840565,
+        43595027
+      ],
+      "packed_content_byte_span": [
+        33723940,
+        33937352
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "5d9ca181477c5dae916b65a420f9437d8c9ebd2946c4c6ba5b59e6e4df5b02d3",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 18,
+      "name": "calibFactors_etabin_18",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754729,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        43595243,
+        44349972
+      ],
+      "packed_content_byte_span": [
+        33937568,
+        34150980
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "45f0f49b03a917c2e7162c96dd9e9608e30b9efebd3ccec5df07016414020af4",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 19,
+      "name": "calibFactors_etabin_19",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754877,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        44350192,
+        45105069
+      ],
+      "packed_content_byte_span": [
+        34151200,
+        34364612
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "3745cf3a81d8b914a43eea85d4d3aa11323bdc56346c6423994071386b0c15f4",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 20,
+      "name": "calibFactors_etabin_20",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 755400,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        45105290,
+        45860690
+      ],
+      "packed_content_byte_span": [
+        34364833,
+        34578245
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "4c881dc37b9ff44f977fa7d756b3cf06b10aee62bcf00b663aec933115db37fc",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 21,
+      "name": "calibFactors_etabin_21",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753962,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        45860910,
+        46614872
+      ],
+      "packed_content_byte_span": [
+        34578465,
+        34791877
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "c6ce9ed6828e03723b71dc74bd72401501a2ab7bb7efde9ef01f7550eca35ce8",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 22,
+      "name": "calibFactors_etabin_22",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753722,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        46615094,
+        47368816
+      ],
+      "packed_content_byte_span": [
+        34792099,
+        35005511
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "ae4558031da0e262d1db970a81709150070fdf4ece4310cb920879eb22916fcd",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 23,
+      "name": "calibFactors_etabin_23",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753453,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        47369039,
+        48122492
+      ],
+      "packed_content_byte_span": [
+        35005734,
+        35219146
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "eddded45367eaeafd9615dffe5b0d59e394379a14d8177b5a46530c0c690487a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 24,
+      "name": "calibFactors_etabin_24",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753684,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        48122716,
+        48876400
+      ],
+      "packed_content_byte_span": [
+        35219370,
+        35432782
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "15d068ea90de4c520e30deeededa263f7d989992bd5487aa4ca6ffc29709ccc7",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 25,
+      "name": "calibFactors_etabin_25",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753946,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        48876624,
+        49630570
+      ],
+      "packed_content_byte_span": [
+        35433006,
+        35646418
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "2464e37ea83148bfac9cfa8403e84042cad704786d6b32e825438d5e6d2dbd3f",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 26,
+      "name": "calibFactors_etabin_26",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754165,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        49630795,
+        50384960
+      ],
+      "packed_content_byte_span": [
+        35646643,
+        35860055
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "26500fc8593a9587b649895d3f29eb843d3b6ae4f5f97e077b5e1c89006bc413",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 27,
+      "name": "calibFactors_etabin_27",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754062,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        50385183,
+        51139245
+      ],
+      "packed_content_byte_span": [
+        35860278,
+        36073690
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "41f80fc0fc27952e1539af5de8998227c262cefdebcefbf514bd06c4717399ae",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 28,
+      "name": "calibFactors_etabin_28",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754160,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        51139470,
+        51893630
+      ],
+      "packed_content_byte_span": [
+        36073915,
+        36287327
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "64fe050bdd93bf4e2d5cbc5ca96a91166a0558ea378b7aadc87e205cc3548c69",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 29,
+      "name": "calibFactors_etabin_29",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754029,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        51893844,
+        52647873
+      ],
+      "packed_content_byte_span": [
+        36287541,
+        36500953
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "9803c4aeb57ad17f27c445efa5a62335484325ea8fa6bc1448c3c4631bd550b6",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 30,
+      "name": "calibFactors_etabin_30",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754266,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        52648099,
+        53402365
+      ],
+      "packed_content_byte_span": [
+        36501179,
+        36714591
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "9ad55eeb7482d51c59d72440f08a0cd63cb4d056c83e6f38c69a11af8039d1ca",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 31,
+      "name": "calibFactors_etabin_31",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754161,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        53402585,
+        54156746
+      ],
+      "packed_content_byte_span": [
+        36714811,
+        36928223
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "21f03521d6d4dfd28e7c423e1b6b89918d45a9ddfa536f23397720bd833430a5",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 32,
+      "name": "calibFactors_etabin_32",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754411,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        54156971,
+        54911382
+      ],
+      "packed_content_byte_span": [
+        36928448,
+        37141860
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "27d49ca4836983e330e9d2d70b2e4057b00b39d31a5063b067e0616f38d8811a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 33,
+      "name": "calibFactors_etabin_33",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754303,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        54911607,
+        55665910
+      ],
+      "packed_content_byte_span": [
+        37142085,
+        37355497
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "e245da87d177764735ed3930148b06c046521d9e1429de91e4a12f2e22b75fda",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 34,
+      "name": "calibFactors_etabin_34",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754252,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        55666135,
+        56420387
+      ],
+      "packed_content_byte_span": [
+        37355722,
+        37569134
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "c6ee1a9a5c0d27b8158e50c070f92e98c0c593273dbf5bc538484b73a0a1b6eb",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 35,
+      "name": "calibFactors_etabin_35",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754178,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        56420612,
+        57174790
+      ],
+      "packed_content_byte_span": [
+        37569359,
+        37782771
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "6dae0aa61eda6f32bf9ebd8b9d62a7b9e79f93b251258d6da741692fba377c1b",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 36,
+      "name": "calibFactors_etabin_36",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754180,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        57175015,
+        57929195
+      ],
+      "packed_content_byte_span": [
+        37782996,
+        37996408
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "3d9d9de8e0795428776ce79796bbf8f8ad13f454442576b21ce861eb16970c9f",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 37,
+      "name": "calibFactors_etabin_37",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753989,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        57929419,
+        58683408
+      ],
+      "packed_content_byte_span": [
+        37996632,
+        38210044
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "2614312620ab4de70ba1cc4f63ab4add74a34af822ebcdce8ee2575f7cace779",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 38,
+      "name": "calibFactors_etabin_38",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754094,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        58683633,
+        59437727
+      ],
+      "packed_content_byte_span": [
+        38210269,
+        38423681
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "4b3757336aedafae7432515bf3179c88d96e12054ee1de139b01d61018d0f7d6",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 39,
+      "name": "calibFactors_etabin_39",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754156,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        59437952,
+        60192108
+      ],
+      "packed_content_byte_span": [
+        38423906,
+        38637318
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "3e3403de134190229b73595d89f14b1a877a8ac02e362d4b8cd065e2d0189c60",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 40,
+      "name": "calibFactors_etabin_40",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754255,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        60192331,
+        60946586
+      ],
+      "packed_content_byte_span": [
+        38637541,
+        38850953
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "7cc4665b36b6390087d6ea95fd4a4197b03e5f87fc2a2d52ddf9285f1b8f35a7",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 41,
+      "name": "calibFactors_etabin_41",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754244,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        60946811,
+        61701055
+      ],
+      "packed_content_byte_span": [
+        38851178,
+        39064590
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "6fe9d313937a295f20f364c240a0f07d0c69725e3f410ec7835222c10916953d",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 42,
+      "name": "calibFactors_etabin_42",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754297,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        61701283,
+        62455580
+      ],
+      "packed_content_byte_span": [
+        39064818,
+        39278230
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "3f7228be75f386ce26e2cc1e292ab0f4ecf94df20a2216057edc29796e48c124",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 43,
+      "name": "calibFactors_etabin_43",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754227,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        62455807,
+        63210034
+      ],
+      "packed_content_byte_span": [
+        39278457,
+        39491869
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "1df1650664943d437ce76ce44cd9a0a9dd46e4e7e11719e893fb44231ee71794",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 44,
+      "name": "calibFactors_etabin_44",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754279,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        63210262,
+        63964541
+      ],
+      "packed_content_byte_span": [
+        39492097,
+        39705509
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "8a1f59c75d174330f4df312877c3c93d40150d6983342f22852101ccc0768bc4",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 45,
+      "name": "calibFactors_etabin_45",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754321,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        63964763,
+        64719084
+      ],
+      "packed_content_byte_span": [
+        39705731,
+        39919143
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "2ed653a3e925eef052530f8e7831af468464e3c14d057e4b2934292e1281e9b2",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 46,
+      "name": "calibFactors_etabin_46",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754246,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        64719307,
+        65473553
+      ],
+      "packed_content_byte_span": [
+        39919366,
+        40132778
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "084edc7668ed907f53313ca00e765676034b5092d6afea58c7ecfa8bfa1ea7db",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 47,
+      "name": "calibFactors_etabin_47",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754190,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        65473781,
+        66227971
+      ],
+      "packed_content_byte_span": [
+        40133006,
+        40346418
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "65a095b2f7e9a6fe3f4ece4898fbab25d082d75ea97318b568696573d73f834d",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 48,
+      "name": "calibFactors_etabin_48",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754215,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        66228199,
+        66982414
+      ],
+      "packed_content_byte_span": [
+        40346646,
+        40560058
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "57dfcb5fdf4eed3b3dd504e144b68cbf3ab51084c7522847fbdc5b18a8c32183",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 49,
+      "name": "calibFactors_etabin_49",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754191,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        66982641,
+        67736832
+      ],
+      "packed_content_byte_span": [
+        40560285,
+        40773697
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "40b6c1fab2e13966b7f80bcc4cdc137ebb352508ec98f83d7980cdaa15149da7",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 50,
+      "name": "calibFactors_etabin_50",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754163,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        67737058,
+        68491221
+      ],
+      "packed_content_byte_span": [
+        40773923,
+        40987335
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "fb20c479ecdfe4d8efb7fd86e40b80a449b750db207a5ac5d29a63ce32588cf7",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 51,
+      "name": "calibFactors_etabin_51",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754220,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        68491445,
+        69245665
+      ],
+      "packed_content_byte_span": [
+        40987559,
+        41200971
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "84f822af557442523f8a265a566c87b60de98404e2d992ae8026531050a4a3c6",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 52,
+      "name": "calibFactors_etabin_52",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754124,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        69245890,
+        70000014
+      ],
+      "packed_content_byte_span": [
+        41201196,
+        41414608
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "e03b21f3fc5c24e373ee7c077d568515ba16ee2ca3af1fbf47f9666c544826c0",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 53,
+      "name": "calibFactors_etabin_53",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754083,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        70000238,
+        70754321
+      ],
+      "packed_content_byte_span": [
+        41414832,
+        41628244
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "10f17f64c66f0a216a7c8a52eccdc13a07464f8ec1ae7490a3d34c19ac4b825a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 54,
+      "name": "calibFactors_etabin_54",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754076,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        70754544,
+        71508620
+      ],
+      "packed_content_byte_span": [
+        41628467,
+        41841879
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "ed5c3155e0b43964d6e1692ee260034111ecf6a04eb96cdc760a3cb32652e451",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 55,
+      "name": "calibFactors_etabin_55",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754317,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        71508845,
+        72263162
+      ],
+      "packed_content_byte_span": [
+        41842104,
+        42055516
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "f05b8bdcd88020579f8ab0ba5786626cd75b7aee4a2d8484211e7979c8dfcc21",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 56,
+      "name": "calibFactors_etabin_56",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754257,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        72263387,
+        73017644
+      ],
+      "packed_content_byte_span": [
+        42055741,
+        42269153
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "62ddedf8ff38aed9cc718c99ec3217ea908fc10ef539c5b765b84a99660d7204",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 57,
+      "name": "calibFactors_etabin_57",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754292,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        73017866,
+        73772158
+      ],
+      "packed_content_byte_span": [
+        42269375,
+        42482787
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "70e95e019ae68fecb4c811cb3c651cae9ad0d9ca42e45d2a99905861782a4897",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 58,
+      "name": "calibFactors_etabin_58",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754133,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        73772382,
+        74526515
+      ],
+      "packed_content_byte_span": [
+        42483011,
+        42696423
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "1c7e67359a07509d3b5e659c65d0c47f9e7f99f4c63db33f21efa6ce23a4828a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 59,
+      "name": "calibFactors_etabin_59",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754219,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        74526740,
+        75280959
+      ],
+      "packed_content_byte_span": [
+        42696648,
+        42910060
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "6d3e3d2f24bc87c86578f04cae912817754b9c6188fd94ff5126d3d71265b4bd",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 60,
+      "name": "calibFactors_etabin_60",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754232,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        75281184,
+        76035416
+      ],
+      "packed_content_byte_span": [
+        42910285,
+        43123697
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "3061e2b974c2b0245f710a2738048c1635e47006c1f7da6bba74d61f4651c9ca",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 61,
+      "name": "calibFactors_etabin_61",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754258,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        76035642,
+        76789900
+      ],
+      "packed_content_byte_span": [
+        43123923,
+        43337335
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "34750a4e6d130181cb3871cfbfb76958b540125988682c037fc3774ebe367261",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 62,
+      "name": "calibFactors_etabin_62",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753983,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        76790125,
+        77544108
+      ],
+      "packed_content_byte_span": [
+        43337560,
+        43550972
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "cb5c751feb9dfb4bf787e656a22206526d7c0d5086fdee720027b8743ff78eab",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 63,
+      "name": "calibFactors_etabin_63",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754030,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        77544333,
+        78298363
+      ],
+      "packed_content_byte_span": [
+        43551197,
+        43764609
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "53c9f965789a8face373796e86e1ad3be1c49c65555b3d3e95ecb2c03778e91d",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 64,
+      "name": "calibFactors_etabin_64",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753758,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        78298587,
+        79052345
+      ],
+      "packed_content_byte_span": [
+        43764833,
+        43978245
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "96e1005b349b64664bfe722963e9bb38469e0baed4e404202b783a903c0d210b",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 65,
+      "name": "calibFactors_etabin_65",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753507,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        79052570,
+        79806077
+      ],
+      "packed_content_byte_span": [
+        43978470,
+        44191882
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "db8a845e9046b293a6e635a156101127a2d25a66a646b6621e8b6ee877c53186",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 66,
+      "name": "calibFactors_etabin_66",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753461,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        79806300,
+        80559761
+      ],
+      "packed_content_byte_span": [
+        44192105,
+        44405517
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "81a764a2708ff792bd8487f9e8ab913091a02b9cda31de9456cfab83e733bb22",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 67,
+      "name": "calibFactors_etabin_67",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 753595,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        80559984,
+        81313579
+      ],
+      "packed_content_byte_span": [
+        44405740,
+        44619152
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "4d8d5d8ed0c2114b59ea0e7d5785cb2baaa5f1972bdc6ea4d071e68997dc4b1a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 68,
+      "name": "calibFactors_etabin_68",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754007,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        81313803,
+        82067810
+      ],
+      "packed_content_byte_span": [
+        44619376,
+        44832788
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "73db063d45655f9a43aea5fd72779fb5e69134c2792571c55045a3a7d38349fb",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 69,
+      "name": "calibFactors_etabin_69",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 755094,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        82068031,
+        82823125
+      ],
+      "packed_content_byte_span": [
+        44833009,
+        45046421
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "72ec2cf80f4ad889bf2aff6f31d1baa3afcf0861df71d7f9a1279a8b87714969",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 70,
+      "name": "calibFactors_etabin_70",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754772,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        82823346,
+        83578118
+      ],
+      "packed_content_byte_span": [
+        45046642,
+        45260054
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "d3110202308c32fcd70079ed5b47c614c95fff8bd8686304238afc9cd6078ec4",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 71,
+      "name": "calibFactors_etabin_71",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754585,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        83578339,
+        84332924
+      ],
+      "packed_content_byte_span": [
+        45260275,
+        45473687
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "20f36c0b59570de0d9fb9e11d9d930101ad239cbd240bf6937e99c2003cfc8b8",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 72,
+      "name": "calibFactors_etabin_72",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754653,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        84333145,
+        85087798
+      ],
+      "packed_content_byte_span": [
+        45473908,
+        45687320
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "23a9472583ebfe20c11e5b94a225a7fd932147b907ccc438e85ff2762a7ed9b6",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 73,
+      "name": "calibFactors_etabin_73",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 755017,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        85088020,
+        85843037
+      ],
+      "packed_content_byte_span": [
+        45687542,
+        45900954
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "f703d9f52327f831fd003a5e4351ecb3019f24730b3cbc5f3fcf3a6f24026d77",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 74,
+      "name": "calibFactors_etabin_74",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754974,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        85843254,
+        86598228
+      ],
+      "packed_content_byte_span": [
+        45901171,
+        46114583
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "a130a92f93d18bc5dd1fa2d572b95dfa2973a4abff07dac64050b5efaeed4a13",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 75,
+      "name": "calibFactors_etabin_75",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754378,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        86598440,
+        87352818
+      ],
+      "packed_content_byte_span": [
+        46114795,
+        46328207
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "7208637a6aee8ecbb584698456e7f17c9ce0eee6ae47124a2d857117dad3ea9d",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 76,
+      "name": "calibFactors_etabin_76",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 756726,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        87353044,
+        88109770
+      ],
+      "packed_content_byte_span": [
+        46328433,
+        46541845
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "98dc42f98d367800c9a4f9fe0e819df7f6367dc7bcb411d4850d1d9ca8aed06f",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 77,
+      "name": "calibFactors_etabin_77",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 758413,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        88109990,
+        88868403
+      ],
+      "packed_content_byte_span": [
+        46542065,
+        46755477
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "0ef46a5e4f73459d2fe3bad4f040cba7f88cd6416154a0f5601654a2c9fb94eb",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 78,
+      "name": "calibFactors_etabin_78",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 757221,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        88868629,
+        89625850
+      ],
+      "packed_content_byte_span": [
+        46755703,
+        46969115
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "47ea0097943effa6e2306cc080705d937d40e8c66beecdbcf9778094dc2c4c2e",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 79,
+      "name": "calibFactors_etabin_79",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 754186,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        89626071,
+        90380257
+      ],
+      "packed_content_byte_span": [
+        46969336,
+        47182748
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "6a0f92a4bf02ca692bdd2e4efcf20d398c323b1248546d8f9182cc7a801c8632",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 80,
+      "name": "calibFactors_etabin_80",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 751502,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        90380478,
+        91131980
+      ],
+      "packed_content_byte_span": [
+        47182969,
+        47396381
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "d9b385595491d4c0163aaba2c27fc54e20a6eac6495a8cbf55de38efede5060a",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 81,
+      "name": "calibFactors_etabin_81",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 751159,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        91132199,
+        91883358
+      ],
+      "packed_content_byte_span": [
+        47396600,
+        47610012
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "71d81e0e359c33d1047d45bcfdc12882c25efe6aa9745654d0241bfacce810a4",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 82,
+      "name": "calibFactors_etabin_82",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 749626,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        91883575,
+        92633201
+      ],
+      "packed_content_byte_span": [
+        47610229,
+        47823641
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "7979dfb49501a8e5e652d443055bafef55002a39d3f31e95b27349812d2a7145",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 83,
+      "name": "calibFactors_etabin_83",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 748777,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        92633418,
+        93382195
+      ],
+      "packed_content_byte_span": [
+        47823858,
+        48037270
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "c0f94f748d78a255d757da6f60cf78c018588c3534846d1869422dd9a2c3dc02",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 84,
+      "name": "calibFactors_etabin_84",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 746200,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        93382414,
+        94128614
+      ],
+      "packed_content_byte_span": [
+        48037489,
+        48250901
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "e906ea1e628580cd04be3282ba08195ca030ba8614d2fc357513f1ee6c72ec33",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 85,
+      "name": "calibFactors_etabin_85",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 744817,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        94128830,
+        94873647
+      ],
+      "packed_content_byte_span": [
+        48251117,
+        48464529
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "a82664001fe41f0421542fb6174c6dcf01e165203a738e2a4440e272f037123e",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 86,
+      "name": "calibFactors_etabin_86",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 741714,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        94873853,
+        95615567
+      ],
+      "packed_content_byte_span": [
+        48464735,
+        48678147
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "e46ad29f65168a6f0d80dbd3f7442c507e8710afe21c451817c43f73b7240926",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 87,
+      "name": "calibFactors_etabin_87",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 738824,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        95615788,
+        96354612
+      ],
+      "packed_content_byte_span": [
+        48678368,
+        48891780
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "223aea82f567f2f9c6d197da581c0274e1fd7a1489f68b3bcab03bdd0079cdcd",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 88,
+      "name": "calibFactors_etabin_88",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 741857,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        96354818,
+        97096675
+      ],
+      "packed_content_byte_span": [
+        48891986,
+        49105398
+      ]
+    },
+    {
+      "cells": 40002,
+      "raw_bytes": 160008,
+      "base64_bytes": 213344,
+      "binary32_sha256": "648646fe351b63adb4b1bb2b6936760453904d6590450407d5f38486220df635",
+      "negative_zero_cells": 0,
+      "correction": "small_eta_jes",
+      "index": 89,
+      "name": "calibFactors_etabin_89",
+      "class": "TH1F",
+      "nbins": 40000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 740649,
+      "packed_content_bytes": 213412,
+      "canonical_content_byte_span": [
+        97096895,
+        97837544
+      ],
+      "packed_content_byte_span": [
+        49105618,
+        49319030
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "386234f296548e81d81afb6752e057fee109a0bf790e753a8371eea3eb0323f5",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 0,
+      "name": "calibFactors_etabin_0",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845197,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        97838562,
+        98683759
+      ],
+      "packed_content_byte_span": [
+        49320048,
+        49560128
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "21fbbcfc3f24995bea6ba3fba1c99f1e56405521cd639c31e4e4946a08d33313",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 1,
+      "name": "calibFactors_etabin_1",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845552,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        98683975,
+        99529527
+      ],
+      "packed_content_byte_span": [
+        49560344,
+        49800424
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "c98b5310c61a326627afdf34b46755bca0d3ed594762af8fac79b277f180ee9d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 2,
+      "name": "calibFactors_etabin_2",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845883,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        99529742,
+        100375625
+      ],
+      "packed_content_byte_span": [
+        49800639,
+        50040719
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "f48a2bfec142d38cf06d5c1351eae54a57c36bf5a77328c086fad7f5baa42310",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 3,
+      "name": "calibFactors_etabin_3",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 846276,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        100375841,
+        101222117
+      ],
+      "packed_content_byte_span": [
+        50040935,
+        50281015
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "706b995100187805e9369004448b67bf178c4a9b90119da5d242f0f3228b01ef",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 4,
+      "name": "calibFactors_etabin_4",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 846587,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        101222330,
+        102068917
+      ],
+      "packed_content_byte_span": [
+        50281228,
+        50521308
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "78b0048ff4a88d1c08908787e9396377ccd6ce09bf737c3e3587c4224e8934d3",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 5,
+      "name": "calibFactors_etabin_5",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 846799,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        102069131,
+        102915930
+      ],
+      "packed_content_byte_span": [
+        50521522,
+        50761602
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "7570f722172e196a5697aeef3a97a42c29b3dff7e191fa323b04c7cfdb888165",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 6,
+      "name": "calibFactors_etabin_6",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847073,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        102916144,
+        103763217
+      ],
+      "packed_content_byte_span": [
+        50761816,
+        51001896
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "848a944f42a324ac036aced786139e9635b4d5bbbfd5f86b69031b5b2ae8c45d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 7,
+      "name": "calibFactors_etabin_7",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847288,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        103763435,
+        104610723
+      ],
+      "packed_content_byte_span": [
+        51002114,
+        51242194
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "88462c23e8c38e3a027c9d58ed9928660f3033224586c6e073facafafa73d8e6",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 8,
+      "name": "calibFactors_etabin_8",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847473,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        104610938,
+        105458411
+      ],
+      "packed_content_byte_span": [
+        51242409,
+        51482489
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "9395ce0b0f4ffbf2b7b28c356cbac26a49ac2354538e37f58d64e5599fcfcfa5",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 9,
+      "name": "calibFactors_etabin_9",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847624,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        105458627,
+        106306251
+      ],
+      "packed_content_byte_span": [
+        51482705,
+        51722785
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "d3cc01f23b51e9b6da15373ec0916d633dafca5d72381e786b81518fa4ac8142",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 10,
+      "name": "calibFactors_etabin_10",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847816,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        106306473,
+        107154289
+      ],
+      "packed_content_byte_span": [
+        51723007,
+        51963087
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "91db4fdfdec52c02d40ff327ad8c05c9182e56aa9e997b9fed3f2f190d768853",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 11,
+      "name": "calibFactors_etabin_11",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847963,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        107154511,
+        108002474
+      ],
+      "packed_content_byte_span": [
+        51963309,
+        52203389
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "9985e5c778216f8e9bf7948539ad8676d10c745e53a2ef2be69c1954364170a0",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 12,
+      "name": "calibFactors_etabin_12",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848109,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        108002694,
+        108850803
+      ],
+      "packed_content_byte_span": [
+        52203609,
+        52443689
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "aa8f996ffe1c3c789bfbd3df83e1d3ec315380bae686f6b504cac77f1c4637fe",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 13,
+      "name": "calibFactors_etabin_13",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848228,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        108851024,
+        109699252
+      ],
+      "packed_content_byte_span": [
+        52443910,
+        52683990
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "efd442f1da26fe6782c2b3d08333425e6c580dcdbc20772877fd2f9c72cf3424",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 14,
+      "name": "calibFactors_etabin_14",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848053,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        109699471,
+        110547524
+      ],
+      "packed_content_byte_span": [
+        52684209,
+        52924289
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "72cbb90a502c1dacabd18610a6eb85d1edcf8fbfb61938019003ace084959667",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 15,
+      "name": "calibFactors_etabin_15",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848508,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        110547745,
+        111396253
+      ],
+      "packed_content_byte_span": [
+        52924510,
+        53164590
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "c1297dbb203f23e5d8884be60436507c0a9044da39719f122c56df5ac75b816a",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 16,
+      "name": "calibFactors_etabin_16",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848447,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        111396473,
+        112244920
+      ],
+      "packed_content_byte_span": [
+        53164810,
+        53404890
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "4d33a13365542b1f012cb5f01476b06d3cf97dcdfd27d9daf237d3f5d134d4fe",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 17,
+      "name": "calibFactors_etabin_17",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848556,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        112245139,
+        113093695
+      ],
+      "packed_content_byte_span": [
+        53405109,
+        53645189
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "363bfc1ac532ec4e071802b574d83b140516de1eceb99d5bd38cfde288808aee",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 18,
+      "name": "calibFactors_etabin_18",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848663,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        113093916,
+        113942579
+      ],
+      "packed_content_byte_span": [
+        53645410,
+        53885490
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "4b3e72e4747a7a4172d26c36ea200dd25fee3ce1e10760af921f78799fc1bc80",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 19,
+      "name": "calibFactors_etabin_19",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848755,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        113942801,
+        114791556
+      ],
+      "packed_content_byte_span": [
+        53885712,
+        54125792
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "42f30df808f60390f6780e990f362f331b1e9c7924ad082505c29292f324a8a2",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 20,
+      "name": "calibFactors_etabin_20",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848812,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        114791777,
+        115640589
+      ],
+      "packed_content_byte_span": [
+        54126013,
+        54366093
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "f2ce03e538d03e35bfffba168f2999246a55b39be8bf64f96f4f10af2b42af0b",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 21,
+      "name": "calibFactors_etabin_21",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848826,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        115640811,
+        116489637
+      ],
+      "packed_content_byte_span": [
+        54366315,
+        54606395
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "ab7d34b528e05291f332783f06c4544683a2c6c0758adb754f70e12029a32a18",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 22,
+      "name": "calibFactors_etabin_22",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848772,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        116489860,
+        117338632
+      ],
+      "packed_content_byte_span": [
+        54606618,
+        54846698
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "7dd745bb58892ee10351000c840256614a01a519afdef2f6a9a74ecccb028c7d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 23,
+      "name": "calibFactors_etabin_23",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848839,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        117338854,
+        118187693
+      ],
+      "packed_content_byte_span": [
+        54846920,
+        55087000
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "c6676a43eb011e8f137a4a0c89b451b9988117ec12085f9e35257848723e01c8",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 24,
+      "name": "calibFactors_etabin_24",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 849006,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        118187916,
+        119036922
+      ],
+      "packed_content_byte_span": [
+        55087223,
+        55327303
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "fb4b83c3f7a5993121361c05213bb0c0cb5a5a0c568e66e489c1fc247fe7751a",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 25,
+      "name": "calibFactors_etabin_25",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848950,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        119037145,
+        119886095
+      ],
+      "packed_content_byte_span": [
+        55327526,
+        55567606
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "57bde70641373856687b2313aa661374a18a6e97d5cab056582f7fe79bc4c9d2",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 26,
+      "name": "calibFactors_etabin_26",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848873,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        119886318,
+        120735191
+      ],
+      "packed_content_byte_span": [
+        55567829,
+        55807909
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "06ba2afba155a8c06f252da98fb75e68ef2beadb6c261f878a0bd512876779c7",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 27,
+      "name": "calibFactors_etabin_27",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848995,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        120735415,
+        121584410
+      ],
+      "packed_content_byte_span": [
+        55808133,
+        56048213
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "b279db6a86be854e1bfb65b1acc58fba53401600c6610ad9d0f9ef77427b288a",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 28,
+      "name": "calibFactors_etabin_28",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848973,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        121584635,
+        122433608
+      ],
+      "packed_content_byte_span": [
+        56048438,
+        56288518
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "cdba76d8e2c064b1b0c4ee9146d6b6ef56882e37adda5e41d093e44527593916",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 29,
+      "name": "calibFactors_etabin_29",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848951,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        122433833,
+        123282784
+      ],
+      "packed_content_byte_span": [
+        56288743,
+        56528823
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "240636bb6572a6b3d1b7ef865641255bfbe12eaec6d0e45e2e61042a96aa7c0f",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 30,
+      "name": "calibFactors_etabin_30",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848886,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        123283003,
+        124131889
+      ],
+      "packed_content_byte_span": [
+        56529042,
+        56769122
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "ec1d06f1e3813824e1323bc99696c6c4aaab83be186b6a66256f9d4cda659d3a",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 31,
+      "name": "calibFactors_etabin_31",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 849049,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        124132108,
+        124981157
+      ],
+      "packed_content_byte_span": [
+        56769341,
+        57009421
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "7d2fb35fe1611f345a96a0aae0c80c5873c3c029a8c44e70da184ae78a1a0771",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 32,
+      "name": "calibFactors_etabin_32",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 849028,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        124981383,
+        125830411
+      ],
+      "packed_content_byte_span": [
+        57009647,
+        57249727
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "472036ae8235c47ce969d439f28d03b1f8f3f778557623cdde709929b4683a9b",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 33,
+      "name": "calibFactors_etabin_33",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848907,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        125830636,
+        126679543
+      ],
+      "packed_content_byte_span": [
+        57249952,
+        57490032
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "4bf51f2e862e92d7c2de4bbbf05a3683be5cb90517df5df6ec409b19839a96c6",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 34,
+      "name": "calibFactors_etabin_34",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848937,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        126679768,
+        127528705
+      ],
+      "packed_content_byte_span": [
+        57490257,
+        57730337
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "c67195d9eff2063c650dc57059926a0793e44f1d035279a2060a6eb5d3957187",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 35,
+      "name": "calibFactors_etabin_35",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848971,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        127528928,
+        128377899
+      ],
+      "packed_content_byte_span": [
+        57730560,
+        57970640
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "fc72ab54c71b4fde9d4455eace7bd69fad98faaaf7bcdd400868521a265f0100",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 36,
+      "name": "calibFactors_etabin_36",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848935,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        128378122,
+        129227057
+      ],
+      "packed_content_byte_span": [
+        57970863,
+        58210943
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "15802f2eb10ec36cf0c22841d4a02718549b9e23de04ba3088bcb8949cb39014",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 37,
+      "name": "calibFactors_etabin_37",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848825,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        129227280,
+        130076105
+      ],
+      "packed_content_byte_span": [
+        58211166,
+        58451246
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "731b708df350b13ac3cb6ff2251b19519cf616df88312b92df8c814f5be0e7e2",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 38,
+      "name": "calibFactors_etabin_38",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848727,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        130076328,
+        130925055
+      ],
+      "packed_content_byte_span": [
+        58451469,
+        58691549
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "0e3684042845335932dd44c41c9765e22a51060416b76053f1c871263c29f07d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 39,
+      "name": "calibFactors_etabin_39",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848775,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        130925278,
+        131774053
+      ],
+      "packed_content_byte_span": [
+        58691772,
+        58931852
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "c634ed62a699a4ba09cb1f84773947a83669895699b705ee728f77d9057fd49f",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 40,
+      "name": "calibFactors_etabin_40",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848672,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        131774273,
+        132622945
+      ],
+      "packed_content_byte_span": [
+        58932072,
+        59172152
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "fcf57548c66f59a436f4f445d55496acdca7e9a821915a75dbf05b0f6cb130e8",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 41,
+      "name": "calibFactors_etabin_41",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848693,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        132623167,
+        133471860
+      ],
+      "packed_content_byte_span": [
+        59172374,
+        59412454
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "a479b371cc297bd2d8c7f6a0359cc8ac1f2c44d9254ad6e28cda373e4b75e12d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 42,
+      "name": "calibFactors_etabin_42",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848571,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        133472082,
+        134320653
+      ],
+      "packed_content_byte_span": [
+        59412676,
+        59652756
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "d72185f484f72870de36ac8a61ca2ecb3cdaa18c301e615779cc3f255e632dcd",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 43,
+      "name": "calibFactors_etabin_43",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848510,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        134320874,
+        135169384
+      ],
+      "packed_content_byte_span": [
+        59652977,
+        59893057
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "9b287fad86e4b7a7ef3a6e11f106e15537c4850cf86577a060ccc09597975d68",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 44,
+      "name": "calibFactors_etabin_44",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848426,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        135169605,
+        136018031
+      ],
+      "packed_content_byte_span": [
+        59893278,
+        60133358
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "7ada9cf51f065f4e8c02c31d0a81ace89735f0c5629d4213a02a4e22109af858",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 45,
+      "name": "calibFactors_etabin_45",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848300,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        136018251,
+        136866551
+      ],
+      "packed_content_byte_span": [
+        60133578,
+        60373658
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "a9f89a52b62bf24880eadc9f958af15b0cf8c5009d08ba87f3ee69215c98b3c1",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 46,
+      "name": "calibFactors_etabin_46",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848227,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        136866772,
+        137714999
+      ],
+      "packed_content_byte_span": [
+        60373879,
+        60613959
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "a2f4f79ae0d143d713f6e7744b6a4f648a23f17ae6eee14855ed1da778c44143",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 47,
+      "name": "calibFactors_etabin_47",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 848045,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        137715221,
+        138563266
+      ],
+      "packed_content_byte_span": [
+        60614181,
+        60854261
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "06349c6d247685283d129e64f451cebdf5581f0bd819b1a69a337a50a8254ae0",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 48,
+      "name": "calibFactors_etabin_48",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847927,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        138563487,
+        139411414
+      ],
+      "packed_content_byte_span": [
+        60854482,
+        61094562
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "2961fb39753ec4c49de7d753e2cb58f6f21d164662047b04a52fe314e139c5e5",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 49,
+      "name": "calibFactors_etabin_49",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847797,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        139411635,
+        140259432
+      ],
+      "packed_content_byte_span": [
+        61094783,
+        61334863
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "147b7f673015a3afb27c10d8bc6a2618efa517f2467dd02ba2e299ab743a2073",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 50,
+      "name": "calibFactors_etabin_50",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847648,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        140259654,
+        141107302
+      ],
+      "packed_content_byte_span": [
+        61335085,
+        61575165
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "7dd74d2d52523a317c8af37246e901e7d4bc126809cade61b1162bbd5b42b7fc",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 51,
+      "name": "calibFactors_etabin_51",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847481,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        141107524,
+        141955005
+      ],
+      "packed_content_byte_span": [
+        61575387,
+        61815467
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "06932b0a2aef4e6e8a0ceefcf00e87d6279ab7f3dd4d9ad6d00c30a7b45d1271",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 52,
+      "name": "calibFactors_etabin_52",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847287,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        141955228,
+        142802515
+      ],
+      "packed_content_byte_span": [
+        61815690,
+        62055770
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "4b145bd14bed76f03c29cdcf12e596561515b983f3f09e64e036bed1ba48d9f4",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 53,
+      "name": "calibFactors_etabin_53",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847030,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        142802731,
+        143649761
+      ],
+      "packed_content_byte_span": [
+        62055986,
+        62296066
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "f5317c315e15e49ecd58ad43d336c9fad5fdfce9d9857ccc46ea8d1b5ea63478",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 54,
+      "name": "calibFactors_etabin_54",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 847376,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        143649978,
+        144497354
+      ],
+      "packed_content_byte_span": [
+        62296283,
+        62536363
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "01d863756951223676133b42311af5d04110fc46e0cfcdaeda885f825a7e904f",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 55,
+      "name": "calibFactors_etabin_55",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 846538,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        144497569,
+        145344107
+      ],
+      "packed_content_byte_span": [
+        62536578,
+        62776658
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "ce0f19f9568361b898bf4f48f19df6d54710ec6bd041b2f3eb157d2d8193e60a",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 56,
+      "name": "calibFactors_etabin_56",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 846164,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        145344323,
+        146190487
+      ],
+      "packed_content_byte_span": [
+        62776874,
+        63016954
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "ca9215e5ccd498aa69026c0f127c89690be00fa109344332c932105477d985a0",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 57,
+      "name": "calibFactors_etabin_57",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845905,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        146190703,
+        147036608
+      ],
+      "packed_content_byte_span": [
+        63017170,
+        63257250
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "a409b0aa20952c1d57ab86bf161be8b006e49a08cf304917048f5187e3e8c0a1",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 58,
+      "name": "calibFactors_etabin_58",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845603,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        147036824,
+        147882427
+      ],
+      "packed_content_byte_span": [
+        63257466,
+        63497546
+      ]
+    },
+    {
+      "cells": 45002,
+      "raw_bytes": 180008,
+      "base64_bytes": 240012,
+      "binary32_sha256": "b07a19a7b11a84077a48888ce235dcd09538d961969779839fbe12400717f87d",
+      "negative_zero_cells": 0,
+      "correction": "large_eta_jes",
+      "index": 59,
+      "name": "calibFactors_etabin_59",
+      "class": "TH1F",
+      "nbins": 45000,
+      "includes_underflow_and_overflow": true,
+      "canonical_content_bytes": 845198,
+      "packed_content_bytes": 240080,
+      "canonical_content_byte_span": [
+        147882643,
+        148727841
+      ],
+      "packed_content_byte_span": [
+        63497762,
+        63737842
+      ]
+    }
+  ]
+}

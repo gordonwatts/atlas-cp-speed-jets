@@ -1,0 +1,335 @@
+{
+  "base": {
+    "installations": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/installations.json",
+      "sha256": "08271c6a4ab80546b7563ef1aacf4cb34e802ff5d725734135a17300ce046ca2",
+      "bytes": 1238
+    },
+    "wheel": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/correctionlib-0.1.dev230+g0c498f4cb.atlasjets6-cp314-cp314-linux_x86_64.whl",
+      "sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+      "native": {
+        "_core.cpython-314-x86_64-linux-gnu.so": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/_core.cpython-314-x86_64-linux-gnu.so",
+          "sha256": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2"
+        },
+        "libcorrectionlib.so": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libcorrectionlib.so",
+          "sha256": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5"
+        },
+        "libgcc_s.so.1": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libgcc_s.so.1",
+          "sha256": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da"
+        },
+        "libjets.so": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libjets.so",
+          "sha256": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441"
+        },
+        "libstdc++.so.6": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/correctionlib/lib/libstdc++.so.6",
+          "sha256": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab"
+        }
+      },
+      "data": {
+        "build.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/build.json",
+          "sha256": "18663c0c05ed2bec3b105d8826eb292ee9cec7a93289fddd1f36d50fd7b9bc49"
+        },
+        "jet-histogram.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-histogram.json",
+          "sha256": "62a0dd4140fc423b7508e5ca465c4f51ce5904e78ae79c66bb86ec70c4b5a727"
+        },
+        "jet-states.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jet-states.json",
+          "sha256": "42bb7252bfb718ff3322e389d86923b96e26f2e2d68d960ff2501a2bf21baab8"
+        },
+        "jets.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/jets.json",
+          "sha256": "1aed4df05b75b208ec23dc61c3de9d04e76b5f90cc561407d2e20ed89a0a4cc7"
+        },
+        "provenance.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/provenance.json",
+          "sha256": "de0f13cc61d594428237bf002cf392e66ffb1d82a2e0103822b70167200ae56b"
+        }
+      },
+      "workflow": {
+        "__init__.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/__init__.py",
+          "bytes": 56,
+          "sha256": "bdd3816687e1b37d07a10994e126204fed1a00973102c82e1e18021512cbf351"
+        },
+        "inputs.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/inputs.py",
+          "bytes": 7167,
+          "sha256": "1e6fc00860468e9898798a75dc4a18484c932b76c2360322ea404c553ab76ed9"
+        },
+        "transport.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/transport.py",
+          "bytes": 4123,
+          "sha256": "9238ad09f3f43f3365c1445f28db5c3c0537b14942726e16c0dfebf3fc2be908"
+        },
+        "runtime.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/runtime.py",
+          "bytes": 2885,
+          "sha256": "6971a69a937c157ceb744c7051647ce2d182be254bbff0579d09e7ef314bb8f6"
+        },
+        "payload_ranges.py": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/payload_ranges.py",
+          "bytes": 5300,
+          "sha256": "c977391bbef473b869f666ea30a65f7386ac7eb95a861cbe705116d4de53b9e2"
+        },
+        "data/payload-index.json": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/env/lib/python3.14/site-packages/atlas_jet_demo/data/payload-index.json",
+          "bytes": 687,
+          "sha256": "570576400e928ebfe2ee53dcd7594dd9d9689bb85814a7239e8bf90f2beecbda"
+        }
+      }
+    },
+    "original_bundle": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/bundle-006/bundle.json",
+      "sha256": "97e609ff294d738c16e6999eeb4a58b2d9a482e764b47f6d2fb7d864c3eff473",
+      "bytes": 4106
+    },
+    "visible_script": {
+      "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/jets_demo.py",
+      "sha256": "da24441a0302574de38ed3e82d5f5ee719ed5856ef63a30ecbea76347e504a05",
+      "bytes": 31776
+    },
+    "native_elf": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/contiguous-arguments-002/installed-elf",
+    "defaults": {
+      "mode": "full",
+      "scope": "both",
+      "compact_payload_default_scopes": [
+        "small",
+        "large"
+      ],
+      "reuse_uncertainty_sign_pair_scopes": [
+        "small",
+        "both"
+      ],
+      "chunk_events_by_scope": {
+        "small": 1000,
+        "large": 4000,
+        "both": 1000
+      },
+      "reuse_nominal_nnjvt_update": true,
+      "reuse_nominal_nnjvt_update_modes": [
+        "full"
+      ],
+      "reuse_nominal_nnjvt_update_scopes": [
+        "small",
+        "both"
+      ]
+    }
+  },
+  "original": {
+    "path": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "release_alias": "ASG_TEST_FILE_LITE_RUN3_MC",
+    "sha256": "017e408002b0153df1de695d8c2ace325e0731b658cbd5ca695a349eb0a059c0",
+    "bytes": 245815772,
+    "tfile_uuid": "79ee6652-311f-11f1-aa37-0445010abeef",
+    "pool_guid": "25DE1628-311C-11F1-96A1-BC97E1EECF70",
+    "file_format": "StreamDAOD_PHYSLITE",
+    "collection_tree": "CollectionTree",
+    "simulation": "FullG4_QS",
+    "campaign": "mc23a",
+    "dsid": 601229,
+    "processing_tag": "p7266",
+    "sample": "PowhegPythia8 ttbar single lepton",
+    "entry_interval": [
+      0,
+      20000
+    ],
+    "source_collections": {
+      "small_r": "AnalysisJets",
+      "large_r": "AnalysisLargeRJets"
+    },
+    "release": "AnalysisBase/25.2.117",
+    "platform": "x86_64-el9-gcc15-opt"
+  },
+  "authority": {
+    "large": {
+      "histogram": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histograms.npz",
+        "bytes": 114644,
+        "sha256": "16872c92e9078ce655ffa1029472d08eb260c2358941b3618184cdfa44fea6a1"
+      },
+      "provenance": {
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/provenance.json",
+        "bytes": 4991,
+        "sha256": "4b91a9b72365bcfc370bc2fee2e2b7c031ba6619b8413de3ceebf1716eaa61bc"
+      },
+      "legs": {
+        "framework": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/framework.json",
+          "bytes": 28219,
+          "sha256": "b2e6950a2853a33215e9df5ac114e1b3df3d175c9607c4465a95aa6d3e5742bc"
+        },
+        "histogram": {
+          "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-large-002/01-full/histogram.json",
+          "bytes": 6041,
+          "sha256": "f7de7485dde4d958355fb809015d15fe47d58cc84629308f5c5121a888306adf"
+        }
+      }
+    }
+  },
+  "controller": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/qualify_contiguous_argument_trial.py",
+    "bytes": 11797,
+    "sha256": "5a343ededb437098dab7cdd49602c01d5b97e4add2444a2aadff8e88a983f199"
+  },
+  "fixture": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/tools/contiguous_argument_trial_fixture.py",
+    "bytes": 3556,
+    "sha256": "e3744cdf26f5fb2bfc2c4fcad173430d274d4c1ec55595f3d68ec9f061a9bcd3"
+  },
+  "scopes": [
+    "large"
+  ],
+  "schedule": [
+    [
+      1,
+      "large",
+      "borrow"
+    ],
+    [
+      1,
+      "large",
+      "control"
+    ],
+    [
+      2,
+      "large",
+      "control"
+    ],
+    [
+      2,
+      "large",
+      "borrow"
+    ],
+    [
+      3,
+      "large",
+      "borrow"
+    ],
+    [
+      3,
+      "large",
+      "control"
+    ],
+    [
+      4,
+      "large",
+      "control"
+    ],
+    [
+      4,
+      "large",
+      "borrow"
+    ]
+  ],
+  "status": "separate bounded repeat",
+  "candidate_policy": "Borrow only plain owned contiguous 1D arrays in the exact opted-in, single-worker CLI. The native provider reads synchronously and has no Python callbacks. General API uses flatten.",
+  "shadow_paths": {
+    "control": {
+      "package": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/contiguous-arguments-002/control-python/correctionlib",
+      "environment": {
+        "PATH": "/usr/bin:/bin",
+        "LANG": "C.UTF-8",
+        "PYTHONNOUSERSITE": "1",
+        "UV_CONCURRENT_BUILDS": "1",
+        "UV_CONCURRENT_INSTALLS": "1",
+        "UV_CONCURRENT_DOWNLOADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "BLIS_NUM_THREADS": "1",
+        "RAYON_NUM_THREADS": "1",
+        "ROOT_MAX_THREADS": "1",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/contiguous-arguments-002/control-python",
+        "ATLAS_JET_CONTIGUOUS_DEMO": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/jets_demo.py"
+      },
+      "members": {
+        "JSONEncoder.py": "ed0143efb8a4410616c1b61c821dda22f0428acb7d23b2e7cd11bb0f77bb076c",
+        "__init__.py": "6a103cca873e812e76451c5d39d7f83ccf978e7d80ac673e246f24466fc6311d",
+        "_core/__init__.pyi": "9c2ce969d441ba222f136079cf4f3e10bebcd7fe9ea4b999b9da80400d3442a3",
+        "_core.cpython-314-x86_64-linux-gnu.so": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2",
+        "binding.py": "3f86fdb65319b0e8566d63557f94aec1dde1a8bb6be44cb3557146854d2b67b0",
+        "cli.py": "27c18ca970c339ca856e64be29474986de9b07c8bd1ddf73586b989cfa0b1580",
+        "cmake/correctionlib-targets-release.cmake": "e9dd5a17b8a2ed385aa8d0babf54d7279f782581296be87ffec20ba506f7bf13",
+        "cmake/correctionlib-targets.cmake": "b9b2201a9d28becc821288ed60ad203a8da6e0878ee27ab2e812da8705841b9f",
+        "cmake/correctionlibConfig.cmake": "489299f5b9cbdf7c4824d3b3afe3a76007834fc73d712d627718a36bb7c71b1a",
+        "cmake/correctionlibConfigVersion.cmake": "ca28bcd20a3f800856325451284618c8403f719eab272cdbcccf89b2946ccf35",
+        "convert.py": "e2ad0a643a21813b2ca1121386e18609edd46c3117e7e49cca3d3e5ae0488b2d",
+        "highlevel.py": "912f87277c732c3fd6858caa0c67d1e5ef3356bd6488bdfc0622f7a1445ce8a4",
+        "include/correction.h": "e10cf3184151c3dc2f92fb045edbe430469c78029fbc48eef97239df7b882b31",
+        "include/correction_plugin.h": "08534a532a33e49965b9f62e51260712dad0f68b8a3577dc5b55be43266a6825",
+        "include/correctionlib_version.h": "33de5f436a65d43f51ebd37ac70e59c25da1582162d62b19c70b1b2b929fbd4b",
+        "lib/libcorrectionlib.so": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5",
+        "lib/libgcc_s.so.1": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da",
+        "lib/libjets.so": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441",
+        "lib/libstdc++.so.6": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab",
+        "plugins.py": "2f8c9fcce66d8d91153db4473d7f0c6c38a6fb3d5158c6d211a5dd28723113c6",
+        "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "schemav1.py": "dbc4047ee7f3428c1eccc94581cfb04784c9fbc726658e8fbe429689c9b7e1be",
+        "schemav2.py": "6c66358b24f15d470c03bc65ef82a48e47cdcb6041649e2d89979241999b460b",
+        "schemav3.py": "b45d6b3fd982b8af061179fe28b2f1cafeedb1cb91bed552294e3f84fd435341",
+        "util.py": "927014bec713a804bac4f32f4744b874d5773488da21f9ada587492faa41986a",
+        "version.py": "0b3ffd1151233e7494df537cc5c186e5c988dad65a2f672ce47d86a88241e474"
+      }
+    },
+    "borrow": {
+      "package": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/contiguous-arguments-002/borrow-python/correctionlib",
+      "environment": {
+        "PATH": "/usr/bin:/bin",
+        "LANG": "C.UTF-8",
+        "PYTHONNOUSERSITE": "1",
+        "UV_CONCURRENT_BUILDS": "1",
+        "UV_CONCURRENT_INSTALLS": "1",
+        "UV_CONCURRENT_DOWNLOADS": "1",
+        "OMP_NUM_THREADS": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1",
+        "BLIS_NUM_THREADS": "1",
+        "RAYON_NUM_THREADS": "1",
+        "ROOT_MAX_THREADS": "1",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/contiguous-arguments-002/borrow-python",
+        "ATLAS_JET_CONTIGUOUS_DEMO": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/packaging/pristine-006/pip/jets_demo.py"
+      },
+      "members": {
+        "JSONEncoder.py": "ed0143efb8a4410616c1b61c821dda22f0428acb7d23b2e7cd11bb0f77bb076c",
+        "__init__.py": "6a103cca873e812e76451c5d39d7f83ccf978e7d80ac673e246f24466fc6311d",
+        "_core/__init__.pyi": "9c2ce969d441ba222f136079cf4f3e10bebcd7fe9ea4b999b9da80400d3442a3",
+        "_core.cpython-314-x86_64-linux-gnu.so": "2f2d7a5c08bc85fd1e107dc4435ae9a1eae12285819d49a34999de13874634c2",
+        "binding.py": "3f86fdb65319b0e8566d63557f94aec1dde1a8bb6be44cb3557146854d2b67b0",
+        "cli.py": "27c18ca970c339ca856e64be29474986de9b07c8bd1ddf73586b989cfa0b1580",
+        "cmake/correctionlib-targets-release.cmake": "e9dd5a17b8a2ed385aa8d0babf54d7279f782581296be87ffec20ba506f7bf13",
+        "cmake/correctionlib-targets.cmake": "b9b2201a9d28becc821288ed60ad203a8da6e0878ee27ab2e812da8705841b9f",
+        "cmake/correctionlibConfig.cmake": "489299f5b9cbdf7c4824d3b3afe3a76007834fc73d712d627718a36bb7c71b1a",
+        "cmake/correctionlibConfigVersion.cmake": "ca28bcd20a3f800856325451284618c8403f719eab272cdbcccf89b2946ccf35",
+        "convert.py": "e2ad0a643a21813b2ca1121386e18609edd46c3117e7e49cca3d3e5ae0488b2d",
+        "highlevel.py": "cf90419335e9fbb221c03b1a63e37f9308c9f507cc95533274fd2b6b0d8b8511",
+        "include/correction.h": "e10cf3184151c3dc2f92fb045edbe430469c78029fbc48eef97239df7b882b31",
+        "include/correction_plugin.h": "08534a532a33e49965b9f62e51260712dad0f68b8a3577dc5b55be43266a6825",
+        "include/correctionlib_version.h": "33de5f436a65d43f51ebd37ac70e59c25da1582162d62b19c70b1b2b929fbd4b",
+        "lib/libcorrectionlib.so": "ed543fc417b12c01dfe802e51908c1ce4ed24790d24f0e3b9a355b92c20b24c5",
+        "lib/libgcc_s.so.1": "ab4a3251f0f7297cd19ba5652ce66df346318eee3ae787833f8f7744bb88a6da",
+        "lib/libjets.so": "759b99041c5570d5c1dc1c1e18087f554e8e87b3d4206b2a371daf0caf09a441",
+        "lib/libstdc++.so.6": "679040cf8b5c9413a6f53993530c7b0ee1127134ab918cc53f75345febad0bab",
+        "plugins.py": "2f8c9fcce66d8d91153db4473d7f0c6c38a6fb3d5158c6d211a5dd28723113c6",
+        "py.typed": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "schemav1.py": "dbc4047ee7f3428c1eccc94581cfb04784c9fbc726658e8fbe429689c9b7e1be",
+        "schemav2.py": "6c66358b24f15d470c03bc65ef82a48e47cdcb6041649e2d89979241999b460b",
+        "schemav3.py": "b45d6b3fd982b8af061179fe28b2f1cafeedb1cb91bed552294e3f84fd435341",
+        "util.py": "927014bec713a804bac4f32f4744b874d5773488da21f9ada587492faa41986a",
+        "version.py": "0b3ffd1151233e7494df537cc5c186e5c988dad65a2f672ce47d86a88241e474"
+      }
+    }
+  }
+}

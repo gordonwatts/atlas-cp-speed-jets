@@ -1,0 +1,204 @@
+{
+  "reference": "results/reference/full-correctness-002/reference.root",
+  "framework": "results/framework/nominal-smoke-002/framework.root",
+  "events": 100,
+  "exact_float_stage_parity": true,
+  "branches": {
+    "sr_pileuppt_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_pileupeta_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_pileupphi_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_pileupm_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_etaJESpt_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_etaJESeta_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_etaJESphi_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_etaJESm_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_gscpt_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_gsceta_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_gscphi_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_gscm_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_calibpt_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_calibeta_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_calibphi_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "sr_calibm_NOSYS": {
+      "objects": 1025,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_etaJESpt_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_etaJESeta_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_etaJESphi_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_etaJESm_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_jmspt_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_jmseta_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_jmsphi_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_jmsm_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_calibpt_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_calibeta_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_calibphi_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    },
+    "lr_calibm_NOSYS": {
+      "objects": 117,
+      "different_float_bits": 0,
+      "different_nonfinite_class": 0,
+      "max_abs_difference": 0.0,
+      "first_disagreements": []
+    }
+  }
+}

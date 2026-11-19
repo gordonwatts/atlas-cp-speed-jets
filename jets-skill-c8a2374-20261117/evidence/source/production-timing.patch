@@ -1,0 +1,152 @@
+diff --git a/tools/benchmark_campaign.py b/tools/benchmark_campaign.py
+index 9211ee7..f37856e 100644
+--- a/tools/benchmark_campaign.py
++++ b/tools/benchmark_campaign.py
+@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
+ REFERENCE = ROOT / "tools/reference"
+ sys.path[:0] = [str(REFERENCE), str(ROOT / "framework")]
+ from benchmark import (  # noqa: E402
+-    CPU, EVENTS, MAX_DEVIATION_FROM_MEDIAN, MODES, REPETITIONS,
++    CPU, EVENTS, MAX_DEVIATION_FROM_MEDIAN, MODES, REPETITIONS, STARTUP_LIBRARY_OBSERVATIONS,
+     check_pair, check_quality, release_environment, run_leg,
+ )
+ from bench_path_b import BUDGET, confirm_scope, verified_library  # noqa: E402
+@@ -437,7 +437,8 @@ def execute(job: Job, attempt: Path, context: Context, inventory: dict,
+             if not leg["source_mapping_observed"]:
+                 raise ValueError(f"Could not verify the source mapping and processing interval in {attempt}")
+         else:
+-            leg = run_leg(command, environment, attempt, "columnar")
++            leg = run_leg(command, environment, attempt, "columnar",
++                          capture_startup_libraries=context.cohort == Cohort.production)
+         counters = verify_columnar(
+             job, attempt, leg, inventory, context.source, context.cohort,
+             context.core, context.c_provider, context.wheel_members, context.columnar_python,
+@@ -1533,6 +1534,8 @@ def run(
+         "endpoint_clock": "monotonic wall including startup and output serialization",
+         "schedule": [job.details() for job in scheduled],
+     }
++    if cohort == Cohort.production:
++        provenance["columnar_startup_library_observations"] = STARTUP_LIBRARY_OBSERVATIONS
+     if projections:
+         provenance["projected_payloads"] = {scope.value: receipt for scope, receipt in projections.items()}
+         # Keep the schema of earlier one-switch production journals.
+diff --git a/tools/qualify_shipment.py b/tools/qualify_shipment.py
+index b726038..b77f3a2 100644
+--- a/tools/qualify_shipment.py
++++ b/tools/qualify_shipment.py
+@@ -38,6 +38,8 @@ def main(
+     stage: str,
+     scope: str = "both",
+     jobs: Annotated[int | None, typer.Option(min=1)] = None,
++    production_output: Annotated[Path | None, typer.Option(
++        help="Alternate production journal named production-* inside the qualified output")] = None,
+     recheck_of: Annotated[Path | None, typer.Option(help="Completed original production journal")] = None,
+     recheck_scope: Annotated[RecheckScope | None, typer.Option()] = None,
+     recheck_mode: Annotated[RecheckMode | None, typer.Option()] = None,
+@@ -46,6 +48,8 @@ def main(
+ ):
+     """Run on CPU 3. Each step's own tool writes its detailed immutable receipts."""
+     requested = (recheck_of, recheck_scope, recheck_mode, recheck_pair, recheck_output)
++    if production_output is not None and (stage != "time" or any(value is not None for value in requested)):
++        raise typer.BadParameter("--production-output applies to the production time stage; rechecks use --recheck-of")
+     recheck_args = []
+     if any(value is not None for value in requested):
+         if any(value is None for value in requested):
+@@ -74,6 +78,12 @@ def main(
+              ("overlay", "provider", "payload", "sdk", "bundle", "installation", "partition")}
+     output = (ROOT / plan["output"]).resolve()
+     production = output / "production"
++    if production_output is not None:
++        production = (ROOT / production_output).resolve()
++        if production.parent != output or not production.name.startswith("production-"):
++            raise typer.BadParameter("Use a production-* journal directly inside the qualified output")
++        if production.exists() and not (production / "campaign.json").is_file():
++            raise typer.BadParameter("An existing production output must contain its campaign.json")
+     if recheck_output is not None and (
+         recheck_output.is_relative_to(production) or production.is_relative_to(recheck_output)
+     ):
+diff --git a/tools/reference/benchmark.py b/tools/reference/benchmark.py
+index 061a647..89217bd 100644
+--- a/tools/reference/benchmark.py
++++ b/tools/reference/benchmark.py
+@@ -22,6 +22,7 @@ CPU = 3
+ REPETITIONS = 4
+ MAX_COEFFICIENT_OF_VARIATION = 0.05
+ MAX_DEVIATION_FROM_MEDIAN = 0.10
++STARTUP_LIBRARY_OBSERVATIONS = 10
+ ROOT_DISCOVERY_COMMANDS = {"bash", "sh", "ls", "coreutils", "g++", "cc1plus", "sed", "ldd"}
+ 
+ 
+@@ -95,7 +96,8 @@ def sample_workers(pid: int, threads: set[int], cpus: set[str], libraries: set[s
+ 
+ 
+ def run_leg(command: list[str], env: dict[str, str], directory: Path, label: str, *,
+-            event_source: Path | None = None, startup_validator=None) -> dict:
++            event_source: Path | None = None, startup_validator=None,
++            capture_startup_libraries: bool = False) -> dict:
+     threads, cpus, children, libraries = set(), set(), set(), set()
+     before = sample_activity()
+     source_path = str(event_source.resolve(strict=True)) if event_source else None
+@@ -111,8 +113,11 @@ def run_leg(command: list[str], env: dict[str, str], directory: Path, label: str
+         sample = 0
+         while status is None:
+             if sample % 20 == 0:
++                # Short workers can exit before the first regular 500 ms map read.
++                startup = capture_startup_libraries and sample // 20 < STARTUP_LIBRARY_OBSERVATIONS
+                 source_opened = sample_workers(worker.pid, threads, cpus, libraries, children, log_path,
+-                                               sample % 100 == 0, source_path, source_opened, start_ns)
++                                               startup or sample % 100 == 0,
++                                               source_path, source_opened, start_ns)
+             sample += 1
+             pid, code, usage = os.wait4(worker.pid, os.WNOHANG)
+             if pid:
+diff --git a/tools/reference/check_startup_library_sampling.py b/tools/reference/check_startup_library_sampling.py
+new file mode 100644
+index 0000000..49dc9ad
+--- /dev/null
++++ b/tools/reference/check_startup_library_sampling.py
+@@ -0,0 +1,44 @@
++"""Exercise real proc-map sampling with short workers and no event input."""
++
++import os
++from pathlib import Path
++import sys
++from tempfile import TemporaryDirectory
++
++import typer
++
++from benchmark import CPU, run_leg
++
++
++def main(library_dir: Path) -> None:
++    """Dynamically load the two installed compiler libraries in a short worker."""
++    if os.sched_getaffinity(0) != {CPU}:
++        raise typer.BadParameter(f"Pin the fixture to CPU {CPU}")
++
++    library_dir = library_dir.resolve(strict=True)
++    libraries = tuple(str((library_dir / name).resolve(strict=True)) for name in
++                      ("libgcc_s.so.1", "libstdc++.so.6"))
++    code = (
++        "import ctypes, sys, time\n"
++        "time.sleep(0.04)\n"
++        "handles = [ctypes.CDLL(filename) for filename in sys.argv[1:]]\n"
++        "time.sleep(0.27)\n"
++    )
++    command = [sys.executable, "-S", "-c", code, *libraries]
++    env = {**os.environ, "LD_LIBRARY_PATH": str(library_dir)}
++    env.pop("LD_PRELOAD", None)
++    with TemporaryDirectory() as scratch:
++        directory = Path(scratch)
++        regular = run_leg(command, env, directory, "regular")
++        startup = run_leg(command, env, directory, "startup", capture_startup_libraries=True)
++
++    # This reproduces an import-and-exit worker ending before the 500 ms read.
++    assert regular["wall_s"] < 0.5 and startup["wall_s"] < 0.5, "Fixture ran too long to test startup cadence"
++    assert not set(libraries).issubset(regular["libraries"]), "Regular map cadence unexpectedly saw both libraries"
++    assert set(libraries).issubset(startup["libraries"]), "Startup map sampling missed an installed library"
++    typer.echo(f"Regular cadence missed a mapping at {regular['wall_s']:.3f} s; "
++               f"startup sampling found both at {startup['wall_s']:.3f} s.")
++
++
++if __name__ == "__main__":
++    typer.run(main)

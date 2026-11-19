@@ -1,0 +1,120 @@
+{
+  "comparison": {
+    "name": "A_over_C_end_to_end",
+    "quality": {
+      "A": {
+        "framework": {
+          "max_median_deviation": 0.005136601218953213,
+          "mean_s": 250.243618615,
+          "pass": true,
+          "retained": [
+            249.359011175,
+            250.725362469,
+            250.646482201
+          ],
+          "sample_cv": 0.0030654411107063936,
+          "sample_sd_s": 0.7671070761943528,
+          "warmup_s": 249.362312902
+        },
+        "histogram": {
+          "max_median_deviation": 0.01704743162198285,
+          "mean_s": 9.392141238,
+          "pass": true,
+          "retained": [
+            9.246867893,
+            9.384784673,
+            9.544771148
+          ],
+          "sample_cv": 0.015873676870459246,
+          "sample_sd_s": 0.14908781513372707,
+          "warmup_s": 9.217116659
+        },
+        "total": {
+          "max_median_deviation": 0.0057831964286223095,
+          "mean_s": 259.635759853,
+          "pass": true,
+          "retained": [
+            258.605879068,
+            260.110147142,
+            260.191253349
+          ],
+          "sample_cv": 0.0034387573685464258,
+          "sample_sd_s": 0.8928243823326542,
+          "warmup_s": 258.57942956100004
+        }
+      },
+      "C": {
+        "total": {
+          "max_median_deviation": 0.011803573910352182,
+          "mean_s": 12.923941214,
+          "pass": true,
+          "retained": [
+            12.881332396,
+            12.857113091,
+            13.033378155
+          ],
+          "sample_cv": 0.0073929211805109285,
+          "sample_sd_s": 0.09554567873665872,
+          "warmup_s": 12.929153032
+        }
+      }
+    },
+    "quality_pass": true,
+    "ratio_of_retained_means": 20.08951878949641,
+    "ratio_qualified": true,
+    "retained_pairs_straddle": false,
+    "same_round_ratios": [
+      20.076019399072727,
+      20.230836059463265,
+      19.96345462048784
+    ],
+    "threshold": 10.0,
+    "threshold_kind": "full-systematics aspiration",
+    "threshold_pass": true
+  },
+  "completed": 10,
+  "planned": 10,
+  "progress": {
+    "00-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/00-combined-full-A/attempt-001",
+    "00-combined-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/00-combined-full-C/attempt-001",
+    "01-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/01-combined-full-A/attempt-001",
+    "01-combined-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/01-combined-full-C/attempt-001",
+    "02-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/02-combined-full-A/attempt-001",
+    "02-combined-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/02-combined-full-C/attempt-001",
+    "03-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/03-combined-full-A/attempt-001",
+    "03-combined-full-C": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/03-combined-full-C/attempt-001",
+    "anchor-00-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/anchor-00-combined-full-A/attempt-001",
+    "anchor-04-combined-full-A": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/recheck-AC-combined-full-001/anchor-04-combined-full-A/attempt-001"
+  },
+  "quality_pass": true,
+  "ratio_qualified": true,
+  "stock_anchor_drift": {
+    "framework": {
+      "max_median_deviation": 0.09148739962211402,
+      "pass": true,
+      "retained_stock_median_s": 250.646482201,
+      "wall_s": [
+        248.515276214,
+        273.577477082
+      ]
+    },
+    "histogram": {
+      "max_median_deviation": 0.02814182916309512,
+      "pass": true,
+      "retained_stock_median_s": 9.384784673,
+      "wall_s": [
+        9.28995165,
+        9.64888968
+      ]
+    },
+    "total": {
+      "max_median_deviation": 0.08887088748360253,
+      "pass": true,
+      "retained_stock_median_s": 260.110147142,
+      "wall_s": [
+        257.805227864,
+        283.226366762
+      ]
+    }
+  }
+}

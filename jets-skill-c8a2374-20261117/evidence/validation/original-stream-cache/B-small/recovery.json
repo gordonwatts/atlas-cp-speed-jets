@@ -1,0 +1,148 @@
+{
+  "classification": "read-only physics recovery, excluded from timing",
+  "endpoint_exact": true,
+  "events": 20000,
+  "full_ntuple_comparison": {
+    "bytes": 176828,
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-recovery-001/full-ntuple.json",
+    "sha256": "f77bd4f451d31bbe058f9a26f0578c0de2cc6ec558f1515e9649bb9a51d20559"
+  },
+  "input": "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+  "modes": {
+    "full": {
+      "endpoint": {
+        "bytes": 59712,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-recovery-001/full.npz",
+        "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+      },
+      "framework_log": {
+        "bytes": 33686,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-full/framework.log",
+        "sha256": "fb4a17764c80451c38af03ba3b62d0b17445cb54a13cd4f9737a685bd6a4418e"
+      },
+      "framework_receipt": {
+        "bytes": 30465,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-full/framework.json",
+        "sha256": "0039399d36051e7ae7cc6b8068073294d02db0470fabac1f4c6d1012118b7dec"
+      },
+      "ntuple": {
+        "bytes": 162753889,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-full/reference.root",
+        "sha256": "456026c4ee8b710d43d19989cedeb825f2e91701acafeb7f5a95589658e02bbd"
+      },
+      "recorded_cpu": [
+        "3"
+      ],
+      "recorded_descendants": [
+        {
+          "argv": [],
+          "comm": "python",
+          "cpu": "3",
+          "during_events": false,
+          "observed_elapsed_ns": 0,
+          "parent_pid": 1123277,
+          "pid": 1123286,
+          "threads": 1
+        }
+      ],
+      "recorded_threads": [
+        1
+      ],
+      "stock_endpoint": {
+        "bytes": 59712,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-full/histograms.npz",
+        "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+      },
+      "systematic_counters": {
+        "bytes": 13473,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-full/hist-reference.root",
+        "sha256": "b77a76adfaf939e3cce319f65d586ac3fe1072adbd670523d2c10ee6337c274a"
+      }
+    },
+    "nominal": {
+      "endpoint": {
+        "bytes": 1940,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-recovery-001/nominal.npz",
+        "sha256": "0c07da80e228e961e806b00c7ba981c43cc53c3b6c039cf4fdb8c5fedae16132"
+      },
+      "framework_log": {
+        "bytes": 25291,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-nominal/framework.log",
+        "sha256": "8a705f68586deefcf5e187ab96598dd9fe60f713492eadf81be174341f39676d"
+      },
+      "framework_receipt": {
+        "bytes": 29980,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-nominal/framework.json",
+        "sha256": "b67d962fc7b74e0ed8aee4c0fdc6165527adfbfc3bee73057acd9f88e06b2fc8"
+      },
+      "ntuple": {
+        "bytes": 1379599,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-nominal/reference.root",
+        "sha256": "09e8d8bf97be2bdfd3e2194581c9c8c78583d68945387072031928e1687f73cb"
+      },
+      "recorded_cpu": [
+        "3"
+      ],
+      "recorded_descendants": [],
+      "recorded_threads": [
+        1
+      ],
+      "stock_endpoint": {
+        "bytes": 1940,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-nominal/histograms.npz",
+        "sha256": "0c07da80e228e961e806b00c7ba981c43cc53c3b6c039cf4fdb8c5fedae16132"
+      },
+      "systematic_counters": {
+        "bytes": 11556,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-nominal/hist-reference.root",
+        "sha256": "26dfb783f800ab0d2f2d970dc0fd9e7fe76464816bfe93ef2e3b32fa14eac0ea"
+      }
+    },
+    "stored": {
+      "endpoint": {
+        "bytes": 1940,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-recovery-001/stored.npz",
+        "sha256": "f5a95435b0def3cf241b82adbe5b7c9fcf949ad5962940c472140d18ac7cc142"
+      },
+      "framework_log": {
+        "bytes": 7158,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-stored/framework.log",
+        "sha256": "601a16659e257b7fdf327237f169a8ee42ea166d954b933957ae6ea5eb5aa2eb"
+      },
+      "framework_receipt": {
+        "bytes": 21512,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-stored/framework.json",
+        "sha256": "97d7da62c11b64196c6d7505602982b9235f5e0b060895a4b507b2ddef417979"
+      },
+      "ntuple": {
+        "bytes": 850400,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-stored/reference.root",
+        "sha256": "26f4a8ffa5cdae5ef49ca3bd031d0b450c5beaf64371dafb4a03149bbb0c5d30"
+      },
+      "recorded_cpu": [
+        "3"
+      ],
+      "recorded_descendants": [],
+      "recorded_threads": [
+        1
+      ],
+      "stock_endpoint": {
+        "bytes": 1940,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/reference/full-file-pilot-small-002/01-stored/histograms.npz",
+        "sha256": "f5a95435b0def3cf241b82adbe5b7c9fcf949ad5962940c472140d18ac7cc142"
+      },
+      "systematic_counters": {
+        "bytes": 11565,
+        "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/01-stored/hist-reference.root",
+        "sha256": "da2d41710a4bbd89557cda66a185dc04d6f19f299ccbe67ba0ac9e01116a8a3c"
+      }
+    }
+  },
+  "pilot_provenance": {
+    "bytes": 2882,
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/benchmarks/portable-rng-b-small-pilot-001/provenance.json",
+    "sha256": "30e349348fa73fa48709ee52b0590e59869ea340c84c79f548cffea5b9812383"
+  },
+  "process_audit_reclassified": false,
+  "scope": "small"
+}

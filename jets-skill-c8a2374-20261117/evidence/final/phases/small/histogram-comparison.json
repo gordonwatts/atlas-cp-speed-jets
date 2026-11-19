@@ -1,0 +1,15 @@
+{
+  "exact_fields": {
+    "edges": true,
+    "events": true,
+    "sr_entries": true,
+    "sr_states": true,
+    "sr_sumw": true,
+    "sr_sumw2": true
+  },
+  "actual": {
+    "path": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/phases/small/histograms.npz",
+    "bytes": 59712,
+    "sha256": "10a6b2ee9789530fe35d71be4c8775285300d12788fc0945fccb59bf0fa75f07"
+  }
+}

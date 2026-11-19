@@ -1,0 +1,2 @@
+[ perf record: Woken up 753 times to write data ]
+[ perf record: Captured and wrote 188.198 MB /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/native-profile/record.data (11850 samples) ]

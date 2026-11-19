@@ -1,0 +1,2204 @@
+{
+  "started_ns": 86450192051859,
+  "return_code": 0,
+  "pid": 1394717,
+  "pass_ends": [
+    {
+      "pass": 1,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86463480530117,
+      "wall_from_launch_s": 13.288478258000001
+    },
+    {
+      "pass": 2,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86475132205924,
+      "wall_from_launch_s": 24.940154065
+    },
+    {
+      "pass": 3,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86486906438563,
+      "wall_from_launch_s": 36.714386704
+    },
+    {
+      "pass": 4,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86498667859608,
+      "wall_from_launch_s": 48.475807749000005
+    },
+    {
+      "pass": 5,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86510637018665,
+      "wall_from_launch_s": 60.444966806000004
+    },
+    {
+      "pass": 6,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86522631544637,
+      "wall_from_launch_s": 72.439492778
+    },
+    {
+      "pass": 7,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86534290814935,
+      "wall_from_launch_s": 84.09876307600001
+    },
+    {
+      "pass": 8,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86546080438381,
+      "wall_from_launch_s": 95.888386522
+    },
+    {
+      "pass": 9,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86557787971595,
+      "wall_from_launch_s": 107.59591973600001
+    },
+    {
+      "pass": 10,
+      "of": 10,
+      "events": 20000,
+      "objects": "sr 196606 original jets, lr 22177 original jets",
+      "controller_monotonic_ns": 86569425165016,
+      "wall_from_launch_s": 119.233113157
+    }
+  ],
+  "proc_samples": [
+    {
+      "time_ns": 86450696322541,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 36,
+      "system_ticks": 10,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86451197184129,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 75,
+      "system_ticks": 21,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86451697998619,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 120,
+      "system_ticks": 26,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86452198796907,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 170,
+      "system_ticks": 26,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86452699614196,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 220,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86453200250122,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 269,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86453701077251,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 319,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86454201869960,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 369,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86454702551281,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 419,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86455203406297,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 469,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86455704220444,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 519,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86456205273984,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 569,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86456706081438,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 619,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86457206645000,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 669,
+      "system_ticks": 27,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86457710529465,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 718,
+      "system_ticks": 28,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86458211315699,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 768,
+      "system_ticks": 28,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86458712146106,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 818,
+      "system_ticks": 28,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86459212949310,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 868,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86459713726588,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 918,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86460214518031,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 967,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86460715325224,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1017,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86461216128204,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1067,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86461716994292,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1117,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86462217805645,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1167,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86462722568467,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1217,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86463223369028,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1267,
+      "system_ticks": 29,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86463730892429,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1317,
+      "system_ticks": 30,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86464231629082,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1367,
+      "system_ticks": 30,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86464732239765,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1415,
+      "system_ticks": 31,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86465233048329,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1465,
+      "system_ticks": 32,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86465733852957,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1514,
+      "system_ticks": 33,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86466234560903,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1564,
+      "system_ticks": 33,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86466735346147,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1614,
+      "system_ticks": 33,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86467236153296,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1664,
+      "system_ticks": 33,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86467736937280,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1714,
+      "system_ticks": 33,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86468237747194,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1763,
+      "system_ticks": 34,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86468738546315,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1812,
+      "system_ticks": 34,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86469239335665,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1862,
+      "system_ticks": 35,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86469742548086,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1912,
+      "system_ticks": 35,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86470243343999,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 1962,
+      "system_ticks": 35,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86470744141361,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2011,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86471244939370,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2061,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86471745684987,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2111,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86472246476938,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2161,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86472747270487,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2211,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86473248074539,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2261,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86473748895313,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2311,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86474252332840,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2361,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86474753138493,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2411,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86475382707470,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2473,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86475883501833,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2523,
+      "system_ticks": 36,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86476384266391,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2572,
+      "system_ticks": 37,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86476885056658,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2621,
+      "system_ticks": 38,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86477385855719,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2670,
+      "system_ticks": 39,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86477886532404,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2720,
+      "system_ticks": 40,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86478387321706,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2769,
+      "system_ticks": 40,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86478890515986,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2818,
+      "system_ticks": 41,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86479391298812,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2867,
+      "system_ticks": 42,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86479892112666,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2916,
+      "system_ticks": 43,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86480392911062,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 2966,
+      "system_ticks": 44,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86480893711857,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3014,
+      "system_ticks": 45,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86481394515194,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3064,
+      "system_ticks": 45,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86481895303897,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3114,
+      "system_ticks": 45,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86482396073887,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3164,
+      "system_ticks": 45,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86482896861004,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3214,
+      "system_ticks": 45,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86483400253432,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3264,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86483901137444,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3314,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86484401948404,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3364,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86484902539081,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3414,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86485403333715,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3464,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86485904148832,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3514,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86486405009319,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3564,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86486905811508,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3613,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86487407233538,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3663,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86487910542206,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3714,
+      "system_ticks": 46,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86488411347341,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3762,
+      "system_ticks": 47,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86488912099060,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3812,
+      "system_ticks": 47,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86489412903460,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3861,
+      "system_ticks": 49,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86489913708621,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3911,
+      "system_ticks": 49,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86490414526435,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 3961,
+      "system_ticks": 49,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86490915349158,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4011,
+      "system_ticks": 49,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86491416176285,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4059,
+      "system_ticks": 50,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86491916988252,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4108,
+      "system_ticks": 51,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86492420251813,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4155,
+      "system_ticks": 54,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86492921064070,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4205,
+      "system_ticks": 54,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86493421867054,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4255,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86493922571595,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4305,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86494423360445,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4355,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86494924177319,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4404,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86495424990753,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4454,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86495925831397,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4504,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86496428269525,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4554,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86496929054973,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4604,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86497429842629,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4654,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86497930534423,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4704,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86498431340774,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4754,
+      "system_ticks": 55,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86499168681780,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4827,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86499672241318,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4878,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86500173055660,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4927,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86500673876203,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 4977,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86501174562938,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5027,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86501675381788,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5077,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86502176205842,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5127,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86502677016164,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5177,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86503177922851,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5227,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86503678673559,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5277,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86504182608759,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5327,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86504683407253,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5377,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86505184232845,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5427,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86505685049011,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5476,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86506185852097,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5526,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86506686527869,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5576,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86507187301886,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5626,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86507688106106,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5676,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86508188907024,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5726,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86508689719193,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5776,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86509192286202,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5826,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86509693120061,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5876,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86510193918807,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5926,
+      "system_ticks": 56,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86510887500233,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 5995,
+      "system_ticks": 57,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86511388254426,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6045,
+      "system_ticks": 57,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86511889065733,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6095,
+      "system_ticks": 57,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86512392252909,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6144,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86512893048743,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6194,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86513393809201,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6244,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86513894531467,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6294,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86514395290885,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6344,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86514896126941,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6394,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86515396934552,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6444,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86515897808290,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6494,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86516400300969,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6544,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86516901197413,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6594,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86517402025820,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6644,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86517902863906,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6694,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86518403671451,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6744,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86518904283188,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6794,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86519406603351,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6844,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86519907406245,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6894,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86520408176519,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6944,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86520908978362,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 6994,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86521409791465,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7044,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86521914536990,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7094,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86522415343169,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7144,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86523132265224,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7215,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86523633071492,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7265,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86524133874767,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7315,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86524634536425,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7365,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86525135339359,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7415,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86525636169047,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7465,
+      "system_ticks": 58,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86526136993815,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7514,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86526637803638,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7564,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86527138569882,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7614,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86527639379097,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7664,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86528142557529,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7715,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86528643396834,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7765,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86529144225814,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7815,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86529645050676,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7865,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86530145861025,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7914,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86530646565569,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 7964,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86531147401860,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8014,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86531648205156,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8064,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86532149010950,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8114,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86532649839673,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8164,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86533154524074,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8215,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86533655333793,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8265,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86534156176488,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8315,
+      "system_ticks": 59,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86534791652367,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8377,
+      "system_ticks": 60,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86535292267063,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8427,
+      "system_ticks": 60,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86535793031011,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8476,
+      "system_ticks": 60,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86536293852738,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8526,
+      "system_ticks": 61,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86536794545872,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8575,
+      "system_ticks": 61,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86537295359137,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8625,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86537796172884,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8675,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86538296983975,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8725,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86538797847844,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8775,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86539298576668,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8824,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86539802502873,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8874,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86540303333419,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8924,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86540804187044,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 8974,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86541305023456,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9024,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86541805821142,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9074,
+      "system_ticks": 62,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86542306539863,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9124,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86542807326518,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9174,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86543308135826,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9224,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86543808919989,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9274,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86544309740855,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9324,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86544810578667,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9373,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86545314571794,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9423,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86545815408783,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9473,
+      "system_ticks": 63,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86546330944423,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9524,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86546831697111,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9574,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86547332507495,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9624,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86547833309195,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9674,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86548334107318,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9724,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86548834796772,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9774,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86549335602508,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9824,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86549836251190,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9874,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86550337055444,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9924,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86550840243649,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 9974,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86551341045744,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10024,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86551841841024,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10074,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86552342353451,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10124,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86552843055738,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10174,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86553343842523,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10224,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86553844660267,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10274,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86554345456954,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10324,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86554848264329,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10374,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86555349089466,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10424,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86555849903309,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10474,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86556350560476,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10524,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86556851359107,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10574,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86557352183967,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10624,
+      "system_ticks": 64,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86558038487305,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10692,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86558542504536,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10742,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86559043339522,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10792,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86559544160320,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10842,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86560044963193,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10892,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86560545780255,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10941,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86561046565849,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 10991,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86561547354168,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11041,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86562048179705,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11091,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86562548998516,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11141,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86563049816350,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11191,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86563550537438,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11241,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86564054569092,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11292,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86564555390347,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11342,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86565056200898,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11392,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86565556986387,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11442,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86566057760577,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11492,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86566558556203,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11542,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86567059375965,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11592,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86567560185929,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11642,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86568061027684,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11692,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86568561836127,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11742,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    },
+    {
+      "time_ns": 86569062568985,
+      "pid": 1394717,
+      "threads": 1,
+      "cpus": "3",
+      "user_ticks": 11791,
+      "system_ticks": 65,
+      "ticks_per_second": 100
+    }
+  ]
+}

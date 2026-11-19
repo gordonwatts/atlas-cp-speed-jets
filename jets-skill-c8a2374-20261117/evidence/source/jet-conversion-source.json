@@ -1,0 +1,15 @@
+{
+  "archive": "jet-conversion-source.zip",
+  "source_checkout": "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117",
+  "source_commit": "01d88b78f01257d960b10c31c827a42cd2888f30",
+  "source_tree": "ee2fcba88424bc3da713afdd0f2d78e60e873be6",
+  "tracked_archive_files": 219,
+  "bytes": 463848,
+  "sha256": "af915625902dca4ef8f7aeb0a7e8a2714fdbad61cf894ca0295f6585620230d1",
+  "git_submodules": [
+    "3dcfa20ec01fb40c4d5fec58383785519dec1c00 source/correctionlib (heads/develop)"
+  ],
+  "qualification_commit": "04c9e4abc60f26dcb16d88f68dfad7f9933436e6",
+  "wheel_sha256": "45752f8c5c125db01f4def932ef97cb4d732ce90f34d120446e69025a895cf78",
+  "archive_scope": "Tracked campaign source, implementation, patch sets, frozen contracts, validation and timing controllers. The pinned CorrectionLib submodule, release data, and build products are resolved separately as documented in reproduce.md."
+}

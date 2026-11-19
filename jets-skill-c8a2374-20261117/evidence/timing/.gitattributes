@@ -1,0 +1,5 @@
+production/** -text
+progression/** -text
+recheck-*/** -text
+**/host-completed.json whitespace=cr-at-eol
+**/host.jsonl whitespace=cr-at-eol

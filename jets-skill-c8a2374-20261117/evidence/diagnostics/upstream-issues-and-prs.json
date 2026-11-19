@@ -1,0 +1,46 @@
+[
+  {
+    "query": "repo:gordonwatts/correctionlib is:pr",
+    "total": 3,
+    "items": [
+      {
+        "number": 3,
+        "title": "Add fixed array outputs with schema-v3 graph and plugin validation",
+        "html_url": "https://github.com/gordonwatts/correctionlib/pull/3",
+        "state": "open"
+      },
+      {
+        "number": 2,
+        "title": "Add native batch evaluation for C++ inputs and external nodes",
+        "html_url": "https://github.com/gordonwatts/correctionlib/pull/2",
+        "state": "open"
+      },
+      {
+        "number": 1,
+        "title": "Add native correction node plugins with optional Python discovery",
+        "html_url": "https://github.com/gordonwatts/correctionlib/pull/1",
+        "state": "open"
+      }
+    ]
+  },
+  {
+    "query": "repo:gordonwatts/correctionlib is:issue",
+    "total": 0,
+    "items": []
+  },
+  {
+    "query": "repo:cms-nanoAOD/correctionlib \"full precision\"",
+    "total": 0,
+    "items": []
+  },
+  {
+    "query": "repo:cms-nanoAOD/correctionlib \"rapidjson\" \"precision\"",
+    "total": 0,
+    "items": []
+  },
+  {
+    "query": "repo:cms-nanoAOD/correctionlib \"batch\" \"plugin\"",
+    "total": 0,
+    "items": []
+  }
+]

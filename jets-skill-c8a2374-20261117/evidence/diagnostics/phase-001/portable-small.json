@@ -1,0 +1,111 @@
+{
+  "argv": [
+    "tools/profile_columnar.py",
+    "/cvmfs/atlas-nightlies.cern.ch/repo/data/data-art/ASG/DAOD_PHYSLITE/p7266/mc23_13p6TeV.601229.PhPy8EG_A14_ttbar_hdamp258p75_SingleLep.deriv.DAOD_PHYSLITE.e8514_e8528_s4162_s4114_r15540_r15516_p7266/DAOD_PHYSLITE.49568713._001693.pool.root.1",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/diagnostics/phase-001/portable-small.npz",
+    "--provider",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/build/portable-003/libjets.so",
+    "--payload",
+    "/home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/export/portable-001/jets.json",
+    "--mode",
+    "full",
+    "--scope",
+    "small",
+    "-e",
+    "2000",
+    "--chunk",
+    "1000"
+  ],
+  "process": {
+    "threads": 1,
+    "cpu": 3
+  },
+  "main_wall_ns": 4890261715,
+  "main_cpu_ns": 4868262188,
+  "observations": {
+    "load_provider_and_payload": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 2984584077,
+      "cpu_ns": 2972159379
+    },
+    "input_tree_arrays": {
+      "calls": 2,
+      "rows": 0,
+      "wall_ns": 183530769,
+      "cpu_ns": 178239387
+    },
+    "jet_event_inputs": {
+      "calls": 2,
+      "rows": 2000,
+      "wall_ns": 357558,
+      "cpu_ns": 356277
+    },
+    "jet_pileup_truth": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 9066922,
+      "cpu_ns": 9067160
+    },
+    "small_pileup": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 942472,
+      "cpu_ns": 942253
+    },
+    "small_eta_jes": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 5645170,
+      "cpu_ns": 5646475
+    },
+    "small_gsc": {
+      "calls": 2,
+      "rows": 19906,
+      "wall_ns": 10110243,
+      "cpu_ns": 10109675
+    },
+    "small_uncertainty": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 1004182419,
+      "cpu_ns": 1004341598
+    },
+    "small_nnjvt_update": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 283084169,
+      "cpu_ns": 283156371
+    },
+    "small_nnjvt_select": {
+      "calls": 234,
+      "rows": 2329002,
+      "wall_ns": 45719428,
+      "cpu_ns": 45743108
+    },
+    "small_nnjvt_sf": {
+      "calls": 238,
+      "rows": 2368814,
+      "wall_ns": 77724942,
+      "cpu_ns": 77775155
+    },
+    "jet_event_sf": {
+      "calls": 238,
+      "rows": 238000,
+      "wall_ns": 8583718,
+      "cpu_ns": 8591302
+    },
+    "histogram_fill": {
+      "calls": 238,
+      "rows": 0,
+      "wall_ns": 27503803,
+      "cpu_ns": 27550595
+    },
+    "write_npz": {
+      "calls": 1,
+      "rows": 0,
+      "wall_ns": 1593431,
+      "cpu_ns": 423095
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "classification": "diagnostic",
+  "completed_unix_ns": 1795014682658293602,
+  "failure": "framework failed the one-CPU/one-thread check; see /home/gwatts/atlas-cp-speed/jets-skill-c8a2374-20261117/results/validation/shipment-final-001/production-002/03-small-full-B/attempt-001",
+  "job": {
+    "anchor": false,
+    "arm": "B",
+    "key": "03-small-full-B",
+    "mode": "full",
+    "round": 3,
+    "scope": "small",
+    "warmup": false
+  },
+  "launch": {
+    "boot_id": "f6f35e23-d68f-4154-8cf3-db5bb56936b8",
+    "monotonic_ns": 95756036586343,
+    "unix_ns": 1795014549155240408
+  }
+}

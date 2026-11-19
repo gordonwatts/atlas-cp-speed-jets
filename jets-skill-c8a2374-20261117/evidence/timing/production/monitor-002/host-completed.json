@@ -1,0 +1,11 @@
+{
+  "ended_utc": "2026-11-18T14:49:30.5414332+00:00",
+  "started_utc": "2026-11-18T13:37:38.9071693+00:00",
+  "wsl_exit": 1,
+  "options": [
+    "--production-output",
+    "results/validation/shipment-final-001/production-002"
+  ],
+  "specification": "results/diagnostics/qualify-selected-001/steps/specification.json",
+  "guest_trace": "results/diagnostics/production-monitor-002"
+}
